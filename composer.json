@@ -1,0 +1,108 @@
+{
+    "name": "helsingborg-stad/modul-test.helsingborg.io",
+    "license": "MIT",
+    "description": "Site for helsingborg.io",
+    "authors": [
+        {
+            "name": "Sebastian Thulin",
+            "email": "sebastian.thulin@helsingborg.se"
+        },
+        {
+            "name": "Kristoffer Svanmark",
+            "email": "kristoffer.svanmark@knowit.se"
+        },
+        {
+            "name": "Jonatan Hansson",
+            "email": "jonatan.hansson@helsingborg.se"
+        },
+        {
+            "name": "Nikolas Ramstedt",
+            "email": "nikolas.ramstedt@helsingborg.se"
+        },
+        {
+            "name": "Johan Silvergrund",
+            "email": "johan.silvergrund@hiq.se"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability" : "dev",
+    "repositories": [
+        {
+            "type":"composer",
+            "url":"https://packagist.org"
+        },
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:helsingborg-stad/Municipio.git"
+        },
+        {
+            "type":"package",
+            "package": {
+                "name": "webdevstudios/wp-search-with-algolia",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/WebDevStudios/wp-search-with-algolia.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
+
+    "require": {
+        "composer/installers": "~1.0",
+        "helsingborg-stad/modularity": "dev-3.0/develop",
+        "helsingborg-stad/municipio": "dev-3.0/develop",
+        "helsingborg-stad/broken-link-detector": ">=1.0.0",
+        "helsingborg-stad/api-event-manager-integration": "dev-3.0/develop",
+        "helsingborg-stad/force-ssl": ">=1.0.0",
+        "helsingborg-stad/search-notices": ">=1.0.0",
+        "helsingborg-stad/active-directory-api-wp-integration": ">=2.0.0",
+        "helsingborg-stad/easy-to-read-alternative": "dev-3.0/develop",
+        "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
+        "helsingborg-stad/modularity-form-builder": "dev-3.0/develop",
+        "helsingborg-stad/wp-page-for-post-type": ">=1.0.0",
+        "helsingborg-stad/api-alarm-integration": "dev-3.0/develop",
+        "helsingborg-stad/modularity-guides": "dev-3.0/develop",
+        "helsingborg-stad/modularity-timeline": ">=1.1.4",
+        "helsingborg-stad/modularity-json-render": "dev-3.0/develop",
+        "wpackagist-plugin/varnish-http-purge": "^4.1.1",
+        "wpackagist-plugin/mce-table-buttons": "^3.0.0",
+        "wpackagist-plugin/user-switching" : ">=1.5.1",
+        "wpackagist-plugin/autodescription" : ">=2.9.0",
+        "wpackagist-plugin/redis-cache": "2.0.15",
+        "wpackagist-plugin/username-changer": "3.1.3",
+        "wpackagist-plugin/wp-editor-widget": "0.6.0",
+        "helsingborg-stad/customer-feedback": "dev-3.0/develop",
+        "wpackagist-plugin/wp-mail-smtp": "^1.2",
+        "helsingborg-stad/media-usage": "^1.0",
+        "wpackagist-plugin/redirection": "^4.3.1",
+        "helsingborg-stad/job-listings": "dev-3.0/develop",
+        "helsingborg-stad/redirection-extended": "^1.0",
+        "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop#d8a3c8b3999f04742bee6a52c32f8e68a2c4a7fb",
+        "helsingborg-stad/component-library": "dev-master"
+    },
+
+    "extra": {
+        "path": "/",
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "wp-content/plugins/{$name}": ["type:wordpress-plugin"],
+            "wp-content/themes/{$name}": ["type:wordpress-theme"]
+        }
+    },
+
+    "scripts": {
+        "post-install-cmd": [
+            "mkdir -p wp-content/uploads/cache/blade-cache",
+            "@php post-install.php"
+        ],
+        "post-update-cmd": [
+            "@php post-install.php"
+        ]
+    }
+}
