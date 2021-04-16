@@ -27,6 +27,15 @@ require_once __DIR__ . '/config/upload.php';
 require_once __DIR__ . '/config/cron.php';
 
 /**
+ * Active directory
+ *
+ * Active directory configuration
+ */
+if (file_exists(__DIR__ . '/config/ad.php')) {
+    require_once __DIR__ . '/config/ad.php';
+}
+
+/**
  * Search concfiguration
  *
  * Algolia search configuration.
