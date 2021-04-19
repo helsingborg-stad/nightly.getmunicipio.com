@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aade144714da542ccb332e11a6dda8de",
+    "content-hash": "f28975b4d1723106ed2a8356bcd63fff",
     "packages": [
         {
             "name": "benjamincrozat/blade",
@@ -253,26 +253,26 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "1.4.3",
+            "version": "1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "4650c8b30c753a76bf44fb2ed00117d6f367490c"
+                "reference": "4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/4650c8b30c753a76bf44fb2ed00117d6f367490c",
-                "reference": "4650c8b30c753a76bf44fb2ed00117d6f367490c",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9",
+                "reference": "4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0"
+                "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^7.0",
-                "phpstan/phpstan": "^0.11",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
+                "doctrine/coding-standard": "^8.0",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
             },
             "type": "library",
@@ -329,7 +329,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/inflector/issues",
-                "source": "https://github.com/doctrine/inflector/tree/1.4.x"
+                "source": "https://github.com/doctrine/inflector/tree/1.4.4"
             },
             "funding": [
                 {
@@ -345,7 +345,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-29T07:19:59+00:00"
+            "time": "2021-04-16T17:34:40+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -469,7 +469,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.168.0",
+            "version": "v0.169.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -504,7 +504,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.168.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.169.0"
             },
             "time": "2021-03-22T11:26:04+00:00"
         },
@@ -1330,12 +1330,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "6d6ef010bd5a89bbb3fc15d5f35cb912296587eb"
+                "reference": "cab2ff9a0b179b04c0a4fef0604578d2a210e746"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/6d6ef010bd5a89bbb3fc15d5f35cb912296587eb",
-                "reference": "6d6ef010bd5a89bbb3fc15d5f35cb912296587eb",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/cab2ff9a0b179b04c0a4fef0604578d2a210e746",
+                "reference": "cab2ff9a0b179b04c0a4fef0604578d2a210e746",
                 "shasum": ""
             },
             "require": {
@@ -1389,7 +1389,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-04-16T09:27:13+00:00"
+            "time": "2021-04-16T14:10:38+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1615,12 +1615,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "367dbcc3e846659cebec6824c4d7c8faca2cc251"
+                "reference": "8676d93418545c37a045170c113d561273bfd17f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/367dbcc3e846659cebec6824c4d7c8faca2cc251",
-                "reference": "367dbcc3e846659cebec6824c4d7c8faca2cc251",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8676d93418545c37a045170c113d561273bfd17f",
+                "reference": "8676d93418545c37a045170c113d561273bfd17f",
                 "shasum": ""
             },
             "require": {
@@ -1675,7 +1675,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-04-16T13:47:04+00:00"
+            "time": "2021-04-16T14:11:38+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -2280,6 +2280,54 @@
                 "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
             },
             "time": "2020-04-16T21:44:57+00:00"
+        },
+        {
+            "name": "mcguffin/acf-customizer",
+            "version": "0.2.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mcguffin/acf-customizer.git",
+                "reference": "c272ae23ce747f47ff90c80802b4fc715d09a0ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mcguffin/acf-customizer/zipball/c272ae23ce747f47ff90c80802b4fc715d09a0ad",
+                "reference": "c272ae23ce747f47ff90c80802b4fc715d09a0ad",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.2",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "pheromone/phpcs-security-audit": "*",
+                "phpcompatibility/php-compatibility": "*",
+                "squizlabs/php_codesniffer": "*",
+                "wp-coding-standards/wpcs": "*"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jörn Lund"
+                }
+            ],
+            "description": "Use ACF Fields in customizer.",
+            "homepage": "https://github.com/mcguffin/acf-customizer",
+            "keywords": [
+                "Repeater",
+                "acf",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/mcguffin/acf-customizer/issues",
+                "source": "https://github.com/mcguffin/acf-customizer/tree/0.2.13"
+            },
+            "time": "2021-03-02T17:48:37+00:00"
         },
         {
             "name": "monolog/monolog",
