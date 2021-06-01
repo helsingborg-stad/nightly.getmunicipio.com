@@ -3,7 +3,7 @@
 /*
 Plugin Name:    Composer WordPress Network URL
 Description:    Fixes issues with network-admin url when using wp-composer setup.
-Version:        1.1
+Version:        1.2
 Author:         Sebastian Thulin
 */
 
@@ -20,7 +20,9 @@ class ComposerNetworkAdmin
     public function sanitizeAdminUrl($url, $path, $blog_id)
     {
         if (strpos($url, '/wp/wp-admin') === false && !strpos($url, '/network')) {
-            return str_replace('/wp-admin/', '/wp/wp-admin/', $url);
+            if (defined('SUBDOMAIN_INSTALL') && SUBDOMAIN_INSTALL === true) {
+                return str_replace('/wp-admin/', '/wp/wp-admin/', $url);
+            }
         }
         return $url;
     }
