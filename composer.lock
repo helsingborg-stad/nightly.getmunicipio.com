@@ -1025,12 +1025,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "c93b7009ff3b013351ff8eeb5e2e8f0b33dde493"
+                "reference": "54bb8a32cfa26b817a62f90d72358313a252d26b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/c93b7009ff3b013351ff8eeb5e2e8f0b33dde493",
-                "reference": "c93b7009ff3b013351ff8eeb5e2e8f0b33dde493",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/54bb8a32cfa26b817a62f90d72358313a252d26b",
+                "reference": "54bb8a32cfa26b817a62f90d72358313a252d26b",
                 "shasum": ""
             },
             "require": {
@@ -1049,7 +1049,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-06-07T09:57:09+00:00"
+            "time": "2021-06-08T14:12:19+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
