@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "689211c2219fdb4fb15861b2bedb687b",
+    "content-hash": "35b3e0d1cbbb2f0edf0797cdd22c0422",
     "packages": [
         {
             "name": "benjamincrozat/blade",
@@ -1550,12 +1550,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "41e32c8e153777baa7635ed4d5c6f6e1b0b10a92"
+                "reference": "db4316d4a9c3a079d967860cedfbc8e933c1bbc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/41e32c8e153777baa7635ed4d5c6f6e1b0b10a92",
-                "reference": "41e32c8e153777baa7635ed4d5c6f6e1b0b10a92",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/db4316d4a9c3a079d967860cedfbc8e933c1bbc3",
+                "reference": "db4316d4a9c3a079d967860cedfbc8e933c1bbc3",
                 "shasum": ""
             },
             "require": {
@@ -1610,7 +1610,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-06-15T12:24:05+00:00"
+            "time": "2021-06-15T14:09:40+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -2218,16 +2218,16 @@
         },
         {
             "name": "mcguffin/acf-customizer",
-            "version": "0.2.14",
+            "version": "0.2.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mcguffin/acf-customizer.git",
-                "reference": "c1a790098e5a13dcad6944af751d6305bb9ad7b3"
+                "reference": "c272ae23ce747f47ff90c80802b4fc715d09a0ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mcguffin/acf-customizer/zipball/c1a790098e5a13dcad6944af751d6305bb9ad7b3",
-                "reference": "c1a790098e5a13dcad6944af751d6305bb9ad7b3",
+                "url": "https://api.github.com/repos/mcguffin/acf-customizer/zipball/c272ae23ce747f47ff90c80802b4fc715d09a0ad",
+                "reference": "c272ae23ce747f47ff90c80802b4fc715d09a0ad",
                 "shasum": ""
             },
             "require": {
@@ -2260,9 +2260,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mcguffin/acf-customizer/issues",
-                "source": "https://github.com/mcguffin/acf-customizer/tree/0.2.14"
+                "source": "https://github.com/mcguffin/acf-customizer/tree/0.2.13"
             },
-            "time": "2021-04-21T08:43:40+00:00"
+            "time": "2021-03-02T17:48:37+00:00"
         },
         {
             "name": "monolog/monolog",
