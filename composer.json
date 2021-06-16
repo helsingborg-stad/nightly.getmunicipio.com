@@ -81,7 +81,7 @@
         "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop",
         "bueltge/must-use-loader": "^1.3",
         "helsingborg-stad/component-library": "dev-master",
-        "mcguffin/acf-customizer": "^0.2.13",
+        "mcguffin/acf-customizer": "0.2.13",
         "wpackagist-plugin/fakerpress":"0.5.1"
     },
 
