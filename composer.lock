@@ -515,16 +515,16 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.15.1",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "4e0c9367719df9703e96f5ad613041b87742471c"
+                "reference": "c747738d2dd450f541f09f26510198fbedd1c8a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/4e0c9367719df9703e96f5ad613041b87742471c",
-                "reference": "4e0c9367719df9703e96f5ad613041b87742471c",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/c747738d2dd450f541f09f26510198fbedd1c8a0",
+                "reference": "c747738d2dd450f541f09f26510198fbedd1c8a0",
                 "shasum": ""
             },
             "require": {
@@ -532,7 +532,7 @@
                 "guzzlehttp/guzzle": "^5.3.1|^6.2.1|^7.0",
                 "guzzlehttp/psr7": "^1.2",
                 "php": ">=5.4",
-                "psr/cache": "^1.0",
+                "psr/cache": "^1.0|^2.0",
                 "psr/http-message": "^1.0"
             },
             "require-dev": {
@@ -566,9 +566,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/master/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.15.1"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.16.0"
             },
-            "time": "2021-04-21T17:42:05+00:00"
+            "time": "2021-06-22T18:06:03+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1367,12 +1367,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "82969ec09c6166805b891723cece07d766062dd3"
+                "reference": "60ff42c16fd8c235e441fc30ea9ea7e7b5bc2406"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/82969ec09c6166805b891723cece07d766062dd3",
-                "reference": "82969ec09c6166805b891723cece07d766062dd3",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/60ff42c16fd8c235e441fc30ea9ea7e7b5bc2406",
+                "reference": "60ff42c16fd8c235e441fc30ea9ea7e7b5bc2406",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1391,7 +1391,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2021-06-14T08:09:23+00:00"
+            "time": "2021-06-23T12:52:48+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -1587,12 +1587,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "c599118b2b842e5987ea298fe3990496587147bf"
+                "reference": "8df7878cce3e2a5ac083b8aac72879d080d13e9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c599118b2b842e5987ea298fe3990496587147bf",
-                "reference": "c599118b2b842e5987ea298fe3990496587147bf",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8df7878cce3e2a5ac083b8aac72879d080d13e9b",
+                "reference": "8df7878cce3e2a5ac083b8aac72879d080d13e9b",
                 "shasum": ""
             },
             "require": {
@@ -1647,7 +1647,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-06-22T13:23:12+00:00"
+            "time": "2021-06-23T12:40:34+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
