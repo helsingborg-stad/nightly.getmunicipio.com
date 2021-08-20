@@ -550,16 +550,16 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.16.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "c747738d2dd450f541f09f26510198fbedd1c8a0"
+                "reference": "4da3a850e9d1045918099b6561165d829efbe2b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/c747738d2dd450f541f09f26510198fbedd1c8a0",
-                "reference": "c747738d2dd450f541f09f26510198fbedd1c8a0",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/4da3a850e9d1045918099b6561165d829efbe2b7",
+                "reference": "4da3a850e9d1045918099b6561165d829efbe2b7",
                 "shasum": ""
             },
             "require": {
@@ -575,8 +575,7 @@
                 "kelvinmo/simplejwt": "^0.2.5|^0.5.1",
                 "phpseclib/phpseclib": "^2.0.31",
                 "phpunit/phpunit": "^4.8.36|^5.7",
-                "sebastian/comparator": ">=1.2.3",
-                "squizlabs/php_codesniffer": "^3.5"
+                "sebastian/comparator": ">=1.2.3"
             },
             "suggest": {
                 "phpseclib/phpseclib": "May be used in place of OpenSSL for signing strings or for token management. Please require version ^2."
@@ -601,9 +600,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/master/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.16.0"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.17.0"
             },
-            "time": "2021-06-22T18:06:03+00:00"
+            "time": "2021-08-18T16:10:00+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1063,12 +1062,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "eb961c48b131fe970fc4c523b6780b1bf75b7fe6"
+                "reference": "bb53d3cf616369b96663af589f8f7caff9822505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/eb961c48b131fe970fc4c523b6780b1bf75b7fe6",
-                "reference": "eb961c48b131fe970fc4c523b6780b1bf75b7fe6",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/bb53d3cf616369b96663af589f8f7caff9822505",
+                "reference": "bb53d3cf616369b96663af589f8f7caff9822505",
                 "shasum": ""
             },
             "require": {
@@ -1087,7 +1086,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-07-26T09:12:41+00:00"
+            "time": "2021-08-20T08:18:26+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1255,12 +1254,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/job-listings.git",
-                "reference": "ae97caffa5033504f528498f076e4ac0c8c715e7"
+                "reference": "ed2e693f76dd0f0778960ee38cdaf61eb5156dcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/ae97caffa5033504f528498f076e4ac0c8c715e7",
-                "reference": "ae97caffa5033504f528498f076e4ac0c8c715e7",
+                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/ed2e693f76dd0f0778960ee38cdaf61eb5156dcb",
+                "reference": "ed2e693f76dd0f0778960ee38cdaf61eb5156dcb",
                 "shasum": ""
             },
             "require": {
@@ -1295,7 +1294,7 @@
                 "issues": "https://github.com/helsingborg-stad/job-listings/issues",
                 "source": "https://github.com/helsingborg-stad/job-listings/tree/3.0/develop"
             },
-            "time": "2021-07-30T11:51:44+00:00"
+            "time": "2021-08-16T09:02:30+00:00"
         },
         {
             "name": "helsingborg-stad/media-usage",
@@ -1335,12 +1334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "4c20fee093e2dbb97489ec991ab387534d2bc214"
+                "reference": "3d05063db1e5bc04be5ce70dc74846790ec6375d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/4c20fee093e2dbb97489ec991ab387534d2bc214",
-                "reference": "4c20fee093e2dbb97489ec991ab387534d2bc214",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/3d05063db1e5bc04be5ce70dc74846790ec6375d",
+                "reference": "3d05063db1e5bc04be5ce70dc74846790ec6375d",
                 "shasum": ""
             },
             "require": {
@@ -1356,6 +1355,7 @@
                 "illuminate/filesystem": "^5.8.36",
                 "illuminate/support": "^5.8.36",
                 "illuminate/view": "^5.8.36",
+                "jeradin/acf-dynamic-table-field": "dev-master",
                 "jeradin/acf-website-field": "dev-master",
                 "johannheyne/advanced-custom-fields-table-field": "dev-master",
                 "nesbot/carbon": "^2.34.0",
@@ -1398,7 +1398,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-08-16T07:49:59+00:00"
+            "time": "2021-08-20T14:33:08+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1664,12 +1664,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "15b5cc4501e67fd303addc685c080cf2ff513d82"
+                "reference": "0559d09cb171b580647956f9f1a15aaff00bc6ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/15b5cc4501e67fd303addc685c080cf2ff513d82",
-                "reference": "15b5cc4501e67fd303addc685c080cf2ff513d82",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0559d09cb171b580647956f9f1a15aaff00bc6ca",
+                "reference": "0559d09cb171b580647956f9f1a15aaff00bc6ca",
                 "shasum": ""
             },
             "require": {
@@ -1725,7 +1725,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-08-16T08:22:10+00:00"
+            "time": "2021-08-20T14:25:16+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -2184,6 +2184,38 @@
             "time": "2019-06-20T13:13:59+00:00"
         },
         {
+            "name": "jeradin/acf-dynamic-table-field",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/acf-dynamic-table-field.git",
+                "reference": "2e9b198e46b301c107db0bd030e3b77ead169095"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-dynamic-table-field/zipball/2e9b198e46b301c107db0bd030e3b77ead169095",
+                "reference": "2e9b198e46b301c107db0bd030e3b77ead169095",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "acf-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "A Dynamic Fable field for Advanced Custom Fields",
+            "homepage": "https://github.com/Jeradin/acf-dynamic-table-field",
+            "keywords": [
+                "acf",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/helsingborg-stad/acf-dynamic-table-field/tree/master"
+            },
+            "time": "2021-08-19T08:54:16+00:00"
+        },
+        {
             "name": "jeradin/acf-website-field",
             "version": "dev-master",
             "source": {
@@ -2541,16 +2573,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.51.1",
+            "version": "2.52.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922"
+                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922",
-                "reference": "8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/369c0e2737c56a0f39c946dd261855255a6fccbe",
+                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe",
                 "shasum": ""
             },
             "require": {
@@ -2631,7 +2663,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-28T13:16:28+00:00"
+            "time": "2021-08-14T19:10:52+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
