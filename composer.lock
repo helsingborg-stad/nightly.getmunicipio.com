@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ec8c1ad00710a2fea252d84f349d2d8",
+    "content-hash": "4cad1b50908ce31a6df150bd42141845",
     "packages": [
         {
             "name": "benjamincrozat/blade",
@@ -506,16 +506,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.208.0",
+            "version": "v0.209.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "77fdacfc99f582970dcb3c41233158b02cc4ba5e"
+                "reference": "0c463d5f15e91feb8de4ffe199e5010cf3b563d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/77fdacfc99f582970dcb3c41233158b02cc4ba5e",
-                "reference": "77fdacfc99f582970dcb3c41233158b02cc4ba5e",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/0c463d5f15e91feb8de4ffe199e5010cf3b563d3",
+                "reference": "0c463d5f15e91feb8de4ffe199e5010cf3b563d3",
                 "shasum": ""
             },
             "require": {
@@ -544,9 +544,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.208.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.209.0"
             },
-            "time": "2021-08-15T11:18:25+00:00"
+            "time": "2021-08-22T11:18:24+00:00"
         },
         {
             "name": "google/auth",
@@ -1062,12 +1062,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "bb53d3cf616369b96663af589f8f7caff9822505"
+                "reference": "0b08a3e82532819193212902780b0de5fffe408e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/bb53d3cf616369b96663af589f8f7caff9822505",
-                "reference": "bb53d3cf616369b96663af589f8f7caff9822505",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/0b08a3e82532819193212902780b0de5fffe408e",
+                "reference": "0b08a3e82532819193212902780b0de5fffe408e",
                 "shasum": ""
             },
             "require": {
@@ -1086,7 +1086,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-08-20T08:18:26+00:00"
+            "time": "2021-08-24T08:26:39+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1334,12 +1334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "3d05063db1e5bc04be5ce70dc74846790ec6375d"
+                "reference": "8bab9a7e451d555d017cc25c1506ee2758804e79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/3d05063db1e5bc04be5ce70dc74846790ec6375d",
-                "reference": "3d05063db1e5bc04be5ce70dc74846790ec6375d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/8bab9a7e451d555d017cc25c1506ee2758804e79",
+                "reference": "8bab9a7e451d555d017cc25c1506ee2758804e79",
                 "shasum": ""
             },
             "require": {
@@ -1398,7 +1398,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-08-20T14:33:08+00:00"
+            "time": "2021-08-24T07:21:09+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1591,20 +1591,17 @@
         },
         {
             "name": "helsingborg-stad/modularity-testimonials",
-            "version": "1.2.0",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
-                "reference": "73f0244c376d4867d7f67e9372013ebe8faa0d6d"
+                "reference": "44a506414c483974729d6be551c3d560ff79c1cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/73f0244c376d4867d7f67e9372013ebe8faa0d6d",
-                "reference": "73f0244c376d4867d7f67e9372013ebe8faa0d6d",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/44a506414c483974729d6be551c3d560ff79c1cf",
+                "reference": "44a506414c483974729d6be551c3d560ff79c1cf",
                 "shasum": ""
-            },
-            "require": {
-                "helsingborg-stad/modularity-testimonials": ">=0.0.1"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -1619,9 +1616,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/1.2.0"
+                "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0/develop"
             },
-            "time": "2017-12-01T10:13:10+00:00"
+            "time": "2021-08-24T08:28:24+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-timeline",
@@ -1664,12 +1661,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "0559d09cb171b580647956f9f1a15aaff00bc6ca"
+                "reference": "56fd8d7ad20a0240e7adb1b36853da8cb02f4ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0559d09cb171b580647956f9f1a15aaff00bc6ca",
-                "reference": "0559d09cb171b580647956f9f1a15aaff00bc6ca",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/56fd8d7ad20a0240e7adb1b36853da8cb02f4ca0",
+                "reference": "56fd8d7ad20a0240e7adb1b36853da8cb02f4ca0",
                 "shasum": ""
             },
             "require": {
@@ -1725,7 +1722,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-08-20T14:25:16+00:00"
+            "time": "2021-08-23T13:38:00+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -4103,7 +4100,8 @@
         "helsingborg-stad/customer-feedback": 20,
         "helsingborg-stad/job-listings": 20,
         "helsingborg-stad/modularity-contact-banner": 20,
-        "helsingborg-stad/component-library": 20
+        "helsingborg-stad/component-library": 20,
+        "helsingborg-stad/modularity-testimonials": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
