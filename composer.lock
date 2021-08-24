@@ -382,6 +382,53 @@
             "time": "2021-04-16T17:34:40+00:00"
         },
         {
+            "name": "enshrined/svg-sanitize",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
+                "reference": "307b42066fb0b76b5119f5e1f0826e18fefabe95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/307b42066fb0b76b5119f5e1f0826e18fefabe95",
+                "reference": "307b42066fb0b76b5119f5e1f0826e18fefabe95",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": "^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "^0.1.2",
+                "phpunit/phpunit": "^6.5 || ^8.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "enshrined\\svgSanitize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk"
+                }
+            ],
+            "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.14.1"
+            },
+            "time": "2021-08-09T23:46:54+00:00"
+        },
+        {
             "name": "firebase/php-jwt",
             "version": "v5.4.0",
             "source": {
@@ -1334,18 +1381,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "8bab9a7e451d555d017cc25c1506ee2758804e79"
+                "reference": "3d19e083d70b406cf7ee1b5ae2981fd62315642b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/8bab9a7e451d555d017cc25c1506ee2758804e79",
-                "reference": "8bab9a7e451d555d017cc25c1506ee2758804e79",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/3d19e083d70b406cf7ee1b5ae2981fd62315642b",
+                "reference": "3d19e083d70b406cf7ee1b5ae2981fd62315642b",
                 "shasum": ""
             },
             "require": {
                 "clark-nikdel-powell/post-type-select-for-acf": "dev-master",
                 "composer/installers": "~1.0",
                 "doctrine/inflector": "^1.4.1",
+                "enshrined/svg-sanitize": "dev-master",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/blade-component-library": "dev-master",
                 "helsingborg-stad/global-blade-engine": "^1.2",
@@ -1398,7 +1446,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-08-24T07:21:09+00:00"
+            "time": "2021-08-24T09:30:13+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1595,12 +1643,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
-                "reference": "44a506414c483974729d6be551c3d560ff79c1cf"
+                "reference": "045b368e2a4d0d94ec45fef04aa141513307edca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/44a506414c483974729d6be551c3d560ff79c1cf",
-                "reference": "44a506414c483974729d6be551c3d560ff79c1cf",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/045b368e2a4d0d94ec45fef04aa141513307edca",
+                "reference": "045b368e2a4d0d94ec45fef04aa141513307edca",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1618,7 +1666,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0/develop"
             },
-            "time": "2021-08-24T08:28:24+00:00"
+            "time": "2021-08-24T12:58:36+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-timeline",
