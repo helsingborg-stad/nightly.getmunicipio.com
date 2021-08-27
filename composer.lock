@@ -597,22 +597,22 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.17.0",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "4da3a850e9d1045918099b6561165d829efbe2b7"
+                "reference": "21dd478e77b0634ed9e3a68613f74ed250ca9347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/4da3a850e9d1045918099b6561165d829efbe2b7",
-                "reference": "4da3a850e9d1045918099b6561165d829efbe2b7",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/21dd478e77b0634ed9e3a68613f74ed250ca9347",
+                "reference": "21dd478e77b0634ed9e3a68613f74ed250ca9347",
                 "shasum": ""
             },
             "require": {
                 "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
                 "guzzlehttp/guzzle": "^5.3.1|^6.2.1|^7.0",
-                "guzzlehttp/psr7": "^1.2",
+                "guzzlehttp/psr7": "^1.7|^2.0",
                 "php": ">=5.4",
                 "psr/cache": "^1.0|^2.0",
                 "psr/http-message": "^1.0"
@@ -647,9 +647,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/master/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.17.0"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.18.0"
             },
-            "time": "2021-08-18T16:10:00+00:00"
+            "time": "2021-08-24T18:03:18+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "0b08a3e82532819193212902780b0de5fffe408e"
+                "reference": "2b7a2f22bfe06e6b6f40053f38f2fa08473065f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/0b08a3e82532819193212902780b0de5fffe408e",
-                "reference": "0b08a3e82532819193212902780b0de5fffe408e",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/2b7a2f22bfe06e6b6f40053f38f2fa08473065f5",
+                "reference": "2b7a2f22bfe06e6b6f40053f38f2fa08473065f5",
                 "shasum": ""
             },
             "require": {
@@ -1133,7 +1133,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-08-24T08:26:39+00:00"
+            "time": "2021-08-27T12:42:53+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1301,12 +1301,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/job-listings.git",
-                "reference": "ed2e693f76dd0f0778960ee38cdaf61eb5156dcb"
+                "reference": "01f37ee7ff7e568fd810e7865d2fee4557b4e593"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/ed2e693f76dd0f0778960ee38cdaf61eb5156dcb",
-                "reference": "ed2e693f76dd0f0778960ee38cdaf61eb5156dcb",
+                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/01f37ee7ff7e568fd810e7865d2fee4557b4e593",
+                "reference": "01f37ee7ff7e568fd810e7865d2fee4557b4e593",
                 "shasum": ""
             },
             "require": {
@@ -1341,7 +1341,7 @@
                 "issues": "https://github.com/helsingborg-stad/job-listings/issues",
                 "source": "https://github.com/helsingborg-stad/job-listings/tree/3.0/develop"
             },
-            "time": "2021-08-16T09:02:30+00:00"
+            "time": "2021-08-27T12:07:19+00:00"
         },
         {
             "name": "helsingborg-stad/media-usage",
@@ -1381,12 +1381,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "3d19e083d70b406cf7ee1b5ae2981fd62315642b"
+                "reference": "335d579da0defa8a301e5ee106d826eb7f1eb231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/3d19e083d70b406cf7ee1b5ae2981fd62315642b",
-                "reference": "3d19e083d70b406cf7ee1b5ae2981fd62315642b",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/335d579da0defa8a301e5ee106d826eb7f1eb231",
+                "reference": "335d579da0defa8a301e5ee106d826eb7f1eb231",
                 "shasum": ""
             },
             "require": {
@@ -1446,7 +1446,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-08-24T09:30:13+00:00"
+            "time": "2021-08-25T07:18:13+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1709,12 +1709,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "56fd8d7ad20a0240e7adb1b36853da8cb02f4ca0"
+                "reference": "ac1ead0dd610723eab26e9404111b197a5129bb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/56fd8d7ad20a0240e7adb1b36853da8cb02f4ca0",
-                "reference": "56fd8d7ad20a0240e7adb1b36853da8cb02f4ca0",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ac1ead0dd610723eab26e9404111b197a5129bb3",
+                "reference": "ac1ead0dd610723eab26e9404111b197a5129bb3",
                 "shasum": ""
             },
             "require": {
@@ -1770,7 +1770,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-08-23T13:38:00+00:00"
+            "time": "2021-08-27T12:23:35+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -4025,15 +4025,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "4.1.4",
+            "version": "4.1.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.1.4"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1629995709"
             },
             "require": {
                 "composer/installers": "~1.0"
