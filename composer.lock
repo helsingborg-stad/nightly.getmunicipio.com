@@ -553,16 +553,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.210.0",
+            "version": "v0.211.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "2be187c5c7c6b6325ddc99015ac6b00ebb8ec764"
+                "reference": "01b020d4d7f120a5ac3c12e1d7e3a6067bc93881"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/2be187c5c7c6b6325ddc99015ac6b00ebb8ec764",
-                "reference": "2be187c5c7c6b6325ddc99015ac6b00ebb8ec764",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/01b020d4d7f120a5ac3c12e1d7e3a6067bc93881",
+                "reference": "01b020d4d7f120a5ac3c12e1d7e3a6067bc93881",
                 "shasum": ""
             },
             "require": {
@@ -591,9 +591,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.210.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.211.0"
             },
-            "time": "2021-08-29T11:20:24+00:00"
+            "time": "2021-09-03T11:20:26+00:00"
         },
         {
             "name": "google/auth",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "b0ea12c2c11b004c5e8ad914a36138225b0b38b6"
+                "reference": "2df4d7914700de69c7d1a9554439fc8ee51907bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/b0ea12c2c11b004c5e8ad914a36138225b0b38b6",
-                "reference": "b0ea12c2c11b004c5e8ad914a36138225b0b38b6",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/2df4d7914700de69c7d1a9554439fc8ee51907bf",
+                "reference": "2df4d7914700de69c7d1a9554439fc8ee51907bf",
                 "shasum": ""
             },
             "require": {
@@ -1133,7 +1133,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-09-02T11:37:33+00:00"
+            "time": "2021-09-06T08:19:49+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1381,12 +1381,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "4e706aae9de4cc028302acdcc591c71d1751ba5f"
+                "reference": "7dcd30b23b9ce1b2993a14afaba4c77c9583e9f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/4e706aae9de4cc028302acdcc591c71d1751ba5f",
-                "reference": "4e706aae9de4cc028302acdcc591c71d1751ba5f",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/7dcd30b23b9ce1b2993a14afaba4c77c9583e9f0",
+                "reference": "7dcd30b23b9ce1b2993a14afaba4c77c9583e9f0",
                 "shasum": ""
             },
             "require": {
@@ -1446,7 +1446,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-08-31T13:06:30+00:00"
+            "time": "2021-09-02T12:40:57+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1709,12 +1709,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "da5d772808268ac4ecdfdcec280ce267a9d63bb1"
+                "reference": "9268fa2bd435718fb617b1715fc1c00e5597ff90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/da5d772808268ac4ecdfdcec280ce267a9d63bb1",
-                "reference": "da5d772808268ac4ecdfdcec280ce267a9d63bb1",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/9268fa2bd435718fb617b1715fc1c00e5597ff90",
+                "reference": "9268fa2bd435718fb617b1715fc1c00e5597ff90",
                 "shasum": ""
             },
             "require": {
@@ -1770,7 +1770,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-09-02T12:00:48+00:00"
+            "time": "2021-09-06T08:50:19+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -2618,16 +2618,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.52.0",
+            "version": "2.53.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe"
+                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/369c0e2737c56a0f39c946dd261855255a6fccbe",
-                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f4655858a784988f880c1b8c7feabbf02dfdf045",
+                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045",
                 "shasum": ""
             },
             "require": {
@@ -2639,7 +2639,7 @@
             },
             "require-dev": {
                 "doctrine/orm": "^2.7",
-                "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
+                "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
@@ -2708,7 +2708,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-14T19:10:52+00:00"
+            "time": "2021-09-06T09:29:23+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
@@ -4036,7 +4036,7 @@
                 "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1629995709"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/autodescription/"
@@ -4054,7 +4054,7 @@
                 "url": "https://downloads.wordpress.org/plugin/fakerpress.zip?timestamp=1610833803"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/fakerpress/"
@@ -4072,7 +4072,7 @@
                 "url": "https://downloads.wordpress.org/plugin/mce-table-buttons.3.3.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mce-table-buttons/"
@@ -4090,7 +4090,7 @@
                 "url": "https://downloads.wordpress.org/plugin/redirection.4.9.2.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redirection/"
@@ -4108,7 +4108,7 @@
                 "url": "https://downloads.wordpress.org/plugin/redis-cache.2.0.15.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redis-cache/"
@@ -4126,7 +4126,7 @@
                 "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.4.8.1.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/varnish-http-purge/"
