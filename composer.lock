@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4cad1b50908ce31a6df150bd42141845",
+    "content-hash": "7703f2100a0769ee02fd92865a39ab3a",
     "packages": [
         {
             "name": "benjamincrozat/blade",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "2df4d7914700de69c7d1a9554439fc8ee51907bf"
+                "reference": "a6eb39dc18ebf60e2900077fbc84217bdad1a71a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/2df4d7914700de69c7d1a9554439fc8ee51907bf",
-                "reference": "2df4d7914700de69c7d1a9554439fc8ee51907bf",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a6eb39dc18ebf60e2900077fbc84217bdad1a71a",
+                "reference": "a6eb39dc18ebf60e2900077fbc84217bdad1a71a",
                 "shasum": ""
             },
             "require": {
@@ -1133,7 +1133,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-09-06T08:19:49+00:00"
+            "time": "2021-09-09T12:00:49+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1600,17 +1600,49 @@
             "time": "2021-06-11T08:46:10+00:00"
         },
         {
+            "name": "helsingborg-stad/modularity-local-events",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
+                "reference": "067fbce9757620f28d4af00fe8eb4d724aa8dbb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/067fbce9757620f28d4af00fe8eb4d724aa8dbb0",
+                "reference": "067fbce9757620f28d4af00fe8eb4d724aa8dbb0",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric Rosenborg",
+                    "email": "eric.rosenborg@helsingborg.se"
+                }
+            ],
+            "description": "Local events",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.1"
+            },
+            "time": "2021-05-12T09:02:47+00:00"
+        },
+        {
             "name": "helsingborg-stad/modularity-sections",
             "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "c7defeb5228db74ba3dfe0f9584e47d127ef0d96"
+                "reference": "522a6bc9eeb8487ffd22fbd50b7055cbd9c2fbbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/c7defeb5228db74ba3dfe0f9584e47d127ef0d96",
-                "reference": "c7defeb5228db74ba3dfe0f9584e47d127ef0d96",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/522a6bc9eeb8487ffd22fbd50b7055cbd9c2fbbb",
+                "reference": "522a6bc9eeb8487ffd22fbd50b7055cbd9c2fbbb",
                 "shasum": ""
             },
             "require": {
@@ -1635,7 +1667,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2021-08-31T12:34:39+00:00"
+            "time": "2021-09-09T10:30:15+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-testimonials",
@@ -1709,12 +1741,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "9268fa2bd435718fb617b1715fc1c00e5597ff90"
+                "reference": "00c13b3eee6ebb7428d4afe856b13c55afbb95a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/9268fa2bd435718fb617b1715fc1c00e5597ff90",
-                "reference": "9268fa2bd435718fb617b1715fc1c00e5597ff90",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/00c13b3eee6ebb7428d4afe856b13c55afbb95a0",
+                "reference": "00c13b3eee6ebb7428d4afe856b13c55afbb95a0",
                 "shasum": ""
             },
             "require": {
@@ -1770,7 +1802,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-09-06T08:50:19+00:00"
+            "time": "2021-09-09T07:40:17+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -2326,20 +2358,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.8.0",
+            "version": "5.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "e909768a636f7f4eb6951de1da363055aa5d1c69"
+                "reference": "53e4131495e33e514fefe65cdeec39cfadf707cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e909768a636f7f4eb6951de1da363055aa5d1c69",
-                "reference": "e909768a636f7f4eb6951de1da363055aa5d1c69",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/53e4131495e33e514fefe65cdeec39cfadf707cf",
+                "reference": "53e4131495e33e514fefe65cdeec39cfadf707cf",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.8.0",
+                "johnpbloch/wordpress-core": "5.8.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -2368,20 +2400,20 @@
                 "source": "http://core.trac.wordpress.org/browser",
                 "wiki": "http://codex.wordpress.org/"
             },
-            "time": "2021-07-20T16:52:31+00:00"
+            "time": "2021-09-09T02:46:03+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.8.0",
+            "version": "5.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "30d5db01a682521b0a6cc827953f016486504312"
+                "reference": "6b6004e8c16a3b9ebc3ddac29ca8542dfa5ec5ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/30d5db01a682521b0a6cc827953f016486504312",
-                "reference": "30d5db01a682521b0a6cc827953f016486504312",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/6b6004e8c16a3b9ebc3ddac29ca8542dfa5ec5ff",
+                "reference": "6b6004e8c16a3b9ebc3ddac29ca8542dfa5ec5ff",
                 "shasum": ""
             },
             "require": {
@@ -2389,7 +2421,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.8.0"
+                "wordpress/core-implementation": "5.8.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -2416,7 +2448,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2021-07-20T16:52:26+00:00"
+            "time": "2021-09-09T02:46:00+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
