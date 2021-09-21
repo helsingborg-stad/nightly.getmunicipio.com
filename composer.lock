@@ -1382,12 +1382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "1e3f0d8dac53e383e34e0a4af3fb4db5f9e9f3fa"
+                "reference": "906a6ced23d989d76fce0a24f6b52948c87d8e3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/1e3f0d8dac53e383e34e0a4af3fb4db5f9e9f3fa",
-                "reference": "1e3f0d8dac53e383e34e0a4af3fb4db5f9e9f3fa",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/906a6ced23d989d76fce0a24f6b52948c87d8e3d",
+                "reference": "906a6ced23d989d76fce0a24f6b52948c87d8e3d",
                 "shasum": ""
             },
             "require": {
@@ -1447,7 +1447,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-09-16T12:03:53+00:00"
+            "time": "2021-09-21T08:04:55+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1742,12 +1742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "3fa152fbed1b19f16e6916717f3410705f030c6e"
+                "reference": "5325f26326bd899c6fef11f219b68c66603e479a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/3fa152fbed1b19f16e6916717f3410705f030c6e",
-                "reference": "3fa152fbed1b19f16e6916717f3410705f030c6e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5325f26326bd899c6fef11f219b68c66603e479a",
+                "reference": "5325f26326bd899c6fef11f219b68c66603e479a",
                 "shasum": ""
             },
             "require": {
@@ -1803,7 +1803,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-09-20T08:32:53+00:00"
+            "time": "2021-09-21T09:41:09+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
