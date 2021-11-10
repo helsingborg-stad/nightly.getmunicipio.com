@@ -17,9 +17,6 @@ jobs:
         php-version: '7.2'
         tools: composer:v2
 
-    - name: Validate composer.json and composer.lock
-      run: composer validate
-
     - name: Update composer dependencies
       run: composer update --prefer-dist --no-progress --no-suggest
 
