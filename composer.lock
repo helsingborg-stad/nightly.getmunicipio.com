@@ -1955,12 +1955,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "b268f5741ef9b08e2527e13b0b0af85ca37b3ffd"
+                "reference": "2f0a950169aebf35af5872f097aa3393e6400125"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b268f5741ef9b08e2527e13b0b0af85ca37b3ffd",
-                "reference": "b268f5741ef9b08e2527e13b0b0af85ca37b3ffd",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/2f0a950169aebf35af5872f097aa3393e6400125",
+                "reference": "2f0a950169aebf35af5872f097aa3393e6400125",
                 "shasum": ""
             },
             "require": {
@@ -2017,7 +2017,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/feature/kirki-customizer"
             },
-            "time": "2021-11-11T15:59:06+00:00"
+            "time": "2021-11-11T15:52:31+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
