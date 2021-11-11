@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "afcc6b6f15826e6bef985b7c203c91df",
+    "content-hash": "8f82aae28ba9049106814cfd9b74ba1c",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1951,16 +1951,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-3.0/develop",
+            "version": "dev-3.0/feature/kirki-customizer",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "8497c4fba3e903fff5ee82c3f29136644de2151a"
+                "reference": "18469015a3e43780fa965482d38ab9c93695f488"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8497c4fba3e903fff5ee82c3f29136644de2151a",
-                "reference": "8497c4fba3e903fff5ee82c3f29136644de2151a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/18469015a3e43780fa965482d38ab9c93695f488",
+                "reference": "18469015a3e43780fa965482d38ab9c93695f488",
                 "shasum": ""
             },
             "require": {
@@ -1987,7 +1987,8 @@
                 "symfony/polyfill-mbstring": "1.17.0",
                 "symfony/translation": "5.0.8",
                 "symfony/translation-contracts": "2.0.1",
-                "tgmpa/tgm-plugin-activation": "dev-develop"
+                "tgmpa/tgm-plugin-activation": "dev-develop",
+                "wpackagist-plugin/kirki": "^3.1"
             },
             "type": "wordpress-theme",
             "extra": {
@@ -2014,9 +2015,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/feature/kirki-customizer"
             },
-            "time": "2021-11-09T13:11:25+00:00"
+            "time": "2021-11-11T15:36:00+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -4308,6 +4309,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/fakerpress/"
+        },
+        {
+            "name": "wpackagist-plugin/kirki",
+            "version": "3.1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/kirki/",
+                "reference": "tags/3.1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/kirki.3.1.9.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/kirki/"
         },
         {
             "name": "wpackagist-plugin/mce-table-buttons",
