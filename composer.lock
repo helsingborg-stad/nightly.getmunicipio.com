@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f82aae28ba9049106814cfd9b74ba1c",
+    "content-hash": "1fe82adfec446597b031f5c9c673c7ed",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1664,7 +1664,7 @@
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
-            "version": "dev-3.0/develop",
+            "version": "dev-3.0/feature/kirki-customizer",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
