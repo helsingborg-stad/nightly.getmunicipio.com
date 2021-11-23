@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fe82adfec446597b031f5c9c673c7ed",
+    "content-hash": "2aa40249f4941477cd15469cd1f2c105",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1287,22 +1287,21 @@
         },
         {
             "name": "helsingborg-stad/component-library",
-            "version": "dev-master",
+            "version": "dev-feature/css-vars",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "64ddd41a7717be651dec73ea674de0d1aa219af2"
+                "reference": "86308affbcde98318603df34cce9b8727e9c85f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/64ddd41a7717be651dec73ea674de0d1aa219af2",
-                "reference": "64ddd41a7717be651dec73ea674de0d1aa219af2",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/86308affbcde98318603df34cce9b8727e9c85f3",
+                "reference": "86308affbcde98318603df34cce9b8727e9c85f3",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/blade-engine-wrapper": "dev-master"
             },
-            "default-branch": true,
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
@@ -1313,9 +1312,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/master"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/feature/css-vars"
             },
-            "time": "2021-11-09T14:43:56+00:00"
+            "time": "2021-11-23T12:56:51+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1885,7 +1884,7 @@
         },
         {
             "name": "helsingborg-stad/modularity-testimonials",
-            "version": "dev-3.0/develop",
+            "version": "dev-3.0/feature/kirki-customizer",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
