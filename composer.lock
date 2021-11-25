@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a857c378da09836522cbdd9fe0ed2a9a",
+    "content-hash": "2aa40249f4941477cd15469cd1f2c105",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1153,16 +1153,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
-            "version": "dev-3.0/fix/view-path-only-on-event-post-types-CU-mn87c5",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "ea441b99451138f7b63d0191fed456cc634451b1"
+                "reference": "d59716e47cf27ca68931823f7068011415529c28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/ea441b99451138f7b63d0191fed456cc634451b1",
-                "reference": "ea441b99451138f7b63d0191fed456cc634451b1",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/d59716e47cf27ca68931823f7068011415529c28",
+                "reference": "d59716e47cf27ca68931823f7068011415529c28",
                 "shasum": ""
             },
             "require": {
@@ -1184,9 +1184,9 @@
             "description": "Import and display events from Event Manager API.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/fix/view-path-only-on-event-post-types-CU-mn87c5"
+                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2021-11-22T13:02:22+00:00"
+            "time": "2021-11-25T15:46:31+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
@@ -1663,16 +1663,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
-            "version": "dev-3.0/develop",
+            "version": "dev-3.0/feature/kirki-customizer",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "a51b64fedb0674e9caa4f22c6b23fbfd96b884d7"
+                "reference": "06ae45196bcf739016763cde353ba10d0998ed1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/a51b64fedb0674e9caa4f22c6b23fbfd96b884d7",
-                "reference": "a51b64fedb0674e9caa4f22c6b23fbfd96b884d7",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/06ae45196bcf739016763cde353ba10d0998ed1b",
+                "reference": "06ae45196bcf739016763cde353ba10d0998ed1b",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1689,9 +1689,9 @@
             "description": "Contact Banner",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/feature/kirki-customizer"
             },
-            "time": "2021-10-05T09:21:26+00:00"
+            "time": "2021-11-25T09:44:35+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -1884,7 +1884,7 @@
         },
         {
             "name": "helsingborg-stad/modularity-testimonials",
-            "version": "dev-3.0/develop",
+            "version": "dev-3.0/feature/kirki-customizer",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
@@ -1950,16 +1950,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-3.0/fix/later-view-initiation-CU-mn87c5",
+            "version": "dev-3.0/feature/kirki-customizer",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "6452161505aaaca12d55086be93852ad1bb344ee"
+                "reference": "50659b61cc78f7837e41e4d15784d738b306243d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/6452161505aaaca12d55086be93852ad1bb344ee",
-                "reference": "6452161505aaaca12d55086be93852ad1bb344ee",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/50659b61cc78f7837e41e4d15784d738b306243d",
+                "reference": "50659b61cc78f7837e41e4d15784d738b306243d",
                 "shasum": ""
             },
             "require": {
@@ -1980,13 +1980,14 @@
                 "psr/container": "^1.0.0",
                 "psr/log": "^1.1.3",
                 "psr/simple-cache": "^1.0.1",
-                "shortpixel/shortpixel-php": "^1.4",
+                "shortpixel/shortpixel-php": "1.8.5",
                 "symfony/debug": "^4.2",
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
                 "symfony/translation": "5.0.8",
                 "symfony/translation-contracts": "2.0.1",
-                "tgmpa/tgm-plugin-activation": "dev-develop"
+                "tgmpa/tgm-plugin-activation": "dev-develop",
+                "wpackagist-plugin/kirki": "^3.1"
             },
             "type": "wordpress-theme",
             "extra": {
@@ -2013,9 +2014,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/fix/later-view-initiation-CU-mn87c5"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/feature/kirki-customizer"
             },
-            "time": "2021-11-22T12:58:11+00:00"
+            "time": "2021-11-25T14:00:05+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -3614,16 +3615,16 @@
         },
         {
             "name": "shortpixel/shortpixel-php",
-            "version": "v1.8.7",
+            "version": "v1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/short-pixel-optimizer/shortpixel-php.git",
-                "reference": "3ce73d6d5c11031579bb036d7059b570b00e2255"
+                "reference": "c7c42a208e3e3b37e1ebb18e93a42a46ccbe66da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/3ce73d6d5c11031579bb036d7059b570b00e2255",
-                "reference": "3ce73d6d5c11031579bb036d7059b570b00e2255",
+                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/c7c42a208e3e3b37e1ebb18e93a42a46ccbe66da",
+                "reference": "c7c42a208e3e3b37e1ebb18e93a42a46ccbe66da",
                 "shasum": ""
             },
             "require": {
@@ -3636,9 +3637,6 @@
                 "phpunit/phpunit": "~4.0",
                 "symfony/yaml": "~2.0"
             },
-            "bin": [
-                "bin/shortpixel"
-            ],
             "type": "library",
             "autoload": {
                 "files": [
@@ -3671,9 +3669,9 @@
             "support": {
                 "email": "support@shortpixel.com",
                 "issues": "https://github.com/short-pixel-optimizer/shortpixel-php/issues",
-                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/v1.8.7"
+                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/v1.8.5"
             },
-            "time": "2021-11-24T17:05:21+00:00"
+            "time": "2021-11-15T16:52:13+00:00"
         },
         {
             "name": "symfony/debug",
@@ -4310,6 +4308,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/fakerpress/"
+        },
+        {
+            "name": "wpackagist-plugin/kirki",
+            "version": "3.1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/kirki/",
+                "reference": "tags/3.1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/kirki.3.1.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/kirki/"
         },
         {
             "name": "wpackagist-plugin/mce-table-buttons",
