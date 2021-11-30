@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2aa40249f4941477cd15469cd1f2c105",
+    "content-hash": "afcc6b6f15826e6bef985b7c203c91df",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -628,16 +628,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.223.0",
+            "version": "v0.224.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "e7c5284f4271a7f794410356ff44aff65c0254eb"
+                "reference": "2dfd8e7fc063b9228e8d9ccf9ffdeb6dace7e6b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/e7c5284f4271a7f794410356ff44aff65c0254eb",
-                "reference": "e7c5284f4271a7f794410356ff44aff65c0254eb",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/2dfd8e7fc063b9228e8d9ccf9ffdeb6dace7e6b1",
+                "reference": "2dfd8e7fc063b9228e8d9ccf9ffdeb6dace7e6b1",
                 "shasum": ""
             },
             "require": {
@@ -666,9 +666,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.223.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.224.0"
             },
-            "time": "2021-11-21T12:26:34+00:00"
+            "time": "2021-11-24T12:26:12+00:00"
         },
         {
             "name": "google/auth",
@@ -1287,21 +1287,22 @@
         },
         {
             "name": "helsingborg-stad/component-library",
-            "version": "dev-feature/css-vars",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "03e542be5b7e8ad8b03f3c323ffc44d1396f81b9"
+                "reference": "728ff92fac96a9e4fe6c54d8e255897b8f5fb7cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/03e542be5b7e8ad8b03f3c323ffc44d1396f81b9",
-                "reference": "03e542be5b7e8ad8b03f3c323ffc44d1396f81b9",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/728ff92fac96a9e4fe6c54d8e255897b8f5fb7cd",
+                "reference": "728ff92fac96a9e4fe6c54d8e255897b8f5fb7cd",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/blade-engine-wrapper": "dev-master"
             },
+            "default-branch": true,
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
@@ -1312,9 +1313,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/feature/css-vars"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-11-25T10:46:41+00:00"
+            "time": "2021-11-30T07:18:53+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1594,12 +1595,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "3c6886695d2b6264b236fe7c96c38b69234025dc"
+                "reference": "8f22045cc8620a0296390c2938b1201024d5f7fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/3c6886695d2b6264b236fe7c96c38b69234025dc",
-                "reference": "3c6886695d2b6264b236fe7c96c38b69234025dc",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/8f22045cc8620a0296390c2938b1201024d5f7fb",
+                "reference": "8f22045cc8620a0296390c2938b1201024d5f7fb",
                 "shasum": ""
             },
             "require": {
@@ -1659,20 +1660,20 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-11-25T10:33:44+00:00"
+            "time": "2021-11-30T07:08:59+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
-            "version": "dev-3.0/feature/kirki-customizer",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "06ae45196bcf739016763cde353ba10d0998ed1b"
+                "reference": "0f2c80e4f381defd201d0a70bffd049a9660ed43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/06ae45196bcf739016763cde353ba10d0998ed1b",
-                "reference": "06ae45196bcf739016763cde353ba10d0998ed1b",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/0f2c80e4f381defd201d0a70bffd049a9660ed43",
+                "reference": "0f2c80e4f381defd201d0a70bffd049a9660ed43",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1689,9 +1690,9 @@
             "description": "Contact Banner",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/feature/kirki-customizer"
+                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2021-11-25T09:44:35+00:00"
+            "time": "2021-11-26T14:40:29+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -1884,7 +1885,7 @@
         },
         {
             "name": "helsingborg-stad/modularity-testimonials",
-            "version": "dev-3.0/feature/kirki-customizer",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
@@ -1950,16 +1951,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-3.0/feature/kirki-customizer",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "50659b61cc78f7837e41e4d15784d738b306243d"
+                "reference": "564f976b0a7b76d24a41df6ee43df1d3c8467009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/50659b61cc78f7837e41e4d15784d738b306243d",
-                "reference": "50659b61cc78f7837e41e4d15784d738b306243d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/564f976b0a7b76d24a41df6ee43df1d3c8467009",
+                "reference": "564f976b0a7b76d24a41df6ee43df1d3c8467009",
                 "shasum": ""
             },
             "require": {
@@ -2014,9 +2015,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/feature/kirki-customizer"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-11-25T14:00:05+00:00"
+            "time": "2021-11-30T07:24:37+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -3045,16 +3046,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.34",
+            "version": "2.0.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "98a6fe587f3481aea319eef7e656d02cfe1675ec"
+                "reference": "4e16cf3f5f927a7d3f5317820af795c0366c0420"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/98a6fe587f3481aea319eef7e656d02cfe1675ec",
-                "reference": "98a6fe587f3481aea319eef7e656d02cfe1675ec",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/4e16cf3f5f927a7d3f5317820af795c0366c0420",
+                "reference": "4e16cf3f5f927a7d3f5317820af795c0366c0420",
                 "shasum": ""
             },
             "require": {
@@ -3134,7 +3135,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.34"
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.35"
             },
             "funding": [
                 {
@@ -3150,7 +3151,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-27T02:46:30+00:00"
+            "time": "2021-11-28T23:30:39+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
@@ -4122,16 +4123,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.3.11",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "a029b3a11b757f9cc8693040339153b4745a913f"
+                "reference": "89ab66eaef230c9cd1992de2e9a1b26652b127b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/a029b3a11b757f9cc8693040339153b4745a913f",
-                "reference": "a029b3a11b757f9cc8693040339153b4745a913f",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/89ab66eaef230c9cd1992de2e9a1b26652b127b9",
+                "reference": "89ab66eaef230c9cd1992de2e9a1b26652b127b9",
                 "shasum": ""
             },
             "require": {
@@ -4145,8 +4146,9 @@
             },
             "require-dev": {
                 "ext-iconv": "*",
-                "symfony/console": "^4.4|^5.0",
-                "symfony/process": "^4.4|^5.0",
+                "symfony/console": "^4.4|^5.0|^6.0",
+                "symfony/process": "^4.4|^5.0|^6.0",
+                "symfony/uid": "^5.1|^6.0",
                 "twig/twig": "^2.13|^3.0.4"
             },
             "suggest": {
@@ -4190,7 +4192,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.3.11"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.0"
             },
             "funding": [
                 {
@@ -4206,7 +4208,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-12T11:38:27+00:00"
+            "time": "2021-11-29T15:30:56+00:00"
         },
         {
             "name": "tgmpa/tgm-plugin-activation",
@@ -4275,15 +4277,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "4.2.0",
+            "version": "4.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.2.0"
+                "reference": "tags/4.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
