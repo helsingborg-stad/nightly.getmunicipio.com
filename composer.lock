@@ -1123,12 +1123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-integration.git",
-                "reference": "f196b98337ca7d7eeb655611ec74114f86c412e3"
+                "reference": "7b69e6bc70033d756d9165efe088b8e82226058a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/f196b98337ca7d7eeb655611ec74114f86c412e3",
-                "reference": "f196b98337ca7d7eeb655611ec74114f86c412e3",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/7b69e6bc70033d756d9165efe088b8e82226058a",
+                "reference": "7b69e6bc70033d756d9165efe088b8e82226058a",
                 "shasum": ""
             },
             "require": {
@@ -1149,7 +1149,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-alarm-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-alarm-integration/tree/3.0/develop"
             },
-            "time": "2021-01-27T12:46:37+00:00"
+            "time": "2021-12-01T14:47:24+00:00"
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
