@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "afcc6b6f15826e6bef985b7c203c91df",
+    "content-hash": "48e72a418096485ae3de1e2eaff2f70c",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1948,6 +1948,38 @@
                 "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/1.1.5"
             },
             "time": "2019-08-15T11:44:38+00:00"
+        },
+        {
+            "name": "helsingborg-stad/multisite-role-propagation",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/multisite-role-propagation.git",
+                "reference": "16d4992b8d32b3e3d8ef99ed51d37ac54bf917cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/multisite-role-propagation/zipball/16d4992b8d32b3e3d8ef99ed51d37ac54bf917cc",
+                "reference": "16d4992b8d32b3e3d8ef99ed51d37ac54bf917cc",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Plugin to quickly set a role for a multisite user on multiple blogs in a network",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/multisite-role-propagation/issues",
+                "source": "https://github.com/helsingborg-stad/multisite-role-propagation/tree/1.0.3"
+            },
+            "time": "2017-05-12T11:30:57+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
