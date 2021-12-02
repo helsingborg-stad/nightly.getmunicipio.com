@@ -1746,12 +1746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-guides.git",
-                "reference": "c40e4d955aedc413de5dbd6b40a9d177551c061d"
+                "reference": "2899f55b5a92704cb4e6b77c09da365acade0d60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-guides/zipball/c40e4d955aedc413de5dbd6b40a9d177551c061d",
-                "reference": "c40e4d955aedc413de5dbd6b40a9d177551c061d",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-guides/zipball/2899f55b5a92704cb4e6b77c09da365acade0d60",
+                "reference": "2899f55b5a92704cb4e6b77c09da365acade0d60",
                 "shasum": ""
             },
             "require": {
@@ -1777,7 +1777,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-guides/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-guides/tree/3.0/ci/npm-ci"
             },
-            "time": "2021-12-02T14:13:51+00:00"
+            "time": "2021-12-02T14:56:36+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-json-render",
