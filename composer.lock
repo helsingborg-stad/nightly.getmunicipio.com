@@ -1291,12 +1291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "cf306973b51a2e80492a1b363fed168bcfa11e87"
+                "reference": "f7bb9e96b33a99ae4041920b04481fe8a4d933e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/cf306973b51a2e80492a1b363fed168bcfa11e87",
-                "reference": "cf306973b51a2e80492a1b363fed168bcfa11e87",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/f7bb9e96b33a99ae4041920b04481fe8a4d933e0",
+                "reference": "f7bb9e96b33a99ae4041920b04481fe8a4d933e0",
                 "shasum": ""
             },
             "require": {
@@ -1315,7 +1315,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-12-01T14:09:14+00:00"
+            "time": "2021-12-03T12:34:18+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -2900,16 +2900,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.54.0",
+            "version": "2.55.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5"
+                "reference": "b46249911cba301e9eb3f05af68cf2aacc1f9d05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/eed83939f1aed3eee517d03a33f5ec587ac529b5",
-                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/b46249911cba301e9eb3f05af68cf2aacc1f9d05",
+                "reference": "b46249911cba301e9eb3f05af68cf2aacc1f9d05",
                 "shasum": ""
             },
             "require": {
@@ -2917,7 +2917,7 @@
                 "php": "^7.1.8 || ^8.0",
                 "symfony/polyfill-mbstring": "^1.0",
                 "symfony/polyfill-php80": "^1.16",
-                "symfony/translation": "^3.4 || ^4.0 || ^5.0"
+                "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
             },
             "require-dev": {
                 "doctrine/dbal": "^2.0 || ^3.0",
@@ -2978,6 +2978,7 @@
                 "time"
             ],
             "support": {
+                "docs": "https://carbon.nesbot.com/docs",
                 "issues": "https://github.com/briannesbitt/Carbon/issues",
                 "source": "https://github.com/briannesbitt/Carbon"
             },
@@ -2991,7 +2992,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-01T21:22:20+00:00"
+            "time": "2021-12-02T16:53:55+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
@@ -4475,5 +4476,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
