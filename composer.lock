@@ -1851,12 +1851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "1bf7797e36da0126d70e747ad85a72a510391b1e"
+                "reference": "6c3b63c2a7b6d53adbed62a8867503185d75a9cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/1bf7797e36da0126d70e747ad85a72a510391b1e",
-                "reference": "1bf7797e36da0126d70e747ad85a72a510391b1e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/6c3b63c2a7b6d53adbed62a8867503185d75a9cc",
+                "reference": "6c3b63c2a7b6d53adbed62a8867503185d75a9cc",
                 "shasum": ""
             },
             "require": {
@@ -1881,7 +1881,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2021-09-29T09:53:07+00:00"
+            "time": "2021-12-17T12:33:48+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-testimonials",
