@@ -1291,12 +1291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "80be1148747321e73a7f52ca21736d40f7e75e87"
+                "reference": "17ba0eb329da0de3b59fcb411ba9a42b8209494f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/80be1148747321e73a7f52ca21736d40f7e75e87",
-                "reference": "80be1148747321e73a7f52ca21736d40f7e75e87",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/17ba0eb329da0de3b59fcb411ba9a42b8209494f",
+                "reference": "17ba0eb329da0de3b59fcb411ba9a42b8209494f",
                 "shasum": ""
             },
             "require": {
@@ -1315,7 +1315,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-01-10T10:57:54+00:00"
+            "time": "2022-01-10T15:27:38+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1987,12 +1987,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "45937675586e66d46a5e2726a0ed99d7aa4b6414"
+                "reference": "f700981989f32a676c2f8fc9b5881bcc32c1cd74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/45937675586e66d46a5e2726a0ed99d7aa4b6414",
-                "reference": "45937675586e66d46a5e2726a0ed99d7aa4b6414",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f700981989f32a676c2f8fc9b5881bcc32c1cd74",
+                "reference": "f700981989f32a676c2f8fc9b5881bcc32c1cd74",
                 "shasum": ""
             },
             "require": {
@@ -2049,7 +2049,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-01-10T12:31:19+00:00"
+            "time": "2022-01-10T15:35:17+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
