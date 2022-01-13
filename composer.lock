@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36dc5e4e9bca62d1fdbe1211d72af1dd",
+    "content-hash": "8d5ceb21ca9a332afd0364a6272abeaa",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1203,16 +1203,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
-            "version": "dev-3.0/develop",
+            "version": "dev-feature/refactor-event-form",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "6d849cf42519b6d3564e07899baa45f4aeb3d17f"
+                "reference": "34fbea4a60290c0de4766d8008455dbfa6176c45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/6d849cf42519b6d3564e07899baa45f4aeb3d17f",
-                "reference": "6d849cf42519b6d3564e07899baa45f4aeb3d17f",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/34fbea4a60290c0de4766d8008455dbfa6176c45",
+                "reference": "34fbea4a60290c0de4766d8008455dbfa6176c45",
                 "shasum": ""
             },
             "require": {
@@ -1234,41 +1234,9 @@
             "description": "Import and display events from Event Manager API.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/feature/refactor-event-form"
             },
-            "time": "2022-04-22T12:01:08+00:00"
-        },
-        {
-            "name": "helsingborg-stad/api-kiosk-model-viewer",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/helsingborg-stad/api-kiosk-model-viewer.git",
-                "reference": "016baa92ff60d2db0aa426f7b653dcb9507a1dbb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-kiosk-model-viewer/zipball/016baa92ff60d2db0aa426f7b653dcb9507a1dbb",
-                "reference": "016baa92ff60d2db0aa426f7b653dcb9507a1dbb",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nikolas Ramstedt @ Helsingborg Stad",
-                    "email": "nikolas.ramstedt@helsingborg.se"
-                }
-            ],
-            "description": "Backend for managing kiosk model viewer app",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/issues",
-                "source": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/tree/1.0.2"
-            },
-            "time": "2022-03-29T15:58:04+00:00"
+            "time": "2022-01-13T09:34:06+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
@@ -1369,22 +1337,21 @@
         },
         {
             "name": "helsingborg-stad/component-library",
-            "version": "dev-master",
+            "version": "dev-feature/refactor-form",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "531974b9a9cf76d954daf849b39ebb67bfd31e63"
+                "reference": "5987cf7322b2f0cea358113d2b232beaf539b7ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/531974b9a9cf76d954daf849b39ebb67bfd31e63",
-                "reference": "531974b9a9cf76d954daf849b39ebb67bfd31e63",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/5987cf7322b2f0cea358113d2b232beaf539b7ae",
+                "reference": "5987cf7322b2f0cea358113d2b232beaf539b7ae",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/blade-engine-wrapper": "dev-master"
             },
-            "default-branch": true,
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
@@ -1395,9 +1362,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/master"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/feature/refactor-form"
             },
-            "time": "2022-04-28T10:57:53+00:00"
+            "time": "2022-01-12T09:56:08+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1565,12 +1532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/job-listings.git",
-                "reference": "fa9672291c27f43da594284d29f5460684fa97b6"
+                "reference": "e1e92b8e44dacb72163f6a10e9ce3102407b614e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/fa9672291c27f43da594284d29f5460684fa97b6",
-                "reference": "fa9672291c27f43da594284d29f5460684fa97b6",
+                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/e1e92b8e44dacb72163f6a10e9ce3102407b614e",
+                "reference": "e1e92b8e44dacb72163f6a10e9ce3102407b614e",
                 "shasum": ""
             },
             "require": {
@@ -1605,7 +1572,7 @@
                 "issues": "https://github.com/helsingborg-stad/job-listings/issues",
                 "source": "https://github.com/helsingborg-stad/job-listings/tree/3.0/develop"
             },
-            "time": "2022-02-16T14:55:27+00:00"
+            "time": "2022-01-12T10:40:48+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -1783,12 +1750,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "014229e650ba121ebdacd9eb44c31174b73a3272"
+                "reference": "8cf73992b7e561395b8383337d0487ac73e30d74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/014229e650ba121ebdacd9eb44c31174b73a3272",
-                "reference": "014229e650ba121ebdacd9eb44c31174b73a3272",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/8cf73992b7e561395b8383337d0487ac73e30d74",
+                "reference": "8cf73992b7e561395b8383337d0487ac73e30d74",
                 "shasum": ""
             },
             "require": {
@@ -1820,7 +1787,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
             },
-            "time": "2022-03-29T12:56:35+00:00"
+            "time": "2022-01-12T11:53:50+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -2171,16 +2138,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-3.0/develop",
+            "version": "dev-feature/refactor-form",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "80a7a8f2058c5724d7e63402e79a2dfe7f0f5a02"
+                "reference": "f9717b4a69714e748317fd91fb0072bce6a340ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/80a7a8f2058c5724d7e63402e79a2dfe7f0f5a02",
-                "reference": "80a7a8f2058c5724d7e63402e79a2dfe7f0f5a02",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f9717b4a69714e748317fd91fb0072bce6a340ae",
+                "reference": "f9717b4a69714e748317fd91fb0072bce6a340ae",
                 "shasum": ""
             },
             "require": {
@@ -2237,9 +2204,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/feature/refactor-form"
             },
-            "time": "2022-04-28T13:16:38+00:00"
+            "time": "2022-01-13T09:54:37+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -4964,5 +4931,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
