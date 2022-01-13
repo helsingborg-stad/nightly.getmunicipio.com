@@ -2,7 +2,7 @@ name: Build site
 
 on:
   push:
-    branches: [ master ]
+    branches: [ test/refactor-form ]
 
 jobs:
   build:
