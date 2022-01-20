@@ -1703,12 +1703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-entryscape.git",
-                "reference": "c233dab0ef807d380e9efcef6d3078499d7b9029"
+                "reference": "93765aa59c4328b42a7bbe9c89b94b3eea4f83ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/c233dab0ef807d380e9efcef6d3078499d7b9029",
-                "reference": "c233dab0ef807d380e9efcef6d3078499d7b9029",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/93765aa59c4328b42a7bbe9c89b94b3eea4f83ee",
+                "reference": "93765aa59c4328b42a7bbe9c89b94b3eea4f83ee",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1728,7 +1728,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/master"
             },
-            "time": "2022-01-20T13:06:17+00:00"
+            "time": "2022-01-20T13:42:19+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
