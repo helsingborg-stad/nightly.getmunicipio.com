@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83776455b7f064529865dddef6051b0a",
+    "content-hash": "784bb73d6c0d01ed7f88a5748ac82772",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1693,6 +1693,39 @@
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
             "time": "2021-12-14T15:12:57+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-entryscape",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-entryscape.git",
+                "reference": "92a85a584322220825656874258916a9f31842cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/92a85a584322220825656874258916a9f31842cd",
+                "reference": "92a85a584322220825656874258916a9f31842cd",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Local events",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/master"
+            },
+            "time": "2022-01-20T12:29:49+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -4422,7 +4455,8 @@
         "helsingborg-stad/job-listings": 20,
         "helsingborg-stad/modularity-contact-banner": 20,
         "helsingborg-stad/component-library": 20,
-        "helsingborg-stad/modularity-testimonials": 20
+        "helsingborg-stad/modularity-testimonials": 20,
+        "helsingborg-stad/modularity-entryscape": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
