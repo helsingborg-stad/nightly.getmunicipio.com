@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "784bb73d6c0d01ed7f88a5748ac82772",
+    "content-hash": "6710fb541788984a98ce96c72ce95fa9",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1880,6 +1880,39 @@
                 "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.9"
             },
             "time": "2021-12-14T10:52:50+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-recommend",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-recommend.git",
+                "reference": "dab27d124bcd163c3dfaf8f50c8d411473cfb238"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-recommend/zipball/dab27d124bcd163c3dfaf8f50c8d411473cfb238",
+                "reference": "dab27d124bcd163c3dfaf8f50c8d411473cfb238",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Modularity RekAI",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-recommend/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-recommend/tree/master"
+            },
+            "time": "2022-01-24T10:22:05+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -4459,7 +4492,8 @@
         "helsingborg-stad/modularity-contact-banner": 20,
         "helsingborg-stad/component-library": 20,
         "helsingborg-stad/modularity-testimonials": 20,
-        "helsingborg-stad/modularity-entryscape": 20
+        "helsingborg-stad/modularity-entryscape": 20,
+        "helsingborg-stad/modularity-recommend": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
