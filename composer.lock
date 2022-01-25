@@ -628,7 +628,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.230.0",
+            "version": "v0.231.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -666,7 +666,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.230.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.231.0"
             },
             "time": "2021-12-21T12:26:12+00:00"
         },
@@ -1598,12 +1598,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "4509de82ad4a24cbb0a9632c605222d70672da6c"
+                "reference": "a912f6cd20bc054627e9c9686d051607ed1f09dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/4509de82ad4a24cbb0a9632c605222d70672da6c",
-                "reference": "4509de82ad4a24cbb0a9632c605222d70672da6c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/a912f6cd20bc054627e9c9686d051607ed1f09dd",
+                "reference": "a912f6cd20bc054627e9c9686d051607ed1f09dd",
                 "shasum": ""
             },
             "require": {
@@ -1663,7 +1663,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-01-10T12:00:37+00:00"
+            "time": "2022-01-24T15:39:22+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1703,12 +1703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-entryscape.git",
-                "reference": "93765aa59c4328b42a7bbe9c89b94b3eea4f83ee"
+                "reference": "d8f601c900132ed36017599dcc69dd0ef86814e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/93765aa59c4328b42a7bbe9c89b94b3eea4f83ee",
-                "reference": "93765aa59c4328b42a7bbe9c89b94b3eea4f83ee",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/d8f601c900132ed36017599dcc69dd0ef86814e1",
+                "reference": "d8f601c900132ed36017599dcc69dd0ef86814e1",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1728,7 +1728,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/master"
             },
-            "time": "2022-01-20T13:42:19+00:00"
+            "time": "2022-01-25T15:03:25+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -1887,12 +1887,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-recommend.git",
-                "reference": "dab27d124bcd163c3dfaf8f50c8d411473cfb238"
+                "reference": "1e25961aac418f9523689b38e2f2e333eeacfe69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-recommend/zipball/dab27d124bcd163c3dfaf8f50c8d411473cfb238",
-                "reference": "dab27d124bcd163c3dfaf8f50c8d411473cfb238",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-recommend/zipball/1e25961aac418f9523689b38e2f2e333eeacfe69",
+                "reference": "1e25961aac418f9523689b38e2f2e333eeacfe69",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1912,7 +1912,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-recommend/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-recommend/tree/master"
             },
-            "time": "2022-01-24T10:22:05+00:00"
+            "time": "2022-01-24T15:46:13+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -2921,16 +2921,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.55.2",
+            "version": "2.56.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2"
+                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8c2a18ce3e67c34efc1b29f64fe61304368259a2",
-                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
+                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
                 "shasum": ""
             },
             "require": {
@@ -2947,7 +2947,7 @@
                 "kylekatarnls/multi-tester": "^2.0",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12.54",
+                "phpstan/phpstan": "^0.12.54 || ^1.0",
                 "phpunit/phpunit": "^7.5.20 || ^8.5.14",
                 "squizlabs/php_codesniffer": "^3.4"
             },
@@ -3013,7 +3013,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-03T14:59:52+00:00"
+            "time": "2022-01-21T17:08:38+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
@@ -4331,15 +4331,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "4.2.2",
+            "version": "4.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.2.2"
+                "reference": "tags/4.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
