@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6710fb541788984a98ce96c72ce95fa9",
+    "content-hash": "072e0606bfba7fcbd0ed05f9afd26831",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1703,12 +1703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-entryscape.git",
-                "reference": "fa0ae7b6860a390accf32c1bfc7d30d3e434df2a"
+                "reference": "19acf988633a56bf950ce6919fad6c834fd10e98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/fa0ae7b6860a390accf32c1bfc7d30d3e434df2a",
-                "reference": "fa0ae7b6860a390accf32c1bfc7d30d3e434df2a",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/19acf988633a56bf950ce6919fad6c834fd10e98",
+                "reference": "19acf988633a56bf950ce6919fad6c834fd10e98",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1728,7 +1728,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/master"
             },
-            "time": "2022-01-27T08:56:07+00:00"
+            "time": "2022-01-27T10:51:47+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -4349,7 +4349,7 @@
         },
         {
             "name": "wpackagist-plugin/fakerpress",
-            "version": "0.5.1",
+            "version": "0.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fakerpress/",
@@ -4357,7 +4357,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fakerpress.zip?timestamp=1610833803"
+                "url": "https://downloads.wordpress.org/plugin/fakerpress.zip?timestamp=1643276789"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
