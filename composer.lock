@@ -628,16 +628,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.231.0",
+            "version": "v0.231.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "ec64bbf1d6af9475bee7b1ce4fc0ed8a0a8d8889"
+                "reference": "d6bf7109fc77d1c67110103a42e2a7d480b217a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/ec64bbf1d6af9475bee7b1ce4fc0ed8a0a8d8889",
-                "reference": "ec64bbf1d6af9475bee7b1ce4fc0ed8a0a8d8889",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/d6bf7109fc77d1c67110103a42e2a7d480b217a0",
+                "reference": "d6bf7109fc77d1c67110103a42e2a7d480b217a0",
                 "shasum": ""
             },
             "require": {
@@ -666,9 +666,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.231.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.231.1"
             },
-            "time": "2021-12-21T12:26:12+00:00"
+            "time": "2022-01-26T23:24:19+00:00"
         },
         {
             "name": "google/auth",
@@ -1703,12 +1703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-entryscape.git",
-                "reference": "1f53a0c40a1f860356714ace258d428d60f4420c"
+                "reference": "fa0ae7b6860a390accf32c1bfc7d30d3e434df2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/1f53a0c40a1f860356714ace258d428d60f4420c",
-                "reference": "1f53a0c40a1f860356714ace258d428d60f4420c",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/fa0ae7b6860a390accf32c1bfc7d30d3e434df2a",
+                "reference": "fa0ae7b6860a390accf32c1bfc7d30d3e434df2a",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1728,7 +1728,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/master"
             },
-            "time": "2022-01-26T16:05:13+00:00"
+            "time": "2022-01-27T08:56:07+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -4385,15 +4385,15 @@
         },
         {
             "name": "wpackagist-plugin/mce-table-buttons",
-            "version": "3.3",
+            "version": "3.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mce-table-buttons/",
-                "reference": "tags/3.3"
+                "reference": "tags/3.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mce-table-buttons.3.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/mce-table-buttons.3.3.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
