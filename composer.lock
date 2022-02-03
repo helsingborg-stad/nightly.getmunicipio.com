@@ -648,12 +648,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Google\\Service\\": "src"
-                },
                 "files": [
                     "autoload.php"
-                ]
+                ],
+                "psr-4": {
+                    "Google\\Service\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -931,12 +931,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1294,12 +1294,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "17ba0eb329da0de3b59fcb411ba9a42b8209494f"
+                "reference": "576eee67f2546a5a2a146fe9822f7d9f05bb668f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/17ba0eb329da0de3b59fcb411ba9a42b8209494f",
-                "reference": "17ba0eb329da0de3b59fcb411ba9a42b8209494f",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/576eee67f2546a5a2a146fe9822f7d9f05bb668f",
+                "reference": "576eee67f2546a5a2a146fe9822f7d9f05bb668f",
                 "shasum": ""
             },
             "require": {
@@ -1318,7 +1318,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-01-10T15:27:38+00:00"
+            "time": "2022-02-03T12:30:02+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -2056,12 +2056,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "c9124121b2122cf0509208c4bf8a25aba4005003"
+                "reference": "46e1da92b3fa477b1c13bb58517379074cfe2bcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c9124121b2122cf0509208c4bf8a25aba4005003",
-                "reference": "c9124121b2122cf0509208c4bf8a25aba4005003",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/46e1da92b3fa477b1c13bb58517379074cfe2bcc",
+                "reference": "46e1da92b3fa477b1c13bb58517379074cfe2bcc",
                 "shasum": ""
             },
             "require": {
@@ -2118,7 +2118,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-02-01T13:24:07+00:00"
+            "time": "2022-02-03T12:52:14+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -2498,12 +2498,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Illuminate\\Support\\": ""
-                },
                 "files": [
                     "helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Illuminate\\Support\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
