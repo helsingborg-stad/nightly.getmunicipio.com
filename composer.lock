@@ -1887,12 +1887,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-pdf-compile.git",
-                "reference": "7441a52cd127ba826bfe8ac7a73a4303b7d4f5cd"
+                "reference": "bd9c7686d99f7320ee074dda463e234cc097f1fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-pdf-compile/zipball/7441a52cd127ba826bfe8ac7a73a4303b7d4f5cd",
-                "reference": "7441a52cd127ba826bfe8ac7a73a4303b7d4f5cd",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-pdf-compile/zipball/bd9c7686d99f7320ee074dda463e234cc097f1fa",
+                "reference": "bd9c7686d99f7320ee074dda463e234cc097f1fa",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1912,7 +1912,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-pdf-compile/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-pdf-compile/tree/master"
             },
-            "time": "2022-02-06T21:16:26+00:00"
+            "time": "2022-02-06T21:27:58+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
