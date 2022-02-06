@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "072e0606bfba7fcbd0ed05f9afd26831",
+    "content-hash": "7ee9ddfb548efd88109f06a9d0740cde",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -48,13 +48,13 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Algolia\\AlgoliaSearch\\": "src/"
-                },
                 "files": [
                     "src/Http/Psr7/functions.php",
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Algolia\\AlgoliaSearch\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -628,16 +628,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.233.0",
+            "version": "v0.233.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "c3632d433742f1e0660460c1d9c220adf4e83885"
+                "reference": "b00fb5f236c64978dd12320380ae8de596de83f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c3632d433742f1e0660460c1d9c220adf4e83885",
-                "reference": "c3632d433742f1e0660460c1d9c220adf4e83885",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/b00fb5f236c64978dd12320380ae8de596de83f7",
+                "reference": "b00fb5f236c64978dd12320380ae8de596de83f7",
                 "shasum": ""
             },
             "require": {
@@ -666,9 +666,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.233.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.233.1"
             },
-            "time": "2022-01-30T12:26:38+00:00"
+            "time": "2022-02-05T14:25:56+00:00"
         },
         {
             "name": "google/auth",
@@ -1294,12 +1294,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "576eee67f2546a5a2a146fe9822f7d9f05bb668f"
+                "reference": "955f903a3fc6d06ecdaba4c48dd75c4dbfdebfe0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/576eee67f2546a5a2a146fe9822f7d9f05bb668f",
-                "reference": "576eee67f2546a5a2a146fe9822f7d9f05bb668f",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/955f903a3fc6d06ecdaba4c48dd75c4dbfdebfe0",
+                "reference": "955f903a3fc6d06ecdaba4c48dd75c4dbfdebfe0",
                 "shasum": ""
             },
             "require": {
@@ -1318,7 +1318,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-02-03T12:30:02+00:00"
+            "time": "2022-02-03T13:44:52+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1882,6 +1882,39 @@
             "time": "2021-12-14T10:52:50+00:00"
         },
         {
+            "name": "helsingborg-stad/modularity-pdf-compile",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-pdf-compile.git",
+                "reference": "83c5494bb06ae6ccf86c94f317b170e3a6ca3555"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-pdf-compile/zipball/83c5494bb06ae6ccf86c94f317b170e3a6ca3555",
+                "reference": "83c5494bb06ae6ccf86c94f317b170e3a6ca3555",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Modularity PDF Compile",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-pdf-compile/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-pdf-compile/tree/master"
+            },
+            "time": "2022-02-06T20:29:13+00:00"
+        },
+        {
             "name": "helsingborg-stad/modularity-recommend",
             "version": "dev-master",
             "source": {
@@ -2056,12 +2089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "46e1da92b3fa477b1c13bb58517379074cfe2bcc"
+                "reference": "51bffcd0ac5cd3942510aadf501aa88c8386c465"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/46e1da92b3fa477b1c13bb58517379074cfe2bcc",
-                "reference": "46e1da92b3fa477b1c13bb58517379074cfe2bcc",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/51bffcd0ac5cd3942510aadf501aa88c8386c465",
+                "reference": "51bffcd0ac5cd3942510aadf501aa88c8386c465",
                 "shasum": ""
             },
             "require": {
@@ -2118,7 +2151,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-02-03T12:52:14+00:00"
+            "time": "2022-02-03T13:42:19+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -3966,12 +3999,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php80\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -4493,7 +4526,8 @@
         "helsingborg-stad/component-library": 20,
         "helsingborg-stad/modularity-testimonials": 20,
         "helsingborg-stad/modularity-entryscape": 20,
-        "helsingborg-stad/modularity-recommend": 20
+        "helsingborg-stad/modularity-recommend": 20,
+        "helsingborg-stad/modularity-pdf-compile": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
