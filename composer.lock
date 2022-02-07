@@ -2089,12 +2089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "34f2b9056058c890e5d13b75baeb82509a374896"
+                "reference": "f0b0973980ac0d9ae503d20fc807db21d63d720a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/34f2b9056058c890e5d13b75baeb82509a374896",
-                "reference": "34f2b9056058c890e5d13b75baeb82509a374896",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f0b0973980ac0d9ae503d20fc807db21d63d720a",
+                "reference": "f0b0973980ac0d9ae503d20fc807db21d63d720a",
                 "shasum": ""
             },
             "require": {
@@ -2151,7 +2151,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/feature/refactor-form"
             },
-            "time": "2022-02-01T08:03:33+00:00"
+            "time": "2022-02-07T12:37:46+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
