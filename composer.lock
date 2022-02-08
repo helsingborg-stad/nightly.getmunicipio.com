@@ -1227,12 +1227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "8f30ebfcde6949acd1dec6b633f27cdb3a395c1a"
+                "reference": "1bcb3cf215e8ce3b310aabf6ebea0f5a33fdca4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/8f30ebfcde6949acd1dec6b633f27cdb3a395c1a",
-                "reference": "8f30ebfcde6949acd1dec6b633f27cdb3a395c1a",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/1bcb3cf215e8ce3b310aabf6ebea0f5a33fdca4c",
+                "reference": "1bcb3cf215e8ce3b310aabf6ebea0f5a33fdca4c",
                 "shasum": ""
             },
             "require": {
@@ -1257,7 +1257,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/feature/refactor-event-form"
             },
-            "time": "2022-02-08T14:31:58+00:00"
+            "time": "2022-02-08T15:29:04+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
