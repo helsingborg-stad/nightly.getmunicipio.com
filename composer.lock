@@ -1227,12 +1227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "1bcb3cf215e8ce3b310aabf6ebea0f5a33fdca4c"
+                "reference": "8f30ebfcde6949acd1dec6b633f27cdb3a395c1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/1bcb3cf215e8ce3b310aabf6ebea0f5a33fdca4c",
-                "reference": "1bcb3cf215e8ce3b310aabf6ebea0f5a33fdca4c",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/8f30ebfcde6949acd1dec6b633f27cdb3a395c1a",
+                "reference": "8f30ebfcde6949acd1dec6b633f27cdb3a395c1a",
                 "shasum": ""
             },
             "require": {
@@ -1257,7 +1257,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/feature/refactor-event-form"
             },
-            "time": "2022-02-08T15:29:04+00:00"
+            "time": "2022-02-08T14:31:58+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
@@ -1921,12 +1921,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-pdf-compile.git",
-                "reference": "7f3f18f578339bde8a568feafe0335a4a578d4ba"
+                "reference": "44d98f931093f479d730269aa975e90bfb756364"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-pdf-compile/zipball/7f3f18f578339bde8a568feafe0335a4a578d4ba",
-                "reference": "7f3f18f578339bde8a568feafe0335a4a578d4ba",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-pdf-compile/zipball/44d98f931093f479d730269aa975e90bfb756364",
+                "reference": "44d98f931093f479d730269aa975e90bfb756364",
                 "shasum": ""
             },
             "require": {
@@ -1952,7 +1952,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-pdf-compile/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-pdf-compile/tree/master"
             },
-            "time": "2022-02-08T12:33:02+00:00"
+            "time": "2022-02-08T15:15:03+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
