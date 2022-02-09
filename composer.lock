@@ -1227,12 +1227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "bafb21508f619529bd3d61d88aec1d198a391d85"
+                "reference": "5bffa49e5e006ef78554280acf17221a96cd61e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/bafb21508f619529bd3d61d88aec1d198a391d85",
-                "reference": "bafb21508f619529bd3d61d88aec1d198a391d85",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/5bffa49e5e006ef78554280acf17221a96cd61e3",
+                "reference": "5bffa49e5e006ef78554280acf17221a96cd61e3",
                 "shasum": ""
             },
             "require": {
@@ -1257,7 +1257,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/feature/refactor-event-form"
             },
-            "time": "2022-02-08T16:55:38+00:00"
+            "time": "2022-02-09T16:05:24+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
@@ -1362,12 +1362,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "9bc960f53d212c126fde0e674c747dbd5092b665"
+                "reference": "d4ff1049c1cdec77659a11dd6b26cffe8f32b441"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/9bc960f53d212c126fde0e674c747dbd5092b665",
-                "reference": "9bc960f53d212c126fde0e674c747dbd5092b665",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/d4ff1049c1cdec77659a11dd6b26cffe8f32b441",
+                "reference": "d4ff1049c1cdec77659a11dd6b26cffe8f32b441",
                 "shasum": ""
             },
             "require": {
@@ -1385,7 +1385,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/feature/refactor-form"
             },
-            "time": "2022-02-08T16:57:52+00:00"
+            "time": "2022-02-09T16:05:48+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
