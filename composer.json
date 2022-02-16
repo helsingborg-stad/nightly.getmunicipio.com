@@ -94,7 +94,8 @@
         "helsingborg-stad/modularity-pdf-compile": "dev-master",
         "wp-graphql/wp-graphql-acf": "^0.5.3",
         "wp-graphql/wp-graphql": "^1.6",
-        "helsingborg-stad/wp-graphql-municipio": "dev-main"
+        "helsingborg-stad/wp-graphql-municipio": "dev-main",
+        "wpackagist-plugin/wp-add-mime-types": "^3.0"
     },
 
     "extra": {
