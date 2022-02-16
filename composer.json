@@ -91,7 +91,10 @@
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
         "helsingborg-stad/multisite-role-propagation": "^1.0",
         "helsingborg-stad/modularity-recommend": "dev-master",
-        "helsingborg-stad/modularity-pdf-compile": "dev-master"
+        "helsingborg-stad/modularity-pdf-compile": "dev-master",
+        "wp-graphql/wp-graphql-acf": "^0.5.3",
+        "wp-graphql/wp-graphql": "^1.6",
+        "helsingborg-stad/wp-graphql-municipio": "dev-main"
     },
 
     "extra": {
