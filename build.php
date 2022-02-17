@@ -41,11 +41,13 @@ $root = getcwd();
 $output = '';
 $exitCode = 0;
 $cleanup = (isset($argv[1]) && ($argv[1] === '--cleanup')) ? $argv[1] : '';
+$builds = [];
 foreach ($contentDirectories as $contentDirectory) {
     $directories = glob("$contentDirectory/*", GLOB_ONLYDIR);
     foreach ($directories as $directory) {
         if (file_exists("$directory/$buildFile")) {
             print "-- Running build script in $directory. --\n";
+            $timeStart = microtime(true);
             chdir($directory);
 
             $exitCode = executeCommand("php $buildFile $cleanup");
@@ -54,7 +56,9 @@ foreach ($contentDirectories as $contentDirectory) {
                 exit($exitCode);
             }
             chdir($root);
-            print "-- Done build script in $directory. --\n";
+            $buildTime = round(microtime(true) - $timeStart);
+            array_push($builds, ['directory' => $directory, 'buildTime' =>  $buildTime]);
+            print "-- Done build script in $directory. Build time: $buildTime seconds. --\n";
         }
     }
 }
@@ -70,6 +74,15 @@ if ($cleanup) {
         }
     }
 }
+
+// Print all build times in a list
+print "\n\nBuild Time\t\t\t\tDirectory\n";
+$totalTime = 0;
+foreach ($builds as $build) {
+    print $build['buildTime'] . "s\t\t\t\t\t" . $build['directory'] . "\n";
+    $totalTime += $build['buildTime'];
+}
+print "Total: $totalTime seconds\n\n";
 
 /**
  * Better shell script execution with live output to STDOUT and status code return.
