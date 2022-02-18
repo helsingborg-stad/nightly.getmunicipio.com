@@ -1853,12 +1853,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-mhbooking.git",
-                "reference": "1de3837ceb55e3f0a8109a03574646fc97599a97"
+                "reference": "a845b8e0e77778c2a4c99a0c9e20db933ed6e2df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mhbooking/zipball/1de3837ceb55e3f0a8109a03574646fc97599a97",
-                "reference": "1de3837ceb55e3f0a8109a03574646fc97599a97",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mhbooking/zipball/a845b8e0e77778c2a4c99a0c9e20db933ed6e2df",
+                "reference": "a845b8e0e77778c2a4c99a0c9e20db933ed6e2df",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1878,7 +1878,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-mhbooking/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-mhbooking/tree/master"
             },
-            "time": "2022-02-18T14:11:42+00:00"
+            "time": "2022-02-18T14:56:06+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
@@ -4880,5 +4880,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
