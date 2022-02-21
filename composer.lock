@@ -627,7 +627,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.235.0",
+            "version": "v0.236.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -665,7 +665,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.235.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.236.0"
             },
             "time": "2022-02-07T14:04:26+00:00"
         },
@@ -1853,12 +1853,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-mhbooking.git",
-                "reference": "a845b8e0e77778c2a4c99a0c9e20db933ed6e2df"
+                "reference": "b84fccea895ec028f88792e4382b4ad6df2e2a55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mhbooking/zipball/a845b8e0e77778c2a4c99a0c9e20db933ed6e2df",
-                "reference": "a845b8e0e77778c2a4c99a0c9e20db933ed6e2df",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mhbooking/zipball/b84fccea895ec028f88792e4382b4ad6df2e2a55",
+                "reference": "b84fccea895ec028f88792e4382b4ad6df2e2a55",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1878,7 +1878,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-mhbooking/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-mhbooking/tree/master"
             },
-            "time": "2022-02-18T14:56:06+00:00"
+            "time": "2022-02-18T16:06:00+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
@@ -4880,5 +4880,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }
