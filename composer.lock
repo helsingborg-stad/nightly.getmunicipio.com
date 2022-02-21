@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5d34398f108745664152debdb0dfcbb",
+    "content-hash": "32db7eff22b9b9fd3506abb729ce0c0b",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -462,12 +462,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/darylldoyle/svg-sanitizer.git",
-                "reference": "50c0f86ab08d8f3a986ac4f57874492a22171708"
+                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/50c0f86ab08d8f3a986ac4f57874492a22171708",
-                "reference": "50c0f86ab08d8f3a986ac4f57874492a22171708",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
+                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
                 "shasum": ""
             },
             "require": {
@@ -498,9 +498,9 @@
             "description": "An SVG sanitizer for PHP",
             "support": {
                 "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
-                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.3"
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.4"
             },
-            "time": "2022-02-16T19:59:46+00:00"
+            "time": "2022-02-21T09:13:59+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -1290,21 +1290,22 @@
         },
         {
             "name": "helsingborg-stad/component-library",
-            "version": "dev-feature/refactor-form",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "f85fb3fde3b8bfa7d27446f22f88fa0e8362aa76"
+                "reference": "cba60a9dff12d1f23cb113d47eac6ed6adb19b87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/f85fb3fde3b8bfa7d27446f22f88fa0e8362aa76",
-                "reference": "f85fb3fde3b8bfa7d27446f22f88fa0e8362aa76",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/cba60a9dff12d1f23cb113d47eac6ed6adb19b87",
+                "reference": "cba60a9dff12d1f23cb113d47eac6ed6adb19b87",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/blade-engine-wrapper": "dev-master"
             },
+            "default-branch": true,
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
@@ -1315,9 +1316,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/feature/refactor-form"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-02-14T15:25:03+00:00"
+            "time": "2022-02-21T09:36:22+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -2051,16 +2052,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-feature/refactor-form",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "f0b0973980ac0d9ae503d20fc807db21d63d720a"
+                "reference": "98014ff8084b5c9599d8f1b475f69f0148dfb246"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f0b0973980ac0d9ae503d20fc807db21d63d720a",
-                "reference": "f0b0973980ac0d9ae503d20fc807db21d63d720a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/98014ff8084b5c9599d8f1b475f69f0148dfb246",
+                "reference": "98014ff8084b5c9599d8f1b475f69f0148dfb246",
                 "shasum": ""
             },
             "require": {
@@ -2088,7 +2089,7 @@
                 "symfony/translation": "5.0.8",
                 "symfony/translation-contracts": "2.0.1",
                 "tgmpa/tgm-plugin-activation": "dev-develop",
-                "wpackagist-plugin/kirki": "^3.1"
+                "wpackagist-plugin/kirki": "^4.0"
             },
             "type": "wordpress-theme",
             "extra": {
@@ -2115,9 +2116,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/feature/refactor-form"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-02-07T12:37:46+00:00"
+            "time": "2022-02-21T09:01:23+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -4729,15 +4730,15 @@
         },
         {
             "name": "wpackagist-plugin/kirki",
-            "version": "3.1.9",
+            "version": "4.0.22",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kirki/",
-                "reference": "tags/3.1.9"
+                "reference": "tags/4.0.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kirki.3.1.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/kirki.4.0.22.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
