@@ -94,8 +94,7 @@
         "wp-graphql/wp-graphql-acf": "^0.5.3",
         "wp-graphql/wp-graphql": "^1.6",
         "helsingborg-stad/wp-graphql-municipio": "dev-main",
-        "wpackagist-plugin/wp-add-mime-types": "^3.0",
-        "helsingborg-stad/modularity-mhbooking": "dev-master"
+        "wpackagist-plugin/wp-add-mime-types": "^3.0"
     },
 
     "extra": {
