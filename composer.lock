@@ -1340,12 +1340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "bab40ac86332de3145a29ae947f15520b6c478b7"
+                "reference": "c94b933eeda39f820d33157c6c8f9574f1db190e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/bab40ac86332de3145a29ae947f15520b6c478b7",
-                "reference": "bab40ac86332de3145a29ae947f15520b6c478b7",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/c94b933eeda39f820d33157c6c8f9574f1db190e",
+                "reference": "c94b933eeda39f820d33157c6c8f9574f1db190e",
                 "shasum": ""
             },
             "require": {
@@ -1364,7 +1364,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-03-17T09:30:21+00:00"
+            "time": "2022-03-18T10:30:03+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -4928,5 +4928,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }
