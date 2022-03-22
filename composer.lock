@@ -673,16 +673,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.239.0",
+            "version": "v0.240.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "ce8e34d618bdef9e824fd1728d505a468818712c"
+                "reference": "c6d39cda24d7ada02ecf8c464a1c8adb02607ba7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/ce8e34d618bdef9e824fd1728d505a468818712c",
-                "reference": "ce8e34d618bdef9e824fd1728d505a468818712c",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c6d39cda24d7ada02ecf8c464a1c8adb02607ba7",
+                "reference": "c6d39cda24d7ada02ecf8c464a1c8adb02607ba7",
                 "shasum": ""
             },
             "require": {
@@ -711,9 +711,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.239.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.240.0"
             },
-            "time": "2022-03-13T01:20:35+00:00"
+            "time": "2022-03-21T01:20:11+00:00"
         },
         {
             "name": "google/auth",
@@ -1644,12 +1644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "431ab36f4d79805abc9dfcec38e8b8025bf19a42"
+                "reference": "64e4e93aaae5852f1b638aaf59023742a9457176"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/431ab36f4d79805abc9dfcec38e8b8025bf19a42",
-                "reference": "431ab36f4d79805abc9dfcec38e8b8025bf19a42",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/64e4e93aaae5852f1b638aaf59023742a9457176",
+                "reference": "64e4e93aaae5852f1b638aaf59023742a9457176",
                 "shasum": ""
             },
             "require": {
@@ -1710,7 +1710,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-03-18T14:12:22+00:00"
+            "time": "2022-03-22T13:33:57+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2103,12 +2103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "8409dad5c7f165dc90f295032b6eafe919377fff"
+                "reference": "2343c8a42e6fb124a1ff6ce1674cd13c071389da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8409dad5c7f165dc90f295032b6eafe919377fff",
-                "reference": "8409dad5c7f165dc90f295032b6eafe919377fff",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/2343c8a42e6fb124a1ff6ce1674cd13c071389da",
+                "reference": "2343c8a42e6fb124a1ff6ce1674cd13c071389da",
                 "shasum": ""
             },
             "require": {
@@ -2166,7 +2166,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-03-22T11:11:34+00:00"
+            "time": "2022-03-22T13:12:19+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -4779,15 +4779,15 @@
         },
         {
             "name": "wpackagist-plugin/kirki",
-            "version": "4.0.22",
+            "version": "4.0.23",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kirki/",
-                "reference": "tags/4.0.22"
+                "reference": "tags/4.0.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kirki.4.0.22.zip"
+                "url": "https://downloads.wordpress.org/plugin/kirki.4.0.23.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
