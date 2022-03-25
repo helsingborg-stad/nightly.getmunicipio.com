@@ -717,23 +717,23 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.18.0",
+            "version": "v1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "21dd478e77b0634ed9e3a68613f74ed250ca9347"
+                "reference": "31e5d24d5fa0eaf6adc7e596292dc4732f4b60c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/21dd478e77b0634ed9e3a68613f74ed250ca9347",
-                "reference": "21dd478e77b0634ed9e3a68613f74ed250ca9347",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/31e5d24d5fa0eaf6adc7e596292dc4732f4b60c5",
+                "reference": "31e5d24d5fa0eaf6adc7e596292dc4732f4b60c5",
                 "shasum": ""
             },
             "require": {
-                "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
-                "guzzlehttp/guzzle": "^5.3.1|^6.2.1|^7.0",
+                "firebase/php-jwt": "~5.0",
+                "guzzlehttp/guzzle": "^6.2.1|^7.0",
                 "guzzlehttp/psr7": "^1.7|^2.0",
-                "php": ">=5.4",
+                "php": ">=5.6",
                 "psr/cache": "^1.0|^2.0",
                 "psr/http-message": "^1.0"
             },
@@ -741,8 +741,10 @@
                 "guzzlehttp/promises": "0.1.1|^1.3",
                 "kelvinmo/simplejwt": "^0.2.5|^0.5.1",
                 "phpseclib/phpseclib": "^2.0.31",
-                "phpunit/phpunit": "^4.8.36|^5.7",
-                "sebastian/comparator": ">=1.2.3"
+                "phpspec/prophecy-phpunit": "^1.1",
+                "phpunit/phpunit": "^5.7||^8.5.13",
+                "sebastian/comparator": ">=1.2.3",
+                "squizlabs/php_codesniffer": "^3.5"
             },
             "suggest": {
                 "phpseclib/phpseclib": "May be used in place of OpenSSL for signing strings or for token management. Please require version ^2."
@@ -765,11 +767,11 @@
                 "oauth2"
             ],
             "support": {
-                "docs": "https://googleapis.github.io/google-auth-library-php/master/",
+                "docs": "https://googleapis.github.io/google-auth-library-php/main/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.18.0"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.19.0"
             },
-            "time": "2021-08-24T18:03:18+00:00"
+            "time": "2022-03-24T21:22:45+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1644,12 +1646,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "64e4e93aaae5852f1b638aaf59023742a9457176"
+                "reference": "2cfe6d7a5dd30c38ceac013b10c63d2441575d65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/64e4e93aaae5852f1b638aaf59023742a9457176",
-                "reference": "64e4e93aaae5852f1b638aaf59023742a9457176",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/2cfe6d7a5dd30c38ceac013b10c63d2441575d65",
+                "reference": "2cfe6d7a5dd30c38ceac013b10c63d2441575d65",
                 "shasum": ""
             },
             "require": {
@@ -1710,7 +1712,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-03-22T13:33:57+00:00"
+            "time": "2022-03-25T13:41:50+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2103,12 +2105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "2343c8a42e6fb124a1ff6ce1674cd13c071389da"
+                "reference": "064608e32fa24f362564ab276a916215741855ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/2343c8a42e6fb124a1ff6ce1674cd13c071389da",
-                "reference": "2343c8a42e6fb124a1ff6ce1674cd13c071389da",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/064608e32fa24f362564ab276a916215741855ed",
+                "reference": "064608e32fa24f362564ab276a916215741855ed",
                 "shasum": ""
             },
             "require": {
@@ -2125,6 +2127,7 @@
                 "illuminate/support": "^5.8.36",
                 "illuminate/view": "^5.8.36",
                 "nesbot/carbon": "^2.34.0",
+                "ouun/kirki-module-fonts_upload": "dev-master",
                 "pragmarx/ia-arr": "^7.3",
                 "psr/container": "^1.0.0",
                 "psr/log": "^1.1.3",
@@ -2166,7 +2169,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-03-22T13:12:19+00:00"
+            "time": "2022-03-25T13:41:15+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -3252,6 +3255,54 @@
                 }
             ],
             "time": "2021-07-02T10:00:04+00:00"
+        },
+        {
+            "name": "ouun/kirki-module-fonts_upload",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ouun/kirki-module-fonts_upload.git",
+                "reference": "29be30eb3f8f550d412b22707aff789e725c05f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ouun/kirki-module-fonts_upload/zipball/29be30eb3f8f550d412b22707aff789e725c05f7",
+                "reference": "29be30eb3f8f550d412b22707aff789e725c05f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kirki\\Module\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Wellmer",
+                    "email": "philipp@wellmer.com",
+                    "homepage": "https://ouun.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy custom fonts upload and CSS injection with Kirki WordPress plugin.",
+            "keywords": [
+                "customizer",
+                "framework",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/ouun/kirki-module-fonts_upload/issues",
+                "source": "https://github.com/ouun/kirki-module-fonts_upload/tree/v1.0.1"
+            },
+            "time": "2020-04-07T16:08:04+00:00"
         },
         {
             "name": "philo/laravel-blade",
