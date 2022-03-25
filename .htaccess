@@ -1,5 +1,6 @@
 # Enshure that uft-8 is used
 AddDefaultCharset utf-8
+Options -Indexes
 
 # Deny ddos bots
 <Files *>
