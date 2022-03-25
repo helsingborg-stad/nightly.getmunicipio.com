@@ -58,7 +58,7 @@
         "johnpbloch/wordpress": "^5.0",
         "helsingborg-stad/modularity": "dev-3.0/develop",
         "helsingborg-stad/municipio": "dev-3.0/develop",
-        "helsingborg-stad/api-event-manager-integration": "dev-feature/refactor-event-form",
+        "helsingborg-stad/api-event-manager-integration": "dev-3.0/develop",
         "helsingborg-stad/force-ssl": ">=1.0.0",
         "helsingborg-stad/search-notices": ">=1.0.0",
         "helsingborg-stad/lix-calculator": ">=1.0.1",
