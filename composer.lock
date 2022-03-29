@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "baadd1c4c9ef52656c0f17220efe9b81",
+    "content-hash": "095480673234e568033daa03ab3a12f0",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1237,6 +1237,38 @@
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
             "time": "2022-03-28T07:32:43+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-kiosk-model-viewer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-kiosk-model-viewer.git",
+                "reference": "f876f3623c78aeb80752c41f782bf4495bcfa093"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-kiosk-model-viewer/zipball/f876f3623c78aeb80752c41f782bf4495bcfa093",
+                "reference": "f876f3623c78aeb80752c41f782bf4495bcfa093",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt @ Helsingborg Stad",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Backend for managing kiosk model viewer app",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/issues",
+                "source": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/tree/1.0.0"
+            },
+            "time": "2022-03-29T13:22:25+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
@@ -4910,5 +4942,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
