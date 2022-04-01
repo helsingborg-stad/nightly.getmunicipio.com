@@ -96,7 +96,8 @@
         "helsingborg-stad/wp-graphql-municipio": "dev-main",
         "wpackagist-plugin/wp-add-mime-types": "^3.0",
         "helsingborg-stad/modularity-mhbooking": "dev-master",
-        "helsingborg-stad/api-kiosk-model-viewer": "^1.0"
+        "helsingborg-stad/api-kiosk-model-viewer": "^1.0",
+        "helsingborg-stad/modularity-mypages": "dev-master"
     },
 
     "extra": {

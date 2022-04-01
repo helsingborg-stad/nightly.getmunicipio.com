@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "095480673234e568033daa03ab3a12f0",
+    "content-hash": "7269cb9fcfbb1af4cec189cd48f7a822",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1959,6 +1959,47 @@
                 "source": "https://github.com/helsingborg-stad/modularity-mhbooking/tree/master"
             },
             "time": "2022-03-28T07:10:40+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-mypages",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-mypages.git",
+                "reference": "01fd373690dba1433a12f465938e6886ca65c15f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/01fd373690dba1433a12f465938e6886ca65c15f",
+                "reference": "01fd373690dba1433a12f465938e6886ca65c15f",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                },
+                {
+                    "name": "Petter Andersson",
+                    "email": "petter.andersson2@helsingborg.se"
+                },
+                {
+                    "name": "Björn Persson",
+                    "email": "bjorn.persson@helsingborg.se"
+                }
+            ],
+            "description": "My pages modularity modules and login action.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-mypages/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/master"
+            },
+            "time": "2022-04-01T09:23:24+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
@@ -4935,7 +4976,8 @@
         "helsingborg-stad/modularity-testimonials": 20,
         "helsingborg-stad/modularity-recommend": 20,
         "helsingborg-stad/wp-graphql-municipio": 20,
-        "helsingborg-stad/modularity-mhbooking": 20
+        "helsingborg-stad/modularity-mhbooking": 20,
+        "helsingborg-stad/modularity-mypages": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
