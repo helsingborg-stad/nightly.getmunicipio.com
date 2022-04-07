@@ -80,7 +80,7 @@
         "wpackagist-plugin/wp-add-mime-types": "^3.0",
         "helsingborg-stad/modularity-mhbooking": "dev-master",
         "helsingborg-stad/api-kiosk-model-viewer": "^1.0",
-        "helsingborg-stad/modularity-mypages": "dev-master"
+        "helsingborg-stad/modularity-mypages": "dev-bankid-login"
     },
 
     "extra": {
