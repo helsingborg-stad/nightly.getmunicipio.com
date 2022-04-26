@@ -673,16 +673,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.244.0",
+            "version": "v0.246.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "e938c389a3e89bf7a9147b897b9e8bb2ae7bceba"
+                "reference": "33aef1ccce34799a1124c39951fed8ad0b16aced"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/e938c389a3e89bf7a9147b897b9e8bb2ae7bceba",
-                "reference": "e938c389a3e89bf7a9147b897b9e8bb2ae7bceba",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/33aef1ccce34799a1124c39951fed8ad0b16aced",
+                "reference": "33aef1ccce34799a1124c39951fed8ad0b16aced",
                 "shasum": ""
             },
             "require": {
@@ -711,9 +711,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.244.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.246.0"
             },
-            "time": "2022-04-18T00:58:38+00:00"
+            "time": "2022-04-24T00:58:37+00:00"
         },
         {
             "name": "google/auth",
@@ -1207,12 +1207,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "aaca06c38e966078cc9d0915103fff32c8dd2954"
+                "reference": "6d849cf42519b6d3564e07899baa45f4aeb3d17f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/aaca06c38e966078cc9d0915103fff32c8dd2954",
-                "reference": "aaca06c38e966078cc9d0915103fff32c8dd2954",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/6d849cf42519b6d3564e07899baa45f4aeb3d17f",
+                "reference": "6d849cf42519b6d3564e07899baa45f4aeb3d17f",
                 "shasum": ""
             },
             "require": {
@@ -1236,7 +1236,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-04-13T20:21:23+00:00"
+            "time": "2022-04-22T12:01:08+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1373,12 +1373,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "c64658b6e7833a5c72cc917728331486bb585ea4"
+                "reference": "7677786f13208dfe729f750141fc0356c66ccfa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/c64658b6e7833a5c72cc917728331486bb585ea4",
-                "reference": "c64658b6e7833a5c72cc917728331486bb585ea4",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/7677786f13208dfe729f750141fc0356c66ccfa4",
+                "reference": "7677786f13208dfe729f750141fc0356c66ccfa4",
                 "shasum": ""
             },
             "require": {
@@ -1397,7 +1397,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-04-22T10:00:05+00:00"
+            "time": "2022-04-22T11:07:26+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
