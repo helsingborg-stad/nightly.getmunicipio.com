@@ -1374,12 +1374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "051433fb8720907d500fecfed455bd8b86e07261"
+                "reference": "22a2b07ee46a6242c0e272534f27a5cc637e29bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/051433fb8720907d500fecfed455bd8b86e07261",
-                "reference": "051433fb8720907d500fecfed455bd8b86e07261",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/22a2b07ee46a6242c0e272534f27a5cc637e29bc",
+                "reference": "22a2b07ee46a6242c0e272534f27a5cc637e29bc",
                 "shasum": ""
             },
             "require": {
@@ -1397,7 +1397,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/feature/refactor-form"
             },
-            "time": "2022-04-26T08:48:39+00:00"
+            "time": "2022-04-27T13:32:13+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
