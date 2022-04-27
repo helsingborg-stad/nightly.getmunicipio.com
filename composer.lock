@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d5ceb21ca9a332afd0364a6272abeaa",
+    "content-hash": "83fd6e2d025a6d5f42a189445c5ab332",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1207,16 +1207,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "34fbea4a60290c0de4766d8008455dbfa6176c45"
+                "reference": "c41013c5aeb2abb776233c7cabe5f9f08d3b374b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/34fbea4a60290c0de4766d8008455dbfa6176c45",
-                "reference": "34fbea4a60290c0de4766d8008455dbfa6176c45",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/c41013c5aeb2abb776233c7cabe5f9f08d3b374b",
+                "reference": "c41013c5aeb2abb776233c7cabe5f9f08d3b374b",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
+                "justinrainbow/json-schema": "^5.2",
                 "philo/laravel-blade": "^3.1",
                 "ralouphie/mimey": "^2.1"
             },
@@ -1236,7 +1237,39 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/feature/refactor-event-form"
             },
-            "time": "2022-01-13T09:34:06+00:00"
+            "time": "2022-04-27T09:41:56+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-kiosk-model-viewer",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-kiosk-model-viewer.git",
+                "reference": "016baa92ff60d2db0aa426f7b653dcb9507a1dbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-kiosk-model-viewer/zipball/016baa92ff60d2db0aa426f7b653dcb9507a1dbb",
+                "reference": "016baa92ff60d2db0aa426f7b653dcb9507a1dbb",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt @ Helsingborg Stad",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Backend for managing kiosk model viewer app",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/issues",
+                "source": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/tree/1.0.2"
+            },
+            "time": "2022-03-29T15:58:04+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
@@ -1341,12 +1374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "5987cf7322b2f0cea358113d2b232beaf539b7ae"
+                "reference": "051433fb8720907d500fecfed455bd8b86e07261"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/5987cf7322b2f0cea358113d2b232beaf539b7ae",
-                "reference": "5987cf7322b2f0cea358113d2b232beaf539b7ae",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/051433fb8720907d500fecfed455bd8b86e07261",
+                "reference": "051433fb8720907d500fecfed455bd8b86e07261",
                 "shasum": ""
             },
             "require": {
@@ -1364,7 +1397,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/feature/refactor-form"
             },
-            "time": "2022-01-12T09:56:08+00:00"
+            "time": "2022-04-26T08:48:39+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1532,12 +1565,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/job-listings.git",
-                "reference": "e1e92b8e44dacb72163f6a10e9ce3102407b614e"
+                "reference": "fa9672291c27f43da594284d29f5460684fa97b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/e1e92b8e44dacb72163f6a10e9ce3102407b614e",
-                "reference": "e1e92b8e44dacb72163f6a10e9ce3102407b614e",
+                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/fa9672291c27f43da594284d29f5460684fa97b6",
+                "reference": "fa9672291c27f43da594284d29f5460684fa97b6",
                 "shasum": ""
             },
             "require": {
@@ -1572,7 +1605,7 @@
                 "issues": "https://github.com/helsingborg-stad/job-listings/issues",
                 "source": "https://github.com/helsingborg-stad/job-listings/tree/3.0/develop"
             },
-            "time": "2022-01-12T10:40:48+00:00"
+            "time": "2022-02-16T14:55:27+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -1750,12 +1783,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "8cf73992b7e561395b8383337d0487ac73e30d74"
+                "reference": "014229e650ba121ebdacd9eb44c31174b73a3272"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/8cf73992b7e561395b8383337d0487ac73e30d74",
-                "reference": "8cf73992b7e561395b8383337d0487ac73e30d74",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/014229e650ba121ebdacd9eb44c31174b73a3272",
+                "reference": "014229e650ba121ebdacd9eb44c31174b73a3272",
                 "shasum": ""
             },
             "require": {
@@ -1787,7 +1820,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
             },
-            "time": "2022-01-12T11:53:50+00:00"
+            "time": "2022-03-29T12:56:35+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -2138,16 +2171,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-feature/refactor-form",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "f9717b4a69714e748317fd91fb0072bce6a340ae"
+                "reference": "e0cd0110daa9da8c006516069180709659c659ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f9717b4a69714e748317fd91fb0072bce6a340ae",
-                "reference": "f9717b4a69714e748317fd91fb0072bce6a340ae",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e0cd0110daa9da8c006516069180709659c659ec",
+                "reference": "e0cd0110daa9da8c006516069180709659c659ec",
                 "shasum": ""
             },
             "require": {
@@ -2204,9 +2237,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/feature/refactor-form"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-01-13T09:54:37+00:00"
+            "time": "2022-04-21T12:45:24+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -2989,6 +3022,76 @@
                 "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
             },
             "time": "2020-04-16T21:44:57+00:00"
+        },
+        {
+            "name": "justinrainbow/json-schema",
+            "version": "5.2.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justinrainbow/json-schema.git",
+                "reference": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
+                "reference": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.2.20||~2.15.1",
+                "json-schema/json-schema-test-suite": "1.2.0",
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "bin": [
+                "bin/validate-json"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JsonSchema\\": "src/JsonSchema/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Prieto Reis",
+                    "email": "bruno.p.reis@gmail.com"
+                },
+                {
+                    "name": "Justin Rainbow",
+                    "email": "justin.rainbow@gmail.com"
+                },
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
+                    "name": "Robert Schönthal",
+                    "email": "seroscho@googlemail.com"
+                }
+            ],
+            "description": "A library to validate a json schema.",
+            "homepage": "https://github.com/justinrainbow/json-schema",
+            "keywords": [
+                "json",
+                "schema"
+            ],
+            "support": {
+                "issues": "https://github.com/justinrainbow/json-schema/issues",
+                "source": "https://github.com/justinrainbow/json-schema/tree/5.2.12"
+            },
+            "time": "2022-04-13T08:02:27+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4931,5 +5034,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.2.0"
 }
