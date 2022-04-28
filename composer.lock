@@ -1373,12 +1373,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "7677786f13208dfe729f750141fc0356c66ccfa4"
+                "reference": "531974b9a9cf76d954daf849b39ebb67bfd31e63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/7677786f13208dfe729f750141fc0356c66ccfa4",
-                "reference": "7677786f13208dfe729f750141fc0356c66ccfa4",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/531974b9a9cf76d954daf849b39ebb67bfd31e63",
+                "reference": "531974b9a9cf76d954daf849b39ebb67bfd31e63",
                 "shasum": ""
             },
             "require": {
@@ -1397,7 +1397,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-04-22T11:07:26+00:00"
+            "time": "2022-04-28T10:57:53+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -1966,12 +1966,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-mypages.git",
-                "reference": "4df331ff2ac8aab9aa55fe54740674ea172d946e"
+                "reference": "5a8aba7ff288dd4787a88c706e28b7bf3510f008"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/4df331ff2ac8aab9aa55fe54740674ea172d946e",
-                "reference": "4df331ff2ac8aab9aa55fe54740674ea172d946e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/5a8aba7ff288dd4787a88c706e28b7bf3510f008",
+                "reference": "5a8aba7ff288dd4787a88c706e28b7bf3510f008",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1998,7 +1998,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-mypages/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/bankid-login"
             },
-            "time": "2022-04-20T14:16:17+00:00"
+            "time": "2022-04-28T12:52:23+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
@@ -2175,12 +2175,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e0cd0110daa9da8c006516069180709659c659ec"
+                "reference": "80a7a8f2058c5724d7e63402e79a2dfe7f0f5a02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e0cd0110daa9da8c006516069180709659c659ec",
-                "reference": "e0cd0110daa9da8c006516069180709659c659ec",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/80a7a8f2058c5724d7e63402e79a2dfe7f0f5a02",
+                "reference": "80a7a8f2058c5724d7e63402e79a2dfe7f0f5a02",
                 "shasum": ""
             },
             "require": {
@@ -2239,7 +2239,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-04-21T12:45:24+00:00"
+            "time": "2022-04-28T13:16:38+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -3981,16 +3981,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.4.37",
+            "version": "v4.4.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "5de6c6e7f52b364840e53851c126be4d71e60470"
+                "reference": "6637e62480b60817b9a6984154a533e8e64c6bd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/5de6c6e7f52b364840e53851c126be4d71e60470",
-                "reference": "5de6c6e7f52b364840e53851c126be4d71e60470",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/6637e62480b60817b9a6984154a533e8e64c6bd5",
+                "reference": "6637e62480b60817b9a6984154a533e8e64c6bd5",
                 "shasum": ""
             },
             "require": {
@@ -4029,7 +4029,7 @@
             "description": "Provides tools to ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug/tree/v4.4.37"
+                "source": "https://github.com/symfony/debug/tree/v4.4.41"
             },
             "funding": [
                 {
@@ -4045,7 +4045,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:41:36+00:00"
+            "time": "2022-04-12T15:19:55+00:00"
         },
         {
             "name": "symfony/finder",
@@ -4428,16 +4428,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.6",
+            "version": "v5.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "294e9da6e2e0dd404e983daa5aa74253d92c05d0"
+                "reference": "cdcadd343d31ad16fc5e006b0de81ea307435053"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/294e9da6e2e0dd404e983daa5aa74253d92c05d0",
-                "reference": "294e9da6e2e0dd404e983daa5aa74253d92c05d0",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/cdcadd343d31ad16fc5e006b0de81ea307435053",
+                "reference": "cdcadd343d31ad16fc5e006b0de81ea307435053",
                 "shasum": ""
             },
             "require": {
@@ -4497,7 +4497,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.6"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.8"
             },
             "funding": [
                 {
@@ -4513,7 +4513,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-02T12:42:23+00:00"
+            "time": "2022-04-26T13:19:20+00:00"
         },
         {
             "name": "tgmpa/tgm-plugin-activation",
