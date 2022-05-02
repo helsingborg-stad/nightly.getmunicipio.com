@@ -1240,16 +1240,16 @@
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-kiosk-model-viewer.git",
-                "reference": "016baa92ff60d2db0aa426f7b653dcb9507a1dbb"
+                "reference": "b2738b3a5b0de207f79d615a67283fd64699b017"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-kiosk-model-viewer/zipball/016baa92ff60d2db0aa426f7b653dcb9507a1dbb",
-                "reference": "016baa92ff60d2db0aa426f7b653dcb9507a1dbb",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-kiosk-model-viewer/zipball/b2738b3a5b0de207f79d615a67283fd64699b017",
+                "reference": "b2738b3a5b0de207f79d615a67283fd64699b017",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1266,9 +1266,9 @@
             "description": "Backend for managing kiosk model viewer app",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/issues",
-                "source": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/tree/1.0.2"
+                "source": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/tree/1.0.3"
             },
-            "time": "2022-03-29T15:58:04+00:00"
+            "time": "2022-05-02T12:52:51+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
@@ -4964,5 +4964,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
