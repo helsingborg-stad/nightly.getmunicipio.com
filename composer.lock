@@ -1207,12 +1207,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "5f4f71b057c065f58c8338f7dcc05dd594a8db60"
+                "reference": "911c44493785d3da27a1a7b15eaa7976b51d67cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/5f4f71b057c065f58c8338f7dcc05dd594a8db60",
-                "reference": "5f4f71b057c065f58c8338f7dcc05dd594a8db60",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/911c44493785d3da27a1a7b15eaa7976b51d67cc",
+                "reference": "911c44493785d3da27a1a7b15eaa7976b51d67cc",
                 "shasum": ""
             },
             "require": {
@@ -1237,20 +1237,20 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/feature/refactor-event-form"
             },
-            "time": "2022-04-29T11:03:56+00:00"
+            "time": "2022-05-05T15:09:23+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-kiosk-model-viewer.git",
-                "reference": "016baa92ff60d2db0aa426f7b653dcb9507a1dbb"
+                "reference": "b2738b3a5b0de207f79d615a67283fd64699b017"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-kiosk-model-viewer/zipball/016baa92ff60d2db0aa426f7b653dcb9507a1dbb",
-                "reference": "016baa92ff60d2db0aa426f7b653dcb9507a1dbb",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-kiosk-model-viewer/zipball/b2738b3a5b0de207f79d615a67283fd64699b017",
+                "reference": "b2738b3a5b0de207f79d615a67283fd64699b017",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1267,9 +1267,9 @@
             "description": "Backend for managing kiosk model viewer app",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/issues",
-                "source": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/tree/1.0.2"
+                "source": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/tree/1.0.3"
             },
-            "time": "2022-03-29T15:58:04+00:00"
+            "time": "2022-05-02T12:52:51+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
