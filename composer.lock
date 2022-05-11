@@ -1966,12 +1966,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-mypages.git",
-                "reference": "49152d9a784fe54d0b9abce07f1172e4fcefaa88"
+                "reference": "e577135e7c374132aae19e956b950828b5986483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/49152d9a784fe54d0b9abce07f1172e4fcefaa88",
-                "reference": "49152d9a784fe54d0b9abce07f1172e4fcefaa88",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/e577135e7c374132aae19e956b950828b5986483",
+                "reference": "e577135e7c374132aae19e956b950828b5986483",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1998,7 +1998,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-mypages/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/bankid-login"
             },
-            "time": "2022-05-11T11:26:08+00:00"
+            "time": "2022-05-11T11:40:08+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
