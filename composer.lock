@@ -1207,12 +1207,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "4d22ef35b7d240a18ee2ddbba85b0446f65b04d2"
+                "reference": "ef46945fcf2bdd13f37dcffd0b8445cae801cf1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/4d22ef35b7d240a18ee2ddbba85b0446f65b04d2",
-                "reference": "4d22ef35b7d240a18ee2ddbba85b0446f65b04d2",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/ef46945fcf2bdd13f37dcffd0b8445cae801cf1b",
+                "reference": "ef46945fcf2bdd13f37dcffd0b8445cae801cf1b",
                 "shasum": ""
             },
             "require": {
@@ -1236,7 +1236,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-05-13T13:09:12+00:00"
+            "time": "2022-05-17T07:50:23+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1373,12 +1373,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "986c5fc71296d1cff6b4c241b203eeeefa5bdf9d"
+                "reference": "6a8b3eb57f49d9ccaa01421924be270feaf56ff6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/986c5fc71296d1cff6b4c241b203eeeefa5bdf9d",
-                "reference": "986c5fc71296d1cff6b4c241b203eeeefa5bdf9d",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/6a8b3eb57f49d9ccaa01421924be270feaf56ff6",
+                "reference": "6a8b3eb57f49d9ccaa01421924be270feaf56ff6",
                 "shasum": ""
             },
             "require": {
@@ -1397,7 +1397,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-05-13T13:56:40+00:00"
+            "time": "2022-05-17T07:45:43+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -4970,5 +4970,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
