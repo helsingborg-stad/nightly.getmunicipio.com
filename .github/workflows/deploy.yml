@@ -3,6 +3,8 @@ name: Build site
 on:
   push:
     branches: [ master ]
+  schedule:
+    - cron: '0 8-16 * * 1-5'
 
 jobs:
   build:
