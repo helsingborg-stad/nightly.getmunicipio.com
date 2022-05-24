@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36dc5e4e9bca62d1fdbe1211d72af1dd",
+    "content-hash": "4d16dae5886c6aa037a7172133d777f2",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1200,6 +1200,39 @@
                 "source": "https://github.com/helsingborg-stad/api-alarm-integration/tree/3.0/develop"
             },
             "time": "2022-02-16T12:54:59+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-ar-dialogue-room",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-ar-dialogue-room.git",
+                "reference": "32a16d2f0925ca549e0cd3eede5c99b529ebb17e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-ar-dialogue-room/zipball/32a16d2f0925ca549e0cd3eede5c99b529ebb17e",
+                "reference": "32a16d2f0925ca549e0cd3eede5c99b529ebb17e",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Backend for AR Room Dialogues.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-ar-dialogue-room/issues",
+                "source": "https://github.com/helsingborg-stad/api-ar-dialogue-room/tree/master"
+            },
+            "time": "2022-05-24T13:27:19+00:00"
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
@@ -4964,11 +4997,12 @@
         "helsingborg-stad/modularity-recommend": 20,
         "helsingborg-stad/wp-graphql-municipio": 20,
         "helsingborg-stad/modularity-mhbooking": 20,
-        "helsingborg-stad/modularity-mypages": 20
+        "helsingborg-stad/modularity-mypages": 20,
+        "helsingborg-stad/api-ar-dialogue-room": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
