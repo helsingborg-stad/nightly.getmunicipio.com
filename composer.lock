@@ -1207,12 +1207,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-ar-dialogue-room.git",
-                "reference": "32a16d2f0925ca549e0cd3eede5c99b529ebb17e"
+                "reference": "55ba4e1eb479d1b47d19a1f99651919d77d9b321"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-ar-dialogue-room/zipball/32a16d2f0925ca549e0cd3eede5c99b529ebb17e",
-                "reference": "32a16d2f0925ca549e0cd3eede5c99b529ebb17e",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-ar-dialogue-room/zipball/55ba4e1eb479d1b47d19a1f99651919d77d9b321",
+                "reference": "55ba4e1eb479d1b47d19a1f99651919d77d9b321",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1232,7 +1232,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-ar-dialogue-room/issues",
                 "source": "https://github.com/helsingborg-stad/api-ar-dialogue-room/tree/master"
             },
-            "time": "2022-05-24T13:27:19+00:00"
+            "time": "2022-05-24T14:18:52+00:00"
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
