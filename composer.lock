@@ -1240,12 +1240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "a15e49a2279dd3edba91eaa2b7b614b8320f74c2"
+                "reference": "da594ddbba93b6bba2ec386b13e420ba1affcfb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/a15e49a2279dd3edba91eaa2b7b614b8320f74c2",
-                "reference": "a15e49a2279dd3edba91eaa2b7b614b8320f74c2",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/da594ddbba93b6bba2ec386b13e420ba1affcfb0",
+                "reference": "da594ddbba93b6bba2ec386b13e420ba1affcfb0",
                 "shasum": ""
             },
             "require": {
@@ -1269,7 +1269,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-06-03T12:07:11+00:00"
+            "time": "2022-06-03T12:12:33+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
