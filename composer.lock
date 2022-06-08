@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d16dae5886c6aa037a7172133d777f2",
+    "content-hash": "0616b2c922bc3021422da8241ec0f077",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1302,6 +1302,38 @@
                 "source": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/tree/1.0.3"
             },
             "time": "2022-05-02T12:52:51+00:00"
+        },
+        {
+            "name": "helsingborg-stad/attachment-revisions",
+            "version": "1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/attachment-revisions.git",
+                "reference": "fd50973f244ce805c558465f543e9846e4160a50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/attachment-revisions/zipball/fd50973f244ce805c558465f543e9846e4160a50",
+                "reference": "fd50973f244ce805c558465f543e9846e4160a50",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kristoffer Svanmark",
+                    "email": "kristoffer.svanmark@lexiconitkonsult.se"
+                }
+            ],
+            "description": "Enables attachment revisions and media file swapping",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/attachment-revisions/issues",
+                "source": "https://github.com/helsingborg-stad/attachment-revisions/tree/1.2.5"
+            },
+            "time": "2020-09-02T14:46:18+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
