@@ -31,8 +31,12 @@ $removables = [
     '.github',
     'build.php',
     'composer.json',
-    'composer.lock'
+    'composer.lock',
+    'post-install.php',
+    'composer.lock',
+    'images'
 ];
+
 
 $dirName = basename(dirname(__FILE__));
 
@@ -91,7 +95,14 @@ print "Total: $totalTime seconds\n\n";
  */
 function executeCommand($command)
 {
-    $proc = popen("$command 2>&1 ; echo Exit status : $?", 'r');
+    $fullCommand = '';
+    if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+        $fullCommand = "cmd /v:on /c \"$command 2>&1 & echo Exit status : !ErrorLevel!\"";
+    } else {
+        $fullCommand = "$command 2>&1 ; echo Exit status : $?";
+    }
+
+    $proc = popen($fullCommand, 'r');
 
     $liveOutput     = '';
     $completeOutput = '';
