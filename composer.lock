@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0616b2c922bc3021422da8241ec0f077",
+    "content-hash": "ef1df855ccfbc7099c8812457a542bce",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1438,12 +1438,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "2f4f1e533b7843d4e54e15ec92b51eda6782c012"
+                "reference": "7d174182a1d94da65af9606835d217acee3de01d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/2f4f1e533b7843d4e54e15ec92b51eda6782c012",
-                "reference": "2f4f1e533b7843d4e54e15ec92b51eda6782c012",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/7d174182a1d94da65af9606835d217acee3de01d",
+                "reference": "7d174182a1d94da65af9606835d217acee3de01d",
                 "shasum": ""
             },
             "require": {
@@ -1462,7 +1462,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-06-08T14:01:27+00:00"
+            "time": "2022-06-10T12:34:47+00:00"
         },
         {
             "name": "helsingborg-stad/customer-feedback",
@@ -2060,6 +2060,39 @@
                 "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/bankid-login"
             },
             "time": "2022-05-19T13:10:38+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-products",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-products.git",
+                "reference": "6809d886378940fb3515d7bc866c16430eebf04a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/6809d886378940fb3515d7bc866c16430eebf04a",
+                "reference": "6809d886378940fb3515d7bc866c16430eebf04a",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freya Liljeberg",
+                    "email": "freya.liljeberg@helsingborg.se"
+                }
+            ],
+            "description": "An addon for displaying products.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-products/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-products/tree/master"
+            },
+            "time": "2022-06-10T12:20:49+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
@@ -4980,6 +5013,7 @@
         "helsingborg-stad/modularity-guides": 20,
         "helsingborg-stad/modularity-sections": 20,
         "helsingborg-stad/modularity-json-render": 20,
+        "helsingborg-stad/modularity-products": 20,
         "helsingborg-stad/customer-feedback": 20,
         "helsingborg-stad/job-listings": 20,
         "helsingborg-stad/modularity-contact-banner": 20,
@@ -4995,5 +5029,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
