@@ -673,16 +673,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.253.0",
+            "version": "v0.254.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "70c62b17f7821526cb52c6f125254dc51f256109"
+                "reference": "e1b16659df899f3bdf5c798358c256a9cc01efeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/70c62b17f7821526cb52c6f125254dc51f256109",
-                "reference": "70c62b17f7821526cb52c6f125254dc51f256109",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/e1b16659df899f3bdf5c798358c256a9cc01efeb",
+                "reference": "e1b16659df899f3bdf5c798358c256a9cc01efeb",
                 "shasum": ""
             },
             "require": {
@@ -711,9 +711,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.253.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.254.0"
             },
-            "time": "2022-06-13T01:06:12+00:00"
+            "time": "2022-06-19T01:16:11+00:00"
         },
         {
             "name": "google/auth",
@@ -1240,12 +1240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "55f5472a008c1e00e4bd4b4f278e6d1f0c913d1a"
+                "reference": "9aa56bb4f73417333df96b136ffe6f2552235666"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/55f5472a008c1e00e4bd4b4f278e6d1f0c913d1a",
-                "reference": "55f5472a008c1e00e4bd4b4f278e6d1f0c913d1a",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/9aa56bb4f73417333df96b136ffe6f2552235666",
+                "reference": "9aa56bb4f73417333df96b136ffe6f2552235666",
                 "shasum": ""
             },
             "require": {
@@ -1270,7 +1270,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-06-16T14:11:17+00:00"
+            "time": "2022-06-22T14:20:26+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1439,12 +1439,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "1cbbea34151d341fab461c9899f4e9791639ff81"
+                "reference": "a0ddab418438b536d48717bec2572a4595eb993c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/1cbbea34151d341fab461c9899f4e9791639ff81",
-                "reference": "1cbbea34151d341fab461c9899f4e9791639ff81",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a0ddab418438b536d48717bec2572a4595eb993c",
+                "reference": "a0ddab418438b536d48717bec2572a4595eb993c",
                 "shasum": ""
             },
             "require": {
@@ -1463,7 +1463,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-06-16T13:13:09+00:00"
+            "time": "2022-06-20T07:57:46+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2305,12 +2305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "3ea28e21fcb4b6a4ef486bd10a06f67f24ce5944"
+                "reference": "f1a554fb9e743ca98989755ed750692462a0e1db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/3ea28e21fcb4b6a4ef486bd10a06f67f24ce5944",
-                "reference": "3ea28e21fcb4b6a4ef486bd10a06f67f24ce5944",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f1a554fb9e743ca98989755ed750692462a0e1db",
+                "reference": "f1a554fb9e743ca98989755ed750692462a0e1db",
                 "shasum": ""
             },
             "require": {
@@ -2368,7 +2368,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-06-17T13:42:48+00:00"
+            "time": "2022-06-22T13:05:43+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5135,5 +5135,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }
