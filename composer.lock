@@ -1173,12 +1173,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-integration.git",
-                "reference": "2775198965427ab62d8eeefbad3a26d22dc16e17"
+                "reference": "5b068dc4e98061a116d8cc06f10630351662fb34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/2775198965427ab62d8eeefbad3a26d22dc16e17",
-                "reference": "2775198965427ab62d8eeefbad3a26d22dc16e17",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/5b068dc4e98061a116d8cc06f10630351662fb34",
+                "reference": "5b068dc4e98061a116d8cc06f10630351662fb34",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-alarm-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-alarm-integration/tree/3.0/develop"
             },
-            "time": "2022-06-08T08:24:47+00:00"
+            "time": "2022-06-23T13:25:21+00:00"
         },
         {
             "name": "helsingborg-stad/api-ar-dialogue-room",
@@ -1439,12 +1439,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "e502ec5632af5936cd529d846fffb9d07f60492b"
+                "reference": "502f729d99901668955bfe44d95071fbda4271f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/e502ec5632af5936cd529d846fffb9d07f60492b",
-                "reference": "e502ec5632af5936cd529d846fffb9d07f60492b",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/502f729d99901668955bfe44d95071fbda4271f9",
+                "reference": "502f729d99901668955bfe44d95071fbda4271f9",
                 "shasum": ""
             },
             "require": {
@@ -1463,7 +1463,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-06-23T10:35:49+00:00"
+            "time": "2022-06-23T11:15:19+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
