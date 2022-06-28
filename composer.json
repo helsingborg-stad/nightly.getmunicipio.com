@@ -34,13 +34,16 @@
         {
             "type":"composer",
             "url":"https://wpackagist.org"
+        },
+        {
+            "type": "path",
+            "url": "../builder"
         }
     ],
-
     "require": {
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "^5.0",
-        "helsingborg-stad/modularity": "dev-3.0/develop",
+        "helsingborg-stad/modularity": "dev-ci/composer-builder",
         "helsingborg-stad/municipio": "dev-3.0/develop",
         "helsingborg-stad/api-event-manager-integration": "dev-3.0/develop",
         "helsingborg-stad/force-ssl": ">=1.0.0",
@@ -84,7 +87,8 @@
         "helsingborg-stad/modularity-mypages": "dev-bankid-login",
         "helsingborg-stad/api-ar-dialogue-room": "dev-master",
         "helsingborg-stad/attachment-revisions": "^1.2",
-        "helsingborg-stad/content-scheduler": "^1.2"
+        "helsingborg-stad/content-scheduler": "^1.2",
+        "helsingborg-stad/builder": "dev-master"
     },
 
     "extra": {
@@ -93,10 +97,17 @@
         "installer-paths": {
             "wp-content/plugins/{$name}": ["type:wordpress-plugin"],
             "wp-content/themes/{$name}": ["type:wordpress-theme"]
+        },
+        "builder": {
+            "cleanup": "false"
         }
     },
-
     "scripts": {
+        "build-production": [
+            "composer config extra.builder.cleanup true",
+            "composer update --prefer-dist --no-progress --no-suggest",
+            "composer config extra.builder.cleanup false"
+        ],
         "post-install-cmd": [
             "mkdir -p wp-content/uploads/cache/blade-cache",
             "@php post-install.php"
@@ -108,7 +119,8 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
-            "johnpbloch/wordpress-core-installer": true
+            "johnpbloch/wordpress-core-installer": true,
+            "helsingborg-stad/builder": true
         }
     }
 }
