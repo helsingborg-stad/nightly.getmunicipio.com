@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3e1373913a746de3f10fa402c21c2bc",
+    "content-hash": "4eeaf20437eb67f0dbe7148573965c1f",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1169,22 +1169,44 @@
         },
         {
             "name": "helsingborg-stad/api-alarm-integration",
-            "version": "dev-3.0/develop",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-integration.git",
-                "reference": "75abdeab94aa15d1d30d1dbb6ef24292c8cddb08"
+                "reference": "bd651b985478bd06f34f219d4e1e9b586ef979d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/75abdeab94aa15d1d30d1dbb6ef24292c8cddb08",
-                "reference": "75abdeab94aa15d1d30d1dbb6ef24292c8cddb08",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/bd651b985478bd06f34f219d4e1e9b586ef979d8",
+                "reference": "bd651b985478bd06f34f219d4e1e9b586ef979d8",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm ci --no-progress --no-audit",
+                        "npx --yes browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "webpack.config.js",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1197,9 +1219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-alarm-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-alarm-integration/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/api-alarm-integration/tree/ci/builder"
             },
-            "time": "2022-06-23T13:27:04+00:00"
+            "time": "2022-06-28T09:43:42+00:00"
         },
         {
             "name": "helsingborg-stad/api-ar-dialogue-room",
@@ -1236,16 +1258,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
-            "version": "dev-3.0/develop",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "9aa56bb4f73417333df96b136ffe6f2552235666"
+                "reference": "9b1e132bfa2d3b61f506d5c173ffa4e21b0c68cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/9aa56bb4f73417333df96b136ffe6f2552235666",
-                "reference": "9aa56bb4f73417333df96b136ffe6f2552235666",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/9b1e132bfa2d3b61f506d5c173ffa4e21b0c68cf",
+                "reference": "9b1e132bfa2d3b61f506d5c173ffa4e21b0c68cf",
                 "shasum": ""
             },
             "require": {
@@ -1255,6 +1277,28 @@
                 "ralouphie/mimey": "^2.1"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm ci --no-progress --no-audit",
+                        "npx --yes browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "webpack.config.js",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1268,9 +1312,9 @@
             "description": "Import and display events from Event Manager API.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/ci/builder"
             },
-            "time": "2022-06-22T14:20:26+00:00"
+            "time": "2022-06-28T09:37:05+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1439,7 +1483,7 @@
             "dist": {
                 "type": "path",
                 "url": "../builder",
-                "reference": "d18d696864b610ee346b850aa453a605af2913a6"
+                "reference": "6f191e36c7165e8cb3795aa2bcdfbe905a0ac164"
             },
             "require": {
                 "composer-plugin-api": "^2.3",
@@ -1560,22 +1604,44 @@
         },
         {
             "name": "helsingborg-stad/customer-feedback",
-            "version": "dev-3.0/develop",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Customer-feedback.git",
-                "reference": "083a21e01e3d5ec7e5fd7f5bafee260b610a0497"
+                "reference": "98cfc511cbe29e6b3f15fc4738abdca311f88884"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/083a21e01e3d5ec7e5fd7f5bafee260b610a0497",
-                "reference": "083a21e01e3d5ec7e5fd7f5bafee260b610a0497",
+                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/98cfc511cbe29e6b3f15fc4738abdca311f88884",
+                "reference": "98cfc511cbe29e6b3f15fc4738abdca311f88884",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm ci --no-progress --no-audit",
+                        "npx --yes browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "webpack.config.js",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1589,28 +1655,43 @@
             "description": "This WordPress plugin adds a feedback form to the end of every page (or any other activated post type).",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Customer-feedback/issues",
-                "source": "https://github.com/helsingborg-stad/Customer-feedback/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/Customer-feedback/tree/ci/builder"
             },
-            "time": "2022-06-08T08:55:55+00:00"
+            "time": "2022-06-28T09:51:16+00:00"
         },
         {
             "name": "helsingborg-stad/easy-to-read-alternative",
-            "version": "dev-3.0/develop",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/easy-to-read-alternative.git",
-                "reference": "93a9caab46b8954e6fa0033bf33f73572984df54"
+                "reference": "6e26c80f71baab909ba2a34fa3fc2181792c96af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/easy-to-read-alternative/zipball/93a9caab46b8954e6fa0033bf33f73572984df54",
-                "reference": "93a9caab46b8954e6fa0033bf33f73572984df54",
+                "url": "https://api.github.com/repos/helsingborg-stad/easy-to-read-alternative/zipball/6e26c80f71baab909ba2a34fa3fc2181792c96af",
+                "reference": "6e26c80f71baab909ba2a34fa3fc2181792c96af",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1624,9 +1705,9 @@
             "description": "Adds easy to read alternative content version.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/easy-to-read-alternative/issues",
-                "source": "https://github.com/helsingborg-stad/easy-to-read-alternative/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/easy-to-read-alternative/tree/ci/builder"
             },
-            "time": "2022-06-08T11:40:06+00:00"
+            "time": "2022-06-28T09:39:30+00:00"
         },
         {
             "name": "helsingborg-stad/force-ssl",
@@ -1719,16 +1800,16 @@
         },
         {
             "name": "helsingborg-stad/job-listings",
-            "version": "dev-3.0/develop",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/job-listings.git",
-                "reference": "1ace398acf6507cca23480de1cd03917f05af7c7"
+                "reference": "304ebfc204a2cb0cf65b55e2fa4ebe7c4551f199"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/1ace398acf6507cca23480de1cd03917f05af7c7",
-                "reference": "1ace398acf6507cca23480de1cd03917f05af7c7",
+                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/304ebfc204a2cb0cf65b55e2fa4ebe7c4551f199",
+                "reference": "304ebfc204a2cb0cf65b55e2fa4ebe7c4551f199",
                 "shasum": ""
             },
             "require": {
@@ -1736,6 +1817,28 @@
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm ci --no-progress --no-audit",
+                        "npx --yes browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "webpack.config.js",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1761,9 +1864,9 @@
             "description": "Improt available jobs",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/job-listings/issues",
-                "source": "https://github.com/helsingborg-stad/job-listings/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/job-listings/tree/ci/builder"
             },
-            "time": "2022-06-08T09:11:03+00:00"
+            "time": "2022-06-28T11:12:49+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -1929,19 +2032,40 @@
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
-            "version": "dev-3.0/develop",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "f1aca15d73776cbbdd8c239c47fd48c0aae82fe8"
+                "reference": "d952b54592bfa9cf642d40db1e66a6567000eed3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/f1aca15d73776cbbdd8c239c47fd48c0aae82fe8",
-                "reference": "f1aca15d73776cbbdd8c239c47fd48c0aae82fe8",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/d952b54592bfa9cf642d40db1e66a6567000eed3",
+                "reference": "d952b54592bfa9cf642d40db1e66a6567000eed3",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm ci --no-progress --no-audit",
+                        "npx --yes browserslist@latest --update-db",
+                        "npm run build"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "webpack.config.js",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1955,22 +2079,22 @@
             "description": "Contact Banner",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/ci/builder"
             },
-            "time": "2022-06-08T11:42:14+00:00"
+            "time": "2022-06-28T11:17:58+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
-            "version": "dev-3.0/develop",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "533a4fc6011d3f637a390f8827d6a8c9e00f8be5"
+                "reference": "10f7165319855689a7c8f350183ff0cb1d00890c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/533a4fc6011d3f637a390f8827d6a8c9e00f8be5",
-                "reference": "533a4fc6011d3f637a390f8827d6a8c9e00f8be5",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/10f7165319855689a7c8f350183ff0cb1d00890c",
+                "reference": "10f7165319855689a7c8f350183ff0cb1d00890c",
                 "shasum": ""
             },
             "require": {
@@ -1980,6 +2104,28 @@
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm ci --no-progress --no-audit",
+                        "npx --yes browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json",
+                        "webpack.config.js"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -2000,9 +2146,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/ci/builder"
             },
-            "time": "2022-06-08T11:39:24+00:00"
+            "time": "2022-06-28T09:41:43+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -2042,22 +2188,45 @@
         },
         {
             "name": "helsingborg-stad/modularity-json-render",
-            "version": "dev-3.0/develop",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-json-render.git",
-                "reference": "42e75a7e54836d87e5eb7d4683943e786f7cf13b"
+                "reference": "2d26f87fad0bd1e50146fe1d14eabb00d09aeb06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-json-render/zipball/42e75a7e54836d87e5eb7d4683943e786f7cf13b",
-                "reference": "42e75a7e54836d87e5eb7d4683943e786f7cf13b",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-json-render/zipball/2d26f87fad0bd1e50146fe1d14eabb00d09aeb06",
+                "reference": "2d26f87fad0bd1e50146fe1d14eabb00d09aeb06",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm ci --no-progress --no-audit",
+                        "npx --yes browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "webpack.config.js",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json",
+                        "webpack.config.js"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -2070,9 +2239,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-json-render/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-json-render/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/modularity-json-render/tree/ci/builder"
             },
-            "time": "2022-06-08T11:43:01+00:00"
+            "time": "2022-06-28T09:49:30+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-local-events",
@@ -2108,20 +2277,41 @@
         },
         {
             "name": "helsingborg-stad/modularity-mhbooking",
-            "version": "dev-master",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-mhbooking.git",
-                "reference": "7cd439328a7be66ad06b64b97a2970f5d0ea9fd7"
+                "reference": "61e24bb07bd4f35d3516ac20864e9073cc234a35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mhbooking/zipball/7cd439328a7be66ad06b64b97a2970f5d0ea9fd7",
-                "reference": "7cd439328a7be66ad06b64b97a2970f5d0ea9fd7",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mhbooking/zipball/61e24bb07bd4f35d3516ac20864e9073cc234a35",
+                "reference": "61e24bb07bd4f35d3516ac20864e9073cc234a35",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm install --no-progress",
+                        "npx --yes browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "webpack.config.js",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -2135,25 +2325,47 @@
             "description": "Adds a booking feature for Mitt Helsingborg as a module.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-mhbooking/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-mhbooking/tree/master"
+                "source": "https://github.com/helsingborg-stad/modularity-mhbooking/tree/ci/builder"
             },
-            "time": "2022-06-08T13:14:27+00:00"
+            "time": "2022-06-28T11:20:34+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-mypages",
-            "version": "dev-bankid-login",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-mypages.git",
-                "reference": "53e8bf6d4752106a7ece5719ff76392a3825c6df"
+                "reference": "cc1421ca6bc80002c554d0f2aced8daecb9eef7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/53e8bf6d4752106a7ece5719ff76392a3825c6df",
-                "reference": "53e8bf6d4752106a7ece5719ff76392a3825c6df",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/cc1421ca6bc80002c554d0f2aced8daecb9eef7a",
+                "reference": "cc1421ca6bc80002c554d0f2aced8daecb9eef7a",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm install --no-progress",
+                        "npx browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "webpack.config.js",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -2175,26 +2387,47 @@
             "description": "My pages modularity modules and login action.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-mypages/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/bankid-login"
+                "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/ci/builder"
             },
-            "time": "2022-06-27T12:16:58+00:00"
+            "time": "2022-06-28T11:22:48+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
-            "version": "dev-master",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-products.git",
-                "reference": "c67aa34f0fe7f831544cadc0bda5a8653524391a"
+                "reference": "98651243b32149c0fc9f109cc46e4e7b12585afd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/c67aa34f0fe7f831544cadc0bda5a8653524391a",
-                "reference": "c67aa34f0fe7f831544cadc0bda5a8653524391a",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/98651243b32149c0fc9f109cc46e4e7b12585afd",
+                "reference": "98651243b32149c0fc9f109cc46e4e7b12585afd",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
+            "extra": {
+                "builder": {
+                    "commands": [
+                        "npm install --no-progress",
+                        "npx browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        "composer.json",
+                        "composer.lock",
+                        "webpack.config.js",
+                        "node_modules",
+                        "package-lock.json",
+                        "package.json"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -2208,9 +2441,9 @@
             "description": "An addon for displaying products.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-products/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-products/tree/master"
+                "source": "https://github.com/helsingborg-stad/modularity-products/tree/ci/builder"
             },
-            "time": "2022-06-10T13:11:45+00:00"
+            "time": "2022-06-28T09:52:44+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
@@ -2383,16 +2616,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-3.0/develop",
+            "version": "dev-ci/builder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "dbdf3def20adc1dcc7fd8245c2a4e9b3a2e25961"
+                "reference": "6d5e40d467a2f304f851bcbb439c5048d0558a89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/dbdf3def20adc1dcc7fd8245c2a4e9b3a2e25961",
-                "reference": "dbdf3def20adc1dcc7fd8245c2a4e9b3a2e25961",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/6d5e40d467a2f304f851bcbb439c5048d0558a89",
+                "reference": "6d5e40d467a2f304f851bcbb439c5048d0558a89",
                 "shasum": ""
             },
             "require": {
@@ -2422,12 +2655,32 @@
                 "tgmpa/tgm-plugin-activation": "dev-develop",
                 "wpackagist-plugin/kirki": "^4.0"
             },
-            "default-branch": true,
             "type": "wordpress-theme",
             "extra": {
                 "installer-paths": {
                     "vendor/{$name}/": [
                         "type:wordpress-plugin"
+                    ]
+                },
+                "builder": {
+                    "commands": [
+                        "npm ci --no-progress --no-audit",
+                        "npm update @helsingborg-stad/styleguide",
+                        "npx --yes browserslist@latest --update-db",
+                        "npm run build",
+                        "composer install --prefer-dist --no-progress"
+                    ],
+                    "removables": [
+                        ".git",
+                        ".gitignore",
+                        ".github",
+                        "build.php",
+                        ".npmrc",
+                        "composer.json",
+                        "env-example",
+                        "webpack.config.js",
+                        "package-lock.json",
+                        "package.json"
                     ]
                 }
             },
@@ -2448,9 +2701,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/ci/builder"
             },
-            "time": "2022-06-27T11:12:42+00:00"
+            "time": "2022-06-28T09:13:13+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
