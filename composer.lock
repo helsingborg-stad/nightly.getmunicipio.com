@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05b2c1a22921ac99a76896b6fd186460",
+    "content-hash": "074a3ebbfc1e55d6e0228f72c0746c2b",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1479,7 +1479,7 @@
         },
         {
             "name": "helsingborg-stad/builder",
-            "version": "dev-master",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/builder.git",
@@ -1500,7 +1500,6 @@
                 "phpunit/phpunit": "^9.5.0",
                 "squizlabs/php_codesniffer": "^3.6"
             },
-            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "HelsingborgStad\\Builder\\Plugin"
@@ -5456,8 +5455,7 @@
         "helsingborg-stad/wp-graphql-municipio": 20,
         "helsingborg-stad/modularity-mhbooking": 20,
         "helsingborg-stad/modularity-mypages": 20,
-        "helsingborg-stad/api-ar-dialogue-room": 20,
-        "helsingborg-stad/builder": 20
+        "helsingborg-stad/api-ar-dialogue-room": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

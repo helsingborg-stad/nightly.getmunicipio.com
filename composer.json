@@ -84,7 +84,7 @@
         "helsingborg-stad/api-ar-dialogue-room": "dev-master",
         "helsingborg-stad/attachment-revisions": "^1.2",
         "helsingborg-stad/content-scheduler": "^1.2",
-        "helsingborg-stad/builder": "dev-master"
+        "helsingborg-stad/builder": "^1.0"
     },
 
     "extra": {
