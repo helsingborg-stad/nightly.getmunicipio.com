@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a208cb8c3529671897d0180f446f4b5",
+    "content-hash": "597778c068bf670d62157fe190250cb4",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1479,16 +1479,16 @@
         },
         {
             "name": "helsingborg-stad/builder",
-            "version": "dev-master",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/builder.git",
-                "reference": "0502f343501e6dff7bdb74e55deca3a53db1d031"
+                "reference": "f48f52302b8bc5cf31d4c69ed5e92bd1f98bb00c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/builder/zipball/0502f343501e6dff7bdb74e55deca3a53db1d031",
-                "reference": "0502f343501e6dff7bdb74e55deca3a53db1d031",
+                "url": "https://api.github.com/repos/helsingborg-stad/builder/zipball/f48f52302b8bc5cf31d4c69ed5e92bd1f98bb00c",
+                "reference": "f48f52302b8bc5cf31d4c69ed5e92bd1f98bb00c",
                 "shasum": ""
             },
             "require": {
@@ -1496,11 +1496,11 @@
                 "php": ">=7.4.0"
             },
             "require-dev": {
+                "composer/composer": "^2.3",
                 "php-parallel-lint/php-parallel-lint": "~1.3.1",
                 "phpunit/phpunit": "^9.5.0",
                 "squizlabs/php_codesniffer": "^3.6"
             },
-            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "HelsingborgStad\\Builder\\Plugin"
@@ -1523,9 +1523,9 @@
             "description": "Executes build commands and cleanup files",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/builder/issues",
-                "source": "https://github.com/helsingborg-stad/builder/tree/v1.0.1"
+                "source": "https://github.com/helsingborg-stad/builder/tree/v1.0.2"
             },
-            "time": "2022-06-28T12:02:35+00:00"
+            "time": "2022-06-29T13:54:26+00:00"
         },
         {
             "name": "helsingborg-stad/component-library",
@@ -5461,8 +5461,7 @@
         "helsingborg-stad/wp-graphql-municipio": 20,
         "helsingborg-stad/modularity-mhbooking": 20,
         "helsingborg-stad/modularity-mypages": 20,
-        "helsingborg-stad/api-ar-dialogue-room": 20,
-        "helsingborg-stad/builder": 20
+        "helsingborg-stad/api-ar-dialogue-room": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
