@@ -53,7 +53,7 @@
         "helsingborg-stad/api-alarm-integration": "dev-3.0/develop",
         "helsingborg-stad/modularity-guides": "dev-3.0/develop",
         "helsingborg-stad/modularity-sections": "dev-3.0/develop",
-        "helsingborg-stad/modularity-timeline": ">=1.1.4",
+        "helsingborg-stad/modularity-timeline": "dev-3.0/master",
         "helsingborg-stad/modularity-json-render": "dev-3.0/develop",
         "helsingborg-stad/modularity-products": "dev-master",
         "wpackagist-plugin/varnish-http-purge": "^4.1.1",

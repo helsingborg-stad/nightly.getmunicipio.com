@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6600a1eb7797b50f762d9085e72a6306",
+    "content-hash": "e8c42f0bd6f73d26909da6878deb3c87",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2234,20 +2234,17 @@
         },
         {
             "name": "helsingborg-stad/modularity-timeline",
-            "version": "1.1.5",
+            "version": "dev-3.0/master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-timeline.git",
-                "reference": "45dcc9360110d1148f534b49a46543f205d46d0b"
+                "reference": "bca834489624a33c7ca4ac1760259f90f120f0ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-timeline/zipball/45dcc9360110d1148f534b49a46543f205d46d0b",
-                "reference": "45dcc9360110d1148f534b49a46543f205d46d0b",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-timeline/zipball/bca834489624a33c7ca4ac1760259f90f120f0ae",
+                "reference": "bca834489624a33c7ca4ac1760259f90f120f0ae",
                 "shasum": ""
-            },
-            "require": {
-                "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -2263,9 +2260,9 @@
             "description": "A module to display a timeline.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-timeline/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/1.1.5"
+                "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/3.0/master"
             },
-            "time": "2019-08-15T11:44:38+00:00"
+            "time": "2022-06-29T09:16:25+00:00"
         },
         {
             "name": "helsingborg-stad/multisite-role-propagation",
@@ -5141,6 +5138,7 @@
         "helsingborg-stad/api-alarm-integration": 20,
         "helsingborg-stad/modularity-guides": 20,
         "helsingborg-stad/modularity-sections": 20,
+        "helsingborg-stad/modularity-timeline": 20,
         "helsingborg-stad/modularity-json-render": 20,
         "helsingborg-stad/modularity-products": 20,
         "helsingborg-stad/customer-feedback": 20,
