@@ -99,6 +99,9 @@
         }
     },
     "scripts": {
+        "deploy": [
+            "composer update --no-install && git commit -am 'Updated lockfile' && git push"
+        ],
         "build-production": [
             "composer config extra.builder.cleanup true",
             "composer update --prefer-dist --no-progress --no-suggest",
