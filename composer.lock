@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "074a3ebbfc1e55d6e0228f72c0746c2b",
+    "content-hash": "5a208cb8c3529671897d0180f446f4b5",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1479,7 +1479,7 @@
         },
         {
             "name": "helsingborg-stad/builder",
-            "version": "v1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/builder.git",
@@ -1500,6 +1500,7 @@
                 "phpunit/phpunit": "^9.5.0",
                 "squizlabs/php_codesniffer": "^3.6"
             },
+            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "HelsingborgStad\\Builder\\Plugin"
@@ -1532,12 +1533,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "e49c9dc921a90037ad24104c149404d93dfd6bda"
+                "reference": "9515e5f98e9410e8138aea233c294090a733792e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/e49c9dc921a90037ad24104c149404d93dfd6bda",
-                "reference": "e49c9dc921a90037ad24104c149404d93dfd6bda",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/9515e5f98e9410e8138aea233c294090a733792e",
+                "reference": "9515e5f98e9410e8138aea233c294090a733792e",
                 "shasum": ""
             },
             "require": {
@@ -1556,7 +1557,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-06-28T13:48:48+00:00"
+            "time": "2022-06-29T13:33:49+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -3617,16 +3618,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.58.0",
+            "version": "2.59.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "97a34af22bde8d0ac20ab34b29d7bfe360902055"
+                "reference": "9cea2f72585a46d0651ee6d4c8c8f752e78c16c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/97a34af22bde8d0ac20ab34b29d7bfe360902055",
-                "reference": "97a34af22bde8d0ac20ab34b29d7bfe360902055",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/9cea2f72585a46d0651ee6d4c8c8f752e78c16c6",
+                "reference": "9cea2f72585a46d0651ee6d4c8c8f752e78c16c6",
                 "shasum": ""
             },
             "require": {
@@ -3641,11 +3642,12 @@
                 "doctrine/orm": "^2.7",
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
+                "ondrejmirtes/better-reflection": "*",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12.54 || ^1.0",
-                "phpunit/php-file-iterator": "^2.0.5",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.23",
+                "phpstan/phpstan": "^0.12.99 || ^1.7.14",
+                "phpunit/php-file-iterator": "^2.0.5 || ^3.0.6",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.26 || ^9.5.20",
                 "squizlabs/php_codesniffer": "^3.4"
             },
             "bin": [
@@ -3702,15 +3704,19 @@
             },
             "funding": [
                 {
-                    "url": "https://opencollective.com/Carbon",
-                    "type": "open_collective"
+                    "url": "https://github.com/sponsors/kylekatarnls",
+                    "type": "github"
                 },
                 {
-                    "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
+                    "url": "https://opencollective.com/Carbon#sponsor",
+                    "type": "opencollective"
+                },
+                {
+                    "url": "https://tidelift.com/subscription/pkg/packagist-nesbot-carbon?utm_source=packagist-nesbot-carbon&utm_medium=referral&utm_campaign=readme",
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-25T19:31:17+00:00"
+            "time": "2022-06-26T20:26:59+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
@@ -5455,7 +5461,8 @@
         "helsingborg-stad/wp-graphql-municipio": 20,
         "helsingborg-stad/modularity-mhbooking": 20,
         "helsingborg-stad/modularity-mypages": 20,
-        "helsingborg-stad/api-ar-dialogue-room": 20
+        "helsingborg-stad/api-ar-dialogue-room": 20,
+        "helsingborg-stad/builder": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

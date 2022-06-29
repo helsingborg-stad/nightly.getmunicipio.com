@@ -34,6 +34,10 @@
         {
             "type":"composer",
             "url":"https://wpackagist.org"
+        },
+        {
+            "type":"path",
+            "url": "../builder"
         }
     ],
     "require": {
@@ -84,7 +88,7 @@
         "helsingborg-stad/api-ar-dialogue-room": "dev-master",
         "helsingborg-stad/attachment-revisions": "^1.2",
         "helsingborg-stad/content-scheduler": "^1.2",
-        "helsingborg-stad/builder": "^1.0"
+        "helsingborg-stad/builder": "dev-master"
     },
 
     "extra": {
@@ -95,12 +99,21 @@
             "wp-content/themes/{$name}": ["type:wordpress-theme"]
         },
         "builder": {
-            "cleanup": "false"
+            "cleanup": "true",
+            "removables": [
+                "README.md",
+                "composer.json",
+                "composer.lock",
+                "deploy.sh",
+                ".gitignore",
+                ".github",
+                "post-install.php"
+            ]
         }
     },
     "scripts": {
         "deploy": [
-            "composer update --no-install && git commit -am 'Updated lockfile' && git push"
+            "./deploy.sh"
         ],
         "build-production": [
             "composer config extra.builder.cleanup true",
