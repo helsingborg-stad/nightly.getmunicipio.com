@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5052ef1e16c2d7ef152433e141e3ddf5",
+    "content-hash": "681524238ea01762e7403cafac09b8e4",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -5183,12 +5183,12 @@
         "helsingborg-stad/modularity-contact-banner": 20,
         "helsingborg-stad/component-library": 20,
         "helsingborg-stad/modularity-testimonials": 20,
+        "helsingborg-stad/algolia-index-js-searchpage-addon": 20,
         "helsingborg-stad/modularity-recommend": 20,
         "helsingborg-stad/wp-graphql-municipio": 20,
         "helsingborg-stad/modularity-mhbooking": 20,
         "helsingborg-stad/modularity-mypages": 20,
-        "helsingborg-stad/api-ar-dialogue-room": 20,
-        "helsingborg-stad/algolia-index-js-searchpage-addon": 20
+        "helsingborg-stad/api-ar-dialogue-room": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
