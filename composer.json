@@ -71,7 +71,7 @@
         "wpackagist-plugin/fakerpress":"0.5.2",
         "helsingborg-stad/modularity-testimonials": "dev-3.0/develop",
         "helsingborg-stad/modularity-local-events": "^1.0",
-        "helsingborg-stad/algolia-index": "^1.7",
+        "helsingborg-stad/algolia-index": "^1.8.4",
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
         "helsingborg-stad/algolia-index-js-searchpage-addon": "dev-3.0/develop",
         "helsingborg-stad/multisite-role-propagation": "^1.0",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "681524238ea01762e7403cafac09b8e4",
+    "content-hash": "db6fe2f4d2e5271018dd8c6b1d51549c",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1088,16 +1088,16 @@
         },
         {
             "name": "helsingborg-stad/algolia-index",
-            "version": "1.8.3",
+            "version": "1.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index.git",
-                "reference": "06112812e1b76218c51c5d13442477b13f7b5b21"
+                "reference": "79b06359f99cc6d41c0dbea93759ec6a4fd4f583"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/06112812e1b76218c51c5d13442477b13f7b5b21",
-                "reference": "06112812e1b76218c51c5d13442477b13f7b5b21",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/79b06359f99cc6d41c0dbea93759ec6a4fd4f583",
+                "reference": "79b06359f99cc6d41c0dbea93759ec6a4fd4f583",
                 "shasum": ""
             },
             "require": {
@@ -1131,9 +1131,9 @@
             "description": "Index wordpress site content to algolia.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/algolia-index/issues",
-                "source": "https://github.com/helsingborg-stad/algolia-index/tree/1.8.3"
+                "source": "https://github.com/helsingborg-stad/algolia-index/tree/1.8.4"
             },
-            "time": "2022-01-14T15:14:32+00:00"
+            "time": "2022-06-30T09:33:20+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-js-searchpage-addon",
