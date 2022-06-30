@@ -1471,12 +1471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "9515e5f98e9410e8138aea233c294090a733792e"
+                "reference": "1114a9fc02a85bc0cac01d94c259f9d25037de34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/9515e5f98e9410e8138aea233c294090a733792e",
-                "reference": "9515e5f98e9410e8138aea233c294090a733792e",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/1114a9fc02a85bc0cac01d94c259f9d25037de34",
+                "reference": "1114a9fc02a85bc0cac01d94c259f9d25037de34",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-06-29T13:33:49+00:00"
+            "time": "2022-06-29T15:38:27+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -3325,16 +3325,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.59.0",
+            "version": "2.59.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "9cea2f72585a46d0651ee6d4c8c8f752e78c16c6"
+                "reference": "a9000603ea337c8df16cc41f8b6be95a65f4d0f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/9cea2f72585a46d0651ee6d4c8c8f752e78c16c6",
-                "reference": "9cea2f72585a46d0651ee6d4c8c8f752e78c16c6",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/a9000603ea337c8df16cc41f8b6be95a65f4d0f5",
+                "reference": "a9000603ea337c8df16cc41f8b6be95a65f4d0f5",
                 "shasum": ""
             },
             "require": {
@@ -3423,7 +3423,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-26T20:26:59+00:00"
+            "time": "2022-06-29T21:43:55+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
