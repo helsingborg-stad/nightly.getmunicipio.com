@@ -2270,12 +2270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-timeline.git",
-                "reference": "abd65b9e7b129541096fdb168521475b0c030aa3"
+                "reference": "50364c9ff280a5e8284e772973a282b84d5b2b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-timeline/zipball/abd65b9e7b129541096fdb168521475b0c030aa3",
-                "reference": "abd65b9e7b129541096fdb168521475b0c030aa3",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-timeline/zipball/50364c9ff280a5e8284e772973a282b84d5b2b46",
+                "reference": "50364c9ff280a5e8284e772973a282b84d5b2b46",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2299,7 +2299,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-timeline/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/3.0/master"
             },
-            "time": "2022-06-29T11:22:44+00:00"
+            "time": "2022-06-30T08:07:14+00:00"
         },
         {
             "name": "helsingborg-stad/multisite-role-propagation",
