@@ -84,7 +84,7 @@
         "helsingborg-stad/api-ar-dialogue-room": "dev-master",
         "helsingborg-stad/attachment-revisions": "^1.2",
         "helsingborg-stad/content-scheduler": "^1.2",
-        "helsingborg-stad/builder": "^1.0.2"
+        "helsingborg-stad/builder": "^1.0.4"
     },
 
     "extra": {
@@ -96,15 +96,7 @@
         },
         "builder": {
             "cleanup": "false",
-            "removables": [
-                "README.md",
-                "composer.json",
-                "composer.lock",
-                "deploy.sh",
-                ".gitignore",
-                ".github",
-                "post-install.php"
-            ]
+            "removables": ["README.md", "composer.json", "composer.lock", "deploy.sh", ".gitignore", ".github", "post-install.php"]
         }
     },
     "scripts": {
