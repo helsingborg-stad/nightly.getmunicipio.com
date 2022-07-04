@@ -673,16 +673,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.255.0",
+            "version": "v0.256.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "2b895ceb08eb106f65e975221e5d2e971cf7470e"
+                "reference": "122e51021eb19b53f831904918460671d1e7259d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/2b895ceb08eb106f65e975221e5d2e971cf7470e",
-                "reference": "2b895ceb08eb106f65e975221e5d2e971cf7470e",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/122e51021eb19b53f831904918460671d1e7259d",
+                "reference": "122e51021eb19b53f831904918460671d1e7259d",
                 "shasum": ""
             },
             "require": {
@@ -711,9 +711,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.255.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.256.0"
             },
-            "time": "2022-06-27T01:30:11+00:00"
+            "time": "2022-07-04T01:10:37+00:00"
         },
         {
             "name": "google/auth",
@@ -1141,12 +1141,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon.git",
-                "reference": "1f13ed788ee0b960e2ba6be390c48305c356f6a5"
+                "reference": "a144d0a3d94e2eb3c7b2274850f319b9944f62cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/1f13ed788ee0b960e2ba6be390c48305c356f6a5",
-                "reference": "1f13ed788ee0b960e2ba6be390c48305c356f6a5",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/a144d0a3d94e2eb3c7b2274850f319b9944f62cc",
+                "reference": "a144d0a3d94e2eb3c7b2274850f319b9944f62cc",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1165,7 +1165,7 @@
                 "issues": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/issues",
                 "source": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/tree/3.0/develop"
             },
-            "time": "2022-06-29T14:44:57+00:00"
+            "time": "2022-07-04T08:15:51+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-modularity-addon",
@@ -5194,5 +5194,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
