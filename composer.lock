@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db6fe2f4d2e5271018dd8c6b1d51549c",
+    "content-hash": "c0a4c6fd8b644722481906c988478a6c",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1738,6 +1738,37 @@
                 "source": "https://github.com/helsingborg-stad/job-listings/tree/3.0/develop"
             },
             "time": "2022-06-08T09:11:03+00:00"
+        },
+        {
+            "name": "helsingborg-stad/larrum-custom-api",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/larrum-custom-api.git",
+                "reference": "2e9cd42b90ed42f6662857eb5749b134fc94490e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/larrum-custom-api/zipball/2e9cd42b90ed42f6662857eb5749b134fc94490e",
+                "reference": "2e9cd42b90ed42f6662857eb5749b134fc94490e",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ronnie Poblete Vergara"
+                }
+            ],
+            "description": "Custom API Endpoint for Lärrum",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/larrum-custom-api/issues",
+                "source": "https://github.com/helsingborg-stad/larrum-custom-api/tree/v1.0.0"
+            },
+            "time": "2022-07-04T09:21:59+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -5019,6 +5050,24 @@
             "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "tags/1.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
             "name": "wpackagist-plugin/duplicate-page",
             "version": "4.4.8",
             "source": {
@@ -5161,6 +5210,19 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-nested-pages/"
+        },
+        {
+            "name": "wpforms/file-upload-types",
+            "version": "master",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/file-upload-types.1.2.2.zip",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "Apache-2.0"
+            ]
         }
     ],
     "packages-dev": [],
@@ -5188,7 +5250,8 @@
         "helsingborg-stad/wp-graphql-municipio": 20,
         "helsingborg-stad/modularity-mhbooking": 20,
         "helsingborg-stad/modularity-mypages": 20,
-        "helsingborg-stad/api-ar-dialogue-room": 20
+        "helsingborg-stad/api-ar-dialogue-room": 20,
+        "wpforms/file-upload-types": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

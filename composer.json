@@ -34,6 +34,21 @@
         {
             "type":"composer",
             "url":"https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "packagist.org": false,
+            "package": {
+                    "type": "wordpress-plugin",
+                    "name": "wpforms/file-upload-types",
+                    "version": "master",
+                    "license": "Apache-2.0",
+                    "dist": {
+                            "url": "https://downloads.wordpress.org/plugin/file-upload-types.1.2.2.zip",
+                            "type": "zip",
+                            "reference": "master"
+                    }
+            }
         }
     ],
 
@@ -86,7 +101,10 @@
         "helsingborg-stad/api-ar-dialogue-room": "dev-master",
         "helsingborg-stad/attachment-revisions": "^1.2",
         "helsingborg-stad/content-scheduler": "^1.2",
-        "wpackagist-plugin/duplicate-page": "^4.4"
+        "wpackagist-plugin/duplicate-page": "^4.4",
+        "wpforms/file-upload-types": "*@dev",
+        "wpackagist-plugin/classic-editor": "^1.6.2",
+        "helsingborg-stad/larrum-custom-api": "^1.0.0"
     },
 
     "extra": {
