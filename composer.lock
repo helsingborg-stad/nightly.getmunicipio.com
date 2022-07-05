@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0a4c6fd8b644722481906c988478a6c",
+    "content-hash": "f55f7b54b261830a4c6e06be0b30ecdb",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2366,16 +2366,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-3.0/develop",
+            "version": "dev-feature/fix-design-customizer",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "1ea7fcdacbd7098a5d2bf64c439336c6b8d53d82"
+                "reference": "aa0786233c08f0ca695b75768f3834fd7c8c932e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/1ea7fcdacbd7098a5d2bf64c439336c6b8d53d82",
-                "reference": "1ea7fcdacbd7098a5d2bf64c439336c6b8d53d82",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/aa0786233c08f0ca695b75768f3834fd7c8c932e",
+                "reference": "aa0786233c08f0ca695b75768f3834fd7c8c932e",
                 "shasum": ""
             },
             "require": {
@@ -2405,7 +2405,6 @@
                 "tgmpa/tgm-plugin-activation": "dev-develop",
                 "wpackagist-plugin/kirki": "^4.0"
             },
-            "default-branch": true,
             "type": "wordpress-theme",
             "extra": {
                 "installer-paths": {
@@ -2431,9 +2430,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/feature/fix-design-customizer"
             },
-            "time": "2022-07-04T12:52:44+00:00"
+            "time": "2022-07-05T10:02:54+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5257,5 +5256,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.0.0"
 }
