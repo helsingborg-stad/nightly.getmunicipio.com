@@ -2126,12 +2126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-mypages.git",
-                "reference": "c75b8d850a4b58a79c5d5f2c4b71cfede9eeee4e"
+                "reference": "b566e2c71321217f9a8527547359328f25448e88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/c75b8d850a4b58a79c5d5f2c4b71cfede9eeee4e",
-                "reference": "c75b8d850a4b58a79c5d5f2c4b71cfede9eeee4e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/b566e2c71321217f9a8527547359328f25448e88",
+                "reference": "b566e2c71321217f9a8527547359328f25448e88",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2159,7 +2159,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-mypages/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/master"
             },
-            "time": "2022-08-25T12:58:12+00:00"
+            "time": "2022-08-25T13:23:56+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -5255,5 +5255,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
