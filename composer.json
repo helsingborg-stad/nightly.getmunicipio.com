@@ -97,7 +97,7 @@
         "wpackagist-plugin/wp-add-mime-types": "^3.0",
         "helsingborg-stad/modularity-mhbooking": "dev-master",
         "helsingborg-stad/api-kiosk-model-viewer": "^1.0",
-        "helsingborg-stad/modularity-mypages": "dev-bankid-login",
+        "helsingborg-stad/modularity-mypages": "dev-master",
         "helsingborg-stad/api-ar-dialogue-room": "dev-master",
         "helsingborg-stad/attachment-revisions": "^1.2",
         "helsingborg-stad/content-scheduler": "^1.2",

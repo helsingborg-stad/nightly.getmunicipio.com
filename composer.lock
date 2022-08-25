@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0a4c6fd8b644722481906c988478a6c",
+    "content-hash": "acc430a57ad612d507469eeab9a6d97e",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2122,18 +2122,19 @@
         },
         {
             "name": "helsingborg-stad/modularity-mypages",
-            "version": "dev-bankid-login",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-mypages.git",
-                "reference": "6465dd0989e1b2fe10a4eb6c43bd060bf5d0cc84"
+                "reference": "c75b8d850a4b58a79c5d5f2c4b71cfede9eeee4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/6465dd0989e1b2fe10a4eb6c43bd060bf5d0cc84",
-                "reference": "6465dd0989e1b2fe10a4eb6c43bd060bf5d0cc84",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-mypages/zipball/c75b8d850a4b58a79c5d5f2c4b71cfede9eeee4e",
+                "reference": "c75b8d850a4b58a79c5d5f2c4b71cfede9eeee4e",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2156,9 +2157,9 @@
             "description": "My pages modularity modules and login action.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-mypages/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/bankid-login"
+                "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/master"
             },
-            "time": "2022-08-22T14:57:43+00:00"
+            "time": "2022-08-25T12:58:12+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -5254,5 +5255,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
