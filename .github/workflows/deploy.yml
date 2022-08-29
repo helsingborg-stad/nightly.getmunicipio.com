@@ -78,7 +78,7 @@ jobs:
     - name: Compress backup files.
       uses: appleboy/ssh-action@master
       with:
-        script: sudo tar --remove-files -zcvf ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_MODUL_TEST_HELSINGBORG_IO }}/${{ github.sha }}.tar.gz -C ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_MODUL_TEST_HELSINGBORG_IO }} ${{ github.sha }}
+        script: sudo tar --remove-files -zcf ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_MODUL_TEST_HELSINGBORG_IO }}/${{ github.sha }}.tar.gz -C ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_MODUL_TEST_HELSINGBORG_IO }} ${{ github.sha }}
         host: ${{ secrets.DEPLOY_REMOTE_HOST_MODUL_TEST_HELSINGBORG_IO }}
         username: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
         key: ${{ secrets.DEPLOY_KEY_MODUL_TEST_HELSINGBORG_IO }}
@@ -94,3 +94,4 @@ jobs:
         host: ${{ secrets.DEPLOY_REMOTE_HOST_MODUL_TEST_HELSINGBORG_IO }}
         username: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
         key: ${{ secrets.DEPLOY_KEY_MODUL_TEST_HELSINGBORG_IO }}
+        
