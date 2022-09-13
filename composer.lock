@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fd518465c9f1b1ab638cd08f6fea02e",
+    "content-hash": "f7449695d0267b44b594614a179aa358",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -5639,15 +5639,15 @@
         },
         {
             "name": "wpackagist-plugin/fakerpress",
-            "version": "0.5.2",
+            "version": "0.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fakerpress/",
-                "reference": "tags/0.5.2"
+                "reference": "tags/0.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fakerpress.0.5.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/fakerpress.0.5.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
