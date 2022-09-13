@@ -1218,12 +1218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index.git",
-                "reference": "2d12876fc221f864e275a5b98d1f74cac1bba6fb"
+                "reference": "3c97a8c0c1a5e061f35836534d4e7ee9949b988e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/2d12876fc221f864e275a5b98d1f74cac1bba6fb",
-                "reference": "2d12876fc221f864e275a5b98d1f74cac1bba6fb",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/3c97a8c0c1a5e061f35836534d4e7ee9949b988e",
+                "reference": "3c97a8c0c1a5e061f35836534d4e7ee9949b988e",
                 "shasum": ""
             },
             "require": {
@@ -1258,7 +1258,7 @@
                 "issues": "https://github.com/helsingborg-stad/algolia-index/issues",
                 "source": "https://github.com/helsingborg-stad/algolia-index/tree/3.0/feat-php-update"
             },
-            "time": "2022-09-02T12:05:31+00:00"
+            "time": "2022-09-13T12:54:09+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-js-searchpage-addon",
