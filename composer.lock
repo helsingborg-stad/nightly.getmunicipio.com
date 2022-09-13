@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7449695d0267b44b594614a179aa358",
+    "content-hash": "be5fe5808d6cd1da608c86a69585dfa5",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -3398,20 +3398,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.9.4",
+            "version": "6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "243337798cf0e01abdcc5df842d988c3aefad7fa"
+                "reference": "6c3d7d1a4ddb3b27e6f3ca4b2018b0150d7221b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/243337798cf0e01abdcc5df842d988c3aefad7fa",
-                "reference": "243337798cf0e01abdcc5df842d988c3aefad7fa",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6c3d7d1a4ddb3b27e6f3ca4b2018b0150d7221b7",
+                "reference": "6c3d7d1a4ddb3b27e6f3ca4b2018b0150d7221b7",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.9.4",
+                "johnpbloch/wordpress-core": "6.0.2",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -3440,20 +3440,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2022-08-30T17:46:15+00:00"
+            "time": "2022-08-30T17:46:21+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.9.4",
+            "version": "6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "2bc98d53c006ed608342e8ebc8c36f9fb9a0fa01"
+                "reference": "aa7b334880fd8158abe64469e71570bd8815f273"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/2bc98d53c006ed608342e8ebc8c36f9fb9a0fa01",
-                "reference": "2bc98d53c006ed608342e8ebc8c36f9fb9a0fa01",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/aa7b334880fd8158abe64469e71570bd8815f273",
+                "reference": "aa7b334880fd8158abe64469e71570bd8815f273",
                 "shasum": ""
             },
             "require": {
@@ -3461,7 +3461,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.9.4"
+                "wordpress/core-implementation": "6.0.2"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -3488,7 +3488,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2022-08-30T17:46:11+00:00"
+            "time": "2022-08-30T17:46:17+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -5747,15 +5747,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-nested-pages",
-            "version": "3.1.4",
+            "version": "3.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-nested-pages/",
-                "reference": "tags/3.1.4"
+                "reference": "tags/3.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
