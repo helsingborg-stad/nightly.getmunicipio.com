@@ -26,6 +26,32 @@ jobs:
         echo ${{ steps.myRequest.outputs.response }}
         echo ${{ steps.myRequest.outputs.headers }}
 
+    - name: Archive Release
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'full-release.zip'
+
+    - name: Release
+      uses: docker://antonyurchenko/git-release:latest
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        DRAFT_RELEASE: "false"
+        PRE_RELEASE: "false"
+        CHANGELOG_FILE: "none"
+      with:
+        args: |
+            full-release.zip
+
+    - name: Get latest release of NodeJS
+      uses: rez0n/actions-github-release@main
+      id: node_release
+      env:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: ${{ github.action_repository }}
+        type: "stable"
+
+    - name: Cleanup .npmrc
+      run: echo ${{ ${{ steps.node_release.outputs.browser_download_url }}
 
     # - uses: actions/setup-node@v2
     #   with:
