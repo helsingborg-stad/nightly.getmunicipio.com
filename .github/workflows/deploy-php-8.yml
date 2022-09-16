@@ -51,7 +51,7 @@ jobs:
         type: "stable"
 
     - name: Cleanup .npmrc
-      run: echo ${{ ${{ steps.node_release.outputs.browser_download_url }}
+      run: echo ${{ steps.node_release.outputs.browser_download_url }}
 
     # - uses: actions/setup-node@v2
     #   with:
