@@ -34,7 +34,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: my-artifact
-        path: 'full-release.zip'A
+        path: 'full-release.zip'
 
     # - uses: actions/setup-node@v2
     #   with:
