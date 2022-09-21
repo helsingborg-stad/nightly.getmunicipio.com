@@ -1272,12 +1272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "d64c95407ad247b4a1fdcb4f46b4e9759adcc8f5"
+                "reference": "429743a2f872cf4ec1e1e762f0f2690ea076ddcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/d64c95407ad247b4a1fdcb4f46b4e9759adcc8f5",
-                "reference": "d64c95407ad247b4a1fdcb4f46b4e9759adcc8f5",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/429743a2f872cf4ec1e1e762f0f2690ea076ddcd",
+                "reference": "429743a2f872cf4ec1e1e762f0f2690ea076ddcd",
                 "shasum": ""
             },
             "require": {
@@ -1302,7 +1302,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-09-19T13:17:33+00:00"
+            "time": "2022-09-21T08:53:11+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1471,12 +1471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "a7c7c00adb90fbb2b56cd81882a491865ce658d2"
+                "reference": "26851f21b748e774af145c50de676ce0c3b2903a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a7c7c00adb90fbb2b56cd81882a491865ce658d2",
-                "reference": "a7c7c00adb90fbb2b56cd81882a491865ce658d2",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/26851f21b748e774af145c50de676ce0c3b2903a",
+                "reference": "26851f21b748e774af145c50de676ce0c3b2903a",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-09-20T11:27:18+00:00"
+            "time": "2022-09-21T17:17:13+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1840,12 +1840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "b1322d099faeb31f5b3fbc4e9370dcd38beaa242"
+                "reference": "aa3af1ffb8d28d98f5fbae7028a253918baad5a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/b1322d099faeb31f5b3fbc4e9370dcd38beaa242",
-                "reference": "b1322d099faeb31f5b3fbc4e9370dcd38beaa242",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/aa3af1ffb8d28d98f5fbae7028a253918baad5a6",
+                "reference": "aa3af1ffb8d28d98f5fbae7028a253918baad5a6",
                 "shasum": ""
             },
             "require": {
@@ -1915,7 +1915,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-09-19T14:30:07+00:00"
+            "time": "2022-09-20T14:42:49+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -4897,16 +4897,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "3182a5cfbb8fd9fa6613d002a162067ba06953e9"
+                "reference": "47694a8f1def24e6931f4d57570de5069ce69ae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/3182a5cfbb8fd9fa6613d002a162067ba06953e9",
-                "reference": "3182a5cfbb8fd9fa6613d002a162067ba06953e9",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/47694a8f1def24e6931f4d57570de5069ce69ae8",
+                "reference": "47694a8f1def24e6931f4d57570de5069ce69ae8",
                 "shasum": ""
             },
             "require": {
@@ -4970,9 +4970,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.10.0"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.11.0"
             },
-            "time": "2022-09-08T16:49:03+00:00"
+            "time": "2022-09-20T15:54:44+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
