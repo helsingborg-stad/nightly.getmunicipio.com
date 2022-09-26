@@ -12,116 +12,65 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Do Request
-      id: myRequest
-      uses: fjogeleit/http-request-action@v1
+    - uses: actions/setup-node@v2
       with:
-        url: ${{ secrets.DEPLOY_API_ENDPOINT }}
-        method: 'POST'
-        contentType: application/x-www-form-urlencoded
-        data: session=${{ secrets.DEPLOY_ACCESS_TOKEN }}&envName=${{ secrets.DEPLOY_HOST_NAME }}&nodeGroup=cp
+        node-version: 16
 
-    - name: Show Response
+    - name: Setup PHP with composer v2
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        tools: composer:v2
+
+    - name: Get Composer Cache Directory.
+      id: composer-cache
       run: |
-        echo ${{ steps.myRequest.outputs.response }}
-        echo ${{ steps.myRequest.outputs.headers }}
+        echo "::set-output name=dir::$(composer config cache-files-dir)"
+      shell: bash
 
-    - name: Archive Release
-      uses: thedoctor0/zip-release@master
+    - name: Cache composer packages.
+      uses: actions/cache@v2
       with:
-        filename: 'full-release.zip'
+        path: ${{ steps.composer-cache.outputs.dir }}
+        key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-composer-
 
-    - uses: actions/upload-artifact@v3
+    - name: Cache node modules.
+      uses: actions/cache@v2
       with:
-        name: my-artifact
-        path: 'full-release.zip'
+        path: ~/.npm
+        key: ${{ runner.os }}-npm-${{ hashFiles('**/package.json') }}
+        restore-keys: |
+          ${{ runner.os }}-npm-
 
-    # - uses: actions/setup-node@v2
-    #   with:
-    #     node-version: 16
+    - name: Update composer dependencies
+      run: composer update --prefer-dist --no-progress --no-suggest
 
-    # - name: Setup PHP with composer v2
-    #   uses: shivammathur/setup-php@v2
-    #   with:
-    #     php-version: '8.1'
-    #     tools: composer:v2
+    - name: Inject access token in .npmrc.
+      run: |
+        echo "@helsingborg-stad:registry=https://npm.pkg.github.com/helsingborg-stad" >> ~/.npmrc
+        echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
 
-    # - name: Get Composer Cache Directory.
-    #   id: composer-cache
-    #   run: |
-    #     echo "::set-output name=dir::$(composer config cache-files-dir)"
-    #   shell: bash
+    - name: Get ACF
+      run: |
+        wget "${{ secrets.ACF_URL }}" -O acf.zip
+        unzip acf.zip -d wp-content/plugins/
+        rm acf.zip
 
-    # - name: Cache composer packages.
-    #   uses: actions/cache@v2
-    #   with:
-    #     path: ${{ steps.composer-cache.outputs.dir }}
-    #     key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
-    #     restore-keys: |
-    #       ${{ runner.os }}-composer-
+    - name: Execute buildscripts in themes and plugins folders
+      run: php ./build.php --cleanup
 
-    # - name: Cache node modules.
-    #   uses: actions/cache@v2
-    #   with:
-    #     path: ~/.npm
-    #     key: ${{ runner.os }}-npm-${{ hashFiles('**/package.json') }}
-    #     restore-keys: |
-    #       ${{ runner.os }}-npm-
+    - name: Cleanup .npmrc
+      run: rm ~/.npmrc
 
-    # - name: Update composer dependencies
-    #   run: composer update --prefer-dist --no-progress --no-suggest
-
-    # - name: Inject access token in .npmrc.
-    #   run: |
-    #     echo "@helsingborg-stad:registry=https://npm.pkg.github.com/helsingborg-stad" >> ~/.npmrc
-    #     echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
-
-    # - name: Get ACF
-    #   run: |
-    #     wget "${{ secrets.ACF_URL }}" -O acf.zip
-    #     unzip acf.zip -d wp-content/plugins/
-    #     rm acf.zip
-
-    # - name: Execute buildscripts in themes and plugins folders
-    #   run: php ./build.php --cleanup
-
-    # - name: Cleanup .npmrc
-    #   run: rm ~/.npmrc
-
-    # - name: rsync deployment to www-data user.
-    #   uses: burnett01/rsync-deployments@4.1
-    #   with:
-    #     switches: -avzrog --rsync-path="sudo rsync" --backup --backup-dir=${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_MODUL_TEST_HELSINGBORG_IO }}/$GITHUB_SHA --delete --chown=www-data:www-data --chmod=g+rw --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro --exclude track-assets --exclude wp-content/plugins/volontar-wordpress --exclude wp-content/languages
-    #     path: .
-    #     remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_MODUL_TEST_HELSINGBORG_IO }}
-    #     remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_MODUL_TEST_HELSINGBORG_IO_PHP_8 }}
-    #     remote_user: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO}}
-    #     remote_key: ${{ secrets.DEPLOY_KEY_MODUL_TEST_HELSINGBORG_IO }}
-
-    # - name: Compress backup files.
-    #   uses: appleboy/ssh-action@master
-    #   with:
-    #     script: sudo tar --remove-files -zcf ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_MODUL_TEST_HELSINGBORG_IO }}/${{ github.sha }}.tar.gz -C ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_MODUL_TEST_HELSINGBORG_IO }} ${{ github.sha }}
-    #     host: ${{ secrets.DEPLOY_REMOTE_HOST_MODUL_TEST_HELSINGBORG_IO_PHP_8 }}
-    #     username: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
-    #     key: ${{ secrets.DEPLOY_KEY_MODUL_TEST_HELSINGBORG_IO }}
-
-    # - name: Delete old backups.
-    #   uses: appleboy/ssh-action@master
-    #   with:
-    #     script: sudo find ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_MODUL_TEST_HELSINGBORG_IO }} -type f -mtime +1 -name '*.tar.gz' -delete
-    #     host: ${{ secrets.DEPLOY_REMOTE_HOST_MODUL_TEST_HELSINGBORG_IO_PHP_8 }}
-    #     username: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
-    #     key: ${{ secrets.DEPLOY_KEY_MODUL_TEST_HELSINGBORG_IO }}
-
-    # - name: Clear varnish and redis object cache.
-    #   uses: appleboy/ssh-action@master
-    #   with:
-    #     script: |
-    #       cd ${{ secrets.DEPLOY_REMOTE_PATH_MODUL_TEST_HELSINGBORG_IO }}
-    #       wp varnish purge --allow-root
-    #       wp cache flush --allow-root
-    #       sudo rm ${{ secrets.DEPLOY_REMOTE_PATH_MODUL_TEST_HELSINGBORG_IO }}/wp-content/uploads/cache/blade-cache/** || true
-    #     host: ${{ secrets.DEPLOY_REMOTE_HOST_MODUL_TEST_HELSINGBORG_IO_PHP_8 }}
-    #     username: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
-    #     key: ${{ secrets.DEPLOY_KEY_MODUL_TEST_HELSINGBORG_IO }}
+    - name: rsync deployment to www-data user.
+      uses: burnett01/rsync-deployments@4.1
+      with:
+        switches: -avzrog --rsync-path="sudo rsync" --delete --chown=litespeed:litespeed --chmod=g+rw --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro --exclude track-assets --exclude wp-content/plugins/volontar-wordpress --exclude wp-content/languages
+        path: .
+        remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_JELASTIC }}
+        remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_JELASTIC }}
+        remote_user: ${{ secrets.DEPLOY_REMOTE_USER_JELASTIC }}
+        remote_key: ${{ secrets.DEPLOY_KEY }}
+        remote_port: ${{ secrets.DEPLOY_REMOTE_PORT_JELASTIC }}
