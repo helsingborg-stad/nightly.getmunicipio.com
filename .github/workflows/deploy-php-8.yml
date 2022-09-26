@@ -44,30 +44,30 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-npm-
 
-    - name: Update composer dependencies
-      run: composer update --prefer-dist --no-progress --no-suggest
+    # - name: Update composer dependencies
+    #   run: composer update --prefer-dist --no-progress --no-suggest
 
-    - name: Inject access token in .npmrc.
-      run: |
-        echo "@helsingborg-stad:registry=https://npm.pkg.github.com/helsingborg-stad" >> ~/.npmrc
-        echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
+    # - name: Inject access token in .npmrc.
+    #   run: |
+    #     echo "@helsingborg-stad:registry=https://npm.pkg.github.com/helsingborg-stad" >> ~/.npmrc
+    #     echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
 
-    - name: Get ACF
-      run: |
-        wget "${{ secrets.ACF_URL }}" -O acf.zip
-        unzip acf.zip -d wp-content/plugins/
-        rm acf.zip
+    # - name: Get ACF
+    #   run: |
+    #     wget "${{ secrets.ACF_URL }}" -O acf.zip
+    #     unzip acf.zip -d wp-content/plugins/
+    #     rm acf.zip
 
-    - name: Execute buildscripts in themes and plugins folders
-      run: php ./build.php --cleanup
+    # - name: Execute buildscripts in themes and plugins folders
+    #   run: php ./build.php --cleanup
 
-    - name: Cleanup .npmrc
-      run: rm ~/.npmrc
+    # - name: Cleanup .npmrc
+    #   run: rm ~/.npmrc
 
     - name: rsync deployment to www-data user.
       uses: burnett01/rsync-deployments@4.1
       with:
-        switches: -avzrog --rsync-path="sudo rsync" --delete --chown=litespeed:litespeed --chmod=g+rw --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro --exclude track-assets --exclude wp-content/plugins/volontar-wordpress --exclude wp-content/languages
+        switches: -avzrog --delete --chown=litespeed:litespeed --chmod=g+rw --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro --exclude track-assets --exclude wp-content/plugins/volontar-wordpress --exclude wp-content/languages
         path: .
         remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_JELASTIC }}
         remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_JELASTIC }}
