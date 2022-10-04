@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5901f49efb5d6a7868931591eb02124",
+    "content-hash": "c1d8c8cfb4ae0343159031fcb69544bf",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1833,6 +1833,52 @@
                 "source": "https://github.com/helsingborg-stad/media-usage/tree/master"
             },
             "time": "2020-09-01T08:48:55+00:00"
+        },
+        {
+            "name": "helsingborg-stad/mod-my-pages",
+            "version": "dev-feature/my-account",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/mod-my-pages.git",
+                "reference": "eabd77ddacc6410d51660e5f88aa9ec36e6ff60e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/eabd77ddacc6410d51660e5f88aa9ec36e6ff60e",
+                "reference": "eabd77ddacc6410d51660e5f88aa9ec36e6ff60e",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^5.5.1"
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.31.0",
+                "phpunit/phpunit": "^9.5",
+                "spatie/phpunit-watcher": "^1.23"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "ModMyPages\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Modularity Wordpress Plugin",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/mod-my-pages/issues",
+                "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/feature/my-account"
+            },
+            "time": "2022-10-04T14:23:15+00:00"
         },
         {
             "name": "helsingborg-stad/modularity",
@@ -5276,11 +5322,12 @@
         "helsingborg-stad/modularity-mhbooking": 20,
         "helsingborg-stad/modularity-mypages": 20,
         "helsingborg-stad/api-ar-dialogue-room": 20,
-        "wpforms/file-upload-types": 20
+        "wpforms/file-upload-types": 20,
+        "helsingborg-stad/mod-my-pages": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
