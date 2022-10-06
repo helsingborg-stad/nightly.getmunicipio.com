@@ -2112,16 +2112,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-local-events",
-            "version": "v1.0.15",
+            "version": "v1.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
-                "reference": "5623e8f7ecd89216a2ba4f9901e228121dfc9ae2"
+                "reference": "70c8c7d59286749bedd9b9f9dc4968092217b265"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/5623e8f7ecd89216a2ba4f9901e228121dfc9ae2",
-                "reference": "5623e8f7ecd89216a2ba4f9901e228121dfc9ae2",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/70c8c7d59286749bedd9b9f9dc4968092217b265",
+                "reference": "70c8c7d59286749bedd9b9f9dc4968092217b265",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2138,9 +2138,9 @@
             "description": "Local events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/v1.0.15"
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/v1.0.16"
             },
-            "time": "2022-09-22T09:46:14+00:00"
+            "time": "2022-10-06T13:34:52+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-mhbooking",
