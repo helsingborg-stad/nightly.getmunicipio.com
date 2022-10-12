@@ -1840,12 +1840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/mod-my-pages.git",
-                "reference": "8d46edccb352e9476a27862289fa5fc562c3d7a3"
+                "reference": "4e75040f3ee3cc270ece92c19c08f358ba9288dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/8d46edccb352e9476a27862289fa5fc562c3d7a3",
-                "reference": "8d46edccb352e9476a27862289fa5fc562c3d7a3",
+                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/4e75040f3ee3cc270ece92c19c08f358ba9288dc",
+                "reference": "4e75040f3ee3cc270ece92c19c08f358ba9288dc",
                 "shasum": ""
             },
             "require": {
@@ -1878,7 +1878,7 @@
                 "issues": "https://github.com/helsingborg-stad/mod-my-pages/issues",
                 "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/feature/my-account"
             },
-            "time": "2022-10-07T16:06:44+00:00"
+            "time": "2022-10-12T07:16:40+00:00"
         },
         {
             "name": "helsingborg-stad/modularity",
