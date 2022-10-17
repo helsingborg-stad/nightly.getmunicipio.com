@@ -105,7 +105,8 @@
         "wpforms/file-upload-types": "*@dev",
         "wpackagist-plugin/classic-editor": "^1.6.2",
         "helsingborg-stad/larrum-custom-api": "^1.0.0",
-        "helsingborg-stad/mod-my-pages": "dev-feature/my-account"
+        "helsingborg-stad/mod-my-pages": "dev-feature/my-account",
+        "helsingborg-stad/modularity-interactive-img-map": "dev-3.0/develop"
     },
 
     "extra": {

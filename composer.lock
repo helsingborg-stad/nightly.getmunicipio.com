@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1d8c8cfb4ae0343159031fcb69544bf",
+    "content-hash": "3e9a55cbdf115c578cc9551179fba61f",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -673,16 +673,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.270.0",
+            "version": "v0.271.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "902b415a7ab92ccb50e2b7dda334a3497c8bc3da"
+                "reference": "3ab645dbdd0e511ba4c7a937fb4dc764e861ed6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/902b415a7ab92ccb50e2b7dda334a3497c8bc3da",
-                "reference": "902b415a7ab92ccb50e2b7dda334a3497c8bc3da",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/3ab645dbdd0e511ba4c7a937fb4dc764e861ed6a",
+                "reference": "3ab645dbdd0e511ba4c7a937fb4dc764e861ed6a",
                 "shasum": ""
             },
             "require": {
@@ -711,9 +711,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.270.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.271.0"
             },
-            "time": "2022-10-08T01:14:15+00:00"
+            "time": "2022-10-15T00:58:16+00:00"
         },
         {
             "name": "google/auth",
@@ -1969,12 +1969,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "14d622511b08a0e7f7bdc1eca67046648cc6e10c"
+                "reference": "4b02e4449fe029e28472baa2a6f5b861a78b35eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/14d622511b08a0e7f7bdc1eca67046648cc6e10c",
-                "reference": "14d622511b08a0e7f7bdc1eca67046648cc6e10c",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/4b02e4449fe029e28472baa2a6f5b861a78b35eb",
+                "reference": "4b02e4449fe029e28472baa2a6f5b861a78b35eb",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1993,7 +1993,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2022-10-05T13:14:04+00:00"
+            "time": "2022-10-17T08:29:07+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -2075,6 +2075,38 @@
                 "source": "https://github.com/helsingborg-stad/modularity-guides/tree/3.0/develop"
             },
             "time": "2022-05-23T13:19:59+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-interactive-img-map",
+            "version": "dev-3.0/develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-interactive-img-map.git",
+                "reference": "a174c258bf0ccdf79aa3f6908edbdfbc445f115c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-interactive-img-map/zipball/a174c258bf0ccdf79aa3f6908edbdfbc445f115c",
+                "reference": "a174c258bf0ccdf79aa3f6908edbdfbc445f115c",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guy Incognito",
+                    "email": "guy.incognito@example.com"
+                }
+            ],
+            "description": "Add functionality to create clickable interactive maps in modularity.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-interactive-img-map/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-interactive-img-map/tree/3.0/develop"
+            },
+            "time": "2022-10-17T08:40:57+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-json-render",
@@ -5323,11 +5355,12 @@
         "helsingborg-stad/modularity-mypages": 20,
         "helsingborg-stad/api-ar-dialogue-room": 20,
         "wpforms/file-upload-types": 20,
-        "helsingborg-stad/mod-my-pages": 20
+        "helsingborg-stad/mod-my-pages": 20,
+        "helsingborg-stad/modularity-interactive-img-map": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
