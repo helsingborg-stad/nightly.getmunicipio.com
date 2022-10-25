@@ -1272,12 +1272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "b980610eb4bee1b6d444391e352c574fe89eceb5"
+                "reference": "19764530d2020873578b43e377d10cd6e667c41d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/b980610eb4bee1b6d444391e352c574fe89eceb5",
-                "reference": "b980610eb4bee1b6d444391e352c574fe89eceb5",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/19764530d2020873578b43e377d10cd6e667c41d",
+                "reference": "19764530d2020873578b43e377d10cd6e667c41d",
                 "shasum": ""
             },
             "require": {
@@ -1302,7 +1302,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-10-24T09:31:44+00:00"
+            "time": "2022-10-25T07:58:28+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1471,12 +1471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "d801dfb4134bf778d19192ab448aa875c1fb7584"
+                "reference": "748d4feb152d1a72f79d6d08aa491c62f2918554"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/d801dfb4134bf778d19192ab448aa875c1fb7584",
-                "reference": "d801dfb4134bf778d19192ab448aa875c1fb7584",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/748d4feb152d1a72f79d6d08aa491c62f2918554",
+                "reference": "748d4feb152d1a72f79d6d08aa491c62f2918554",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-10-21T10:54:45+00:00"
+            "time": "2022-10-25T09:20:51+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1886,12 +1886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "01d37f713c5ff7e7dc1b39e768c73a42256b0e67"
+                "reference": "d7e83ae6fa60b2613f3ac20e5acb116345137b85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/01d37f713c5ff7e7dc1b39e768c73a42256b0e67",
-                "reference": "01d37f713c5ff7e7dc1b39e768c73a42256b0e67",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/d7e83ae6fa60b2613f3ac20e5acb116345137b85",
+                "reference": "d7e83ae6fa60b2613f3ac20e5acb116345137b85",
                 "shasum": ""
             },
             "require": {
@@ -1961,7 +1961,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-10-19T11:49:32+00:00"
+            "time": "2022-10-25T08:20:19+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2458,12 +2458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "df69ad36e1e6557b942de59996a1b78d12fdf951"
+                "reference": "afac80e27f708fe8055c069c9bde675ebbcd1e53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/df69ad36e1e6557b942de59996a1b78d12fdf951",
-                "reference": "df69ad36e1e6557b942de59996a1b78d12fdf951",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/afac80e27f708fe8055c069c9bde675ebbcd1e53",
+                "reference": "afac80e27f708fe8055c069c9bde675ebbcd1e53",
                 "shasum": ""
             },
             "require": {
@@ -2521,7 +2521,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-10-21T14:14:17+00:00"
+            "time": "2022-10-25T08:49:02+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -3675,16 +3675,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.38",
+            "version": "2.0.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "b03536539f43a4f9aa33c4f0b2f3a1c752088fcd"
+                "reference": "f3a0e2b715c40cf1fd270d444901b63311725d63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/b03536539f43a4f9aa33c4f0b2f3a1c752088fcd",
-                "reference": "b03536539f43a4f9aa33c4f0b2f3a1c752088fcd",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/f3a0e2b715c40cf1fd270d444901b63311725d63",
+                "reference": "f3a0e2b715c40cf1fd270d444901b63311725d63",
                 "shasum": ""
             },
             "require": {
@@ -3765,7 +3765,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.38"
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.39"
             },
             "funding": [
                 {
@@ -3781,7 +3781,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-02T17:04:26+00:00"
+            "time": "2022-10-24T10:49:03+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
@@ -5362,5 +5362,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
