@@ -1886,12 +1886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "4c7495e63081f474a24bef70a648822975623402"
+                "reference": "97286efc967fae8dac5a126bbe0a63598076c07b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/4c7495e63081f474a24bef70a648822975623402",
-                "reference": "4c7495e63081f474a24bef70a648822975623402",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/97286efc967fae8dac5a126bbe0a63598076c07b",
+                "reference": "97286efc967fae8dac5a126bbe0a63598076c07b",
                 "shasum": ""
             },
             "require": {
@@ -1920,7 +1920,7 @@
                 "symfony/debug": "^4.0",
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
-                "symfony/polyfill-php80": "1.26.x-dev",
+                "symfony/polyfill-php80": "1.26.0",
                 "symfony/translation": "5.0.8",
                 "symfony/translation-contracts": "2.0.1",
                 "wpackagist-plugin/acf-extended": "0.8.8.7"
@@ -1961,7 +1961,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-11-03T11:30:22+00:00"
+            "time": "2022-11-03T15:07:06+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2458,12 +2458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "c8db6a650982be6e0977093199ccbbfa8af743f8"
+                "reference": "2d9c022721f8585de7dd584c1442f3dd021af674"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c8db6a650982be6e0977093199ccbbfa8af743f8",
-                "reference": "c8db6a650982be6e0977093199ccbbfa8af743f8",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/2d9c022721f8585de7dd584c1442f3dd021af674",
+                "reference": "2d9c022721f8585de7dd584c1442f3dd021af674",
                 "shasum": ""
             },
             "require": {
@@ -2521,7 +2521,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-11-03T14:34:05+00:00"
+            "time": "2022-11-03T14:59:55+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -4517,22 +4517,21 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "dev-main",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "58aa54d956daf54b16fcca3d59677747030de6c5"
+                "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/58aa54d956daf54b16fcca3d59677747030de6c5",
-                "reference": "58aa54d956daf54b16fcca3d59677747030de6c5",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+                "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -4581,7 +4580,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/main"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.26.0"
             },
             "funding": [
                 {
@@ -4597,7 +4596,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-03T12:14:14+00:00"
+            "time": "2022-05-10T07:21:04+00:00"
         },
         {
             "name": "symfony/translation",
