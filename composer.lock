@@ -1471,12 +1471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "bea8ad4d633494158cb0ca79be41ef900675f9a3"
+                "reference": "afd069edd988b7b9cf25b84b71556e0abf951d83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/bea8ad4d633494158cb0ca79be41ef900675f9a3",
-                "reference": "bea8ad4d633494158cb0ca79be41ef900675f9a3",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/afd069edd988b7b9cf25b84b71556e0abf951d83",
+                "reference": "afd069edd988b7b9cf25b84b71556e0abf951d83",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-11-03T14:31:44+00:00"
+            "time": "2022-11-03T15:21:39+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2082,12 +2082,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-interactive-img-map.git",
-                "reference": "885fe1a318f4000851398b65426afd3d3abc7228"
+                "reference": "87b28c3febf18bae304fa11c60f420081f199077"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-interactive-img-map/zipball/885fe1a318f4000851398b65426afd3d3abc7228",
-                "reference": "885fe1a318f4000851398b65426afd3d3abc7228",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-interactive-img-map/zipball/87b28c3febf18bae304fa11c60f420081f199077",
+                "reference": "87b28c3febf18bae304fa11c60f420081f199077",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2106,7 +2106,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-interactive-img-map/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-interactive-img-map/tree/3.0/develop"
             },
-            "time": "2022-10-21T11:42:17+00:00"
+            "time": "2022-11-03T15:21:44+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-json-render",
