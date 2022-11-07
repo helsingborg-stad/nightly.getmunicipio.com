@@ -673,16 +673,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.272.1",
+            "version": "v0.273.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "436943c42277545c2310fe5852835d7e3628a35a"
+                "reference": "827bbf2b7b20fa97e845122d3d91517e173e959f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/436943c42277545c2310fe5852835d7e3628a35a",
-                "reference": "436943c42277545c2310fe5852835d7e3628a35a",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/827bbf2b7b20fa97e845122d3d91517e173e959f",
+                "reference": "827bbf2b7b20fa97e845122d3d91517e173e959f",
                 "shasum": ""
             },
             "require": {
@@ -711,9 +711,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.272.1"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.273.0"
             },
-            "time": "2022-10-31T01:22:13+00:00"
+            "time": "2022-11-07T01:34:13+00:00"
         },
         {
             "name": "google/auth",
@@ -1471,12 +1471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "afd069edd988b7b9cf25b84b71556e0abf951d83"
+                "reference": "bcf29f7a9390f3e73d7d105d7594f879be5b03d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/afd069edd988b7b9cf25b84b71556e0abf951d83",
-                "reference": "afd069edd988b7b9cf25b84b71556e0abf951d83",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/bcf29f7a9390f3e73d7d105d7594f879be5b03d3",
+                "reference": "bcf29f7a9390f3e73d7d105d7594f879be5b03d3",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-11-03T15:21:39+00:00"
+            "time": "2022-11-04T10:43:34+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1840,12 +1840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/mod-my-pages.git",
-                "reference": "9907a5ed4b5fabb2cbc072d99834e97120013348"
+                "reference": "cc98561d7ea42b76455e886dc19b46918fdc2211"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/9907a5ed4b5fabb2cbc072d99834e97120013348",
-                "reference": "9907a5ed4b5fabb2cbc072d99834e97120013348",
+                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/cc98561d7ea42b76455e886dc19b46918fdc2211",
+                "reference": "cc98561d7ea42b76455e886dc19b46918fdc2211",
                 "shasum": ""
             },
             "require": {
@@ -1878,7 +1878,7 @@
                 "issues": "https://github.com/helsingborg-stad/mod-my-pages/issues",
                 "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/feature/my-account"
             },
-            "time": "2022-11-04T08:10:39+00:00"
+            "time": "2022-11-07T08:32:33+00:00"
         },
         {
             "name": "helsingborg-stad/modularity",
@@ -1886,12 +1886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "97286efc967fae8dac5a126bbe0a63598076c07b"
+                "reference": "6769b4b64abaed8b1db8d5ae5d611741d19fc863"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/97286efc967fae8dac5a126bbe0a63598076c07b",
-                "reference": "97286efc967fae8dac5a126bbe0a63598076c07b",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/6769b4b64abaed8b1db8d5ae5d611741d19fc863",
+                "reference": "6769b4b64abaed8b1db8d5ae5d611741d19fc863",
                 "shasum": ""
             },
             "require": {
@@ -1961,7 +1961,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-11-03T15:07:06+00:00"
+            "time": "2022-11-03T15:56:23+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2458,12 +2458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "2d9c022721f8585de7dd584c1442f3dd021af674"
+                "reference": "12c4ab2fe7c5738d8d2e43466d18ace9c9c64174"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/2d9c022721f8585de7dd584c1442f3dd021af674",
-                "reference": "2d9c022721f8585de7dd584c1442f3dd021af674",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/12c4ab2fe7c5738d8d2e43466d18ace9c9c64174",
+                "reference": "12c4ab2fe7c5738d8d2e43466d18ace9c9c64174",
                 "shasum": ""
             },
             "require": {
@@ -2521,7 +2521,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-11-03T14:59:55+00:00"
+            "time": "2022-11-04T10:35:17+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -4974,16 +4974,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.12.0",
+            "version": "v1.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "6de28e35389891781b8107e0404fa8e0c415c844"
+                "reference": "c37583aa8233507bd96d96ea0cc3bd3cae83068b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/6de28e35389891781b8107e0404fa8e0c415c844",
-                "reference": "6de28e35389891781b8107e0404fa8e0c415c844",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/c37583aa8233507bd96d96ea0cc3bd3cae83068b",
+                "reference": "c37583aa8233507bd96d96ea0cc3bd3cae83068b",
                 "shasum": ""
             },
             "require": {
@@ -5047,9 +5047,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.12.0"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.12.1"
             },
-            "time": "2022-10-10T15:55:42+00:00"
+            "time": "2022-11-03T20:36:41+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
@@ -5135,15 +5135,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "4.2.5",
+            "version": "4.2.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.2.5"
+                "reference": "tags/4.2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5361,5 +5361,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
