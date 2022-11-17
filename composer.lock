@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e9a55cbdf115c578cc9551179fba61f",
+    "content-hash": "2ea873f70883ad67571abf59c74947d9",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1141,12 +1141,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon.git",
-                "reference": "f1b970c805e2878beb4c86193bce09eba5b64239"
+                "reference": "6c29d5e37f66b32c904849d12030c0e00383134f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/f1b970c805e2878beb4c86193bce09eba5b64239",
-                "reference": "f1b970c805e2878beb4c86193bce09eba5b64239",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/6c29d5e37f66b32c904849d12030c0e00383134f",
+                "reference": "6c29d5e37f66b32c904849d12030c0e00383134f",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1165,7 +1165,7 @@
                 "issues": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/issues",
                 "source": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/tree/3.0/develop"
             },
-            "time": "2022-09-15T11:29:18+00:00"
+            "time": "2022-11-16T13:49:34+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-modularity-addon",
@@ -1272,12 +1272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "dcf2e24748d3a740f5337dab20a3ef67311509cd"
+                "reference": "2b6a5d4a0828dc5d7179cd7a59a4f8194e7cc824"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/dcf2e24748d3a740f5337dab20a3ef67311509cd",
-                "reference": "dcf2e24748d3a740f5337dab20a3ef67311509cd",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/2b6a5d4a0828dc5d7179cd7a59a4f8194e7cc824",
+                "reference": "2b6a5d4a0828dc5d7179cd7a59a4f8194e7cc824",
                 "shasum": ""
             },
             "require": {
@@ -1302,7 +1302,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-11-15T10:21:43+00:00"
+            "time": "2022-11-17T13:56:50+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1471,12 +1471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "861d0044e765cf069f73914e6fb933fbfee001f2"
+                "reference": "c08923afd080dc43eca07021115261d2e5675f7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/861d0044e765cf069f73914e6fb933fbfee001f2",
-                "reference": "861d0044e765cf069f73914e6fb933fbfee001f2",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/c08923afd080dc43eca07021115261d2e5675f7b",
+                "reference": "c08923afd080dc43eca07021115261d2e5675f7b",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-11-15T14:22:12+00:00"
+            "time": "2022-11-17T10:06:49+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1886,12 +1886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "5661c3add2262757c36023c15c1d7e7bb3fa72f5"
+                "reference": "d4afb89d88242f02f2a078332c8fbe9cf3d0e7be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/5661c3add2262757c36023c15c1d7e7bb3fa72f5",
-                "reference": "5661c3add2262757c36023c15c1d7e7bb3fa72f5",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/d4afb89d88242f02f2a078332c8fbe9cf3d0e7be",
+                "reference": "d4afb89d88242f02f2a078332c8fbe9cf3d0e7be",
                 "shasum": ""
             },
             "require": {
@@ -1961,7 +1961,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-11-15T14:55:48+00:00"
+            "time": "2022-11-17T11:45:53+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2001,12 +2001,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "c5e31b6840b2719f820eb29265723beacfd22d0d"
+                "reference": "f5531c51a79a1911780a2e46b7a08876551f4f19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/c5e31b6840b2719f820eb29265723beacfd22d0d",
-                "reference": "c5e31b6840b2719f820eb29265723beacfd22d0d",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/f5531c51a79a1911780a2e46b7a08876551f4f19",
+                "reference": "f5531c51a79a1911780a2e46b7a08876551f4f19",
                 "shasum": ""
             },
             "require": {
@@ -2038,7 +2038,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
             },
-            "time": "2022-11-15T10:20:32+00:00"
+            "time": "2022-11-17T10:17:57+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
