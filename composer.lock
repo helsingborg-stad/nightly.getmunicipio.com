@@ -2458,12 +2458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "f5c99f631060c9841739c4187978f30223c6136f"
+                "reference": "d78e5982c0c5a5f3abc77153ef0d6baf18fb20c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f5c99f631060c9841739c4187978f30223c6136f",
-                "reference": "f5c99f631060c9841739c4187978f30223c6136f",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/d78e5982c0c5a5f3abc77153ef0d6baf18fb20c3",
+                "reference": "d78e5982c0c5a5f3abc77153ef0d6baf18fb20c3",
                 "shasum": ""
             },
             "require": {
@@ -2521,7 +2521,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-11-18T15:11:16+00:00"
+            "time": "2022-11-18T20:36:44+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -4974,16 +4974,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.12.2",
+            "version": "v1.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "09b6fde9c8879b96072428417c07ca0db58a85b8"
+                "reference": "a13f9dbe01679fc5df7083bdf5f0d941244ce111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/09b6fde9c8879b96072428417c07ca0db58a85b8",
-                "reference": "09b6fde9c8879b96072428417c07ca0db58a85b8",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/a13f9dbe01679fc5df7083bdf5f0d941244ce111",
+                "reference": "a13f9dbe01679fc5df7083bdf5f0d941244ce111",
                 "shasum": ""
             },
             "require": {
@@ -5047,9 +5047,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.12.2"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.12.3"
             },
-            "time": "2022-11-10T22:08:33+00:00"
+            "time": "2022-11-18T20:14:12+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
