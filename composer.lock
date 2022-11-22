@@ -508,12 +508,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/darylldoyle/svg-sanitizer.git",
-                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4"
+                "reference": "2321a914efa926f9cb93150864b00f4528d65d16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
-                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/2321a914efa926f9cb93150864b00f4528d65d16",
+                "reference": "2321a914efa926f9cb93150864b00f4528d65d16",
                 "shasum": ""
             },
             "require": {
@@ -544,9 +544,9 @@
             "description": "An SVG sanitizer for PHP",
             "support": {
                 "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
-                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.4"
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/master"
             },
-            "time": "2022-02-21T09:13:59+00:00"
+            "time": "2022-11-21T09:30:09+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -673,16 +673,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.274.0",
+            "version": "v0.275.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "670c3854fffc2f642efa86b083e2664fd55435e1"
+                "reference": "fe34eef7717556c2e64dfc37de3fde930a23a68f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/670c3854fffc2f642efa86b083e2664fd55435e1",
-                "reference": "670c3854fffc2f642efa86b083e2664fd55435e1",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/fe34eef7717556c2e64dfc37de3fde930a23a68f",
+                "reference": "fe34eef7717556c2e64dfc37de3fde930a23a68f",
                 "shasum": ""
             },
             "require": {
@@ -711,9 +711,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.274.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.275.0"
             },
-            "time": "2022-11-13T01:06:13+00:00"
+            "time": "2022-11-18T01:28:37+00:00"
         },
         {
             "name": "google/auth",
@@ -1471,12 +1471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "ede4d6d030e27d980cfb438f6878b91f2b470c53"
+                "reference": "ee022453aa1f7c525b959a9d8a162b5768d97a18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/ede4d6d030e27d980cfb438f6878b91f2b470c53",
-                "reference": "ede4d6d030e27d980cfb438f6878b91f2b470c53",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/ee022453aa1f7c525b959a9d8a162b5768d97a18",
+                "reference": "ee022453aa1f7c525b959a9d8a162b5768d97a18",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-11-18T15:07:15+00:00"
+            "time": "2022-11-22T07:53:18+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1886,12 +1886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "68266afcc804665f772613dbc9b1933c71add65f"
+                "reference": "0129e23a37eac1d1ed421ac287e99dc6d28d85f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/68266afcc804665f772613dbc9b1933c71add65f",
-                "reference": "68266afcc804665f772613dbc9b1933c71add65f",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/0129e23a37eac1d1ed421ac287e99dc6d28d85f5",
+                "reference": "0129e23a37eac1d1ed421ac287e99dc6d28d85f5",
                 "shasum": ""
             },
             "require": {
@@ -1961,7 +1961,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-11-18T09:50:45+00:00"
+            "time": "2022-11-21T08:49:52+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2001,12 +2001,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "9ddd9ed79812beab4b4375f906127663212e1638"
+                "reference": "670640c424dc66d8d262933234808b56e54fc4c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/9ddd9ed79812beab4b4375f906127663212e1638",
-                "reference": "9ddd9ed79812beab4b4375f906127663212e1638",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/670640c424dc66d8d262933234808b56e54fc4c0",
+                "reference": "670640c424dc66d8d262933234808b56e54fc4c0",
                 "shasum": ""
             },
             "require": {
@@ -2038,7 +2038,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
             },
-            "time": "2022-11-18T14:53:11+00:00"
+            "time": "2022-11-21T15:48:32+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -2458,12 +2458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "d78e5982c0c5a5f3abc77153ef0d6baf18fb20c3"
+                "reference": "ce06578c5b68dd318050198742359249b58e483b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/d78e5982c0c5a5f3abc77153ef0d6baf18fb20c3",
-                "reference": "d78e5982c0c5a5f3abc77153ef0d6baf18fb20c3",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ce06578c5b68dd318050198742359249b58e483b",
+                "reference": "ce06578c5b68dd318050198742359249b58e483b",
                 "shasum": ""
             },
             "require": {
@@ -2521,7 +2521,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-11-18T20:36:44+00:00"
+            "time": "2022-11-22T07:44:15+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
