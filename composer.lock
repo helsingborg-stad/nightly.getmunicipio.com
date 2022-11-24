@@ -1471,12 +1471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "59e891e98ee887200ad5b8b300b4a27908321209"
+                "reference": "017f975f79d7d977727832aa4a7dcf3f6d09e514"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/59e891e98ee887200ad5b8b300b4a27908321209",
-                "reference": "59e891e98ee887200ad5b8b300b4a27908321209",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/017f975f79d7d977727832aa4a7dcf3f6d09e514",
+                "reference": "017f975f79d7d977727832aa4a7dcf3f6d09e514",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-11-23T09:28:41+00:00"
+            "time": "2022-11-24T14:39:06+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1886,12 +1886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "dd9876190e6701ddd69b9266c43f8145337996f9"
+                "reference": "201a41e0df9039eb913240c066df6e92e6c20e6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/dd9876190e6701ddd69b9266c43f8145337996f9",
-                "reference": "dd9876190e6701ddd69b9266c43f8145337996f9",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/201a41e0df9039eb913240c066df6e92e6c20e6e",
+                "reference": "201a41e0df9039eb913240c066df6e92e6c20e6e",
                 "shasum": ""
             },
             "require": {
@@ -1961,7 +1961,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-11-22T14:50:52+00:00"
+            "time": "2022-11-24T09:24:55+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2458,12 +2458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "fbbb39e7b6e15073aaaef9936975009d6d22475e"
+                "reference": "057f87c96395799ceb7728d20699415faa7f145c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/fbbb39e7b6e15073aaaef9936975009d6d22475e",
-                "reference": "fbbb39e7b6e15073aaaef9936975009d6d22475e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/057f87c96395799ceb7728d20699415faa7f145c",
+                "reference": "057f87c96395799ceb7728d20699415faa7f145c",
                 "shasum": ""
             },
             "require": {
@@ -2521,7 +2521,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-11-23T14:00:21+00:00"
+            "time": "2022-11-24T13:47:52+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5211,11 +5211,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kirki/",
-                "reference": "trunk"
+                "reference": "tags/4.0.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kirki.zip?timestamp=1653480954"
+                "url": "https://downloads.wordpress.org/plugin/kirki.4.0.24.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5361,5 +5361,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
