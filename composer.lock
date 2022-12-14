@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ea873f70883ad67571abf59c74947d9",
+    "content-hash": "7ef283d23043acb762627ea818660be0",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1272,12 +1272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "e63380b4a2c0070c773bbca82e7a9f0464584522"
+                "reference": "b43d5b36a5cd88a94a65809777da2cc94b5acdc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/e63380b4a2c0070c773bbca82e7a9f0464584522",
-                "reference": "e63380b4a2c0070c773bbca82e7a9f0464584522",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/b43d5b36a5cd88a94a65809777da2cc94b5acdc9",
+                "reference": "b43d5b36a5cd88a94a65809777da2cc94b5acdc9",
                 "shasum": ""
             },
             "require": {
@@ -1302,7 +1302,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-12-09T14:48:54+00:00"
+            "time": "2022-12-12T12:42:50+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1335,6 +1335,49 @@
                 "source": "https://github.com/helsingborg-stad/api-kiosk-model-viewer/tree/1.0.3"
             },
             "time": "2022-05-02T12:52:51+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-volunteer-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
+                "reference": "2e47e140361d80a1ebb26145a1a7589b28466c74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/2e47e140361d80a1ebb26145a1a7589b28466c74",
+                "reference": "2e47e140361d80a1ebb26145a1a7589b28466c74",
+                "shasum": ""
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.31.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "VolunteerManager\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin @ Helsingborg Stad",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Creates a api that may be used to manage volunteer assignments",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
+            },
+            "time": "2022-12-13T12:26:35+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1471,12 +1514,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "409ba8fa7700d9974d0e2e8d68dc87d47d440a47"
+                "reference": "0ab233968a7aa4cfae6d393e7d7567b5dd93c07e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/409ba8fa7700d9974d0e2e8d68dc87d47d440a47",
-                "reference": "409ba8fa7700d9974d0e2e8d68dc87d47d440a47",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/0ab233968a7aa4cfae6d393e7d7567b5dd93c07e",
+                "reference": "0ab233968a7aa4cfae6d393e7d7567b5dd93c07e",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1538,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-12-12T09:54:07+00:00"
+            "time": "2022-12-14T10:13:57+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1604,16 +1647,16 @@
         },
         {
             "name": "helsingborg-stad/force-ssl",
-            "version": "1.0.19",
+            "version": "1.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/force-ssl.git",
-                "reference": "0034aea1d6c93f021b62f3794c3beeb2952e22c1"
+                "reference": "06dc4a8d3721a6935a52c7873a15445f29e61790"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/force-ssl/zipball/0034aea1d6c93f021b62f3794c3beeb2952e22c1",
-                "reference": "0034aea1d6c93f021b62f3794c3beeb2952e22c1",
+                "url": "https://api.github.com/repos/helsingborg-stad/force-ssl/zipball/06dc4a8d3721a6935a52c7873a15445f29e61790",
+                "reference": "06dc4a8d3721a6935a52c7873a15445f29e61790",
                 "shasum": ""
             },
             "require": {
@@ -1633,9 +1676,9 @@
             "description": "Force users to use ssl",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/force-ssl/issues",
-                "source": "https://github.com/helsingborg-stad/force-ssl/tree/1.0.19"
+                "source": "https://github.com/helsingborg-stad/force-ssl/tree/1.0.20"
             },
-            "time": "2017-05-26T11:57:48+00:00"
+            "time": "2022-12-13T09:17:51+00:00"
         },
         {
             "name": "helsingborg-stad/global-blade-engine",
@@ -2458,12 +2501,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "73078bd9b6ae75242d6c9a163273d56362fa726e"
+                "reference": "0c28be583b75279fcecae9007bfd5d8ae7c92eb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/73078bd9b6ae75242d6c9a163273d56362fa726e",
-                "reference": "73078bd9b6ae75242d6c9a163273d56362fa726e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0c28be583b75279fcecae9007bfd5d8ae7c92eb9",
+                "reference": "0c28be583b75279fcecae9007bfd5d8ae7c92eb9",
                 "shasum": ""
             },
             "require": {
@@ -2521,7 +2564,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-12-12T10:02:01+00:00"
+            "time": "2022-12-13T10:44:14+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5355,7 +5398,8 @@
         "helsingborg-stad/api-ar-dialogue-room": 20,
         "wpforms/file-upload-types": 20,
         "helsingborg-stad/mod-my-pages": 20,
-        "helsingborg-stad/modularity-interactive-img-map": 20
+        "helsingborg-stad/modularity-interactive-img-map": 20,
+        "helsingborg-stad/api-volunteer-manager": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
