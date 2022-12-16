@@ -1342,12 +1342,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "9237d3b9c895d7f212ffd20e0aaa610a7a4d6039"
+                "reference": "4cf423c1330ea4779f9c6c11979a580d84d272ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/9237d3b9c895d7f212ffd20e0aaa610a7a4d6039",
-                "reference": "9237d3b9c895d7f212ffd20e0aaa610a7a4d6039",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/4cf423c1330ea4779f9c6c11979a580d84d272ac",
+                "reference": "4cf423c1330ea4779f9c6c11979a580d84d272ac",
                 "shasum": ""
             },
             "require-dev": {
@@ -1377,7 +1377,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
             },
-            "time": "2022-12-15T13:48:05+00:00"
+            "time": "2022-12-15T14:07:40+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1514,12 +1514,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "22696ebe65a164f93c354f8569f86809925064d1"
+                "reference": "d4db16e7d6102844bb2e4fc82b2fb1ede0721f2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/22696ebe65a164f93c354f8569f86809925064d1",
-                "reference": "22696ebe65a164f93c354f8569f86809925064d1",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/d4db16e7d6102844bb2e4fc82b2fb1ede0721f2c",
+                "reference": "d4db16e7d6102844bb2e4fc82b2fb1ede0721f2c",
                 "shasum": ""
             },
             "require": {
@@ -1538,7 +1538,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-12-15T13:53:03+00:00"
+            "time": "2022-12-16T10:59:08+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2363,12 +2363,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "6279f7bd29f7cd1a656431872fa66f9bfc3be247"
+                "reference": "6bf55d0fdd331fa768a3ea2abdbe2274f346ce49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/6279f7bd29f7cd1a656431872fa66f9bfc3be247",
-                "reference": "6279f7bd29f7cd1a656431872fa66f9bfc3be247",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/6bf55d0fdd331fa768a3ea2abdbe2274f346ce49",
+                "reference": "6bf55d0fdd331fa768a3ea2abdbe2274f346ce49",
                 "shasum": ""
             },
             "require": {
@@ -2393,7 +2393,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2022-10-19T11:48:40+00:00"
+            "time": "2022-12-16T12:38:21+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-testimonials",
@@ -2501,12 +2501,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "0c28be583b75279fcecae9007bfd5d8ae7c92eb9"
+                "reference": "4336da2b56e686d165ca6bcba3f4597a306eb7df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0c28be583b75279fcecae9007bfd5d8ae7c92eb9",
-                "reference": "0c28be583b75279fcecae9007bfd5d8ae7c92eb9",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/4336da2b56e686d165ca6bcba3f4597a306eb7df",
+                "reference": "4336da2b56e686d165ca6bcba3f4597a306eb7df",
                 "shasum": ""
             },
             "require": {
@@ -2564,7 +2564,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-12-13T10:44:14+00:00"
+            "time": "2022-12-16T10:11:22+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
