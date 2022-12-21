@@ -1342,12 +1342,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "c719e3eccb38f841044d89d97122d4f2a7585e8f"
+                "reference": "b44b43e75d8515933913e6f2c90fb9137e220609"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/c719e3eccb38f841044d89d97122d4f2a7585e8f",
-                "reference": "c719e3eccb38f841044d89d97122d4f2a7585e8f",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/b44b43e75d8515933913e6f2c90fb9137e220609",
+                "reference": "b44b43e75d8515933913e6f2c90fb9137e220609",
                 "shasum": ""
             },
             "require-dev": {
@@ -1377,7 +1377,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
             },
-            "time": "2022-12-20T08:21:15+00:00"
+            "time": "2022-12-20T12:20:18+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1514,12 +1514,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "d4db16e7d6102844bb2e4fc82b2fb1ede0721f2c"
+                "reference": "c23253a125efa076939e189cc4a4fa1bb888c270"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/d4db16e7d6102844bb2e4fc82b2fb1ede0721f2c",
-                "reference": "d4db16e7d6102844bb2e4fc82b2fb1ede0721f2c",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/c23253a125efa076939e189cc4a4fa1bb888c270",
+                "reference": "c23253a125efa076939e189cc4a4fa1bb888c270",
                 "shasum": ""
             },
             "require": {
@@ -1538,7 +1538,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-12-16T10:59:08+00:00"
+            "time": "2022-12-21T11:22:00+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -5214,7 +5214,7 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-page",
-            "version": "4.4.9",
+            "version": "4.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-page/",
@@ -5222,7 +5222,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-page.zip?timestamp=1658141489"
+                "url": "https://downloads.wordpress.org/plugin/duplicate-page.zip?timestamp=1671539394"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
