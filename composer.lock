@@ -1272,12 +1272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "b43d5b36a5cd88a94a65809777da2cc94b5acdc9"
+                "reference": "913fcdeb6a3b8329a8c6c1ae6b6faf7be14215fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/b43d5b36a5cd88a94a65809777da2cc94b5acdc9",
-                "reference": "b43d5b36a5cd88a94a65809777da2cc94b5acdc9",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/913fcdeb6a3b8329a8c6c1ae6b6faf7be14215fa",
+                "reference": "913fcdeb6a3b8329a8c6c1ae6b6faf7be14215fa",
                 "shasum": ""
             },
             "require": {
@@ -1302,7 +1302,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-12-12T12:42:50+00:00"
+            "time": "2023-01-04T13:44:54+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -2002,7 +2002,7 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/feature/Om-inlgg-som-datatyp-och-bildspel-som-vy-i-Posts-modul-s-fungerar-ej-bildspelslider-CU-865be54rt"
             },
             "time": "2023-01-02T12:53:46+00:00"
         },
@@ -2501,12 +2501,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "a050b91232fdce0d9cf8e27037f638660cb694e4"
+                "reference": "8e2e9bf354468cecaff9919b37091f5afdae20ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a050b91232fdce0d9cf8e27037f638660cb694e4",
-                "reference": "a050b91232fdce0d9cf8e27037f638660cb694e4",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8e2e9bf354468cecaff9919b37091f5afdae20ed",
+                "reference": "8e2e9bf354468cecaff9919b37091f5afdae20ed",
                 "shasum": ""
             },
             "require": {
@@ -2564,7 +2564,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-01-02T22:16:13+00:00"
+            "time": "2023-01-03T14:52:58+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
