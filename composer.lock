@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e66bf8e32c40e74091bd075c028aa1f",
+    "content-hash": "a966752099a4bd758c804d04e39c8ca4",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1679,6 +1679,49 @@
                 "source": "https://github.com/helsingborg-stad/force-ssl/tree/1.0.20"
             },
             "time": "2022-12-13T09:17:51+00:00"
+        },
+        {
+            "name": "helsingborg-stad/gdi-modularity-cases",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/gdi-modularity-cases.git",
+                "reference": "a1dfba1192f5727b67248dbbdba086187ed1676f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-cases/zipball/a1dfba1192f5727b67248dbbdba086187ed1676f",
+                "reference": "a1dfba1192f5727b67248dbbdba086187ed1676f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.31.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "GdiCases\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "GDI Cases module",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/gdi-modularity-cases/issues",
+                "source": "https://github.com/helsingborg-stad/gdi-modularity-cases/tree/main"
+            },
+            "time": "2022-11-28T14:58:39+00:00"
         },
         {
             "name": "helsingborg-stad/gdi-modularity-my-pages-about-me",

@@ -108,7 +108,8 @@
         "helsingborg-stad/mod-my-pages": "dev-develop",
         "helsingborg-stad/modularity-interactive-img-map": "dev-3.0/develop",
         "helsingborg-stad/api-volunteer-manager": "dev-master",
-        "helsingborg-stad/gdi-modularity-my-pages-about-me": "dev-main"
+        "helsingborg-stad/gdi-modularity-my-pages-about-me": "dev-main",
+        "helsingborg-stad/gdi-modularity-cases": "dev-main"
     },
 
     "extra": {
