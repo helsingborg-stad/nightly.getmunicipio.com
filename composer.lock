@@ -5487,7 +5487,8 @@
         "helsingborg-stad/mod-my-pages": 20,
         "helsingborg-stad/modularity-interactive-img-map": 20,
         "helsingborg-stad/api-volunteer-manager": 20,
-        "helsingborg-stad/gdi-modularity-my-pages-about-me": 20
+        "helsingborg-stad/gdi-modularity-my-pages-about-me": 20,
+        "helsingborg-stad/gdi-modularity-cases": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
