@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ef283d23043acb762627ea818660be0",
+    "content-hash": "8e66bf8e32c40e74091bd075c028aa1f",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1681,6 +1681,49 @@
             "time": "2022-12-13T09:17:51+00:00"
         },
         {
+            "name": "helsingborg-stad/gdi-modularity-my-pages-about-me",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/gdi-modularity-my-pages-about-me.git",
+                "reference": "5c653b29808f26d0baa2b5814f74f845c15f636e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-my-pages-about-me/zipball/5c653b29808f26d0baa2b5814f74f845c15f636e",
+                "reference": "5c653b29808f26d0baa2b5814f74f845c15f636e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.31.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "GdiAboutMe\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "About me module",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/gdi-modularity-my-pages-about-me/issues",
+                "source": "https://github.com/helsingborg-stad/gdi-modularity-my-pages-about-me/tree/main"
+            },
+            "time": "2023-01-10T09:54:43+00:00"
+        },
+        {
             "name": "helsingborg-stad/global-blade-engine",
             "version": "1.2.5",
             "source": {
@@ -1879,16 +1922,16 @@
         },
         {
             "name": "helsingborg-stad/mod-my-pages",
-            "version": "dev-feature/my-account",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/mod-my-pages.git",
-                "reference": "700861bca3b89ea9e076020c8d9128544d3cf6e5"
+                "reference": "f522f921f5a133da7f93faeabe6ce6784e06b96d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/700861bca3b89ea9e076020c8d9128544d3cf6e5",
-                "reference": "700861bca3b89ea9e076020c8d9128544d3cf6e5",
+                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/f522f921f5a133da7f93faeabe6ce6784e06b96d",
+                "reference": "f522f921f5a133da7f93faeabe6ce6784e06b96d",
                 "shasum": ""
             },
             "require": {
@@ -1900,6 +1943,7 @@
                 "phpunit/phpunit": "^9.5",
                 "spatie/phpunit-watcher": "^1.23"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -1919,9 +1963,9 @@
             "description": "Modularity Wordpress Plugin",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/mod-my-pages/issues",
-                "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/feature/my-account"
+                "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/develop"
             },
-            "time": "2022-11-10T13:41:26+00:00"
+            "time": "2022-12-08T15:27:01+00:00"
         },
         {
             "name": "helsingborg-stad/modularity",
@@ -2501,12 +2545,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "a1174d15d56673d4fb2b8206f8b2a76324293a68"
+                "reference": "96a78353a96e76c9fec27f1275760731aa21a074"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a1174d15d56673d4fb2b8206f8b2a76324293a68",
-                "reference": "a1174d15d56673d4fb2b8206f8b2a76324293a68",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/96a78353a96e76c9fec27f1275760731aa21a074",
+                "reference": "96a78353a96e76c9fec27f1275760731aa21a074",
                 "shasum": ""
             },
             "require": {
@@ -2564,7 +2608,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-01-18T13:14:25+00:00"
+            "time": "2023-01-19T13:01:30+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5399,11 +5443,12 @@
         "wpforms/file-upload-types": 20,
         "helsingborg-stad/mod-my-pages": 20,
         "helsingborg-stad/modularity-interactive-img-map": 20,
-        "helsingborg-stad/api-volunteer-manager": 20
+        "helsingborg-stad/api-volunteer-manager": 20,
+        "helsingborg-stad/gdi-modularity-my-pages-about-me": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
