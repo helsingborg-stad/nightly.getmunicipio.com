@@ -2212,12 +2212,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-interactive-img-map.git",
-                "reference": "3ef7d6fd720b1a97bf8d011c5bea00f2ef444e34"
+                "reference": "c751784196d8da9878fc0de03b686ce03a13658f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-interactive-img-map/zipball/3ef7d6fd720b1a97bf8d011c5bea00f2ef444e34",
-                "reference": "3ef7d6fd720b1a97bf8d011c5bea00f2ef444e34",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-interactive-img-map/zipball/c751784196d8da9878fc0de03b686ce03a13658f",
+                "reference": "c751784196d8da9878fc0de03b686ce03a13658f",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2236,7 +2236,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-interactive-img-map/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-interactive-img-map/tree/3.0/develop"
             },
-            "time": "2023-01-30T10:54:17+00:00"
+            "time": "2023-01-30T14:22:11+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-json-render",
