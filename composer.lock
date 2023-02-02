@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a966752099a4bd758c804d04e39c8ca4",
+    "content-hash": "201b9871d99428357db682d4de1e51a2",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1272,12 +1272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "c22e2b940ca4e72986e77cc564e487aaa8590c75"
+                "reference": "64f73053340c589dfc7f725edc31141a2ee407fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/c22e2b940ca4e72986e77cc564e487aaa8590c75",
-                "reference": "c22e2b940ca4e72986e77cc564e487aaa8590c75",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/64f73053340c589dfc7f725edc31141a2ee407fb",
+                "reference": "64f73053340c589dfc7f725edc31141a2ee407fb",
                 "shasum": ""
             },
             "require": {
@@ -1302,7 +1302,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2023-01-26T12:47:49+00:00"
+            "time": "2023-02-02T08:25:53+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1514,12 +1514,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "82576e5167fbebb165a78ca68edbe80d4ad9b3f2"
+                "reference": "f67c3568b08287172135e07832da8de06ff1e436"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/82576e5167fbebb165a78ca68edbe80d4ad9b3f2",
-                "reference": "82576e5167fbebb165a78ca68edbe80d4ad9b3f2",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/f67c3568b08287172135e07832da8de06ff1e436",
+                "reference": "f67c3568b08287172135e07832da8de06ff1e436",
                 "shasum": ""
             },
             "require": {
@@ -1538,7 +1538,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-01-31T16:25:43+00:00"
+            "time": "2023-02-02T14:25:38+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2588,12 +2588,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "c970745dcbb39ba3e95b7bb61efa55d7222c4810"
+                "reference": "4bdb8ef907c5b8cf99c07c419624a42fd571d772"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c970745dcbb39ba3e95b7bb61efa55d7222c4810",
-                "reference": "c970745dcbb39ba3e95b7bb61efa55d7222c4810",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/4bdb8ef907c5b8cf99c07c419624a42fd571d772",
+                "reference": "4bdb8ef907c5b8cf99c07c419624a42fd571d772",
                 "shasum": ""
             },
             "require": {
@@ -2651,7 +2651,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-02-01T14:17:48+00:00"
+            "time": "2023-02-02T14:26:27+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -2716,6 +2716,42 @@
                 "source": "https://github.com/helsingborg-stad/Search-notices/tree/1.1.2"
             },
             "time": "2017-03-03T08:00:18+00:00"
+        },
+        {
+            "name": "helsingborg-stad/visit-custom-posttypes-taxonomies",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
+                "reference": "b47127bc48753709280b4b246e17fbdc9f2f3adf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/b47127bc48753709280b4b246e17fbdc9f2f3adf",
+                "reference": "b47127bc48753709280b4b246e17fbdc9f2f3adf",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anna Johansson",
+                    "email": "anna.johansson4@helsingborg.se"
+                }
+            ],
+            "description": "Custom post types taxonomies for Visit",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
+                "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
+            },
+            "time": "2023-02-02T14:30:25+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
@@ -5488,11 +5524,12 @@
         "helsingborg-stad/modularity-interactive-img-map": 20,
         "helsingborg-stad/api-volunteer-manager": 20,
         "helsingborg-stad/gdi-modularity-my-pages-about-me": 20,
-        "helsingborg-stad/gdi-modularity-cases": 20
+        "helsingborg-stad/gdi-modularity-cases": 20,
+        "helsingborg-stad/visit-custom-posttypes-taxonomies": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
