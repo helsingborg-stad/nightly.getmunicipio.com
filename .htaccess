@@ -13,6 +13,7 @@ deny from 46.161.14.99
 # Force use of SSL (SERVER)
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteCond %{HTTP_HOST} .*(?<!localhost:9123)$
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
@@ -77,9 +78,9 @@ RewriteRule . index.php [L]
 </ifModule>
 
 # Force use of SSL (CLIENT)
-<IfModule mod_headers.c>
-    Header set Strict-Transport-Security "max-age=60;"
-</IfModule>
+# <IfModule mod_headers.c>
+#     Header set Strict-Transport-Security "max-age=60;"
+# </IfModule>
 
 # Admin redirect
 RedirectMatch 301 /secure /wp-admin
