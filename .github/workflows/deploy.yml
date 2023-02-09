@@ -107,7 +107,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - uses: helsingborg-stad/wordpress-plugin-unzipper@master
+    - uses: helsingborg-stad/wordpress-plugin-unzipper@main
       with:
         deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_MODUL_TEST_HELSINGBORG_IO }}
         deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_MODUL_TEST_HELSINGBORG_IO }}
