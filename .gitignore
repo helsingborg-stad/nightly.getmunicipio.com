@@ -6,7 +6,6 @@
 /config/multisite.php
 /config/salts.php
 /config/search.php
-.env
 
 # Municipio dependencies #
 ##########################
@@ -26,6 +25,11 @@ wp-content/mu-plugins/must_use_loader.php
 wp-content/mu-plugins/attachmentDownloader.php
 !wp-content/object-cache.php
 !wp-content/plugins/vizzit-analytics
+
+# Devcontainer #
+#########################
+.env
+wp-cli.yml
 
 # NPM *
 ##########################

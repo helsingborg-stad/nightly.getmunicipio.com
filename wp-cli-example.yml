@@ -1,0 +1,2 @@
+@stage:
+    ssh: <my-username>@<my-server>/<my-production-wordpress-server-path>

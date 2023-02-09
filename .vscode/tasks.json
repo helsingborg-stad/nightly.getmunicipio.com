@@ -4,16 +4,18 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "install",
+            "label": "setup:composer-install",
             "type": "shell",
             "options": {"cwd": "${workspaceFolder}"},
             "command": ["composer", "install"],
+            "hide": true,
             "problemMatcher": []
         },
         {
-            "label": "configure salts",
+            "label": "setup:configure-salts",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/config-salts.sh",
+            "hide": true,
             "problemMatcher": []
         },
         {
@@ -26,30 +28,47 @@
                 "&&",
                 "cp", "${workspaceFolder}/.vscode/tasks/templates/sunrise.php", "${workspaceFolder}/wp-content/sunrise.php"
             ],
+            "hide": true,
             "problemMatcher": []
         },
         {
-            "label": "import database",
+            "label": "setup:install-database",
+            "options": {"cwd": "${workspaceFolder}"},
+            "type": "shell",
+            "command": "wp core install --title='Modul Test Local' --url=localhost --admin_user=admin --admin_email=admin@local.host  --allow-root",
+            "hide": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "setup:fetch-remote-database",
+            "options": {"cwd": "${workspaceFolder}"},
+            "type": "shell",
+            "command": "wp @stage db export --exclude_tables=modul_test_users,modul_test_usermeta --allow-root - | tee database.sql",
+            "hide": true,
+            "problemMatcher": []
+            
+        },
+        {
+            "label": "setup:import-remote-database",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/import-database.sh",
+            "dependsOn": ["setup:install-database", "setup:fetch-remote-database"],
+            "dependsOrder": "sequence",
+            "hide": true,
             "problemMatcher": []
         },
         {
-            "label": "replace remote domain in database",
-            "type": "shell",
-            "command": "${workspaceFolder}/.vscode/tasks/replace-remote-domain-in-database.sh",
-            "problemMatcher": []
-        },
-        {
-            "label": "config .npmrc file",
+            "label": "setup:config-npmrc",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/config-npmrc.sh",
+            "hide": true,
             "problemMatcher": []
         },
         {
-            "label": "add acf plugin",
+            "label": "setup:add-acf-plugin",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/setup-env-variables.sh && ${workspaceFolder}/.vscode/tasks/add-acf-plugin.sh",
+            "hide": true,
             "problemMatcher": []
         },
         {
@@ -59,17 +78,11 @@
             "problemMatcher": []
         },
         {
-            "label": "add admin user",
-            "options": {"cwd": "${workspaceFolder}"},
-            "type": "shell",
-            "command": "wp user create developer developer@localhost.dev --role=administrator --user_pass=developer",
-            "problemMatcher": []
-        },
-        {
-            "label": "deactivate plugins",
+            "label": "setup:deactivate-plugins",
             "options": {"cwd": "${workspaceFolder}"},
             "type": "shell",
             "command": "wp plugin deactivate force-ssl --allow-root --network && wp plugin deactivate force-ssl --allow-root",
+            "hide": true,
             "problemMatcher": []
         },
         {
@@ -83,15 +96,14 @@
             "type": "shell",
             "dependsOrder": "sequence",
             "dependsOn": [
-                "install",
+                "setup:composer-install",
                 "setup:config-files",
-                "configure salts",
-                "config .npmrc file",
-                "add acf plugin",
+                "setup:configure-salts",
+                "setup:config-npmrc",
+                "setup:add-acf-plugin",
                 "build",
-                "import database",
-                "replace remote domain in database",
-                "deactivate plugins"
+                "setup:import-remote-database",
+                "setup:deactivate-plugins"
             ],
             "command": [],
             "problemMatcher": []
