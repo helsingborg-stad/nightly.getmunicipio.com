@@ -109,10 +109,10 @@ jobs:
     steps:
     - uses: helsingborg-stad/wordpress-plugin-unzipper@master
       with:
-        deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD }}
-        deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_DOMAIN_SE }}
-        deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER }}
-        deploy-host-user-key: ${{ secrets.DEPLOY_KEY }}
-        deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER }}
+        deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_MODUL_TEST_HELSINGBORG_IO }}
+        deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_MODUL_TEST_HELSINGBORG_IO }}
+        deploy-host-user: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
+        deploy-host-user-key: ${{ secrets.DEPLOY_KEY_MODUL_TEST_HELSINGBORG_IO }}
+        deploy-host-web-server-user: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
         github-token: ${{ secrets.HBG_GH_TOKEN }}
         plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
