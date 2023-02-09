@@ -113,6 +113,6 @@ jobs:
         deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_MODUL_TEST_HELSINGBORG_IO }}
         deploy-host-user: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
         deploy-host-user-key: ${{ secrets.DEPLOY_KEY_MODUL_TEST_HELSINGBORG_IO }}
-        deploy-host-web-server-user: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
+        deploy-host-web-server-user: www-data
         github-token: ${{ secrets.HBG_GH_TOKEN }}
         plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
