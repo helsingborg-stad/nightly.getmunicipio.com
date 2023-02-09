@@ -12,11 +12,13 @@
 	// For use with PHP or Apache (e.g.php -S localhost:8080 or apache2ctl start)
 	"forwardPorts": [
 		3306,
-		9123
+		80
 	],
 
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "16.19.0"
+		},
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
 			"packages": "mariadb-client,bash-completion"
 		}

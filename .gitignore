@@ -6,6 +6,7 @@
 /config/multisite.php
 /config/salts.php
 /config/search.php
+.env
 
 # Municipio dependencies #
 ##########################

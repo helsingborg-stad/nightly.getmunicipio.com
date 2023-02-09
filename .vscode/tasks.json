@@ -7,7 +7,7 @@
             "label": "install",
             "type": "shell",
             "options": {"cwd": "${workspaceFolder}"},
-            "command": ["composer", "install", "--prefer-source"],
+            "command": ["composer", "install"],
             "problemMatcher": []
         },
         {
@@ -17,15 +17,15 @@
             "problemMatcher": []
         },
         {
-            "label": "configure database",
+            "label": "setup:config-files",
             "type": "shell",
-            "command": "cp ${workspaceFolder}/.vscode/tasks/templates/database.php ${workspaceFolder}/config/database.php",
-            "problemMatcher": []
-        },
-        {
-            "label": "configure multisite",
-            "type": "shell",
-            "command": "cp ${workspaceFolder}/.vscode/tasks/templates/multisite.php ${workspaceFolder}/config/multisite.php",
+            "command": [
+                "cp", "${workspaceFolder}/.vscode/tasks/templates/database.php", "${workspaceFolder}/config/database.php",
+                "&&",
+                "cp", "${workspaceFolder}/.vscode/tasks/templates/multisite.php", "${workspaceFolder}/config/multisite.php",
+                "&&",
+                "cp", "${workspaceFolder}/.vscode/tasks/templates/sunrise.php", "${workspaceFolder}/wp-content/sunrise.php"
+            ],
             "problemMatcher": []
         },
         {
@@ -43,19 +43,19 @@
         {
             "label": "config .npmrc file",
             "type": "shell",
-            "command": "${workspaceFolder}/.vscode/tasks/config-npmrc.sh ${input:github-token}",
+            "command": "${workspaceFolder}/.vscode/tasks/config-npmrc.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "add acf plugin",
+            "type": "shell",
+            "command": "${workspaceFolder}/.vscode/tasks/setup-env-variables.sh && ${workspaceFolder}/.vscode/tasks/add-acf-plugin.sh",
             "problemMatcher": []
         },
         {
             "label": "build",
             "type": "shell",
             "command": ["php", "build.php"],
-            "problemMatcher": []
-        },
-        {
-            "label": "add acf plugin",
-            "type": "shell",
-            "command": "${workspaceFolder}/.vscode/tasks/add-acf-plugin.sh ${input:acf-token}",
             "problemMatcher": []
         },
         {
@@ -81,11 +81,10 @@
         {
             "label": "setup",
             "type": "shell",
+            "dependsOrder": "sequence",
             "dependsOn": [
                 "install",
-                "configure salts",
-                "configure database",
-                "configure multisite",
+                "setup:config-files",
                 "config .npmrc file",
                 "add acf plugin",
                 "build",
@@ -97,16 +96,4 @@
             "problemMatcher": []
         },
     ],
-    "inputs": [
-        {
-            "id": "github-token",
-            "description": "Provide a GitHub token that enables package:read. This is then added to a .npmrc file in the project root.",
-            "type": "promptString"
-        },
-        {
-            "id": "acf-token",
-            "description": "Provide a token for the ACF plugin download.",
-            "type": "promptString"
-        },
-    ]
 }
