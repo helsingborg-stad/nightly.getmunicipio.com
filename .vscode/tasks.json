@@ -85,6 +85,7 @@
             "dependsOn": [
                 "install",
                 "setup:config-files",
+                "configure salts",
                 "config .npmrc file",
                 "add acf plugin",
                 "build",
