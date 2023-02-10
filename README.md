@@ -53,3 +53,5 @@ composer reinstall helsingborg-stad/municipio --prefer-source
 ```
 
 From now on you should be able to work directly on the municipio theme repo from inside the theme folder `wp-content/themes/municipio`.
+
+> Please note that you will need to run `composer install` as well as `npm install` inside the package that you have just required the source for. And to run any required build scripts inside.

@@ -61,7 +61,7 @@
             "label": "setup:config-npmrc",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/config-npmrc.sh",
-            "hide": true,
+            "hide": false,
             "problemMatcher": []
         },
         {
@@ -82,7 +82,7 @@
             "options": {"cwd": "${workspaceFolder}"},
             "type": "shell",
             "command": "wp plugin deactivate force-ssl --allow-root --network && wp plugin deactivate force-ssl --allow-root",
-            "hide": true,
+            "hide": false,
             "problemMatcher": []
         },
         {
@@ -92,10 +92,18 @@
             "problemMatcher": [],
         },
         {
+            "label": "setup:check-prerequesites",
+            "type": "shell",
+            "command": "${workspaceFolder}/.vscode/tasks/check-setup-prerequisites.sh",
+            "hide": true,
+            "problemMatcher": []
+        },
+        {
             "label": "setup",
             "type": "shell",
             "dependsOrder": "sequence",
             "dependsOn": [
+                "setup:check-prerequesites",
                 "setup:composer-install",
                 "setup:config-files",
                 "setup:configure-salts",

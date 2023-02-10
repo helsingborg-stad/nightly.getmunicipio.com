@@ -37,7 +37,7 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"remote.autoForwardPorts": false,
+				"remote.autoForwardPorts": true,
 				"explorer.excludeGitIgnore": false,
 				"search.useIgnoreFiles": false,
 				"terminal.integrated.defaultProfile.linux": "zsh"
