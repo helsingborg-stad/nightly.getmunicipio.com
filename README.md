@@ -38,3 +38,18 @@ The default and recommended development environment is using devcontainers which
 1. Copy `wp-cli-example.yml` to `wp-cli.yml` and populate the predefined variables inside with valid values to fetch a db export from the staging site.
 1. Run the task named "setup". **This will take some time to execute. About 20 minutes.**
 1. When the setup task has completed, run the "start server" task.
+
+### Suggested workflow
+This project consists of multiple wordpress plugins as well as a theme that is developed and maintained by Helsingborgs Stad.
+The idea with this development setup is that you should be able to make changes to any of these from this environment.
+
+When setting up the environment a `composer install` is performed. This however does not install the source of the plugins or theme.
+To be able to work in one of the sub-repos that holds a plugin or theme, you should install that specific composer package source.
+
+#### Example showing how to get the source for the `municipio` theme.
+Run the following command in the project root.
+```sh
+composer reinstall helsingborg-stad/municipio --prefer-source
+```
+
+From now on you should be able to work directly on the municipio theme repo from inside the theme folder `wp-content/themes/municipio`.

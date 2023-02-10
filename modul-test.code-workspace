@@ -1,0 +1,181 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "root: modul-test.helingborg.io"
+        },
+        {
+            "path": "./wp-content/themes/municipio",
+            "name": "theme: municipio"
+        },
+        {
+            "path": "./wp-content/plugins/modularity",
+            "name": "plugin: modularity"
+        },
+        {
+            "path": "./wp-content/plugins/api-event-manager-integration",
+            "name": "plugin: api-event-manager-integration"
+        },
+        {
+            "path": "./wp-content/plugins/force-ssl",
+            "name": "plugin: force-ssl",
+        },
+        {
+            "path": "./wp-content/plugins/search-notices",
+            "name": "plugin: search-notices",
+        },
+        {
+            "path": "./wp-content/plugins/lix-calculator",
+            "name": "plugin: lix-calculator",
+        },
+        {
+            "path": "./wp-content/plugins/active-directory-api-wp-integration",
+            "name": "plugin: active-directory-api-wp-integration",
+        },
+        {
+            "path": "./wp-content/plugins/easy-to-read-alternative",
+            "name": "plugin: easy-to-read-alternative",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-form-builder",
+            "name": "plugin: modularity-form-builder",
+        },
+        {
+            "path": "./wp-content/plugins/wp-page-for-post-type",
+            "name": "plugin: wp-page-for-post-type",
+        },
+        {
+            "path": "./wp-content/plugins/api-alarm-integration",
+            "name": "plugin: api-alarm-integration",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-guides",
+            "name": "plugin: modularity-guides",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-sections",
+            "name": "plugin: modularity-sections",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-timeline",
+            "name": "plugin: modularity-timeline",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-json-render",
+            "name": "plugin: modularity-json-render",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-products" ,
+            "name": "plugin: modularity-products",
+        },
+        {
+            "path": "./wp-content/plugins/customer-feedback",
+            "name": "plugin: customer-feedback",
+        },
+        {
+            "path": "./wp-content/plugins/media-usage",
+            "name": "plugin: media-usage",
+        },
+        {
+            "path": "./wp-content/plugins/job-listings",
+            "name": "plugin: job-listings",
+        },
+        {
+            "path": "./wp-content/plugins/redirection-extended",
+            "name": "plugin: redirection-extended",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-contact-banner",
+            "name": "plugin: modularity-contact-banner",
+        },
+        {
+            "path": "./wp-content/plugins/component-library" ,
+            "name": "plugin: component-library",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-testimonials",
+            "name": "plugin: modularity-testimonials",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-local-events",
+            "name": "plugin: modularity-local-events",
+        },
+        {
+            "path": "./wp-content/plugins/algolia-index",
+            "name": "plugin: algolia-index",
+        },
+        {
+            "path": "./wp-content/plugins/algolia-index-modularity-addon",
+            "name": "plugin: algolia-index-modularity-addon",
+        },
+        {
+            "path": "./wp-content/plugins/algolia-index-js-searchpage-addon",
+            "name": "plugin: algolia-index-js-searchpage-addon",
+        },
+        {
+            "path": "./wp-content/plugins/multisite-role-propagation",
+            "name": "plugin: multisite-role-propagation",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-recommend",
+            "name": "plugin: modularity-recommend",
+        },
+        {
+            "path": "./wp-content/plugins/wp-graphql-municipio" ,
+            "name": "plugin: wp-graphql-municipio",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-mhbooking",
+            "name": "plugin: modularity-mhbooking",
+        },
+        {
+            "path": "./wp-content/plugins/api-kiosk-model-viewer",
+            "name": "plugin: api-kiosk-model-viewer",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-mypages",
+            "name": "plugin: modularity-mypages",
+        },
+        {
+            "path": "./wp-content/plugins/api-ar-dialogue-room",
+            "name": "plugin: api-ar-dialogue-room",
+        },
+        {
+            "path": "./wp-content/plugins/attachment-revisions",
+            "name": "plugin: attachment-revisions",
+        },
+        {
+            "path": "./wp-content/plugins/content-scheduler",
+            "name": "plugin: content-scheduler",
+        },
+        {
+            "path": "./wp-content/plugins/larrum-custom-api",
+            "name": "plugin: larrum-custom-api",
+        },
+        {
+            "path": "./wp-content/plugins/mod-my-pages",
+            "name": "plugin: mod-my-pages",
+        },
+        {
+            "path": "./wp-content/plugins/modularity-interactive-img-map",
+            "name": "plugin: modularity-interactive-img-map",
+        },
+        {
+            "path": "./wp-content/plugins/api-volunteer-manager",
+            "name": "plugin: api-volunteer-manager",
+        },
+        {
+            "path": "./wp-content/plugins/gdi-modularity-my-pages-about-me" ,
+            "name": "plugin: gdi-modularity-my-pages-about-me",
+        },
+        {
+            "path": "./wp-content/plugins/gdi-modularity-cases" ,
+            "name": "plugin: gdi-modularity-cases",
+        },
+        {
+            "path": "./wp-content/plugins/visit-custom-posttypes-taxonomies",
+            "name": "plugin: visit-custom-posttypes-taxonomies",
+        },
+    ],
+}
+
