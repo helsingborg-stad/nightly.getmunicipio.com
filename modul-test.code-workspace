@@ -9,6 +9,10 @@
             "name": "theme: municipio"
         },
         {
+            "path": "./wp-content/mu-plugins/component-library",
+            "name": "mu-plugin: component-library",
+        },
+        {
             "path": "./wp-content/plugins/modularity",
             "name": "plugin: modularity"
         },
@@ -87,10 +91,6 @@
         {
             "path": "./wp-content/plugins/modularity-contact-banner",
             "name": "plugin: modularity-contact-banner",
-        },
-        {
-            "path": "./wp-content/plugins/component-library" ,
-            "name": "plugin: component-library",
         },
         {
             "path": "./wp-content/plugins/modularity-testimonials",
