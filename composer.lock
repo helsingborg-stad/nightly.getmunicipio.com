@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "201b9871d99428357db682d4de1e51a2",
+    "content-hash": "9e4715088cf4e9a62d817c20e26b780b",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1685,16 +1685,16 @@
         },
         {
             "name": "helsingborg-stad/gdi-modularity-cases",
-            "version": "dev-main",
+            "version": "dev-feature/styling",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/gdi-modularity-cases.git",
-                "reference": "a1dfba1192f5727b67248dbbdba086187ed1676f"
+                "reference": "dd820878bcc4a4f78ecee594c2002d9273e9723e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-cases/zipball/a1dfba1192f5727b67248dbbdba086187ed1676f",
-                "reference": "a1dfba1192f5727b67248dbbdba086187ed1676f",
+                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-cases/zipball/dd820878bcc4a4f78ecee594c2002d9273e9723e",
+                "reference": "dd820878bcc4a4f78ecee594c2002d9273e9723e",
                 "shasum": ""
             },
             "require-dev": {
@@ -1702,7 +1702,6 @@
                 "codedungeon/phpunit-result-printer": "^0.31.0",
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -1722,9 +1721,9 @@
             "description": "GDI Cases module",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/gdi-modularity-cases/issues",
-                "source": "https://github.com/helsingborg-stad/gdi-modularity-cases/tree/main"
+                "source": "https://github.com/helsingborg-stad/gdi-modularity-cases/tree/feature/styling"
             },
-            "time": "2022-11-28T14:58:39+00:00"
+            "time": "2023-02-16T16:38:50+00:00"
         },
         {
             "name": "helsingborg-stad/gdi-modularity-my-pages-about-me",
@@ -1972,12 +1971,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/mod-my-pages.git",
-                "reference": "f522f921f5a133da7f93faeabe6ce6784e06b96d"
+                "reference": "a5cc32f80485b27463b72bad996d8837bdd2298a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/f522f921f5a133da7f93faeabe6ce6784e06b96d",
-                "reference": "f522f921f5a133da7f93faeabe6ce6784e06b96d",
+                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/a5cc32f80485b27463b72bad996d8837bdd2298a",
+                "reference": "a5cc32f80485b27463b72bad996d8837bdd2298a",
                 "shasum": ""
             },
             "require": {
@@ -2011,7 +2010,7 @@
                 "issues": "https://github.com/helsingborg-stad/mod-my-pages/issues",
                 "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/develop"
             },
-            "time": "2022-12-08T15:27:01+00:00"
+            "time": "2023-02-16T16:17:48+00:00"
         },
         {
             "name": "helsingborg-stad/modularity",
@@ -2019,12 +2018,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "750552f840202515001273c23efb519a97cd2dba"
+                "reference": "2e1f1249f3c6f1368dfc8b6bbbabbb020cc13211"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/750552f840202515001273c23efb519a97cd2dba",
-                "reference": "750552f840202515001273c23efb519a97cd2dba",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/2e1f1249f3c6f1368dfc8b6bbbabbb020cc13211",
+                "reference": "2e1f1249f3c6f1368dfc8b6bbbabbb020cc13211",
                 "shasum": ""
             },
             "require": {
@@ -2094,7 +2093,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-02-13T10:12:26+00:00"
+            "time": "2023-02-14T14:39:07+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2591,12 +2590,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "ec4e273d28ac1c0d16a794847de021c99172756c"
+                "reference": "b3f3c5bb26e99a08c796b834559745fed75e4b88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ec4e273d28ac1c0d16a794847de021c99172756c",
-                "reference": "ec4e273d28ac1c0d16a794847de021c99172756c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b3f3c5bb26e99a08c796b834559745fed75e4b88",
+                "reference": "b3f3c5bb26e99a08c796b834559745fed75e4b88",
                 "shasum": ""
             },
             "require": {
@@ -2654,7 +2653,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-02-13T16:44:27+00:00"
+            "time": "2023-02-15T06:37:38+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5535,5 +5534,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
