@@ -72,3 +72,4 @@ ehthumbs.db
 Thumbs.db
 
 .dccache
+.vscode/settings.json
