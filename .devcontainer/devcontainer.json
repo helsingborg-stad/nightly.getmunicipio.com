@@ -28,7 +28,7 @@
 	"postCreateCommand": {
 		"symlink-workspace-to-www": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html",
 		"enable-apache-mods": "sudo a2enmod --quiet headers rewrite expires",
-		"install-wp-cli": "curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && chmod +x wp-cli.phar && sudo mv wp-cli.phar /usr/local/bin/wp",
+		"install-wp-cli": "curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && chmod +x wp-cli.phar && sudo mv wp-cli.phar /usr/local/bin/wp"
 	},
 
 	"waitFor": "postCreateCommand",
@@ -36,6 +36,12 @@
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
+			"extensions": [
+				"mrmlnc.vscode-apache",
+				"bmewburn.vscode-intelephense-client",
+				"eamodio.gitlens",
+				"ValeryanM.vscode-phpsab"
+			],
 			"settings": {
 				"remote.autoForwardPorts": true,
 				"explorer.excludeGitIgnore": false,

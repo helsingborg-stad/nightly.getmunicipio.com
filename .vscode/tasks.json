@@ -8,35 +8,29 @@
             "type": "shell",
             "options": {"cwd": "${workspaceFolder}"},
             "command": ["composer", "install"],
-            "hide": true,
             "problemMatcher": []
         },
         {
             "label": "setup:configure-salts",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/config-salts.sh",
-            "hide": true,
             "problemMatcher": []
         },
         {
             "label": "setup:config-files",
             "type": "shell",
             "command": [
-                "cp", "${workspaceFolder}/.vscode/tasks/templates/database.php", "${workspaceFolder}/config/database.php",
-                "&&",
-                "cp", "${workspaceFolder}/.vscode/tasks/templates/multisite.php", "${workspaceFolder}/config/multisite.php",
+                "cp", "${workspaceFolder}/.vscode/tasks/templates/developer.php", "${workspaceFolder}/config/developer.php",
                 "&&",
                 "cp", "${workspaceFolder}/.vscode/tasks/templates/sunrise.php", "${workspaceFolder}/wp-content/sunrise.php"
             ],
-            "hide": true,
             "problemMatcher": []
         },
         {
             "label": "setup:install-database",
             "options": {"cwd": "${workspaceFolder}"},
             "type": "shell",
-            "command": "wp core install --title='Modul Test Local' --url=localhost --admin_user=admin --admin_email=admin@local.host  --allow-root",
-            "hide": true,
+            "command": "wp core install --title='Modul Test Local' --url=localhost --admin_user=admin --admin_password=admin --admin_email=admin@local.host --allow-root",
             "problemMatcher": []
         },
         {
@@ -44,7 +38,6 @@
             "options": {"cwd": "${workspaceFolder}"},
             "type": "shell",
             "command": "wp @stage db export --exclude_tables=modul_test_users,modul_test_usermeta --allow-root - | tee database.sql",
-            "hide": true,
             "problemMatcher": []
             
         },
@@ -54,35 +47,24 @@
             "command": "${workspaceFolder}/.vscode/tasks/import-database.sh",
             "dependsOn": ["setup:install-database", "setup:fetch-remote-database"],
             "dependsOrder": "sequence",
-            "hide": true,
             "problemMatcher": []
         },
         {
             "label": "setup:config-npmrc",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/config-npmrc.sh",
-            "hide": false,
             "problemMatcher": []
         },
         {
             "label": "setup:add-acf-plugin",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/setup-env-variables.sh && ${workspaceFolder}/.vscode/tasks/add-acf-plugin.sh",
-            "hide": true,
             "problemMatcher": []
         },
         {
             "label": "build",
             "type": "shell",
             "command": ["php", "build.php"],
-            "problemMatcher": []
-        },
-        {
-            "label": "setup:deactivate-plugins",
-            "options": {"cwd": "${workspaceFolder}"},
-            "type": "shell",
-            "command": "wp plugin deactivate force-ssl --allow-root --network && wp plugin deactivate force-ssl --allow-root",
-            "hide": false,
             "problemMatcher": []
         },
         {
@@ -111,7 +93,6 @@
                 "setup:add-acf-plugin",
                 "build",
                 "setup:import-remote-database",
-                "setup:deactivate-plugins"
             ],
             "command": [],
             "problemMatcher": []
