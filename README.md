@@ -39,6 +39,9 @@ The default and recommended development environment is using devcontainers which
 1. Run the task named "setup". **This will take some time to execute. About 20 minutes.**
 1. When the setup task has completed, run the "start server" task.
 
+> **Note**:
+> During the "setup" task a `sunrise.php` will be placed in the wp-content folder. The code in this file will be executed on every visit to the local site. If you wish to disable it, change the value of the `SUNRISE` constant in the `config/developer.php` file.
+
 ### Suggested workflow
 This project consists of multiple wordpress plugins as well as a theme that is developed and maintained by Helsingborgs Stad.
 The idea with this development setup is that you should be able to make changes to any of these from this environment.
