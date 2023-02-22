@@ -22,6 +22,10 @@
             "command": [
                 "cp", "${workspaceFolder}/.vscode/tasks/templates/developer.php", "${workspaceFolder}/config/developer.php",
                 "&&",
+                "cp", "${workspaceFolder}/.vscode/tasks/templates/database.php", "${workspaceFolder}/config/database.php",
+                "&&",
+                "cp", "${workspaceFolder}/.vscode/tasks/templates/multisite.php", "${workspaceFolder}/config/multisite.php",
+                "&&",
                 "cp", "${workspaceFolder}/.vscode/tasks/templates/sunrise.php", "${workspaceFolder}/wp-content/sunrise.php"
             ],
             "problemMatcher": []
@@ -91,7 +95,7 @@
                 "setup:configure-salts",
                 "setup:config-npmrc",
                 "setup:add-acf-plugin",
-                "build",
+                // "build",
                 "setup:import-remote-database",
             ],
             "command": [],

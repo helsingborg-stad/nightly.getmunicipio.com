@@ -8,8 +8,8 @@ services:
 
     volumes:
       - ../..:/workspaces:cached
-      - ../.devcontainer/apache2/ports.conf:/etc/apache2/ports.conf
-      - ../.devcontainer/apache2/sites-enabled/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
+      # - ../.devcontainer/apache2/ports.conf:/etc/apache2/ports.conf
+      # - ../.devcontainer/apache2/sites-enabled/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
