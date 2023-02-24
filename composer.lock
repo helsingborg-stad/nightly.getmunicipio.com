@@ -2726,12 +2726,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "2f7f08065a1e8b86ad49df47b0d8db68e7607c54"
+                "reference": "8e609d7443dd81e6e8cbfa1c727f2fed73516489"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/2f7f08065a1e8b86ad49df47b0d8db68e7607c54",
-                "reference": "2f7f08065a1e8b86ad49df47b0d8db68e7607c54",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/8e609d7443dd81e6e8cbfa1c727f2fed73516489",
+                "reference": "8e609d7443dd81e6e8cbfa1c727f2fed73516489",
                 "shasum": ""
             },
             "require": {
@@ -2755,7 +2755,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-02-23T15:36:20+00:00"
+            "time": "2023-02-24T09:44:07+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
