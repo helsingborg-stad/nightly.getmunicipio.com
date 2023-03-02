@@ -1972,12 +1972,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/mod-my-pages.git",
-                "reference": "cc3e6d92f54a9e52ea1e7dfe0dac4deb182bfea2"
+                "reference": "f3e783165937c7ef24021181477d41fd2248c867"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/cc3e6d92f54a9e52ea1e7dfe0dac4deb182bfea2",
-                "reference": "cc3e6d92f54a9e52ea1e7dfe0dac4deb182bfea2",
+                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/f3e783165937c7ef24021181477d41fd2248c867",
+                "reference": "f3e783165937c7ef24021181477d41fd2248c867",
                 "shasum": ""
             },
             "require": {
@@ -1995,10 +1995,6 @@
             "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
-                "files": [
-                    "Const.php",
-                    "Public.php"
-                ],
                 "psr-4": {
                     "ModMyPages\\": "source/php/"
                 }
@@ -2018,7 +2014,7 @@
                 "issues": "https://github.com/helsingborg-stad/mod-my-pages/issues",
                 "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/develop"
             },
-            "time": "2023-03-02T07:55:33+00:00"
+            "time": "2023-03-02T13:54:12+00:00"
         },
         {
             "name": "helsingborg-stad/modularity",
