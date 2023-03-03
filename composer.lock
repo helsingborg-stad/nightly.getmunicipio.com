@@ -1518,12 +1518,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "e651e2a03761dd9cec3e08dda7018d7606c6d8d5"
+                "reference": "265d3d043a3724881bf4b8cd2187348752338dcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/e651e2a03761dd9cec3e08dda7018d7606c6d8d5",
-                "reference": "e651e2a03761dd9cec3e08dda7018d7606c6d8d5",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/265d3d043a3724881bf4b8cd2187348752338dcb",
+                "reference": "265d3d043a3724881bf4b8cd2187348752338dcb",
                 "shasum": ""
             },
             "require": {
@@ -1542,7 +1542,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-03-02T12:32:16+00:00"
+            "time": "2023-03-03T14:30:39+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2594,12 +2594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "add864ad4f161b8df0b20bb29e402f1074aaa6ae"
+                "reference": "e934a12c0008909dc699db6ebe751504888a7652"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/add864ad4f161b8df0b20bb29e402f1074aaa6ae",
-                "reference": "add864ad4f161b8df0b20bb29e402f1074aaa6ae",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e934a12c0008909dc699db6ebe751504888a7652",
+                "reference": "e934a12c0008909dc699db6ebe751504888a7652",
                 "shasum": ""
             },
             "require": {
@@ -2657,7 +2657,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-03-03T09:36:09+00:00"
+            "time": "2023-03-03T14:44:26+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5147,16 +5147,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.13.9",
+            "version": "v1.13.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "24e4ced11a3ea5478baabd0f2db146e60422ab68"
+                "reference": "d5d766d0e92a8706824cb2eef2d40fc30b05e8fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/24e4ced11a3ea5478baabd0f2db146e60422ab68",
-                "reference": "24e4ced11a3ea5478baabd0f2db146e60422ab68",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/d5d766d0e92a8706824cb2eef2d40fc30b05e8fa",
+                "reference": "d5d766d0e92a8706824cb2eef2d40fc30b05e8fa",
                 "shasum": ""
             },
             "require": {
@@ -5220,9 +5220,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.13.9"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.13.10"
             },
-            "time": "2023-02-15T23:48:12+00:00"
+            "time": "2023-03-02T20:44:27+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
@@ -5538,5 +5538,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
