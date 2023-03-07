@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e4715088cf4e9a62d817c20e26b780b",
+    "content-hash": "5966355dccd1a2d424a457a8f164f7df",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2594,12 +2594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "5b0d9b22509a14f7be9e293a818ccd640b398434"
+                "reference": "0905259900e6ce539fe48dfaf2de73a5be4baa9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5b0d9b22509a14f7be9e293a818ccd640b398434",
-                "reference": "5b0d9b22509a14f7be9e293a818ccd640b398434",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0905259900e6ce539fe48dfaf2de73a5be4baa9f",
+                "reference": "0905259900e6ce539fe48dfaf2de73a5be4baa9f",
                 "shasum": ""
             },
             "require": {
@@ -2657,7 +2657,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-03-06T09:06:07+00:00"
+            "time": "2023-03-07T12:52:21+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -2729,12 +2729,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "1432387467216880c1dfca6f38aa11c395a6fd7b"
+                "reference": "7f384b877d7da3b9a1b6544edb8e8a2d4219c21a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/1432387467216880c1dfca6f38aa11c395a6fd7b",
-                "reference": "1432387467216880c1dfca6f38aa11c395a6fd7b",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/7f384b877d7da3b9a1b6544edb8e8a2d4219c21a",
+                "reference": "7f384b877d7da3b9a1b6544edb8e8a2d4219c21a",
                 "shasum": ""
             },
             "require": {
@@ -2758,7 +2758,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-02-28T15:33:24+00:00"
+            "time": "2023-03-07T09:03:30+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
@@ -2831,6 +2831,48 @@
                 "source": "https://github.com/helsingborg-stad/wp-page-for-posttype/tree/1.1.0"
             },
             "time": "2022-05-02T11:53:11+00:00"
+        },
+        {
+            "name": "helsingborg-stad/wp-page-for-term",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/wp-page-for-term.git",
+                "reference": "2297f9ca081ea1b70d0c1f09d8b28f0a4ff585d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-term/zipball/2297f9ca081ea1b70d0c1f09d8b28f0a4ff585d0",
+                "reference": "2297f9ca081ea1b70d0c1f09d8b28f0a4ff585d0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.31.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "wpPageForTerm\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anna Johansson",
+                    "email": "anna.johansson4@helsingborg.se"
+                }
+            ],
+            "description": "Allows you to set a static page as the replacement for any term archive.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/wp-page-for-term/issues",
+                "source": "https://github.com/helsingborg-stad/wp-page-for-term/tree/1.0.0"
+            },
+            "time": "2023-03-07T13:14:13+00:00"
         },
         {
             "name": "illuminate/container",
@@ -3848,16 +3890,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.41",
+            "version": "2.0.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "7e763c6f97ec1fcb37c46aa8ecfc20a2c71d9c1b"
+                "reference": "665d289f59e646a259ebf13f29be7f6f54cab24b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7e763c6f97ec1fcb37c46aa8ecfc20a2c71d9c1b",
-                "reference": "7e763c6f97ec1fcb37c46aa8ecfc20a2c71d9c1b",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/665d289f59e646a259ebf13f29be7f6f54cab24b",
+                "reference": "665d289f59e646a259ebf13f29be7f6f54cab24b",
                 "shasum": ""
             },
             "require": {
@@ -3938,7 +3980,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.41"
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.42"
             },
             "funding": [
                 {
@@ -3954,7 +3996,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-23T16:44:18+00:00"
+            "time": "2023-03-06T12:45:53+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
