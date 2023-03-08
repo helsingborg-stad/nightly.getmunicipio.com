@@ -1286,6 +1286,7 @@
                 "philo/laravel-blade": "^3.1",
                 "ralouphie/mimey": "^2.1"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1518,12 +1519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "005ec4d31eb426ed231eae202e371ae066363bbe"
+                "reference": "ea1a2a10a726ecfcf3dba651473a001c7625c01d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/005ec4d31eb426ed231eae202e371ae066363bbe",
-                "reference": "005ec4d31eb426ed231eae202e371ae066363bbe",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/ea1a2a10a726ecfcf3dba651473a001c7625c01d",
+                "reference": "ea1a2a10a726ecfcf3dba651473a001c7625c01d",
                 "shasum": ""
             },
             "require": {
@@ -1542,7 +1543,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-03-04T22:19:24+00:00"
+            "time": "2023-03-08T07:56:54+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1596,6 +1597,7 @@
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1690,12 +1692,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/gdi-modularity-cases.git",
-                "reference": "e0c1699b2d9f633dfd85d499b5d9c87dffc27145"
+                "reference": "c2289b36510843158c26313fe7dd70431c78a806"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-cases/zipball/e0c1699b2d9f633dfd85d499b5d9c87dffc27145",
-                "reference": "e0c1699b2d9f633dfd85d499b5d9c87dffc27145",
+                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-cases/zipball/c2289b36510843158c26313fe7dd70431c78a806",
+                "reference": "c2289b36510843158c26313fe7dd70431c78a806",
                 "shasum": ""
             },
             "require-dev": {
@@ -1724,7 +1726,7 @@
                 "issues": "https://github.com/helsingborg-stad/gdi-modularity-cases/issues",
                 "source": "https://github.com/helsingborg-stad/gdi-modularity-cases/tree/feature/styling"
             },
-            "time": "2023-03-02T05:31:39+00:00"
+            "time": "2023-03-07T18:24:45+00:00"
         },
         {
             "name": "helsingborg-stad/gdi-modularity-my-pages-about-me",
@@ -1973,12 +1975,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/mod-my-pages.git",
-                "reference": "ac9fcd94139ce57665d552ba31b2824684a408e4"
+                "reference": "f2a5c7a1b82b7d45eb98012b18ca006382822dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/ac9fcd94139ce57665d552ba31b2824684a408e4",
-                "reference": "ac9fcd94139ce57665d552ba31b2824684a408e4",
+                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/f2a5c7a1b82b7d45eb98012b18ca006382822dfd",
+                "reference": "f2a5c7a1b82b7d45eb98012b18ca006382822dfd",
                 "shasum": ""
             },
             "require": {
@@ -2015,7 +2017,7 @@
                 "issues": "https://github.com/helsingborg-stad/mod-my-pages/issues",
                 "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/develop"
             },
-            "time": "2023-03-03T08:12:39+00:00"
+            "time": "2023-03-08T07:50:07+00:00"
         },
         {
             "name": "helsingborg-stad/modularity",
@@ -2228,6 +2230,7 @@
                 "reference": "c751784196d8da9878fc0de03b686ce03a13658f",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2731,12 +2734,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "7f384b877d7da3b9a1b6544edb8e8a2d4219c21a"
+                "reference": "d3fe221d775ed00825b18722d70931e88965febe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/7f384b877d7da3b9a1b6544edb8e8a2d4219c21a",
-                "reference": "7f384b877d7da3b9a1b6544edb8e8a2d4219c21a",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/d3fe221d775ed00825b18722d70931e88965febe",
+                "reference": "d3fe221d775ed00825b18722d70931e88965febe",
                 "shasum": ""
             },
             "require": {
@@ -2760,7 +2763,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-03-07T09:03:30+00:00"
+            "time": "2023-03-07T15:35:38+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
@@ -5582,5 +5585,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
