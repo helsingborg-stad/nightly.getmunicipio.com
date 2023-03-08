@@ -1216,6 +1216,7 @@
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2194,6 +2195,7 @@
                 "reference": "6eecb1b5e0c5ec9d288439c9e90d6f626e296d78",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2266,6 +2268,7 @@
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2507,6 +2510,7 @@
                 "reference": "e086e4abbc6088d170e7b9631956963c93c5b6c4",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2538,6 +2542,7 @@
                 "reference": "50364c9ff280a5e8284e772973a282b84d5b2b46",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2599,12 +2604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "0b545e34b2186b75d32bf89f604c7d870a76d9a2"
+                "reference": "f66cf9079bbc70e8b8393ebda47994f1055d456d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0b545e34b2186b75d32bf89f604c7d870a76d9a2",
-                "reference": "0b545e34b2186b75d32bf89f604c7d870a76d9a2",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f66cf9079bbc70e8b8393ebda47994f1055d456d",
+                "reference": "f66cf9079bbc70e8b8393ebda47994f1055d456d",
                 "shasum": ""
             },
             "require": {
@@ -2662,7 +2667,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-03-07T14:17:16+00:00"
+            "time": "2023-03-08T11:57:38+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -2734,12 +2739,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "d3fe221d775ed00825b18722d70931e88965febe"
+                "reference": "212d4f646bcd374f5f6490b39a7c5520c5ffc7e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/d3fe221d775ed00825b18722d70931e88965febe",
-                "reference": "d3fe221d775ed00825b18722d70931e88965febe",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/212d4f646bcd374f5f6490b39a7c5520c5ffc7e4",
+                "reference": "212d4f646bcd374f5f6490b39a7c5520c5ffc7e4",
                 "shasum": ""
             },
             "require": {
@@ -2763,7 +2768,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-03-07T15:35:38+00:00"
+            "time": "2023-03-08T12:20:11+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
@@ -5585,5 +5590,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
