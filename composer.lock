@@ -1344,12 +1344,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "67be7da76d70c7f9bfd0c4b797617e2ee0555395"
+                "reference": "071707a280dad913b2b93f8dbc1de02ca80bca71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/67be7da76d70c7f9bfd0c4b797617e2ee0555395",
-                "reference": "67be7da76d70c7f9bfd0c4b797617e2ee0555395",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/071707a280dad913b2b93f8dbc1de02ca80bca71",
+                "reference": "071707a280dad913b2b93f8dbc1de02ca80bca71",
                 "shasum": ""
             },
             "require": {
@@ -1383,7 +1383,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
             },
-            "time": "2023-02-27T09:54:09+00:00"
+            "time": "2023-03-09T09:14:05+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -2604,12 +2604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "7149c6d8a473b4109846051fbb150864b2b6cf23"
+                "reference": "034f1b75d99587a9424c30ae452f817107eb74cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/7149c6d8a473b4109846051fbb150864b2b6cf23",
-                "reference": "7149c6d8a473b4109846051fbb150864b2b6cf23",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/034f1b75d99587a9424c30ae452f817107eb74cc",
+                "reference": "034f1b75d99587a9424c30ae452f817107eb74cc",
                 "shasum": ""
             },
             "require": {
@@ -2667,7 +2667,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-03-08T14:01:50+00:00"
+            "time": "2023-03-09T09:30:17+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5199,16 +5199,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.13.10",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "d5d766d0e92a8706824cb2eef2d40fc30b05e8fa"
+                "reference": "d9b5c9fb1f7e5d979d5ba892cdc5d3fc6db41ec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/d5d766d0e92a8706824cb2eef2d40fc30b05e8fa",
-                "reference": "d5d766d0e92a8706824cb2eef2d40fc30b05e8fa",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/d9b5c9fb1f7e5d979d5ba892cdc5d3fc6db41ec1",
+                "reference": "d9b5c9fb1f7e5d979d5ba892cdc5d3fc6db41ec1",
                 "shasum": ""
             },
             "require": {
@@ -5233,7 +5233,8 @@
                 "phpstan/phpstan": "^1.7",
                 "phpunit/phpunit": "^9.5",
                 "simpod/php-coveralls-mirror": "^3.0",
-                "szepeviktor/phpstan-wordpress": "1.1.3",
+                "slevomat/coding-standard": "^8.8",
+                "szepeviktor/phpstan-wordpress": "1.1.6",
                 "wp-graphql/wp-graphql-testcase": "~2.3"
             },
             "type": "wordpress-plugin",
@@ -5272,9 +5273,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.13.10"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.14.0"
             },
-            "time": "2023-03-02T20:44:27+00:00"
+            "time": "2023-03-08T17:40:59+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
