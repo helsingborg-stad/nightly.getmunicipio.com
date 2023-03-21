@@ -1,4 +1,4 @@
-name: Build site
+name: Build site php 8.2
 
 on:
   push:
@@ -61,6 +61,8 @@ jobs:
 
     - name: Execute buildscripts in themes and plugins folders
       run: php ./build.php --cleanup
+      env: 
+        COMPOSER_IGNORE_PLATFORM_REQ: php
 
     - name: Cleanup .npmrc
       run: rm ~/.npmrc
