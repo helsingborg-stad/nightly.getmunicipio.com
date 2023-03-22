@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3ba6dd79ff5c9349c21b7f8e3870405",
+    "content-hash": "5821c709e90014f4a84bc8982931d80b",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1791,6 +1791,49 @@
                 "source": "https://github.com/helsingborg-stad/gdi-modularity-cases/tree/develop"
             },
             "time": "2023-03-07T18:24:45+00:00"
+        },
+        {
+            "name": "helsingborg-stad/gdi-modularity-invoices",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/gdi-modularity-invoices.git",
+                "reference": "ace569633a261d9c6cd5ff90524fe31a3046a37d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-invoices/zipball/ace569633a261d9c6cd5ff90524fe31a3046a37d",
+                "reference": "ace569633a261d9c6cd5ff90524fe31a3046a37d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.31.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "GdiInvoices\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "GDI Invoices Module",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/gdi-modularity-invoices/issues",
+                "source": "https://github.com/helsingborg-stad/gdi-modularity-invoices/tree/develop"
+            },
+            "time": "2023-03-22T12:22:55+00:00"
         },
         {
             "name": "helsingborg-stad/gdi-modularity-my-pages-about-me",
@@ -5653,7 +5696,8 @@
         "helsingborg-stad/api-volunteer-manager": 20,
         "helsingborg-stad/gdi-modularity-my-pages-about-me": 20,
         "helsingborg-stad/gdi-modularity-cases": 20,
-        "helsingborg-stad/visit-custom-posttypes-taxonomies": 20
+        "helsingborg-stad/visit-custom-posttypes-taxonomies": 20,
+        "helsingborg-stad/gdi-modularity-invoices": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
