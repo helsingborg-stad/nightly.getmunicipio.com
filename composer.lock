@@ -1373,12 +1373,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "1c5e1377ae5697c5b1c867a882a4b28e8e9b46d7"
+                "reference": "87b40e119a74f0fdabba2e282790405956eb84da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/1c5e1377ae5697c5b1c867a882a4b28e8e9b46d7",
-                "reference": "1c5e1377ae5697c5b1c867a882a4b28e8e9b46d7",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/87b40e119a74f0fdabba2e282790405956eb84da",
+                "reference": "87b40e119a74f0fdabba2e282790405956eb84da",
                 "shasum": ""
             },
             "require": {
@@ -1404,7 +1404,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2023-03-16T12:06:53+00:00"
+            "time": "2023-03-23T09:05:46+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1671,12 +1671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "a55e2fdf9eadbf605158fb16ac8f6a825c59f219"
+                "reference": "71026935d9c2aa812b698ba93b1a29e0e3162a1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a55e2fdf9eadbf605158fb16ac8f6a825c59f219",
-                "reference": "a55e2fdf9eadbf605158fb16ac8f6a825c59f219",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/71026935d9c2aa812b698ba93b1a29e0e3162a1c",
+                "reference": "71026935d9c2aa812b698ba93b1a29e0e3162a1c",
                 "shasum": ""
             },
             "require": {
@@ -1695,7 +1695,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-03-23T07:33:36+00:00"
+            "time": "2023-03-23T08:53:25+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2982,12 +2982,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "56cc6006222884db8d3a598ec3afc5b4453813db"
+                "reference": "9cd5888335fee1164769d327b62d96ea8cb2eca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/56cc6006222884db8d3a598ec3afc5b4453813db",
-                "reference": "56cc6006222884db8d3a598ec3afc5b4453813db",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/9cd5888335fee1164769d327b62d96ea8cb2eca7",
+                "reference": "9cd5888335fee1164769d327b62d96ea8cb2eca7",
                 "shasum": ""
             },
             "require": {
@@ -3011,7 +3011,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-03-17T12:59:57+00:00"
+            "time": "2023-03-23T09:16:46+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
@@ -6075,5 +6075,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
