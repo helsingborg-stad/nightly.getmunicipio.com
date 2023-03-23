@@ -1886,12 +1886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/gdi-modularity-invoices.git",
-                "reference": "646253ff91e78fc43ee5f9eeff43bba7066c3494"
+                "reference": "8ed27c80de59caf78e557ce7ed668bf6e41196e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-invoices/zipball/646253ff91e78fc43ee5f9eeff43bba7066c3494",
-                "reference": "646253ff91e78fc43ee5f9eeff43bba7066c3494",
+                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-invoices/zipball/8ed27c80de59caf78e557ce7ed668bf6e41196e7",
+                "reference": "8ed27c80de59caf78e557ce7ed668bf6e41196e7",
                 "shasum": ""
             },
             "require-dev": {
@@ -1921,7 +1921,7 @@
                 "issues": "https://github.com/helsingborg-stad/gdi-modularity-invoices/issues",
                 "source": "https://github.com/helsingborg-stad/gdi-modularity-invoices/tree/develop"
             },
-            "time": "2023-03-23T14:20:54+00:00"
+            "time": "2023-03-23T14:30:13+00:00"
         },
         {
             "name": "helsingborg-stad/gdi-modularity-my-pages-about-me",
