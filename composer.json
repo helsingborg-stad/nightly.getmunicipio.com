@@ -108,10 +108,12 @@
         "helsingborg-stad/mod-my-pages": "dev-develop",
         "helsingborg-stad/modularity-interactive-img-map": "dev-3.0/develop",
         "helsingborg-stad/api-volunteer-manager": "dev-master",
-        "helsingborg-stad/gdi-modularity-my-pages-about-me": "dev-main",
-        "helsingborg-stad/gdi-modularity-cases": "dev-feature/styling",
+        "helsingborg-stad/gdi-modularity-my-pages-about-me": "dev-develop",
+        "helsingborg-stad/gdi-modularity-cases": "dev-develop",
         "helsingborg-stad/visit-custom-posttypes-taxonomies": "dev-master",
-        "helsingborg-stad/wp-page-for-term": "^1.0"
+        "helsingborg-stad/wp-page-for-term": "^1.0",
+        "helsingborg-stad/gdi-modularity-invoices": "dev-develop",
+        "helsingborg-stad/like-posts": "dev-main"
     },
 
     "extra": {
