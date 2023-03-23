@@ -112,7 +112,8 @@
         "helsingborg-stad/gdi-modularity-cases": "dev-develop",
         "helsingborg-stad/visit-custom-posttypes-taxonomies": "dev-master",
         "helsingborg-stad/wp-page-for-term": "^1.0",
-        "helsingborg-stad/gdi-modularity-invoices": "dev-develop"
+        "helsingborg-stad/gdi-modularity-invoices": "dev-develop",
+        "helsingborg-stad/like-posts": "dev-main"
     },
 
     "extra": {

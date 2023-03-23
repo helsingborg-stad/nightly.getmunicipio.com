@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5821c709e90014f4a84bc8982931d80b",
+    "content-hash": "b78bb5cd913d6945c46443831a5332bb",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1444,12 +1444,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "fbe45bff3e983db0d52fd17d8609e25af0abb008"
+                "reference": "e02c1b68c5cd75b901e562242eda697969acc816"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/fbe45bff3e983db0d52fd17d8609e25af0abb008",
-                "reference": "fbe45bff3e983db0d52fd17d8609e25af0abb008",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/e02c1b68c5cd75b901e562242eda697969acc816",
+                "reference": "e02c1b68c5cd75b901e562242eda697969acc816",
                 "shasum": ""
             },
             "require": {
@@ -1483,7 +1483,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
             },
-            "time": "2023-03-21T14:36:52+00:00"
+            "time": "2023-03-23T07:44:01+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1671,12 +1671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "80790e66e54093c36548b3b3003e8fb4ffbebc16"
+                "reference": "a55e2fdf9eadbf605158fb16ac8f6a825c59f219"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/80790e66e54093c36548b3b3003e8fb4ffbebc16",
-                "reference": "80790e66e54093c36548b3b3003e8fb4ffbebc16",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a55e2fdf9eadbf605158fb16ac8f6a825c59f219",
+                "reference": "a55e2fdf9eadbf605158fb16ac8f6a825c59f219",
                 "shasum": ""
             },
             "require": {
@@ -1695,7 +1695,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-03-22T14:44:08+00:00"
+            "time": "2023-03-23T07:33:36+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2100,6 +2100,49 @@
             "time": "2022-07-04T09:21:59+00:00"
         },
         {
+            "name": "helsingborg-stad/like-posts",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-like.git",
+                "reference": "96075401485f6182aae4d2433a851fe7bbed91e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/96075401485f6182aae4d2433a851fe7bbed91e0",
+                "reference": "96075401485f6182aae4d2433a851fe7bbed91e0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.31.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "ModularityLikePosts\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Niclas Norin",
+                    "email": "niclas.norin@frontwalker.se"
+                }
+            ],
+            "description": "Lets the users like a post.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-like/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-like/tree/main"
+            },
+            "time": "2023-03-17T15:35:21+00:00"
+        },
+        {
             "name": "helsingborg-stad/lix-calculator",
             "version": "2.1.0",
             "source": {
@@ -2169,12 +2212,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/mod-my-pages.git",
-                "reference": "eff99417beeefe0f063de6898957feea0dfceba9"
+                "reference": "51a7a757a1eb830c0dda8dbc92301a61afd93088"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/eff99417beeefe0f063de6898957feea0dfceba9",
-                "reference": "eff99417beeefe0f063de6898957feea0dfceba9",
+                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/51a7a757a1eb830c0dda8dbc92301a61afd93088",
+                "reference": "51a7a757a1eb830c0dda8dbc92301a61afd93088",
                 "shasum": ""
             },
             "require": {
@@ -2211,7 +2254,7 @@
                 "issues": "https://github.com/helsingborg-stad/mod-my-pages/issues",
                 "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/develop"
             },
-            "time": "2023-03-22T15:31:19+00:00"
+            "time": "2023-03-22T15:44:05+00:00"
         },
         {
             "name": "helsingborg-stad/modularity",
@@ -6025,11 +6068,12 @@
         "helsingborg-stad/gdi-modularity-my-pages-about-me": 20,
         "helsingborg-stad/gdi-modularity-cases": 20,
         "helsingborg-stad/visit-custom-posttypes-taxonomies": 20,
-        "helsingborg-stad/gdi-modularity-invoices": 20
+        "helsingborg-stad/gdi-modularity-invoices": 20,
+        "helsingborg-stad/like-posts": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
