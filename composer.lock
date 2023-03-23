@@ -1929,12 +1929,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/gdi-modularity-my-pages-about-me.git",
-                "reference": "649b61168f946a4b2eec64fbe8fb2055b633c3ff"
+                "reference": "97f7a73e02cbcb0073aef85c46ba1e24d2e66bdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-my-pages-about-me/zipball/649b61168f946a4b2eec64fbe8fb2055b633c3ff",
-                "reference": "649b61168f946a4b2eec64fbe8fb2055b633c3ff",
+                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-my-pages-about-me/zipball/97f7a73e02cbcb0073aef85c46ba1e24d2e66bdd",
+                "reference": "97f7a73e02cbcb0073aef85c46ba1e24d2e66bdd",
                 "shasum": ""
             },
             "require-dev": {
@@ -1963,7 +1963,7 @@
                 "issues": "https://github.com/helsingborg-stad/gdi-modularity-my-pages-about-me/issues",
                 "source": "https://github.com/helsingborg-stad/gdi-modularity-my-pages-about-me/tree/develop"
             },
-            "time": "2023-03-23T13:38:50+00:00"
+            "time": "2023-03-23T16:05:51+00:00"
         },
         {
             "name": "helsingborg-stad/global-blade-engine",
