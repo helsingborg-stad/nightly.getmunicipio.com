@@ -1929,12 +1929,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/gdi-modularity-my-pages-about-me.git",
-                "reference": "97f7a73e02cbcb0073aef85c46ba1e24d2e66bdd"
+                "reference": "b9a3430477506537307b5000aeb4951302f539ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-my-pages-about-me/zipball/97f7a73e02cbcb0073aef85c46ba1e24d2e66bdd",
-                "reference": "97f7a73e02cbcb0073aef85c46ba1e24d2e66bdd",
+                "url": "https://api.github.com/repos/helsingborg-stad/gdi-modularity-my-pages-about-me/zipball/b9a3430477506537307b5000aeb4951302f539ef",
+                "reference": "b9a3430477506537307b5000aeb4951302f539ef",
                 "shasum": ""
             },
             "require-dev": {
@@ -1963,7 +1963,7 @@
                 "issues": "https://github.com/helsingborg-stad/gdi-modularity-my-pages-about-me/issues",
                 "source": "https://github.com/helsingborg-stad/gdi-modularity-my-pages-about-me/tree/develop"
             },
-            "time": "2023-03-23T16:05:51+00:00"
+            "time": "2023-03-23T18:22:20+00:00"
         },
         {
             "name": "helsingborg-stad/global-blade-engine",
@@ -2212,12 +2212,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/mod-my-pages.git",
-                "reference": "b306d7f8ae576f472458ae7c2fe313e4f3e1493e"
+                "reference": "1aa6efb272c52b828a841ad3b8c0da2b6eae5b54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/b306d7f8ae576f472458ae7c2fe313e4f3e1493e",
-                "reference": "b306d7f8ae576f472458ae7c2fe313e4f3e1493e",
+                "url": "https://api.github.com/repos/helsingborg-stad/mod-my-pages/zipball/1aa6efb272c52b828a841ad3b8c0da2b6eae5b54",
+                "reference": "1aa6efb272c52b828a841ad3b8c0da2b6eae5b54",
                 "shasum": ""
             },
             "require": {
@@ -2254,7 +2254,7 @@
                 "issues": "https://github.com/helsingborg-stad/mod-my-pages/issues",
                 "source": "https://github.com/helsingborg-stad/mod-my-pages/tree/develop"
             },
-            "time": "2023-03-23T16:59:36+00:00"
+            "time": "2023-03-24T08:19:30+00:00"
         },
         {
             "name": "helsingborg-stad/modularity",
@@ -2842,12 +2842,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "0772da820ee9314cc17de4ea2fb53d6c0178787a"
+                "reference": "5753af5597f7a8703fefb9bf3672d1bd9faf484e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0772da820ee9314cc17de4ea2fb53d6c0178787a",
-                "reference": "0772da820ee9314cc17de4ea2fb53d6c0178787a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5753af5597f7a8703fefb9bf3672d1bd9faf484e",
+                "reference": "5753af5597f7a8703fefb9bf3672d1bd9faf484e",
                 "shasum": ""
             },
             "require": {
@@ -2910,7 +2910,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-03-23T13:26:03+00:00"
+            "time": "2023-03-24T08:29:15+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
