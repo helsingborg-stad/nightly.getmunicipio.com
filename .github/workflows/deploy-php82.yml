@@ -115,7 +115,7 @@ jobs:
         username: ${{ secrets.DEPLOY_NOTFICATION_MAIL_USER }}
         password: ${{ secrets.DEPLOY_NOTFICATION_MAIL_PASSWORD }}
         subject: Modul-test Deploy done!
-        to: ${{ secrets.DEPLOY_NOTFICATION_RECIEVER_MAIL }}
+        to: ${{ secrets.DEPLOY_NOTFICATION_RECEIVER_MAIL }}
         from: deploy@municipio.nu
         body: Build job of ${{github.repository}} completed successfully!
         ignore_cert: true
