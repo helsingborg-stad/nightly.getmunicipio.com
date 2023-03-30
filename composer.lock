@@ -2983,12 +2983,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "a4079ff9b92fa5aebfd36d5763404da89901ff00"
+                "reference": "ce9f3fc473f0468d998a22eb136d82a49013ce71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/a4079ff9b92fa5aebfd36d5763404da89901ff00",
-                "reference": "a4079ff9b92fa5aebfd36d5763404da89901ff00",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/ce9f3fc473f0468d998a22eb136d82a49013ce71",
+                "reference": "ce9f3fc473f0468d998a22eb136d82a49013ce71",
                 "shasum": ""
             },
             "require": {
@@ -3012,7 +3012,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-03-29T12:35:10+00:00"
+            "time": "2023-03-30T11:52:19+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
@@ -3092,12 +3092,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wp-page-for-term.git",
-                "reference": "8b452a9e5386113bded69610c87fc88813295a98"
+                "reference": "06529e368af0af0e6acd182349923dd3fdeed5a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-term/zipball/8b452a9e5386113bded69610c87fc88813295a98",
-                "reference": "8b452a9e5386113bded69610c87fc88813295a98",
+                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-term/zipball/06529e368af0af0e6acd182349923dd3fdeed5a0",
+                "reference": "06529e368af0af0e6acd182349923dd3fdeed5a0",
                 "shasum": ""
             },
             "require-dev": {
@@ -3127,7 +3127,7 @@
                 "issues": "https://github.com/helsingborg-stad/wp-page-for-term/issues",
                 "source": "https://github.com/helsingborg-stad/wp-page-for-term/tree/master"
             },
-            "time": "2023-03-29T06:35:02+00:00"
+            "time": "2023-03-30T11:51:27+00:00"
         },
         {
             "name": "illuminate/container",
