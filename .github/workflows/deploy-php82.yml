@@ -102,21 +102,3 @@ jobs:
         github-token: ${{ secrets.HBG_GH_TOKEN }}
         plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
 
-  send-status:
-    needs: zipped-plugins
-    runs-on: ubuntu-latest
-    steps:
-    - name: Send mail
-      uses: dawidd6/action-send-mail@v3
-      with:
-        server_address: ${{ secrets.DEPLOY_NOTFICATION_SMTP_SERVER }}
-        server_port: 465
-        secure: true
-        username: ${{ secrets.DEPLOY_NOTFICATION_MAIL_USER }}
-        password: ${{ secrets.DEPLOY_NOTFICATION_MAIL_PASSWORD }}
-        subject: Modul-test Deploy done!
-        to: ${{ secrets.DEPLOY_NOTFICATION_RECEIVER_MAIL }}
-        from: deploy@municipio.nu
-        body: Build job of ${{github.repository}} completed successfully!
-        ignore_cert: true
-        convert_markdown: true
