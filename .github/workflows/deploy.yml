@@ -117,6 +117,7 @@ jobs:
         github-token: ${{ secrets.HBG_GH_TOKEN }}
         plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
 
+    - uses: actions/checkout@v3
     - name: Sentry release
       uses: getsentry/action-release@v1
       env:
