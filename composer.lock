@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2ff659847f9759784bb0993da34b5db",
+    "content-hash": "c6dbe1ffddbf7e1f33d984cf286f3782",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1444,12 +1444,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "29d00111ba6cbeb9fe1f9e3cc8e5bf7d16d8715f"
+                "reference": "d34300ca81b9f5e415b707c70c0e0810ed57837e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/29d00111ba6cbeb9fe1f9e3cc8e5bf7d16d8715f",
-                "reference": "29d00111ba6cbeb9fe1f9e3cc8e5bf7d16d8715f",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/d34300ca81b9f5e415b707c70c0e0810ed57837e",
+                "reference": "d34300ca81b9f5e415b707c70c0e0810ed57837e",
                 "shasum": ""
             },
             "require": {
@@ -1483,7 +1483,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
             },
-            "time": "2023-04-03T11:58:32+00:00"
+            "time": "2023-04-04T13:31:45+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1671,12 +1671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "cac6dfb99e7d87c02077906efc55181e9980a15b"
+                "reference": "24a5cfc0b24d92c299b96cfd2d098f1959370b5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/cac6dfb99e7d87c02077906efc55181e9980a15b",
-                "reference": "cac6dfb99e7d87c02077906efc55181e9980a15b",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/24a5cfc0b24d92c299b96cfd2d098f1959370b5c",
+                "reference": "24a5cfc0b24d92c299b96cfd2d098f1959370b5c",
                 "shasum": ""
             },
             "require": {
@@ -1695,7 +1695,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-04-03T09:07:14+00:00"
+            "time": "2023-04-04T11:11:37+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2263,12 +2263,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "c0a11d1e0b4a921add11ce91804a80aa86193fdd"
+                "reference": "94b6ac3162733bf79261402d1ed33d85049a5925"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c0a11d1e0b4a921add11ce91804a80aa86193fdd",
-                "reference": "c0a11d1e0b4a921add11ce91804a80aa86193fdd",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/94b6ac3162733bf79261402d1ed33d85049a5925",
+                "reference": "94b6ac3162733bf79261402d1ed33d85049a5925",
                 "shasum": ""
             },
             "require": {
@@ -2338,7 +2338,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-04-04T10:51:38+00:00"
+            "time": "2023-04-04T11:10:55+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2843,12 +2843,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "af5a474a85b801e61057d4997fec4f716787faaf"
+                "reference": "bdc4c85720aadb1df2b49de909ac4123000235da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/af5a474a85b801e61057d4997fec4f716787faaf",
-                "reference": "af5a474a85b801e61057d4997fec4f716787faaf",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/bdc4c85720aadb1df2b49de909ac4123000235da",
+                "reference": "bdc4c85720aadb1df2b49de909ac4123000235da",
                 "shasum": ""
             },
             "require": {
@@ -2911,7 +2911,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-04-04T08:27:22+00:00"
+            "time": "2023-04-04T14:51:19+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -6022,6 +6022,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-nested-pages/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-sentry-integration",
+            "version": "6.12.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
+                "reference": "tags/6.12.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.12.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-sentry-integration/"
         },
         {
             "name": "wpforms/file-upload-types",
