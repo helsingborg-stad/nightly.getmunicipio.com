@@ -1671,12 +1671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "732df3d4f02f4922c15a9aa869be240b245b937c"
+                "reference": "879b3c45648047c4f9a315dbb2bb0a179b5590b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/732df3d4f02f4922c15a9aa869be240b245b937c",
-                "reference": "732df3d4f02f4922c15a9aa869be240b245b937c",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/879b3c45648047c4f9a315dbb2bb0a179b5590b5",
+                "reference": "879b3c45648047c4f9a315dbb2bb0a179b5590b5",
                 "shasum": ""
             },
             "require": {
@@ -1695,7 +1695,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-04-05T08:14:17+00:00"
+            "time": "2023-04-05T12:57:42+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -3092,12 +3092,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wp-page-for-term.git",
-                "reference": "62a44e9d7205ecf2d2ca9441d957ffb89efd0555"
+                "reference": "6d772b577e937452e2441a126e05f5079e96348d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-term/zipball/62a44e9d7205ecf2d2ca9441d957ffb89efd0555",
-                "reference": "62a44e9d7205ecf2d2ca9441d957ffb89efd0555",
+                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-term/zipball/6d772b577e937452e2441a126e05f5079e96348d",
+                "reference": "6d772b577e937452e2441a126e05f5079e96348d",
                 "shasum": ""
             },
             "require-dev": {
@@ -3127,7 +3127,7 @@
                 "issues": "https://github.com/helsingborg-stad/wp-page-for-term/issues",
                 "source": "https://github.com/helsingborg-stad/wp-page-for-term/tree/master"
             },
-            "time": "2023-04-03T11:12:24+00:00"
+            "time": "2023-04-05T12:54:48+00:00"
         },
         {
             "name": "illuminate/container",
