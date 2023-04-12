@@ -2856,12 +2856,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "ec85950fa4a4babdf168359836766657bfc61404"
+                "reference": "f6699c3816008da440c2c94ecfa5a9cee4e10ca5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ec85950fa4a4babdf168359836766657bfc61404",
-                "reference": "ec85950fa4a4babdf168359836766657bfc61404",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f6699c3816008da440c2c94ecfa5a9cee4e10ca5",
+                "reference": "f6699c3816008da440c2c94ecfa5a9cee4e10ca5",
                 "shasum": ""
             },
             "require": {
@@ -2924,7 +2924,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-04-12T07:44:55+00:00"
+            "time": "2023-04-12T09:31:17+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -6109,5 +6109,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
