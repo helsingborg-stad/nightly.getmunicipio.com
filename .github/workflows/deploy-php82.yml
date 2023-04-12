@@ -101,3 +101,4 @@ jobs:
         deploy-host-web-server-user: "nobody"
         github-token: ${{ secrets.HBG_GH_TOKEN }}
         plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
+

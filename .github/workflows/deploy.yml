@@ -116,3 +116,14 @@ jobs:
         deploy-host-web-server-user: "www-data"
         github-token: ${{ secrets.HBG_GH_TOKEN }}
         plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
+
+    - uses: actions/checkout@v3
+    - name: Sentry release
+      uses: getsentry/action-release@v1
+      env:
+        SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+        SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
+        SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT_MODUL_TEST }}
+        SENTRY_URL: ${{ secrets.SENTRY_URL }}
+      with:
+        environment: production

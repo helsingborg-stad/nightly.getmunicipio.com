@@ -1,6 +1,6 @@
 <img alt="Helsingborg stad logo" src="https://helsingborg.se/wp-content/uploads/2017/05/helsingborg-1.svg" width="300" />
 
-The official repository for the site Helsingborg.se. Based on municipio theme and modularity among other plugins. 
+The official repository for the site modul-test. Based on municipio theme and modularity among other plugins. 
 
 ## Building assets
 To build the current assets of helsingborg.se run below command.
