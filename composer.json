@@ -114,7 +114,8 @@
         "helsingborg-stad/wp-page-for-term": "dev-master",
         "helsingborg-stad/gdi-modularity-invoices": "dev-develop",
         "helsingborg-stad/like-posts": "dev-main",
-        "wpackagist-plugin/wp-sentry-integration": "^6.12.0"
+        "wpackagist-plugin/wp-sentry-integration": "^6.12.0",
+        "helsingborg-stad/modularity-open-street-map": "dev-main"
     },
 
     "extra": {

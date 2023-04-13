@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6dbe1ffddbf7e1f33d984cf286f3782",
+    "content-hash": "97a6b15413a749b643ccc0b34d146e2d",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2642,6 +2642,49 @@
                 "source": "https://github.com/helsingborg-stad/modularity-mypages/tree/master"
             },
             "time": "2022-08-25T13:23:56+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-open-street-map",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-openstreetmap.git",
+                "reference": "f206ecb4eaf9246433e6aa6cbed65642ab8b06a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/f206ecb4eaf9246433e6aa6cbed65642ab8b06a3",
+                "reference": "f206ecb4eaf9246433e6aa6cbed65642ab8b06a3",
+                "shasum": ""
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.31.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "ModularityOpenStreetMap\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Niclas Norin",
+                    "email": "niclas.norin@helsingborg.se"
+                }
+            ],
+            "description": "Open Street Map integration",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-openstreetmap/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-openstreetmap/tree/main"
+            },
+            "time": "2023-04-13T12:31:16+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -6103,11 +6146,12 @@
         "helsingborg-stad/visit-custom-posttypes-taxonomies": 20,
         "helsingborg-stad/wp-page-for-term": 20,
         "helsingborg-stad/gdi-modularity-invoices": 20,
-        "helsingborg-stad/like-posts": 20
+        "helsingborg-stad/like-posts": 20,
+        "helsingborg-stad/modularity-open-street-map": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
