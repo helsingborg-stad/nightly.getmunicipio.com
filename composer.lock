@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97a6b15413a749b643ccc0b34d146e2d",
+    "content-hash": "7e2161b8d72d7cc8064a1340cf3b9c79",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1484,6 +1484,68 @@
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
             },
             "time": "2023-04-13T11:45:29+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-volunteer-manager-integration",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-volunteer-manager-integration.git",
+                "reference": "e1e35f707bdffbc36d498c23674a8ea1a72c9bf3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/e1e35f707bdffbc36d498c23674a8ea1a72c9bf3",
+                "reference": "e1e35f707bdffbc36d498c23674a8ea1a72c9bf3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "apix/log": "^1.2",
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.31.0",
+                "http-interop/http-factory-diactoros": "^1.0",
+                "php-http/curl-client": "^2.2",
+                "php-http/discovery": "^1.15",
+                "php-http/message": "^1.13",
+                "php-http/mock-client": "^1.5",
+                "php-stubs/acf-pro-stubs": "^6.0",
+                "phpunit/phpunit": "^9.5",
+                "psr/http-client": "^1.0",
+                "psr/http-client-implementation": "*",
+                "psr/http-factory": "^1.0",
+                "psr/http-factory-implementation": "*",
+                "psr/log": "^1.1",
+                "psr/log-implementation": "*",
+                "spatie/phpunit-watcher": "^1.23",
+                "szepeviktor/phpstan-wordpress": "^1.1",
+                "vimeo/psalm": "^5.7"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "APIVolunteerManagerIntegration\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Frontend integration for api-volunteer-manager.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/issues",
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/tree/develop"
+            },
+            "time": "2023-04-14T05:46:06+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
