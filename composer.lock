@@ -2848,12 +2848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-openstreetmap.git",
-                "reference": "ddbddbe5db087a741888461b68559ff64ed7d322"
+                "reference": "b68379c41b12c098707708b6544ba443dc70b74c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/ddbddbe5db087a741888461b68559ff64ed7d322",
-                "reference": "ddbddbe5db087a741888461b68559ff64ed7d322",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/b68379c41b12c098707708b6544ba443dc70b74c",
+                "reference": "b68379c41b12c098707708b6544ba443dc70b74c",
                 "shasum": ""
             },
             "require-dev": {
@@ -2883,7 +2883,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-openstreetmap/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-openstreetmap/tree/main"
             },
-            "time": "2023-04-14T10:14:16+00:00"
+            "time": "2023-04-14T12:37:44+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -7406,5 +7406,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
