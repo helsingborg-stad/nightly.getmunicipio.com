@@ -3390,12 +3390,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key.git",
-                "reference": "fee09dbecf0e08be7bd9b678553a08494b6314f2"
+                "reference": "5542a621684d7eae39945a6da31c5cdfc8aa49cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-acf-google-maps-key/zipball/fee09dbecf0e08be7bd9b678553a08494b6314f2",
-                "reference": "fee09dbecf0e08be7bd9b678553a08494b6314f2",
+                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-acf-google-maps-key/zipball/5542a621684d7eae39945a6da31c5cdfc8aa49cb",
+                "reference": "5542a621684d7eae39945a6da31c5cdfc8aa49cb",
                 "shasum": ""
             },
             "require": {
@@ -3420,7 +3420,7 @@
                 "issues": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key/issues",
                 "source": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key/tree/main"
             },
-            "time": "2023-04-17T13:22:16+00:00"
+            "time": "2023-04-17T13:41:06+00:00"
         },
         {
             "name": "http-interop/http-factory-diactoros",
