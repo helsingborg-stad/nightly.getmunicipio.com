@@ -114,7 +114,10 @@
         "helsingborg-stad/wp-page-for-term": "dev-master",
         "helsingborg-stad/gdi-modularity-invoices": "dev-develop",
         "helsingborg-stad/like-posts": "dev-main",
-        "wpackagist-plugin/wp-sentry-integration": "^6.12.0"
+        "wpackagist-plugin/wp-sentry-integration": "^6.12.0",
+        "helsingborg-stad/modularity-open-street-map": "dev-main",
+        "helsingborg-stad/api-volunteer-manager-integration": "dev-develop",
+        "helsingborg-stad/wpmu-acf-google-maps-key": "dev-main"
     },
 
     "extra": {
@@ -122,6 +125,7 @@
         "wordpress-install-dir": "wp",
         "installer-paths": {
             "wp-content/plugins/{$name}": ["type:wordpress-plugin"],
+            "wp-content/mu-plugins/{$name}": ["type:wordpress-muplugin"],
             "wp-content/themes/{$name}": ["type:wordpress-theme"]
         }
     },
@@ -138,7 +142,8 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
-            "johnpbloch/wordpress-core-installer": true
+            "johnpbloch/wordpress-core-installer": true,
+            "php-http/discovery": true
         }
     }
 }
