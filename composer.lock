@@ -1627,12 +1627,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager-integration.git",
-                "reference": "091b69c731a47786eb740d69f2de15a6d58e0e59"
+                "reference": "89eee919669f4b7bc1618e8ef5d47851eec58fdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/091b69c731a47786eb740d69f2de15a6d58e0e59",
-                "reference": "091b69c731a47786eb740d69f2de15a6d58e0e59",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/89eee919669f4b7bc1618e8ef5d47851eec58fdd",
+                "reference": "89eee919669f4b7bc1618e8ef5d47851eec58fdd",
                 "shasum": ""
             },
             "require": {
@@ -1682,7 +1682,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/tree/develop"
             },
-            "time": "2023-04-18T13:22:34+00:00"
+            "time": "2023-04-19T08:30:47+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -3098,12 +3098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "ab8dc38728fa12e84dcda4523ddeedf91e0c9cef"
+                "reference": "e719e23920f09317012ea24155ada7d3393133d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ab8dc38728fa12e84dcda4523ddeedf91e0c9cef",
-                "reference": "ab8dc38728fa12e84dcda4523ddeedf91e0c9cef",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e719e23920f09317012ea24155ada7d3393133d0",
+                "reference": "e719e23920f09317012ea24155ada7d3393133d0",
                 "shasum": ""
             },
             "require": {
@@ -3166,7 +3166,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-04-18T13:18:26+00:00"
+            "time": "2023-04-18T14:23:54+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -3238,12 +3238,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "fad6d2bcb3200eaf487b12f57c3d797dd7cc3670"
+                "reference": "38e4b7dd8aef3b8554197cf3913c6b156436200d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/fad6d2bcb3200eaf487b12f57c3d797dd7cc3670",
-                "reference": "fad6d2bcb3200eaf487b12f57c3d797dd7cc3670",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/38e4b7dd8aef3b8554197cf3913c6b156436200d",
+                "reference": "38e4b7dd8aef3b8554197cf3913c6b156436200d",
                 "shasum": ""
             },
             "require": {
@@ -3267,7 +3267,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-04-18T12:04:55+00:00"
+            "time": "2023-04-18T14:29:48+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
