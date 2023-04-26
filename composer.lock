@@ -1580,12 +1580,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "4bb58f1c018cbdacddb32b4fc751e89de0e9c263"
+                "reference": "c34ee9ef9378a2a6c3957339e8f417ac883c4b8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/4bb58f1c018cbdacddb32b4fc751e89de0e9c263",
-                "reference": "4bb58f1c018cbdacddb32b4fc751e89de0e9c263",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/c34ee9ef9378a2a6c3957339e8f417ac883c4b8a",
+                "reference": "c34ee9ef9378a2a6c3957339e8f417ac883c4b8a",
                 "shasum": ""
             },
             "require": {
@@ -1619,7 +1619,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
             },
-            "time": "2023-04-24T09:10:38+00:00"
+            "time": "2023-04-25T14:44:03+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager-integration",
@@ -1870,12 +1870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "8cef4e67638238cc8a2f762a4a6514f2cf31dda2"
+                "reference": "def19f753776dc0fab37fed8e125faf6b1800a31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/8cef4e67638238cc8a2f762a4a6514f2cf31dda2",
-                "reference": "8cef4e67638238cc8a2f762a4a6514f2cf31dda2",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/def19f753776dc0fab37fed8e125faf6b1800a31",
+                "reference": "def19f753776dc0fab37fed8e125faf6b1800a31",
                 "shasum": ""
             },
             "require": {
@@ -1907,7 +1907,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-04-25T13:36:19+00:00"
+            "time": "2023-04-26T06:19:25+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2475,12 +2475,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "c282a54ac4d2e5e8d012fee3b21bf4a7a5417265"
+                "reference": "9f2cc78287e68f6ed7776ed4dcc322b9d793bc2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c282a54ac4d2e5e8d012fee3b21bf4a7a5417265",
-                "reference": "c282a54ac4d2e5e8d012fee3b21bf4a7a5417265",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/9f2cc78287e68f6ed7776ed4dcc322b9d793bc2a",
+                "reference": "9f2cc78287e68f6ed7776ed4dcc322b9d793bc2a",
                 "shasum": ""
             },
             "require": {
@@ -2509,7 +2509,7 @@
                 "symfony/debug": "^4.0",
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
-                "symfony/polyfill-php80": "1.26.0",
+                "symfony/polyfill-php80": "^1.27",
                 "symfony/translation": "5.0.8",
                 "symfony/translation-contracts": "2.0.1",
                 "wpackagist-plugin/acf-extended": "0.8.8.7"
@@ -2550,7 +2550,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-04-25T13:02:42+00:00"
+            "time": "2023-04-26T06:35:05+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3098,12 +3098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e079784dab3089a816ec9c2478ac20eac20650d8"
+                "reference": "291a6b9ee7bf920ea63c06ef6a7ec2c6cf978585"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e079784dab3089a816ec9c2478ac20eac20650d8",
-                "reference": "e079784dab3089a816ec9c2478ac20eac20650d8",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/291a6b9ee7bf920ea63c06ef6a7ec2c6cf978585",
+                "reference": "291a6b9ee7bf920ea63c06ef6a7ec2c6cf978585",
                 "shasum": ""
             },
             "require": {
@@ -3128,6 +3128,7 @@
                 "symfony/debug": "^4.2",
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
+                "symfony/polyfill-php80": "^1.27",
                 "symfony/translation": "5.0.8",
                 "symfony/translation-contracts": "2.0.1",
                 "tgmpa/tgm-plugin-activation": "dev-develop",
@@ -3166,7 +3167,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-04-25T07:17:37+00:00"
+            "time": "2023-04-26T06:34:29+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -3238,12 +3239,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "38e4b7dd8aef3b8554197cf3913c6b156436200d"
+                "reference": "2dd9dd504a20c4ddb903a8cb6352495804dba897"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/38e4b7dd8aef3b8554197cf3913c6b156436200d",
-                "reference": "38e4b7dd8aef3b8554197cf3913c6b156436200d",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/2dd9dd504a20c4ddb903a8cb6352495804dba897",
+                "reference": "2dd9dd504a20c4ddb903a8cb6352495804dba897",
                 "shasum": ""
             },
             "require": {
@@ -3267,7 +3268,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-04-18T14:29:48+00:00"
+            "time": "2023-04-26T05:42:24+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
@@ -6407,16 +6408,16 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.26.0",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace"
+                "reference": "7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/cfa0ae98841b9e461207c13ab093d76b0fa7bace",
-                "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936",
+                "reference": "7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936",
                 "shasum": ""
             },
             "require": {
@@ -6425,7 +6426,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.26-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -6470,7 +6471,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.26.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -6486,7 +6487,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-10T07:21:04+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/service-contracts",
