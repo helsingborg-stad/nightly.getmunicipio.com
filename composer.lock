@@ -2318,12 +2318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-like.git",
-                "reference": "1b4893dbf87d9c8dc57e654883316e7f4e550278"
+                "reference": "819a6a86332fb0715a98b7dc86c64fc9caf2827b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/1b4893dbf87d9c8dc57e654883316e7f4e550278",
-                "reference": "1b4893dbf87d9c8dc57e654883316e7f4e550278",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/819a6a86332fb0715a98b7dc86c64fc9caf2827b",
+                "reference": "819a6a86332fb0715a98b7dc86c64fc9caf2827b",
                 "shasum": ""
             },
             "require-dev": {
@@ -2353,7 +2353,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-like/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-like/tree/main"
             },
-            "time": "2023-04-27T09:00:32+00:00"
+            "time": "2023-04-27T12:00:31+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -2848,12 +2848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-openstreetmap.git",
-                "reference": "c1e15fd6306bd02fe0bd787270dae1bc1deaf731"
+                "reference": "0cdf293404169f175c97d36873db7e264dacd577"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/c1e15fd6306bd02fe0bd787270dae1bc1deaf731",
-                "reference": "c1e15fd6306bd02fe0bd787270dae1bc1deaf731",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/0cdf293404169f175c97d36873db7e264dacd577",
+                "reference": "0cdf293404169f175c97d36873db7e264dacd577",
                 "shasum": ""
             },
             "require-dev": {
@@ -2883,7 +2883,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-openstreetmap/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-openstreetmap/tree/main"
             },
-            "time": "2023-04-27T10:28:32+00:00"
+            "time": "2023-04-27T11:59:24+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -7467,5 +7467,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
