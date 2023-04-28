@@ -2318,12 +2318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-like.git",
-                "reference": "819a6a86332fb0715a98b7dc86c64fc9caf2827b"
+                "reference": "05521c4ce20226ae058eaa91a2fbe13a4cf89a2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/819a6a86332fb0715a98b7dc86c64fc9caf2827b",
-                "reference": "819a6a86332fb0715a98b7dc86c64fc9caf2827b",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/05521c4ce20226ae058eaa91a2fbe13a4cf89a2d",
+                "reference": "05521c4ce20226ae058eaa91a2fbe13a4cf89a2d",
                 "shasum": ""
             },
             "require-dev": {
@@ -2353,7 +2353,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-like/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-like/tree/main"
             },
-            "time": "2023-04-27T12:00:31+00:00"
+            "time": "2023-04-28T04:47:38+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -2848,12 +2848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-openstreetmap.git",
-                "reference": "0cdf293404169f175c97d36873db7e264dacd577"
+                "reference": "366b347e99d1bf11972ed0dfb4388c48141d67af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/0cdf293404169f175c97d36873db7e264dacd577",
-                "reference": "0cdf293404169f175c97d36873db7e264dacd577",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/366b347e99d1bf11972ed0dfb4388c48141d67af",
+                "reference": "366b347e99d1bf11972ed0dfb4388c48141d67af",
                 "shasum": ""
             },
             "require-dev": {
@@ -2883,7 +2883,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-openstreetmap/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-openstreetmap/tree/main"
             },
-            "time": "2023-04-27T11:59:24+00:00"
+            "time": "2023-04-27T12:14:31+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -3098,12 +3098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "ba744d5006f64ab8e6151636ccea79698617216a"
+                "reference": "b22ff7d273015a189efeab9c992eeb7d74a3705a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ba744d5006f64ab8e6151636ccea79698617216a",
-                "reference": "ba744d5006f64ab8e6151636ccea79698617216a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b22ff7d273015a189efeab9c992eeb7d74a3705a",
+                "reference": "b22ff7d273015a189efeab9c992eeb7d74a3705a",
                 "shasum": ""
             },
             "require": {
@@ -3167,7 +3167,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-04-27T11:25:41+00:00"
+            "time": "2023-04-27T14:06:59+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -6948,16 +6948,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.14.2",
+            "version": "v1.14.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "94f714e6e6bea48ce44fc6c35fdd7df670264c1c"
+                "reference": "e37f2e06ded15647630a71c830d35c3f46f1d2b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/94f714e6e6bea48ce44fc6c35fdd7df670264c1c",
-                "reference": "94f714e6e6bea48ce44fc6c35fdd7df670264c1c",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/e37f2e06ded15647630a71c830d35c3f46f1d2b7",
+                "reference": "e37f2e06ded15647630a71c830d35c3f46f1d2b7",
                 "shasum": ""
             },
             "require": {
@@ -7022,9 +7022,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.14.2"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.14.3"
             },
-            "time": "2023-04-19T17:31:35+00:00"
+            "time": "2023-04-27T17:18:42+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
