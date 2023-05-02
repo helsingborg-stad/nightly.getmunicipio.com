@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53300e26388217eebfe9438775dca310",
+    "content-hash": "e80f14e71bb18daac116238dbecc7cc8",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1580,12 +1580,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "4bb58f1c018cbdacddb32b4fc751e89de0e9c263"
+                "reference": "ed2c46b474e8e42b657478d12a57f5a20b2dba37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/4bb58f1c018cbdacddb32b4fc751e89de0e9c263",
-                "reference": "4bb58f1c018cbdacddb32b4fc751e89de0e9c263",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/ed2c46b474e8e42b657478d12a57f5a20b2dba37",
+                "reference": "ed2c46b474e8e42b657478d12a57f5a20b2dba37",
                 "shasum": ""
             },
             "require": {
@@ -1619,7 +1619,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
             },
-            "time": "2023-04-24T09:10:38+00:00"
+            "time": "2023-04-28T12:07:39+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager-integration",
@@ -1870,12 +1870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "8cef4e67638238cc8a2f762a4a6514f2cf31dda2"
+                "reference": "1a90f090f2b6947b648ddead6b777c37ebce5eac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/8cef4e67638238cc8a2f762a4a6514f2cf31dda2",
-                "reference": "8cef4e67638238cc8a2f762a4a6514f2cf31dda2",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/1a90f090f2b6947b648ddead6b777c37ebce5eac",
+                "reference": "1a90f090f2b6947b648ddead6b777c37ebce5eac",
                 "shasum": ""
             },
             "require": {
@@ -1907,7 +1907,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-04-25T13:36:19+00:00"
+            "time": "2023-04-28T12:04:03+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2318,12 +2318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-like.git",
-                "reference": "d9e3ef544ee05c8af8d1b72f71f9b099e44b6bf4"
+                "reference": "041fd901cb3310d8adec9314c35e3b16a95c146b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/d9e3ef544ee05c8af8d1b72f71f9b099e44b6bf4",
-                "reference": "d9e3ef544ee05c8af8d1b72f71f9b099e44b6bf4",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/041fd901cb3310d8adec9314c35e3b16a95c146b",
+                "reference": "041fd901cb3310d8adec9314c35e3b16a95c146b",
                 "shasum": ""
             },
             "require-dev": {
@@ -2353,7 +2353,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-like/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-like/tree/main"
             },
-            "time": "2023-04-20T07:55:16+00:00"
+            "time": "2023-04-28T09:40:14+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -2475,12 +2475,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "c282a54ac4d2e5e8d012fee3b21bf4a7a5417265"
+                "reference": "301cddd27846239372028a964cdd367eedff345a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c282a54ac4d2e5e8d012fee3b21bf4a7a5417265",
-                "reference": "c282a54ac4d2e5e8d012fee3b21bf4a7a5417265",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/301cddd27846239372028a964cdd367eedff345a",
+                "reference": "301cddd27846239372028a964cdd367eedff345a",
                 "shasum": ""
             },
             "require": {
@@ -2509,7 +2509,7 @@
                 "symfony/debug": "^4.0",
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
-                "symfony/polyfill-php80": "1.26.0",
+                "symfony/polyfill-php80": "^1.27",
                 "symfony/translation": "5.0.8",
                 "symfony/translation-contracts": "2.0.1",
                 "wpackagist-plugin/acf-extended": "0.8.8.7"
@@ -2550,7 +2550,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-04-25T13:02:42+00:00"
+            "time": "2023-04-28T08:56:37+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2848,12 +2848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-openstreetmap.git",
-                "reference": "ecb28b764bcdc356c4864b0b4804735e197ce1b9"
+                "reference": "e037865929b440cb75cd65d57402fd1499681a5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/ecb28b764bcdc356c4864b0b4804735e197ce1b9",
-                "reference": "ecb28b764bcdc356c4864b0b4804735e197ce1b9",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/e037865929b440cb75cd65d57402fd1499681a5a",
+                "reference": "e037865929b440cb75cd65d57402fd1499681a5a",
                 "shasum": ""
             },
             "require-dev": {
@@ -2883,7 +2883,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-openstreetmap/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-openstreetmap/tree/main"
             },
-            "time": "2023-04-25T11:20:37+00:00"
+            "time": "2023-04-28T07:26:21+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -3098,12 +3098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e079784dab3089a816ec9c2478ac20eac20650d8"
+                "reference": "da5de0bf08a2b538866098ebd78c41de228542b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e079784dab3089a816ec9c2478ac20eac20650d8",
-                "reference": "e079784dab3089a816ec9c2478ac20eac20650d8",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/da5de0bf08a2b538866098ebd78c41de228542b6",
+                "reference": "da5de0bf08a2b538866098ebd78c41de228542b6",
                 "shasum": ""
             },
             "require": {
@@ -3128,6 +3128,7 @@
                 "symfony/debug": "^4.2",
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
+                "symfony/polyfill-php80": "^1.27",
                 "symfony/translation": "5.0.8",
                 "symfony/translation-contracts": "2.0.1",
                 "tgmpa/tgm-plugin-activation": "dev-develop",
@@ -3166,7 +3167,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-04-25T07:17:37+00:00"
+            "time": "2023-04-28T09:35:15+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -3238,12 +3239,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "38e4b7dd8aef3b8554197cf3913c6b156436200d"
+                "reference": "48087945b5670d08dd3851b617595dcb4bb1e6b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/38e4b7dd8aef3b8554197cf3913c6b156436200d",
-                "reference": "38e4b7dd8aef3b8554197cf3913c6b156436200d",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/48087945b5670d08dd3851b617595dcb4bb1e6b9",
+                "reference": "48087945b5670d08dd3851b617595dcb4bb1e6b9",
                 "shasum": ""
             },
             "require": {
@@ -3267,7 +3268,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-04-18T14:29:48+00:00"
+            "time": "2023-04-27T08:47:10+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
@@ -3347,12 +3348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wp-page-for-term.git",
-                "reference": "6d772b577e937452e2441a126e05f5079e96348d"
+                "reference": "375c39cce0e0161969ff19ca72bad1eac0d2ad4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-term/zipball/6d772b577e937452e2441a126e05f5079e96348d",
-                "reference": "6d772b577e937452e2441a126e05f5079e96348d",
+                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-term/zipball/375c39cce0e0161969ff19ca72bad1eac0d2ad4e",
+                "reference": "375c39cce0e0161969ff19ca72bad1eac0d2ad4e",
                 "shasum": ""
             },
             "require-dev": {
@@ -3382,7 +3383,7 @@
                 "issues": "https://github.com/helsingborg-stad/wp-page-for-term/issues",
                 "source": "https://github.com/helsingborg-stad/wp-page-for-term/tree/master"
             },
-            "time": "2023-04-05T12:54:48+00:00"
+            "time": "2023-04-28T14:02:22+00:00"
         },
         {
             "name": "helsingborg-stad/wpmu-acf-google-maps-key",
@@ -6015,16 +6016,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.22",
+            "version": "v5.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "4cd1b7e7ee846c8b22cb47cbc435344af9b2a8bf"
+                "reference": "617c98e46b54e43ca76945a908b1749bb82f4478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/4cd1b7e7ee846c8b22cb47cbc435344af9b2a8bf",
-                "reference": "4cd1b7e7ee846c8b22cb47cbc435344af9b2a8bf",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/617c98e46b54e43ca76945a908b1749bb82f4478",
+                "reference": "617c98e46b54e43ca76945a908b1749bb82f4478",
                 "shasum": ""
             },
             "require": {
@@ -6085,7 +6086,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.22"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.23"
             },
             "funding": [
                 {
@@ -6101,7 +6102,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-24T15:16:26+00:00"
+            "time": "2023-04-20T13:04:04+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -6407,16 +6408,16 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.26.0",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace"
+                "reference": "7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/cfa0ae98841b9e461207c13ab093d76b0fa7bace",
-                "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936",
+                "reference": "7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936",
                 "shasum": ""
             },
             "require": {
@@ -6425,7 +6426,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.26-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -6470,7 +6471,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.26.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -6486,7 +6487,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-10T07:21:04+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -6727,16 +6728,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.22",
+            "version": "v5.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "e2edac9ce47e6df07e38143c7cfa6bdbc1a6dcc4"
+                "reference": "9a8a5b6d6508928174ded2109e29328a55342a42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/e2edac9ce47e6df07e38143c7cfa6bdbc1a6dcc4",
-                "reference": "e2edac9ce47e6df07e38143c7cfa6bdbc1a6dcc4",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/9a8a5b6d6508928174ded2109e29328a55342a42",
+                "reference": "9a8a5b6d6508928174ded2109e29328a55342a42",
                 "shasum": ""
             },
             "require": {
@@ -6796,7 +6797,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.22"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.23"
             },
             "funding": [
                 {
@@ -6812,7 +6813,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-25T09:27:28+00:00"
+            "time": "2023-04-18T09:26:27+00:00"
         },
         {
             "name": "tgmpa/tgm-plugin-activation",
@@ -6947,16 +6948,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.14.2",
+            "version": "v1.14.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "94f714e6e6bea48ce44fc6c35fdd7df670264c1c"
+                "reference": "e37f2e06ded15647630a71c830d35c3f46f1d2b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/94f714e6e6bea48ce44fc6c35fdd7df670264c1c",
-                "reference": "94f714e6e6bea48ce44fc6c35fdd7df670264c1c",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/e37f2e06ded15647630a71c830d35c3f46f1d2b7",
+                "reference": "e37f2e06ded15647630a71c830d35c3f46f1d2b7",
                 "shasum": ""
             },
             "require": {
@@ -7021,9 +7022,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.14.2"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.14.3"
             },
-            "time": "2023-04-19T17:31:35+00:00"
+            "time": "2023-04-27T17:18:42+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
@@ -7126,6 +7127,24 @@
             "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
+            "name": "wpackagist-plugin/blackbar",
+            "version": "4.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/blackbar/",
+                "reference": "tags/4.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/blackbar.4.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/blackbar/"
+        },
+        {
             "name": "wpackagist-plugin/classic-editor",
             "version": "1.6.3",
             "source": {
@@ -7196,6 +7215,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/kirki/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "3.12.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/3.12.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
         },
         {
             "name": "wpackagist-plugin/redirection",
@@ -7430,5 +7467,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
