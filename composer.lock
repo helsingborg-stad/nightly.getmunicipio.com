@@ -2848,12 +2848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-openstreetmap.git",
-                "reference": "de697b1d13c8dd69dc689e2c6dde2f7a9ba93c82"
+                "reference": "261bd1bf86e1f024fea0ab002675a5d71470b57a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/de697b1d13c8dd69dc689e2c6dde2f7a9ba93c82",
-                "reference": "de697b1d13c8dd69dc689e2c6dde2f7a9ba93c82",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/261bd1bf86e1f024fea0ab002675a5d71470b57a",
+                "reference": "261bd1bf86e1f024fea0ab002675a5d71470b57a",
                 "shasum": ""
             },
             "require-dev": {
@@ -2883,7 +2883,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-openstreetmap/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-openstreetmap/tree/main"
             },
-            "time": "2023-05-08T09:31:07+00:00"
+            "time": "2023-05-08T14:21:54+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -3240,12 +3240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies.git",
-                "reference": "48087945b5670d08dd3851b617595dcb4bb1e6b9"
+                "reference": "31fe9c41c248c7f4d695d005e9b0d4a852943bf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/48087945b5670d08dd3851b617595dcb4bb1e6b9",
-                "reference": "48087945b5670d08dd3851b617595dcb4bb1e6b9",
+                "url": "https://api.github.com/repos/helsingborg-stad/visit-custom-posttypes-taxonomies/zipball/31fe9c41c248c7f4d695d005e9b0d4a852943bf9",
+                "reference": "31fe9c41c248c7f4d695d005e9b0d4a852943bf9",
                 "shasum": ""
             },
             "require": {
@@ -3269,7 +3269,7 @@
                 "issues": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/issues",
                 "source": "https://github.com/helsingborg-stad/visit-custom-posttypes-taxonomies/tree/master"
             },
-            "time": "2023-04-27T08:47:10+00:00"
+            "time": "2023-05-08T15:41:59+00:00"
         },
         {
             "name": "helsingborg-stad/wp-graphql-municipio",
@@ -7458,5 +7458,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
