@@ -1,0 +1,32 @@
+{
+    "folders": [
+        {
+            "path": "..",
+            "name": "root: modul-test.helsingborg.io"
+        },
+        {
+            "path": "../wp-content/themes/municipio",
+            "name": "theme: municipio"
+        },
+        {
+            "path": "../wp-content/mu-plugins/component-library",
+            "name": "mu-plugin: component-library",
+        },
+        {
+            "path": "../wp-content/plugins/modularity",
+            "name": "plugin: modularity"
+        },
+        {
+            "path": "../wp-content/plugins/modularity-open-street-map",
+            "name": "plugin: modularity-open-street-map"
+        },
+        {
+            "path": "../wp-content/plugins/like-posts",
+            "name": "plugin: like-posts"
+        },
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "root: modul-test.helsingborg.io"
+    },
+}
+

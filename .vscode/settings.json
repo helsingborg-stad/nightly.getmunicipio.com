@@ -1,4 +1,7 @@
 {
     "phpsab.fixerEnable": false,
-    "phpsab.snifferEnable": false
+    "phpsab.snifferEnable": false,
+    "intelephense.environment.includePaths": [
+        "/tmp/wordpress-tests-lib"
+    ]
 }

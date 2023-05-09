@@ -2,14 +2,13 @@ version: '3.8'
 
 services: 
   app:
+    image: php:7.4
     build:
       context: .
       dockerfile: Dockerfile
 
     volumes:
       - ../..:/workspaces:cached
-      # - ../.devcontainer/apache2/ports.conf:/etc/apache2/ports.conf
-      # - ../.devcontainer/apache2/sites-enabled/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
@@ -19,6 +18,17 @@ services:
 
     # Use "forwardPorts" in **devcontainer.json** to forward an app port locally. 
     # (Adding the "ports" property to this file will not forward from a Codespace.)
+  # nginx:
+  #   image: nginx
+  #   ports: 
+  #     - 6081:6081
+  #   volumes: 
+  #     - ./:/var/www
+  #     # - ./default.conf:/etc/nginx/conf.d/default.conf
+  #     - ./.devcontainer/nginx/default.conf:/etc/nginx/conf.d/default.conf
+
+  #   depends_on: 
+  #     - app
 
   db:
     image: mariadb:10.4

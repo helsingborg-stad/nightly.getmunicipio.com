@@ -38,7 +38,7 @@
             "problemMatcher": []
         },
         {
-            "label": "setup:fetch-remote-database",
+            "label": "download remote database",
             "options": {"cwd": "${workspaceFolder}"},
             "type": "shell",
             "command": "wp @stage db export --exclude_tables=modul_test_users,modul_test_usermeta --allow-root - | tee database.sql",
@@ -46,10 +46,10 @@
             
         },
         {
-            "label": "setup:import-remote-database",
+            "label": "download and import remote database",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/import-database.sh",
-            "dependsOn": ["setup:install-database", "setup:fetch-remote-database"],
+            "dependsOn": ["setup:fetch-remote-database"],
             "dependsOrder": "sequence",
             "problemMatcher": []
         },
@@ -96,6 +96,7 @@
                 "setup:config-npmrc",
                 "setup:add-acf-plugin",
                 // "build",
+                "setup:install-database",
                 "setup:import-remote-database",
             ],
             "command": [],
