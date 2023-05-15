@@ -38,7 +38,7 @@
             "problemMatcher": []
         },
         {
-            "label": "download remote database",
+            "label": "fetch-remote-database",
             "options": {"cwd": "${workspaceFolder}"},
             "type": "shell",
             "command": "wp @stage db export --exclude_tables=modul_test_users,modul_test_usermeta --allow-root - | tee database.sql",
@@ -46,7 +46,7 @@
             
         },
         {
-            "label": "download and import remote database",
+            "label": "import-database",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/import-database.sh",
             "dependsOn": ["setup:fetch-remote-database"],

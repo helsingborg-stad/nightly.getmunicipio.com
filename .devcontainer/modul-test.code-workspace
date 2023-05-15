@@ -24,6 +24,18 @@
             "path": "../wp-content/plugins/like-posts",
             "name": "plugin: like-posts"
         },
+        {
+            "path": "../wp-content/plugins/algolia-index",
+            "name": "plugin: algolia-index"
+        },
+        {
+            "path": "../wp-content/plugins/mod-my-pages",
+            "name": "plugin: mod-my-pages"
+        },
+        {
+            "path": "../wp-content/plugins/modularity-form-builder",
+            "name": "plugin: modularity-form-builder"
+        },
     ],
     "settings": {
         "liveServer.settings.multiRootWorkspaceName": "root: modul-test.helsingborg.io"
