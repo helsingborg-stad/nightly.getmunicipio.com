@@ -1629,12 +1629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager-integration.git",
-                "reference": "8b1a4fda55450c23ee9fae7cc3919bc37da05224"
+                "reference": "d7ff31393bf98e98190b3c9430637d0dfa2ce769"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/8b1a4fda55450c23ee9fae7cc3919bc37da05224",
-                "reference": "8b1a4fda55450c23ee9fae7cc3919bc37da05224",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/d7ff31393bf98e98190b3c9430637d0dfa2ce769",
+                "reference": "d7ff31393bf98e98190b3c9430637d0dfa2ce769",
                 "shasum": ""
             },
             "require": {
@@ -1684,7 +1684,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/tree/develop"
             },
-            "time": "2023-05-23T08:13:46+00:00"
+            "time": "2023-05-23T08:39:23+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
