@@ -49,7 +49,7 @@
             "label": "import-database",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/tasks/import-database.sh",
-            "dependsOn": ["setup:fetch-remote-database"],
+            "dependsOn": ["fetch-remote-database"],
             "dependsOrder": "sequence",
             "problemMatcher": []
         },
@@ -102,5 +102,17 @@
             "command": [],
             "problemMatcher": []
         },
+        {
+            "label": "xdebug: enable",
+            "type": "shell",
+            "command": "export XDEBUG_MODE=debug",
+            "problemMatcher": []
+        },
+        {
+            "label": "xdebug: disable",
+            "type": "shell",
+            "command": "export XDEBUG_MODE=off",
+            "problemMatcher": []
+        }
     ],
 }

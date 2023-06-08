@@ -36,6 +36,10 @@
             "path": "../wp-content/plugins/modularity-form-builder",
             "name": "plugin: modularity-form-builder"
         },
+        {
+            "path": "../wp-content/plugins/api-alarm-integration",
+            "name": "plugin: api-alarm-integration"
+        },
     ],
     "settings": {
         "liveServer.settings.multiRootWorkspaceName": "root: modul-test.helsingborg.io"
