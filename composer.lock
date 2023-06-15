@@ -697,16 +697,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.6.0",
+            "version": "v6.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "5a9cf79b4a2eb347230384648cc7b0d68cd97faa"
+                "reference": "71278f20b0a623389beefe87a641d03948a38870"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5a9cf79b4a2eb347230384648cc7b0d68cd97faa",
-                "reference": "5a9cf79b4a2eb347230384648cc7b0d68cd97faa",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/71278f20b0a623389beefe87a641d03948a38870",
+                "reference": "71278f20b0a623389beefe87a641d03948a38870",
                 "shasum": ""
             },
             "require": {
@@ -754,9 +754,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.6.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.7.0"
             },
-            "time": "2023-06-13T17:11:06+00:00"
+            "time": "2023-06-14T15:29:26+00:00"
         },
         {
             "name": "google/apiclient",
@@ -1874,12 +1874,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "c5db881124b29238c3ec28898633a9ef9b12f429"
+                "reference": "28e12e68c95002f247b1b61f5721eadbc8763b78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/c5db881124b29238c3ec28898633a9ef9b12f429",
-                "reference": "c5db881124b29238c3ec28898633a9ef9b12f429",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/28e12e68c95002f247b1b61f5721eadbc8763b78",
+                "reference": "28e12e68c95002f247b1b61f5721eadbc8763b78",
                 "shasum": ""
             },
             "require": {
@@ -1911,7 +1911,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-06-14T11:48:04+00:00"
+            "time": "2023-06-15T06:46:30+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2895,12 +2895,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-products.git",
-                "reference": "b94528cdbf5b83e17e935ab0e9b9720c8eb63395"
+                "reference": "fece589de8bfba1f9a235ad6c11d474237d64e62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/b94528cdbf5b83e17e935ab0e9b9720c8eb63395",
-                "reference": "b94528cdbf5b83e17e935ab0e9b9720c8eb63395",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/fece589de8bfba1f9a235ad6c11d474237d64e62",
+                "reference": "fece589de8bfba1f9a235ad6c11d474237d64e62",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2920,7 +2920,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-products/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-products/tree/master"
             },
-            "time": "2023-06-14T10:57:58+00:00"
+            "time": "2023-06-14T14:53:14+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
@@ -7265,15 +7265,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-sentry-integration",
-            "version": "6.18.0",
+            "version": "6.18.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-                "reference": "tags/6.18.0"
+                "reference": "tags/6.18.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.18.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.18.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
