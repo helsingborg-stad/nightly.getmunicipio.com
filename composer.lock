@@ -830,7 +830,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.304.0",
+            "version": "v0.305.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -868,7 +868,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.304.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.305.0"
             },
             "time": "2023-06-07T02:11:36+00:00"
         },
@@ -1442,12 +1442,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-integration.git",
-                "reference": "22336ac1726f29f202a60142fbeed4fe18c47d3f"
+                "reference": "4652d02f2d74b1fe3b4a809edf6a24fad3797be1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/22336ac1726f29f202a60142fbeed4fe18c47d3f",
-                "reference": "22336ac1726f29f202a60142fbeed4fe18c47d3f",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/4652d02f2d74b1fe3b4a809edf6a24fad3797be1",
+                "reference": "4652d02f2d74b1fe3b4a809edf6a24fad3797be1",
                 "shasum": ""
             },
             "require": {
@@ -1469,7 +1469,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-alarm-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-alarm-integration/tree/3.0/develop"
             },
-            "time": "2022-11-03T14:28:00+00:00"
+            "time": "2023-06-19T10:35:29+00:00"
         },
         {
             "name": "helsingborg-stad/api-ar-dialogue-room",
@@ -1581,12 +1581,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "278ee90ecff90dbe7b7fde099c55163ed6a1aff9"
+                "reference": "d2b14715cd698df2807271d0e3998585b277e267"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/278ee90ecff90dbe7b7fde099c55163ed6a1aff9",
-                "reference": "278ee90ecff90dbe7b7fde099c55163ed6a1aff9",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/d2b14715cd698df2807271d0e3998585b277e267",
+                "reference": "d2b14715cd698df2807271d0e3998585b277e267",
                 "shasum": ""
             },
             "require": {
@@ -1619,9 +1619,9 @@
             "description": "Creates a api that may be used to manage volunteer assignments",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.1"
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.5"
             },
-            "time": "2023-06-12T13:02:41+00:00"
+            "time": "2023-06-20T11:34:59+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager-integration",
@@ -2322,12 +2322,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-like.git",
-                "reference": "0e588d316f3e0cf093438912775572cfdcc1216b"
+                "reference": "1a26e34f1e3fe8a61142745e9f25670390427bf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/0e588d316f3e0cf093438912775572cfdcc1216b",
-                "reference": "0e588d316f3e0cf093438912775572cfdcc1216b",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/1a26e34f1e3fe8a61142745e9f25670390427bf9",
+                "reference": "1a26e34f1e3fe8a61142745e9f25670390427bf9",
                 "shasum": ""
             },
             "require-dev": {
@@ -2357,7 +2357,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-like/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-like/tree/main"
             },
-            "time": "2023-05-19T09:05:08+00:00"
+            "time": "2023-06-16T11:44:59+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -2595,12 +2595,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "4366c0e74c02cb195d1070dddd835b6fc9be175c"
+                "reference": "890ae3bc8cb19d589ce5d4bad954db81ad06390e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/4366c0e74c02cb195d1070dddd835b6fc9be175c",
-                "reference": "4366c0e74c02cb195d1070dddd835b6fc9be175c",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/890ae3bc8cb19d589ce5d4bad954db81ad06390e",
+                "reference": "890ae3bc8cb19d589ce5d4bad954db81ad06390e",
                 "shasum": ""
             },
             "require": {
@@ -2633,7 +2633,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
             },
-            "time": "2023-05-15T09:24:21+00:00"
+            "time": "2023-06-16T08:53:35+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -2742,16 +2742,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-local-events",
-            "version": "v1.0.17",
+            "version": "1.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
-                "reference": "4c29ed1bdec9322b5ba4c6b769b8c0f47107d49e"
+                "reference": "8baa34cac805865d29acb2ad321654f08fd6b159"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/4c29ed1bdec9322b5ba4c6b769b8c0f47107d49e",
-                "reference": "4c29ed1bdec9322b5ba4c6b769b8c0f47107d49e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/8baa34cac805865d29acb2ad321654f08fd6b159",
+                "reference": "8baa34cac805865d29acb2ad321654f08fd6b159",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2768,9 +2768,9 @@
             "description": "Local events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/v1.0.17"
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.18"
             },
-            "time": "2022-11-09T13:29:56+00:00"
+            "time": "2023-06-02T12:18:57+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-mhbooking",
@@ -2895,12 +2895,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-products.git",
-                "reference": "fece589de8bfba1f9a235ad6c11d474237d64e62"
+                "reference": "802e3d4074ec4f4e9cc493529c93ad869abe5b0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/fece589de8bfba1f9a235ad6c11d474237d64e62",
-                "reference": "fece589de8bfba1f9a235ad6c11d474237d64e62",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/802e3d4074ec4f4e9cc493529c93ad869abe5b0e",
+                "reference": "802e3d4074ec4f4e9cc493529c93ad869abe5b0e",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2920,7 +2920,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-products/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-products/tree/master"
             },
-            "time": "2023-06-14T14:53:14+00:00"
+            "time": "2023-06-15T06:55:26+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
@@ -3102,12 +3102,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "c09a1ce6a98330ae2775eeff4fe74886e93ba6b4"
+                "reference": "be675ef267f2981dc75f9f098c266ee1f537a491"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c09a1ce6a98330ae2775eeff4fe74886e93ba6b4",
-                "reference": "c09a1ce6a98330ae2775eeff4fe74886e93ba6b4",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/be675ef267f2981dc75f9f098c266ee1f537a491",
+                "reference": "be675ef267f2981dc75f9f098c266ee1f537a491",
                 "shasum": ""
             },
             "require": {
@@ -3172,7 +3172,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-06-14T08:35:50+00:00"
+            "time": "2023-06-20T13:40:02+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -7265,15 +7265,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-sentry-integration",
-            "version": "6.18.1",
+            "version": "6.19.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-                "reference": "tags/6.18.1"
+                "reference": "tags/6.19.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.18.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.19.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
