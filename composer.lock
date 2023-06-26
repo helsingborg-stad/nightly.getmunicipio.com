@@ -697,16 +697,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.7.0",
+            "version": "v6.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "71278f20b0a623389beefe87a641d03948a38870"
+                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/71278f20b0a623389beefe87a641d03948a38870",
-                "reference": "71278f20b0a623389beefe87a641d03948a38870",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/48b0210c51718d682e53210c24d25c5a10a2299b",
+                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b",
                 "shasum": ""
             },
             "require": {
@@ -754,9 +754,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.7.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.8.0"
             },
-            "time": "2023-06-14T15:29:26+00:00"
+            "time": "2023-06-20T16:45:35+00:00"
         },
         {
             "name": "google/apiclient",
@@ -830,16 +830,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.305.0",
+            "version": "v0.306.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "6731fd0d3e2f1ff2794f36108b55c0a3480edf3d"
+                "reference": "eb778b9e1f7a9020d258f4dde7af776fc81ef8d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/6731fd0d3e2f1ff2794f36108b55c0a3480edf3d",
-                "reference": "6731fd0d3e2f1ff2794f36108b55c0a3480edf3d",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/eb778b9e1f7a9020d258f4dde7af776fc81ef8d9",
+                "reference": "eb778b9e1f7a9020d258f4dde7af776fc81ef8d9",
                 "shasum": ""
             },
             "require": {
@@ -868,9 +868,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.305.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.306.0"
             },
-            "time": "2023-06-07T02:11:36+00:00"
+            "time": "2023-06-26T00:52:13+00:00"
         },
         {
             "name": "google/auth",
@@ -1442,12 +1442,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-integration.git",
-                "reference": "4652d02f2d74b1fe3b4a809edf6a24fad3797be1"
+                "reference": "425b4f3a8c63c8042e0f8eb03f99061d261351d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/4652d02f2d74b1fe3b4a809edf6a24fad3797be1",
-                "reference": "4652d02f2d74b1fe3b4a809edf6a24fad3797be1",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-integration/zipball/425b4f3a8c63c8042e0f8eb03f99061d261351d5",
+                "reference": "425b4f3a8c63c8042e0f8eb03f99061d261351d5",
                 "shasum": ""
             },
             "require": {
@@ -1469,7 +1469,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-alarm-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-alarm-integration/tree/3.0/develop"
             },
-            "time": "2023-06-19T10:35:29+00:00"
+            "time": "2023-06-21T11:26:00+00:00"
         },
         {
             "name": "helsingborg-stad/api-ar-dialogue-room",
@@ -1510,12 +1510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "54ab117bf2e88ee957a793152de47b3e658a2733"
+                "reference": "a91b373142e07edf8aa3d036339afd8fdc76a2fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/54ab117bf2e88ee957a793152de47b3e658a2733",
-                "reference": "54ab117bf2e88ee957a793152de47b3e658a2733",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/a91b373142e07edf8aa3d036339afd8fdc76a2fe",
+                "reference": "a91b373142e07edf8aa3d036339afd8fdc76a2fe",
                 "shasum": ""
             },
             "require": {
@@ -1541,7 +1541,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2023-06-08T14:39:45+00:00"
+            "time": "2023-06-26T07:37:10+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1629,12 +1629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager-integration.git",
-                "reference": "f4b7c959cbfd51ddb791caa803d982c67793111e"
+                "reference": "f30ae0f27ae64213e9b4de7158b2ed2694e9db5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/f4b7c959cbfd51ddb791caa803d982c67793111e",
-                "reference": "f4b7c959cbfd51ddb791caa803d982c67793111e",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/f30ae0f27ae64213e9b4de7158b2ed2694e9db5a",
+                "reference": "f30ae0f27ae64213e9b4de7158b2ed2694e9db5a",
                 "shasum": ""
             },
             "require": {
@@ -1686,7 +1686,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/tree/develop"
             },
-            "time": "2023-06-20T11:25:32+00:00"
+            "time": "2023-06-21T07:39:36+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -2322,12 +2322,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-like.git",
-                "reference": "1a26e34f1e3fe8a61142745e9f25670390427bf9"
+                "reference": "25d4eae51335c4005a81ddcf0cb9c084eed71ae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/1a26e34f1e3fe8a61142745e9f25670390427bf9",
-                "reference": "1a26e34f1e3fe8a61142745e9f25670390427bf9",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/25d4eae51335c4005a81ddcf0cb9c084eed71ae6",
+                "reference": "25d4eae51335c4005a81ddcf0cb9c084eed71ae6",
                 "shasum": ""
             },
             "require-dev": {
@@ -2357,7 +2357,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-like/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-like/tree/main"
             },
-            "time": "2023-06-16T11:44:59+00:00"
+            "time": "2023-06-26T06:27:19+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -2479,12 +2479,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "5b3b5dad9165026a0df0f94cd224cb3abfed89d9"
+                "reference": "3b315f13b19791fd37449aad875babe2173b75ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/5b3b5dad9165026a0df0f94cd224cb3abfed89d9",
-                "reference": "5b3b5dad9165026a0df0f94cd224cb3abfed89d9",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/3b315f13b19791fd37449aad875babe2173b75ae",
+                "reference": "3b315f13b19791fd37449aad875babe2173b75ae",
                 "shasum": ""
             },
             "require": {
@@ -2554,7 +2554,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-06-14T06:34:45+00:00"
+            "time": "2023-06-26T11:51:19+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2852,12 +2852,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-openstreetmap.git",
-                "reference": "c8aa8a3d239595249b9aa130e44cf5798e5aca29"
+                "reference": "209eb294560eec5434eca9942d5c014928465d8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/c8aa8a3d239595249b9aa130e44cf5798e5aca29",
-                "reference": "c8aa8a3d239595249b9aa130e44cf5798e5aca29",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/209eb294560eec5434eca9942d5c014928465d8a",
+                "reference": "209eb294560eec5434eca9942d5c014928465d8a",
                 "shasum": ""
             },
             "require-dev": {
@@ -2887,7 +2887,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-openstreetmap/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-openstreetmap/tree/main"
             },
-            "time": "2023-06-07T11:20:24+00:00"
+            "time": "2023-06-26T11:51:13+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -2961,12 +2961,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "46fcb87859ac0b138c11973e89e45a13ba225be7"
+                "reference": "07e49b061dcac0a335f9d584162508e155d89418"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/46fcb87859ac0b138c11973e89e45a13ba225be7",
-                "reference": "46fcb87859ac0b138c11973e89e45a13ba225be7",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/07e49b061dcac0a335f9d584162508e155d89418",
+                "reference": "07e49b061dcac0a335f9d584162508e155d89418",
                 "shasum": ""
             },
             "require": {
@@ -2992,7 +2992,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2023-03-20T09:30:44+00:00"
+            "time": "2023-06-26T07:39:52+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-testimonials",
@@ -3102,12 +3102,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "be675ef267f2981dc75f9f098c266ee1f537a491"
+                "reference": "d1417abd2b62ffc3f1609689f83514d42cc9ffae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/be675ef267f2981dc75f9f098c266ee1f537a491",
-                "reference": "be675ef267f2981dc75f9f098c266ee1f537a491",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/d1417abd2b62ffc3f1609689f83514d42cc9ffae",
+                "reference": "d1417abd2b62ffc3f1609689f83514d42cc9ffae",
                 "shasum": ""
             },
             "require": {
@@ -3172,7 +3172,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-06-20T13:40:02+00:00"
+            "time": "2023-06-26T11:51:27+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5955,16 +5955,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.24",
+            "version": "v5.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "9e89ac4c9dfe29f4ed2b10a36e62720286632ad6"
+                "reference": "ccbb572627466f03a3d7aa1b23483787f5969afc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/9e89ac4c9dfe29f4ed2b10a36e62720286632ad6",
-                "reference": "9e89ac4c9dfe29f4ed2b10a36e62720286632ad6",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/ccbb572627466f03a3d7aa1b23483787f5969afc",
+                "reference": "ccbb572627466f03a3d7aa1b23483787f5969afc",
                 "shasum": ""
             },
             "require": {
@@ -6026,7 +6026,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.24"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.25"
             },
             "funding": [
                 {
@@ -6042,7 +6042,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-07T13:11:28+00:00"
+            "time": "2023-06-21T14:44:30+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -6668,16 +6668,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.24",
+            "version": "v5.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "8e12706bf9c68a2da633f23bfdc15b4dce5970b3"
+                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/8e12706bf9c68a2da633f23bfdc15b4dce5970b3",
-                "reference": "8e12706bf9c68a2da633f23bfdc15b4dce5970b3",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/82269f73c0f0f9859ab9b6900eebacbe54954ede",
+                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede",
                 "shasum": ""
             },
             "require": {
@@ -6736,7 +6736,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.24"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.25"
             },
             "funding": [
                 {
@@ -6752,7 +6752,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-25T13:05:00+00:00"
+            "time": "2023-06-20T20:56:26+00:00"
         },
         {
             "name": "tgmpa/tgm-plugin-activation",
