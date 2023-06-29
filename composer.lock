@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aee7f43b3d5438132e761a9b8a5a524a",
+    "content-hash": "1ebe59f510ecc645e9279c5e80cbcfb5",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1287,16 +1287,16 @@
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
-            "version": "2.4.8",
+            "version": "2.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/active-directory-api-wp-integration.git",
-                "reference": "d8161ed2b0b629873306030263d0d9bdcb7990a0"
+                "reference": "14e44c29cf2ad06ba05aa23992f2098275aa3a45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/d8161ed2b0b629873306030263d0d9bdcb7990a0",
-                "reference": "d8161ed2b0b629873306030263d0d9bdcb7990a0",
+                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/14e44c29cf2ad06ba05aa23992f2098275aa3a45",
+                "reference": "14e44c29cf2ad06ba05aa23992f2098275aa3a45",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1313,9 +1313,9 @@
             "description": "Simple plugin for verification of existing WordPress users with api.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/issues",
-                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/2.4.8"
+                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/2.4.12"
             },
-            "time": "2020-10-20T21:23:26+00:00"
+            "time": "2023-06-28T14:33:11+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index",
