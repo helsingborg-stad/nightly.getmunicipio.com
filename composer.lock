@@ -1874,12 +1874,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "fdb3f7a5659337205fcc6e18e5b0b51ba22f6936"
+                "reference": "5efa8848687d6fee6adb09b2d90ab1b1a351724d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/fdb3f7a5659337205fcc6e18e5b0b51ba22f6936",
-                "reference": "fdb3f7a5659337205fcc6e18e5b0b51ba22f6936",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/5efa8848687d6fee6adb09b2d90ab1b1a351724d",
+                "reference": "5efa8848687d6fee6adb09b2d90ab1b1a351724d",
                 "shasum": ""
             },
             "require": {
@@ -1911,7 +1911,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-07-10T12:27:50+00:00"
+            "time": "2023-07-12T12:51:49+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
