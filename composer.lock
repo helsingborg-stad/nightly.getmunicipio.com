@@ -593,18 +593,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/darylldoyle/svg-sanitizer.git",
-                "reference": "239e257605e2141265b429e40987b2ee51bba4b4"
+                "reference": "e42eadd31fce0f8821620921801d35bc37e461c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/239e257605e2141265b429e40987b2ee51bba4b4",
-                "reference": "239e257605e2141265b429e40987b2ee51bba4b4",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/e42eadd31fce0f8821620921801d35bc37e461c9",
+                "reference": "e42eadd31fce0f8821620921801d35bc37e461c9",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
-                "ezyang/htmlpurifier": "^4.16",
                 "php": "^5.6 || ^7.0 || ^8.0"
             },
             "require-dev": {
@@ -630,83 +629,22 @@
             "description": "An SVG sanitizer for PHP",
             "support": {
                 "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
-                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.16.0"
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/master"
             },
-            "time": "2023-03-20T10:51:12+00:00"
-        },
-        {
-            "name": "ezyang/htmlpurifier",
-            "version": "v4.16.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "523407fb06eb9e5f3d59889b3978d5bfe94299c8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/523407fb06eb9e5f3d59889b3978d5bfe94299c8",
-                "reference": "523407fb06eb9e5f3d59889b3978d5bfe94299c8",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~5.6.0 || ~7.0.0 || ~7.1.0 || ~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0"
-            },
-            "require-dev": {
-                "cerdic/css-tidy": "^1.7 || ^2.0",
-                "simpletest/simpletest": "dev-master"
-            },
-            "suggest": {
-                "cerdic/css-tidy": "If you want to use the filter 'Filter.ExtractStyleBlocks'.",
-                "ext-bcmath": "Used for unit conversion and imagecrash protection",
-                "ext-iconv": "Converts text to and from non-UTF-8 encodings",
-                "ext-tidy": "Used for pretty-printing HTML"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "library/HTMLPurifier.composer.php"
-                ],
-                "psr-0": {
-                    "HTMLPurifier": "library/"
-                },
-                "exclude-from-classmap": [
-                    "/library/HTMLPurifier/Language/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-2.1-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Edward Z. Yang",
-                    "email": "admin@htmlpurifier.org",
-                    "homepage": "http://ezyang.com"
-                }
-            ],
-            "description": "Standards compliant HTML filter written in PHP",
-            "homepage": "http://htmlpurifier.org/",
-            "keywords": [
-                "html"
-            ],
-            "support": {
-                "issues": "https://github.com/ezyang/htmlpurifier/issues",
-                "source": "https://github.com/ezyang/htmlpurifier/tree/v4.16.0"
-            },
-            "time": "2022-09-18T07:06:19+00:00"
+            "time": "2023-07-18T14:50:30+00:00"
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.8.0",
+            "version": "v6.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b"
+                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/48b0210c51718d682e53210c24d25c5a10a2299b",
-                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5dbc8959427416b8ee09a100d7a8588c00fb2e26",
+                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26",
                 "shasum": ""
             },
             "require": {
@@ -754,9 +692,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.8.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.8.1"
             },
-            "time": "2023-06-20T16:45:35+00:00"
+            "time": "2023-07-14T18:33:00+00:00"
         },
         {
             "name": "google/apiclient",
@@ -830,16 +768,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.308.0",
+            "version": "v0.311.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "85cf00383e6bf6eca131bd3261b7859ea418a578"
+                "reference": "e8816f6708fac9d78ab59ef27a61a08d0af84d1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/85cf00383e6bf6eca131bd3261b7859ea418a578",
-                "reference": "85cf00383e6bf6eca131bd3261b7859ea418a578",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/e8816f6708fac9d78ab59ef27a61a08d0af84d1e",
+                "reference": "e8816f6708fac9d78ab59ef27a61a08d0af84d1e",
                 "shasum": ""
             },
             "require": {
@@ -868,9 +806,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.308.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.311.1"
             },
-            "time": "2023-07-09T01:06:13+00:00"
+            "time": "2023-08-06T00:56:12+00:00"
         },
         {
             "name": "google/auth",
@@ -1874,12 +1812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "5efa8848687d6fee6adb09b2d90ab1b1a351724d"
+                "reference": "4f582976ade49188c62b9e0f13ea3a292345f654"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/5efa8848687d6fee6adb09b2d90ab1b1a351724d",
-                "reference": "5efa8848687d6fee6adb09b2d90ab1b1a351724d",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/4f582976ade49188c62b9e0f13ea3a292345f654",
+                "reference": "4f582976ade49188c62b9e0f13ea3a292345f654",
                 "shasum": ""
             },
             "require": {
@@ -1911,7 +1849,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-07-12T12:51:49+00:00"
+            "time": "2023-08-11T06:47:16+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2479,43 +2417,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "947626b4d5d591fbd64b2bc38b91af512049f054"
+                "reference": "9d8f5a62dad61a1dbd52f40ff6a2b616f38e728c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/947626b4d5d591fbd64b2bc38b91af512049f054",
-                "reference": "947626b4d5d591fbd64b2bc38b91af512049f054",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/9d8f5a62dad61a1dbd52f40ff6a2b616f38e728c",
+                "reference": "9d8f5a62dad61a1dbd52f40ff6a2b616f38e728c",
                 "shasum": ""
             },
             "require": {
                 "clark-nikdel-powell/post-type-select-for-acf": "dev-master",
                 "composer/installers": "~1.0",
-                "doctrine/inflector": "^1.4.1",
                 "enshrined/svg-sanitize": "dev-master",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/blade-component-library": "dev-master",
                 "helsingborg-stad/global-blade-engine": "1.3.0",
-                "illuminate/container": "^5.8.36",
-                "illuminate/contracts": "^5.8.36",
-                "illuminate/events": "^5.8.36",
-                "illuminate/filesystem": "^5.8.36",
-                "illuminate/support": "^5.8.36",
-                "illuminate/view": "^5.8.36",
                 "jeradin/acf-dynamic-table-field": "dev-master",
                 "jeradin/acf-website-field": "dev-master",
                 "johannheyne/advanced-custom-fields-table-field": "dev-master",
-                "nesbot/carbon": "^2.34.0",
                 "ooksanen/acf-focuspoint": "dev-master",
-                "psr/container": "^1.0.0",
-                "psr/log": "^1.1.3",
-                "psr/simple-cache": "^1.0.1",
-                "shortpixel/shortpixel-php": "^1.4",
-                "symfony/debug": "^4.0",
-                "symfony/finder": "4.4.8",
-                "symfony/polyfill-mbstring": "1.17.0",
                 "symfony/polyfill-php80": "^1.27",
-                "symfony/translation": "5.0.8",
-                "symfony/translation-contracts": "2.0.1",
                 "wpackagist-plugin/acf-extended": "0.8.8.7"
             },
             "default-branch": true,
@@ -2554,7 +2475,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-06-29T14:40:57+00:00"
+            "time": "2023-08-11T06:57:21+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2895,12 +2816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-products.git",
-                "reference": "802e3d4074ec4f4e9cc493529c93ad869abe5b0e"
+                "reference": "7d56b60ef665afce9de5f9c7803f4e9d87243c8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/802e3d4074ec4f4e9cc493529c93ad869abe5b0e",
-                "reference": "802e3d4074ec4f4e9cc493529c93ad869abe5b0e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/7d56b60ef665afce9de5f9c7803f4e9d87243c8f",
+                "reference": "7d56b60ef665afce9de5f9c7803f4e9d87243c8f",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2920,7 +2841,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-products/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-products/tree/master"
             },
-            "time": "2023-06-15T06:55:26+00:00"
+            "time": "2023-08-07T13:54:03+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-recommend",
@@ -3102,41 +3023,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "969f9d6c6d3b75f86acbc016458c0a41835a2818"
+                "reference": "2da07bf268f7a80de312297da66bf16d5ab9342a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/969f9d6c6d3b75f86acbc016458c0a41835a2818",
-                "reference": "969f9d6c6d3b75f86acbc016458c0a41835a2818",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/2da07bf268f7a80de312297da66bf16d5ab9342a",
+                "reference": "2da07bf268f7a80de312297da66bf16d5ab9342a",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0",
-                "doctrine/inflector": "^1.4.1",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/blade-engine-wrapper": "dev-master",
                 "helsingborg-stad/global-blade-engine": "1.3.0",
-                "illuminate/container": "^5.8.36",
-                "illuminate/contracts": "^5.8.36",
-                "illuminate/events": "^5.8.36",
-                "illuminate/filesystem": "^5.8.36",
-                "illuminate/support": "^5.8.36",
-                "illuminate/view": "^5.8.36",
-                "nesbot/carbon": "^2.34.0",
                 "ouun/kirki-module-fonts_upload": "dev-master",
                 "pragmarx/ia-arr": "^7.3",
-                "psr/container": "^1.0.0",
-                "psr/log": "^1.1.3",
-                "psr/simple-cache": "^1.0.1",
-                "shortpixel/shortpixel-php": "1.8.5",
-                "symfony/debug": "^4.2",
-                "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
                 "symfony/polyfill-php80": "^1.27",
-                "symfony/translation": "5.0.8",
-                "symfony/translation-contracts": "2.0.1",
-                "tgmpa/tgm-plugin-activation": "dev-develop",
-                "wpackagist-plugin/kirki": "^4.0"
+                "wpackagist-plugin/kirki": "^5.0"
             },
             "require-dev": {
                 "php-stubs/acf-pro-stubs": "dev-master",
@@ -3172,7 +3076,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-07-10T15:01:05+00:00"
+            "time": "2023-08-11T06:39:19+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -3945,20 +3849,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.2.2",
+            "version": "6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "236680349aff347c8bac55665245d3b347d162f0"
+                "reference": "552f6f783dfb08b950e2bb113cfa9b2726780762"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/236680349aff347c8bac55665245d3b347d162f0",
-                "reference": "236680349aff347c8bac55665245d3b347d162f0",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/552f6f783dfb08b950e2bb113cfa9b2726780762",
+                "reference": "552f6f783dfb08b950e2bb113cfa9b2726780762",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.2.2",
+                "johnpbloch/wordpress-core": "6.3.0",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -3987,20 +3891,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2023-05-20T04:40:46+00:00"
+            "time": "2023-08-10T16:07:29+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.2.2",
+            "version": "6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "5ed6d4a0469ff42d7ec4a1f72558be8f897a6e18"
+                "reference": "d8a7716377714e21ab44e0d3c5632a57ada5788a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/5ed6d4a0469ff42d7ec4a1f72558be8f897a6e18",
-                "reference": "5ed6d4a0469ff42d7ec4a1f72558be8f897a6e18",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/d8a7716377714e21ab44e0d3c5632a57ada5788a",
+                "reference": "d8a7716377714e21ab44e0d3c5632a57ada5788a",
                 "shasum": ""
             },
             "require": {
@@ -4008,7 +3912,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.2.2"
+                "wordpress/core-implementation": "6.3.0"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -4035,7 +3939,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-05-20T04:40:42+00:00"
+            "time": "2023-08-10T16:07:25+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -5692,66 +5596,6 @@
             "time": "2019-03-08T08:49:03+00:00"
         },
         {
-            "name": "shortpixel/shortpixel-php",
-            "version": "v1.8.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/short-pixel-optimizer/shortpixel-php.git",
-                "reference": "c7c42a208e3e3b37e1ebb18e93a42a46ccbe66da"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/c7c42a208e3e3b37e1ebb18e93a42a46ccbe66da",
-                "reference": "c7c42a208e3e3b37e1ebb18e93a42a46ccbe66da",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "lib-curl": ">=7.20.0",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "symfony/yaml": "~2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/ShortPixel.php",
-                    "lib/ShortPixel/Exception.php"
-                ],
-                "psr-4": {
-                    "ShortPixel\\": "lib/ShortPixel/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Simon Duduica",
-                    "email": "simon@shortpixel.com"
-                }
-            ],
-            "description": "ShortPixel PHP SDK. Read more at https://shortpixel.com/api-tools",
-            "homepage": "https://shortpixel.com/api",
-            "keywords": [
-                "api",
-                "compress",
-                "images",
-                "optimize",
-                "shortpixel"
-            ],
-            "support": {
-                "email": "support@shortpixel.com",
-                "issues": "https://github.com/short-pixel-optimizer/shortpixel-php/issues",
-                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/v1.8.5"
-            },
-            "time": "2021-11-15T16:52:13+00:00"
-        },
-        {
             "name": "symfony/debug",
             "version": "v4.4.44",
             "source": {
@@ -5955,16 +5799,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.25",
+            "version": "v5.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "ccbb572627466f03a3d7aa1b23483787f5969afc"
+                "reference": "19d48ef7f38e5057ed1789a503cd3eccef039bce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/ccbb572627466f03a3d7aa1b23483787f5969afc",
-                "reference": "ccbb572627466f03a3d7aa1b23483787f5969afc",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/19d48ef7f38e5057ed1789a503cd3eccef039bce",
+                "reference": "19d48ef7f38e5057ed1789a503cd3eccef039bce",
                 "shasum": ""
             },
             "require": {
@@ -6026,7 +5870,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.25"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.26"
             },
             "funding": [
                 {
@@ -6042,7 +5886,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-21T14:44:30+00:00"
+            "time": "2023-07-03T12:14:50+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -6514,43 +6358,48 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v5.0.8",
+            "version": "v5.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "c3879db7a68fe3e12b41263b05879412c87b27fd"
+                "reference": "de237e59c5833422342be67402d487fbf50334ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/c3879db7a68fe3e12b41263b05879412c87b27fd",
-                "reference": "c3879db7a68fe3e12b41263b05879412c87b27fd",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/de237e59c5833422342be67402d487fbf50334ff",
+                "reference": "de237e59c5833422342be67402d487fbf50334ff",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5",
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1|^3",
                 "symfony/polyfill-mbstring": "~1.0",
-                "symfony/translation-contracts": "^2"
+                "symfony/polyfill-php80": "^1.16",
+                "symfony/translation-contracts": "^2.3"
             },
             "conflict": {
                 "symfony/config": "<4.4",
+                "symfony/console": "<5.3",
                 "symfony/dependency-injection": "<5.0",
                 "symfony/http-kernel": "<5.0",
                 "symfony/twig-bundle": "<5.0",
                 "symfony/yaml": "<4.4"
             },
             "provide": {
-                "symfony/translation-implementation": "2.0"
+                "symfony/translation-implementation": "2.3"
             },
             "require-dev": {
-                "psr/log": "~1.0",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/console": "^4.4|^5.0",
-                "symfony/dependency-injection": "^5.0",
-                "symfony/finder": "^4.4|^5.0",
-                "symfony/http-kernel": "^5.0",
-                "symfony/intl": "^4.4|^5.0",
-                "symfony/service-contracts": "^1.1.2|^2",
-                "symfony/yaml": "^4.4|^5.0"
+                "psr/log": "^1|^2|^3",
+                "symfony/config": "^4.4|^5.0|^6.0",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.0|^6.0",
+                "symfony/finder": "^4.4|^5.0|^6.0",
+                "symfony/http-client-contracts": "^1.1|^2.0|^3.0",
+                "symfony/http-kernel": "^5.0|^6.0",
+                "symfony/intl": "^4.4|^5.0|^6.0",
+                "symfony/polyfill-intl-icu": "^1.21",
+                "symfony/service-contracts": "^1.1.2|^2|^3",
+                "symfony/yaml": "^4.4|^5.0|^6.0"
             },
             "suggest": {
                 "psr/log-implementation": "To use logging capability in translator",
@@ -6558,12 +6407,10 @@
                 "symfony/yaml": ""
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.0-dev"
-                }
-            },
             "autoload": {
+                "files": [
+                    "Resources/functions.php"
+                ],
                 "psr-4": {
                     "Symfony\\Component\\Translation\\": ""
                 },
@@ -6585,10 +6432,10 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony Translation Component",
+            "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v5.0.8"
+                "source": "https://github.com/symfony/translation/tree/v5.4.24"
             },
             "funding": [
                 {
@@ -6604,24 +6451,24 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-12T16:45:47+00:00"
+            "time": "2023-05-19T12:34:17+00:00"
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v2.0.1",
+            "version": "v2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "8cc682ac458d75557203b2f2f14b0b92e1c744ed"
+                "reference": "136b19dd05cdf0709db6537d058bcab6dd6e2dbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/8cc682ac458d75557203b2f2f14b0b92e1c744ed",
-                "reference": "8cc682ac458d75557203b2f2f14b0b92e1c744ed",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/136b19dd05cdf0709db6537d058bcab6dd6e2dbe",
+                "reference": "136b19dd05cdf0709db6537d058bcab6dd6e2dbe",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5"
+                "php": ">=7.2.5"
             },
             "suggest": {
                 "symfony/translation-implementation": ""
@@ -6629,7 +6476,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-main": "2.5-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -6662,22 +6513,36 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/translation-contracts/tree/v2.0.1"
+                "source": "https://github.com/symfony/translation-contracts/tree/v2.5.2"
             },
-            "time": "2019-11-18T17:27:11+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-06-27T16:58:25+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.25",
+            "version": "v5.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede"
+                "reference": "e706c99b4a6f4d9383b52b80dd8c74880501e314"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/82269f73c0f0f9859ab9b6900eebacbe54954ede",
-                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/e706c99b4a6f4d9383b52b80dd8c74880501e314",
+                "reference": "e706c99b4a6f4d9383b52b80dd8c74880501e314",
                 "shasum": ""
             },
             "require": {
@@ -6691,6 +6556,7 @@
             "require-dev": {
                 "ext-iconv": "*",
                 "symfony/console": "^4.4|^5.0|^6.0",
+                "symfony/http-kernel": "^4.4|^5.0|^6.0",
                 "symfony/process": "^4.4|^5.0|^6.0",
                 "symfony/uid": "^5.1|^6.0",
                 "twig/twig": "^2.13|^3.0.4"
@@ -6736,7 +6602,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.25"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.26"
             },
             "funding": [
                 {
@@ -6752,72 +6618,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-20T20:56:26+00:00"
-        },
-        {
-            "name": "tgmpa/tgm-plugin-activation",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TGMPA/TGM-Plugin-Activation.git",
-                "reference": "2d34264f4fdcfcc60261d490ff2e689f0c33730c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TGMPA/TGM-Plugin-Activation/zipball/2d34264f4fdcfcc60261d490ff2e689f0c33730c",
-                "reference": "2d34264f4fdcfcc60261d490ff2e689f0c33730c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.6",
-                "phpcompatibility/phpcompatibility-wp": "^2.0",
-                "wp-coding-standards/wpcs": "^2.0"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "class-tgm-plugin-activation.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Griffin",
-                    "homepage": "http://thomasgriffinmedia.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Gary Jones",
-                    "homepage": "https://github.com/GaryJones",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Juliette Reinders Folmer",
-                    "homepage": "https://github.com/jrfnl",
-                    "role": "Developer"
-                }
-            ],
-            "description": "TGM Plugin Activation is a PHP library that allows you to easily require or recommend plugins for your WordPress themes (and plugins).",
-            "homepage": "http://tgmpluginactivation.com",
-            "keywords": [
-                "activation",
-                "library",
-                "plugins",
-                "theme",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/TGMPA/TGM-Plugin-Activation/issues",
-                "source": "https://github.com/TGMPA/TGM-Plugin-Activation"
-            },
-            "time": "2020-01-22T04:31:23+00:00"
+            "time": "2023-07-13T07:32:46+00:00"
         },
         {
             "name": "webonyx/graphql-php",
@@ -6887,16 +6688,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.14.6",
+            "version": "v1.14.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "5cefe7ca0823618432d27a00bca9fd762d09e5d9"
+                "reference": "f70ac589c6a67892b3f1e3c8415f1d379f279bee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/5cefe7ca0823618432d27a00bca9fd762d09e5d9",
-                "reference": "5cefe7ca0823618432d27a00bca9fd762d09e5d9",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/f70ac589c6a67892b3f1e3c8415f1d379f279bee",
+                "reference": "f70ac589c6a67892b3f1e3c8415f1d379f279bee",
                 "shasum": ""
             },
             "require": {
@@ -6961,9 +6762,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.14.6"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.14.10"
             },
-            "time": "2023-06-30T18:20:43+00:00"
+            "time": "2023-08-03T22:09:10+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
@@ -7139,15 +6940,15 @@
         },
         {
             "name": "wpackagist-plugin/kirki",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kirki/",
-                "reference": "tags/4.2.0"
+                "reference": "tags/5.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kirki.4.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/kirki.5.0.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7265,15 +7066,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-sentry-integration",
-            "version": "6.20.0",
+            "version": "6.23.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-                "reference": "tags/6.20.0"
+                "reference": "tags/6.23.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.20.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.23.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7406,5 +7207,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
