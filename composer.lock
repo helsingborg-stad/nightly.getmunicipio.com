@@ -2417,12 +2417,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "c5abbe3ca880c09b459f4ffe09d8d8a3ba7405e0"
+                "reference": "c179eac85b204479bde6da76608b9e86d3ce8e35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c5abbe3ca880c09b459f4ffe09d8d8a3ba7405e0",
-                "reference": "c5abbe3ca880c09b459f4ffe09d8d8a3ba7405e0",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c179eac85b204479bde6da76608b9e86d3ce8e35",
+                "reference": "c179eac85b204479bde6da76608b9e86d3ce8e35",
                 "shasum": ""
             },
             "require": {
@@ -2475,7 +2475,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-08-11T13:02:12+00:00"
+            "time": "2023-08-17T11:47:30+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2849,12 +2849,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-recommend.git",
-                "reference": "c0576f9c54ea86316d77083c15ed7b4f6d287a31"
+                "reference": "bac04a9247788b1a088592948d79d408034b2a70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-recommend/zipball/c0576f9c54ea86316d77083c15ed7b4f6d287a31",
-                "reference": "c0576f9c54ea86316d77083c15ed7b4f6d287a31",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-recommend/zipball/bac04a9247788b1a088592948d79d408034b2a70",
+                "reference": "bac04a9247788b1a088592948d79d408034b2a70",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2874,7 +2874,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-recommend/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-recommend/tree/master"
             },
-            "time": "2023-03-16T13:38:26+00:00"
+            "time": "2023-08-15T15:19:28+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -3023,12 +3023,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "a618821eac0e622eae17006b3c01210f14bef8f3"
+                "reference": "19242a2d0e46a8e39da10634c4a610bf98098b39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a618821eac0e622eae17006b3c01210f14bef8f3",
-                "reference": "a618821eac0e622eae17006b3c01210f14bef8f3",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/19242a2d0e46a8e39da10634c4a610bf98098b39",
+                "reference": "19242a2d0e46a8e39da10634c4a610bf98098b39",
                 "shasum": ""
             },
             "require": {
@@ -3076,7 +3076,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-08-15T08:50:26+00:00"
+            "time": "2023-08-17T10:44:35+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -4169,24 +4169,28 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.68.1",
+            "version": "2.69.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "4f991ed2a403c85efbc4f23eb4030063fdbe01da"
+                "reference": "4308217830e4ca445583a37d1bf4aff4153fa81c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4f991ed2a403c85efbc4f23eb4030063fdbe01da",
-                "reference": "4f991ed2a403c85efbc4f23eb4030063fdbe01da",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4308217830e4ca445583a37d1bf4aff4153fa81c",
+                "reference": "4308217830e4ca445583a37d1bf4aff4153fa81c",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "php": "^7.1.8 || ^8.0",
+                "psr/clock": "^1.0",
                 "symfony/polyfill-mbstring": "^1.0",
                 "symfony/polyfill-php80": "^1.16",
                 "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+            },
+            "provide": {
+                "psr/clock-implementation": "1.0"
             },
             "require-dev": {
                 "doctrine/dbal": "^2.0 || ^3.1.4",
@@ -4267,7 +4271,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-20T18:29:04+00:00"
+            "time": "2023-08-03T09:00:52+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
@@ -5197,6 +5201,54 @@
                 "source": "https://github.com/php-fig/cache/tree/master"
             },
             "time": "2016-08-06T20:24:11+00:00"
+        },
+        {
+            "name": "psr/clock",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/clock.git",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/clock/zipball/e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Clock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for reading the clock.",
+            "homepage": "https://github.com/php-fig/clock",
+            "keywords": [
+                "clock",
+                "now",
+                "psr",
+                "psr-20",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/clock/issues",
+                "source": "https://github.com/php-fig/clock/tree/1.0.0"
+            },
+            "time": "2022-11-25T14:36:26+00:00"
         },
         {
             "name": "psr/container",
