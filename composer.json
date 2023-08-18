@@ -54,7 +54,7 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "~6.1",
+        "johnpbloch/wordpress": "6.3.0",
         "helsingborg-stad/modularity": "dev-3.0/develop",
         "helsingborg-stad/municipio": "dev-3.0/develop",
         "helsingborg-stad/api-event-manager-integration": "dev-3.0/develop",
