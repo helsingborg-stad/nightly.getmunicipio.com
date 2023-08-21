@@ -768,16 +768,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.312.0",
+            "version": "v0.312.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "45d47fed73b28254c511882bc743b1690a99558d"
+                "reference": "d13797cf251ec0d62f00b70dfa8642aa9550900d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/45d47fed73b28254c511882bc743b1690a99558d",
-                "reference": "45d47fed73b28254c511882bc743b1690a99558d",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/d13797cf251ec0d62f00b70dfa8642aa9550900d",
+                "reference": "d13797cf251ec0d62f00b70dfa8642aa9550900d",
                 "shasum": ""
             },
             "require": {
@@ -806,9 +806,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.312.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.312.1"
             },
-            "time": "2023-08-14T00:56:12+00:00"
+            "time": "2023-08-21T00:52:13+00:00"
         },
         {
             "name": "google/auth",
@@ -1812,12 +1812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "9965dbe317a02da17afd0e8ceb8dc6f5f6868198"
+                "reference": "b88e1e0866c4ba121ebb7c5c9b18802848479106"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/9965dbe317a02da17afd0e8ceb8dc6f5f6868198",
-                "reference": "9965dbe317a02da17afd0e8ceb8dc6f5f6868198",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/b88e1e0866c4ba121ebb7c5c9b18802848479106",
+                "reference": "b88e1e0866c4ba121ebb7c5c9b18802848479106",
                 "shasum": ""
             },
             "require": {
@@ -1849,7 +1849,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-08-15T08:44:19+00:00"
+            "time": "2023-08-21T06:36:04+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -3023,12 +3023,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e4a8c719748cf95fed072423c0140eff8851aa3a"
+                "reference": "c3efc0f9eaadfd112615123dbd43a78e6b125edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e4a8c719748cf95fed072423c0140eff8851aa3a",
-                "reference": "e4a8c719748cf95fed072423c0140eff8851aa3a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c3efc0f9eaadfd112615123dbd43a78e6b125edb",
+                "reference": "c3efc0f9eaadfd112615123dbd43a78e6b125edb",
                 "shasum": ""
             },
             "require": {
@@ -3076,7 +3076,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-08-17T14:05:26+00:00"
+            "time": "2023-08-18T09:42:34+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
