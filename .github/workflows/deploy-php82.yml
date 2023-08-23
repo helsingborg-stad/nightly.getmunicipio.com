@@ -1,6 +1,7 @@
 name: Build site php 8.2
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
 
