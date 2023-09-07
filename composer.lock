@@ -1797,12 +1797,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-like.git",
-                "reference": "c1807a28c3ce31b12fcc8ad153407b2a17f4f078"
+                "reference": "a0ee1045837ce331a313b04885f42818b6e79e0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/c1807a28c3ce31b12fcc8ad153407b2a17f4f078",
-                "reference": "c1807a28c3ce31b12fcc8ad153407b2a17f4f078",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/a0ee1045837ce331a313b04885f42818b6e79e0e",
+                "reference": "a0ee1045837ce331a313b04885f42818b6e79e0e",
                 "shasum": ""
             },
             "require-dev": {
@@ -1832,7 +1832,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-like/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-like/tree/main"
             },
-            "time": "2023-09-01T07:55:38+00:00"
+            "time": "2023-09-07T13:39:19+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -1953,12 +1953,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "79e31e9e8d2f7fe26688b1148d5653ff2165e679"
+                "reference": "f5d322d30256c4b0258763e4bdbed1cb6c2d1384"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/79e31e9e8d2f7fe26688b1148d5653ff2165e679",
-                "reference": "79e31e9e8d2f7fe26688b1148d5653ff2165e679",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/f5d322d30256c4b0258763e4bdbed1cb6c2d1384",
+                "reference": "f5d322d30256c4b0258763e4bdbed1cb6c2d1384",
                 "shasum": ""
             },
             "require": {
@@ -2020,7 +2020,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-09-07T13:03:55+00:00"
+            "time": "2023-09-07T13:24:19+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
