@@ -20,7 +20,7 @@ jobs:
         deploy-host-path: ${{ secrets.NIGHTLY_DEPLOY_PATH }}
         deploy-host-backup-path: ${{ secrets.NIGHTLY_DEPLOY_BACKUP_PATH }}
         deploy-host-user: ${{ secrets.NIGHTLY_DEPLOY_REMOTE_USER }}
-        deploy-host-user-key: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
+        deploy-host-user-key: ${{ secrets.NIGHTLY_DEPLOY_KEY }}
         deploy-host-web-server-user: ${{ secrets.NIGHTLY_WEB_SERVER_USER }}
         deploy-port:  ${{ secrets.NIGHTLY_DEPLOY_PORT }}
         github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -35,7 +35,7 @@ jobs:
         deploy-host: ${{ secrets.NIGHTLY_DEPLOY_HOST }}
         deploy-host-path: ${{ secrets.NIGHTLY_DEPLOY_PATH }}
         deploy-host-user: ${{ secrets.NIGHTLY_DEPLOY_REMOTE_USER }}
-        deploy-host-user-key: ${{ secrets.DEPLOY_AWS_REMOTE_USER_MODUL_TEST_HELSINGBORG_IO }}
+        deploy-host-user-key: ${{ secrets.NIGHTLY_DEPLOY_KEY }}
         deploy-host-web-server-user: "litespeed"
         github-token: ${{ secrets.HBG_GH_TOKEN }}
         plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
