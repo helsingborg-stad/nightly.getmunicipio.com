@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc75afff4b509f46148bc0efec2d8ef5",
+    "content-hash": "7257a75ffcd08b28935760e72ef36a4a",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2927,6 +2927,43 @@
                 "source": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key/tree/main"
             },
             "time": "2023-07-03T14:35:00+00:00"
+        },
+        {
+            "name": "helsingborg-stad/wpmu-mu-plugins-url-everywhere",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/wp-mu-plugins-url-everywhere.git",
+                "reference": "6dc60c6768b087dff73cc29b90aa471eae4eb34a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/wp-mu-plugins-url-everywhere/zipball/6dc60c6768b087dff73cc29b90aa471eae4eb34a",
+                "reference": "6dc60c6768b087dff73cc29b90aa471eae4eb34a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=7.4"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Allow Plugins URL function to create urls towards any directory.",
+            "homepage": "https://github.com/helsingborg-stad/wpmu-mu-plugins-url-everywhere",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/wp-mu-plugins-url-everywhere/issues",
+                "source": "https://github.com/helsingborg-stad/wp-mu-plugins-url-everywhere/tree/1.0.0"
+            },
+            "time": "2023-09-07T12:08:05+00:00"
         },
         {
             "name": "http-interop/http-factory-diactoros",
@@ -6433,5 +6470,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

@@ -120,7 +120,7 @@
         "helsingborg-stad/wpmu-acf-google-maps-key": "dev-main",
         "wpackagist-plugin/blackbar":"4.0.1",
         "wpackagist-plugin/query-monitor":"3.12.1",
-        "helsingborg-stad/wp-mu-plugins-url-everywhere": "dev-main"
+        "helsingborg-stad/wpmu-mu-plugins-url-everywhere": "^1.0"
     },
 
     "extra": {
