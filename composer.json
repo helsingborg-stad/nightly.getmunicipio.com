@@ -119,7 +119,8 @@
         "helsingborg-stad/api-volunteer-manager-integration": "dev-develop",
         "helsingborg-stad/wpmu-acf-google-maps-key": "dev-main",
         "wpackagist-plugin/blackbar":"4.0.1",
-        "wpackagist-plugin/query-monitor":"3.12.1"
+        "wpackagist-plugin/query-monitor":"3.12.1",
+        "helsingborg-stad/wp-mu-plugins-url-everywhere": "dev-main",
     },
 
     "extra": {
