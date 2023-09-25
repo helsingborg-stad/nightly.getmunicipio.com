@@ -248,16 +248,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Post-Type-Select-for-ACF.git",
-                "reference": "6c4726c988436b538f7d3c2949eeb3c4ed87a6e3"
+                "reference": "f6910f1c1c793774c54fab2659d8c53d6cc2fdca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Post-Type-Select-for-ACF/zipball/6c4726c988436b538f7d3c2949eeb3c4ed87a6e3",
-                "reference": "6c4726c988436b538f7d3c2949eeb3c4ed87a6e3",
+                "url": "https://api.github.com/repos/helsingborg-stad/Post-Type-Select-for-ACF/zipball/f6910f1c1c793774c54fab2659d8c53d6cc2fdca",
+                "reference": "f6910f1c1c793774c54fab2659d8c53d6cc2fdca",
                 "shasum": ""
             },
             "default-branch": true,
-            "type": "acf-plugin",
+            "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -272,7 +272,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/Post-Type-Select-for-ACF/tree/master"
             },
-            "time": "2021-07-02T09:35:18+00:00"
+            "time": "2023-09-22T12:58:47+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1089,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager-integration.git",
-                "reference": "e8f4b95aa1831b3ae79f734bec3b15bb46088ce8"
+                "reference": "6fdb46e232d2598ddb09926d4f1b67d70138a77e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/e8f4b95aa1831b3ae79f734bec3b15bb46088ce8",
-                "reference": "e8f4b95aa1831b3ae79f734bec3b15bb46088ce8",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/6fdb46e232d2598ddb09926d4f1b67d70138a77e",
+                "reference": "6fdb46e232d2598ddb09926d4f1b67d70138a77e",
                 "shasum": ""
             },
             "require": {
@@ -1145,7 +1145,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/tree/develop"
             },
-            "time": "2023-09-15T10:54:43+00:00"
+            "time": "2023-09-22T13:31:54+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1711,12 +1711,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/job-listings.git",
-                "reference": "e562ffe39bdf87649b16d27ffef07617947cadb1"
+                "reference": "2d82400175ac986e155a512ba147e9ea1a0c9145"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/e562ffe39bdf87649b16d27ffef07617947cadb1",
-                "reference": "e562ffe39bdf87649b16d27ffef07617947cadb1",
+                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/2d82400175ac986e155a512ba147e9ea1a0c9145",
+                "reference": "2d82400175ac986e155a512ba147e9ea1a0c9145",
                 "shasum": ""
             },
             "require": {
@@ -1757,7 +1757,7 @@
                 "issues": "https://github.com/helsingborg-stad/job-listings/issues",
                 "source": "https://github.com/helsingborg-stad/job-listings/tree/3.0/develop"
             },
-            "time": "2023-09-01T07:54:18+00:00"
+            "time": "2023-09-22T06:35:53+00:00"
         },
         {
             "name": "helsingborg-stad/larrum-custom-api",
@@ -1796,12 +1796,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-like.git",
-                "reference": "a0ee1045837ce331a313b04885f42818b6e79e0e"
+                "reference": "ac438478aea4818aadc1d07552e6e0ec857c5440"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/a0ee1045837ce331a313b04885f42818b6e79e0e",
-                "reference": "a0ee1045837ce331a313b04885f42818b6e79e0e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-like/zipball/ac438478aea4818aadc1d07552e6e0ec857c5440",
+                "reference": "ac438478aea4818aadc1d07552e6e0ec857c5440",
                 "shasum": ""
             },
             "require-dev": {
@@ -1831,7 +1831,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-like/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-like/tree/main"
             },
-            "time": "2023-09-07T13:39:19+00:00"
+            "time": "2023-09-21T12:58:01+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -1952,12 +1952,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "e5a92c3afdec369d3f00b1dad5313b0e43e8374b"
+                "reference": "806430560706b5ee06d27d532e39069f09019ac5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/e5a92c3afdec369d3f00b1dad5313b0e43e8374b",
-                "reference": "e5a92c3afdec369d3f00b1dad5313b0e43e8374b",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/806430560706b5ee06d27d532e39069f09019ac5",
+                "reference": "806430560706b5ee06d27d532e39069f09019ac5",
                 "shasum": ""
             },
             "require": {
@@ -2019,7 +2019,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-09-19T07:01:03+00:00"
+            "time": "2023-09-25T09:00:58+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2609,12 +2609,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "7f40f38d690c5c17eac9587d9421c752e9d62784"
+                "reference": "f9c8d2eef69ae8855101bdbee8644be51651d1ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/7f40f38d690c5c17eac9587d9421c752e9d62784",
-                "reference": "7f40f38d690c5c17eac9587d9421c752e9d62784",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f9c8d2eef69ae8855101bdbee8644be51651d1ae",
+                "reference": "f9c8d2eef69ae8855101bdbee8644be51651d1ae",
                 "shasum": ""
             },
             "require": {
@@ -2667,7 +2667,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-09-19T14:03:47+00:00"
+            "time": "2023-09-22T13:59:20+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -3390,16 +3390,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-dynamic-table-field.git",
-                "reference": "2e9b198e46b301c107db0bd030e3b77ead169095"
+                "reference": "b1d35c53e5ae6adf67c5f6c465f118c897db773a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-dynamic-table-field/zipball/2e9b198e46b301c107db0bd030e3b77ead169095",
-                "reference": "2e9b198e46b301c107db0bd030e3b77ead169095",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-dynamic-table-field/zipball/b1d35c53e5ae6adf67c5f6c465f118c897db773a",
+                "reference": "b1d35c53e5ae6adf67c5f6c465f118c897db773a",
                 "shasum": ""
             },
             "default-branch": true,
-            "type": "acf-plugin",
+            "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
@@ -3414,7 +3414,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/acf-dynamic-table-field/tree/master"
             },
-            "time": "2021-08-19T08:54:16+00:00"
+            "time": "2023-09-22T12:59:42+00:00"
         },
         {
             "name": "jeradin/acf-website-field",
@@ -3422,16 +3422,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-website-field.git",
-                "reference": "6ddc6361538f72a75e594cba0b62338bf9a16936"
+                "reference": "17914161e4acfa8273e6804c7a9dd44c65a41581"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-website-field/zipball/6ddc6361538f72a75e594cba0b62338bf9a16936",
-                "reference": "6ddc6361538f72a75e594cba0b62338bf9a16936",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-website-field/zipball/17914161e4acfa8273e6804c7a9dd44c65a41581",
+                "reference": "17914161e4acfa8273e6804c7a9dd44c65a41581",
                 "shasum": ""
             },
             "default-branch": true,
-            "type": "acf-plugin",
+            "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -3446,7 +3446,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/acf-website-field/tree/master"
             },
-            "time": "2021-07-02T09:35:32+00:00"
+            "time": "2023-09-22T12:59:17+00:00"
         },
         {
             "name": "johannheyne/advanced-custom-fields-table-field",
@@ -3454,16 +3454,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/advanced-custom-fields-table-field.git",
-                "reference": "624629b6e4b5a822d84ba12fdc6b12fc3b578288"
+                "reference": "1bfe44fa43bd040f6dc7c46d14de0cbd403cd6af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/advanced-custom-fields-table-field/zipball/624629b6e4b5a822d84ba12fdc6b12fc3b578288",
-                "reference": "624629b6e4b5a822d84ba12fdc6b12fc3b578288",
+                "url": "https://api.github.com/repos/helsingborg-stad/advanced-custom-fields-table-field/zipball/1bfe44fa43bd040f6dc7c46d14de0cbd403cd6af",
+                "reference": "1bfe44fa43bd040f6dc7c46d14de0cbd403cd6af",
                 "shasum": ""
             },
             "default-branch": true,
-            "type": "acf-plugin",
+            "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -3478,7 +3478,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/advanced-custom-fields-table-field/tree/master"
             },
-            "time": "2021-07-02T09:35:10+00:00"
+            "time": "2023-09-22T12:58:17+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -3810,16 +3810,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-focuspoint.git",
-                "reference": "366d1fad1fd387e811e35519f8ad57124f5aff2e"
+                "reference": "64c0450d7f20d2d59561367ecda787462df16bce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-focuspoint/zipball/366d1fad1fd387e811e35519f8ad57124f5aff2e",
-                "reference": "366d1fad1fd387e811e35519f8ad57124f5aff2e",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-focuspoint/zipball/64c0450d7f20d2d59561367ecda787462df16bce",
+                "reference": "64c0450d7f20d2d59561367ecda787462df16bce",
                 "shasum": ""
             },
             "default-branch": true,
-            "type": "acf-plugin",
+            "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -3840,7 +3840,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-07-02T10:00:04+00:00"
+            "time": "2023-09-22T12:59:30+00:00"
         },
         {
             "name": "ouun/kirki-module-fonts_upload",
@@ -4555,16 +4555,16 @@
         },
         {
             "name": "psr/http-client",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-client.git",
-                "reference": "0955afe48220520692d2d09f7ab7e0f93ffd6a31"
+                "reference": "bb5906edc1c324c9a05aa0873d40117941e5fa90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-client/zipball/0955afe48220520692d2d09f7ab7e0f93ffd6a31",
-                "reference": "0955afe48220520692d2d09f7ab7e0f93ffd6a31",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/bb5906edc1c324c9a05aa0873d40117941e5fa90",
+                "reference": "bb5906edc1c324c9a05aa0873d40117941e5fa90",
                 "shasum": ""
             },
             "require": {
@@ -4601,9 +4601,9 @@
                 "psr-18"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-client/tree/1.0.2"
+                "source": "https://github.com/php-fig/http-client"
             },
-            "time": "2023-04-10T20:12:12+00:00"
+            "time": "2023-09-23T14:17:50+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -6329,15 +6329,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-sentry-integration",
-            "version": "6.24.0",
+            "version": "6.25.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-                "reference": "tags/6.24.0"
+                "reference": "tags/6.25.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.24.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.25.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6470,5 +6470,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
