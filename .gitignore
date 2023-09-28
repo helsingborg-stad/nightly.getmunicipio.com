@@ -15,8 +15,6 @@ vendor/
 wp-content/*
 wp-content/plugins/*
 !wp-content/plugins
-!wp-content/mu-plugins
-!wp-content/mu-plugins/*
 wp-content/mu-plugins/component-library
 wp-content/mu-plugins/component-library/*
 wp-content/mu-plugins/must-use-loader
