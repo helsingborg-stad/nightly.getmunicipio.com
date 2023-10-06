@@ -635,16 +635,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.8.1",
+            "version": "v6.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26"
+                "reference": "f03270e63eaccf3019ef0f32849c497385774e11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5dbc8959427416b8ee09a100d7a8588c00fb2e26",
-                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/f03270e63eaccf3019ef0f32849c497385774e11",
+                "reference": "f03270e63eaccf3019ef0f32849c497385774e11",
                 "shasum": ""
             },
             "require": {
@@ -692,9 +692,135 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.8.1"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.9.0"
             },
-            "time": "2023-07-14T18:33:00+00:00"
+            "time": "2023-10-05T00:24:42+00:00"
+        },
+        {
+            "name": "giggsey/libphonenumber-for-php",
+            "version": "8.13.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giggsey/libphonenumber-for-php.git",
+                "reference": "fc69cbcaff14c1af1f935b79033bdc5c0fa4a846"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/fc69cbcaff14c1af1f935b79033bdc5c0fa4a846",
+                "reference": "fc69cbcaff14c1af1f935b79033bdc5c0fa4a846",
+                "shasum": ""
+            },
+            "require": {
+                "giggsey/locale": "^1.7|^2.0",
+                "php": ">=5.3.2",
+                "symfony/polyfill-mbstring": "^1.17"
+            },
+            "require-dev": {
+                "pear/pear-core-minimal": "^1.9",
+                "pear/pear_exception": "^1.0",
+                "pear/versioncontrol_git": "^0.5",
+                "phing/phing": "^2.7",
+                "php-coveralls/php-coveralls": "^1.0|^2.0",
+                "symfony/console": "^2.8|^3.0|^v4.4|^v5.2",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "libphonenumber\\": "src/"
+                },
+                "exclude-from-classmap": [
+                    "/src/data/",
+                    "/src/carrier/data/",
+                    "/src/geocoding/data/",
+                    "/src/timezone/data/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua Gigg",
+                    "email": "giggsey@gmail.com",
+                    "homepage": "https://giggsey.com/"
+                }
+            ],
+            "description": "PHP Port of Google's libphonenumber",
+            "homepage": "https://github.com/giggsey/libphonenumber-for-php",
+            "keywords": [
+                "geocoding",
+                "geolocation",
+                "libphonenumber",
+                "mobile",
+                "phonenumber",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
+                "source": "https://github.com/giggsey/libphonenumber-for-php"
+            },
+            "time": "2023-09-29T14:53:55+00:00"
+        },
+        {
+            "name": "giggsey/locale",
+            "version": "2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giggsey/Locale.git",
+                "reference": "a6b33dfc9e8949b7e28133c4628b29cd9f1850bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giggsey/Locale/zipball/a6b33dfc9e8949b7e28133c4628b29cd9f1850bb",
+                "reference": "a6b33dfc9e8949b7e28133c4628b29cd9f1850bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "pear/pear-core-minimal": "^1.9",
+                "pear/pear_exception": "^1.0",
+                "pear/versioncontrol_git": "^0.5",
+                "phing/phing": "^2.7",
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/phpunit": "^8.5|^9.5",
+                "symfony/console": "^5.0|^6.0",
+                "symfony/filesystem": "^5.0|^6.0",
+                "symfony/finder": "^5.0|^6.0",
+                "symfony/process": "^5.0|^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Giggsey\\Locale\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua Gigg",
+                    "email": "giggsey@gmail.com",
+                    "homepage": "https://giggsey.com/"
+                }
+            ],
+            "description": "Locale functions required by libphonenumber-for-php",
+            "support": {
+                "issues": "https://github.com/giggsey/Locale/issues",
+                "source": "https://github.com/giggsey/Locale/tree/2.4"
+            },
+            "time": "2023-04-13T07:40:58+00:00"
         },
         {
             "name": "helsingborg-stad/acf-export-manager",
@@ -735,16 +861,16 @@
         },
         {
             "name": "helsingborg-stad/acf-select-image-field",
-            "version": "1.0.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-image-select-field.git",
-                "reference": "0fd23fdc99f5e5ce182d20b9ed61740cfa3f9dbc"
+                "reference": "ff699b6ae595f4c3afadcf1c6af2528a4b7c3e04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/0fd23fdc99f5e5ce182d20b9ed61740cfa3f9dbc",
-                "reference": "0fd23fdc99f5e5ce182d20b9ed61740cfa3f9dbc",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/ff699b6ae595f4c3afadcf1c6af2528a4b7c3e04",
+                "reference": "ff699b6ae595f4c3afadcf1c6af2528a4b7c3e04",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -760,9 +886,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/acf-image-select-field/issues",
-                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.0.3"
+                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.1.4"
             },
-            "time": "2023-09-28T09:43:07+00:00"
+            "time": "2023-10-06T12:47:32+00:00"
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
@@ -1014,12 +1140,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "1ba2cc4fb954472b99ed552d2bed59346d83f5b4"
+                "reference": "af724594172e43b8444b1532f63bc100f4865d54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/1ba2cc4fb954472b99ed552d2bed59346d83f5b4",
-                "reference": "1ba2cc4fb954472b99ed552d2bed59346d83f5b4",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/af724594172e43b8444b1532f63bc100f4865d54",
+                "reference": "af724594172e43b8444b1532f63bc100f4865d54",
                 "shasum": ""
             },
             "require": {
@@ -1048,9 +1174,9 @@
             "description": "Import and display events from Event Manager API.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/1.1.2"
+                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/1.2.1"
             },
-            "time": "2023-10-03T06:34:10+00:00"
+            "time": "2023-10-05T12:00:53+00:00"
         },
         {
             "name": "helsingborg-stad/api-kiosk-model-viewer",
@@ -1090,17 +1216,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager-integration.git",
-                "reference": "4e0e65afa4f424c76b196f5b53fb76a3b5c4db51"
+                "reference": "3a6491118b2cd9080ca3ebb280123fd5c0b12dc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/4e0e65afa4f424c76b196f5b53fb76a3b5c4db51",
-                "reference": "4e0e65afa4f424c76b196f5b53fb76a3b5c4db51",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/3a6491118b2cd9080ca3ebb280123fd5c0b12dc1",
+                "reference": "3a6491118b2cd9080ca3ebb280123fd5c0b12dc1",
                 "shasum": ""
             },
             "require": {
                 "apix/log": "^1.2",
                 "ext-json": "*",
+                "giggsey/libphonenumber-for-php": "^8.13",
                 "http-interop/http-factory-diactoros": "^1.0",
                 "php-http/curl-client": "^2.2",
                 "php-http/discovery": "^1.15",
@@ -1145,9 +1272,9 @@
             "description": "Frontend integration for api-volunteer-manager.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/tree/2.0.16"
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/tree/2.2.9"
             },
-            "time": "2023-10-02T13:47:18+00:00"
+            "time": "2023-10-06T11:46:27+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1282,12 +1409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/blade-engine-wrapper.git",
-                "reference": "895071376959063c0f23e2461b462cf74967b6db"
+                "reference": "bced352a8846df78d4f8e53860c65dd2ae3666b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/blade-engine-wrapper/zipball/895071376959063c0f23e2461b462cf74967b6db",
-                "reference": "895071376959063c0f23e2461b462cf74967b6db",
+                "url": "https://api.github.com/repos/helsingborg-stad/blade-engine-wrapper/zipball/bced352a8846df78d4f8e53860c65dd2ae3666b0",
+                "reference": "bced352a8846df78d4f8e53860c65dd2ae3666b0",
                 "shasum": ""
             },
             "require": {
@@ -1333,7 +1460,7 @@
                 "issues": "https://github.com/helsingborg-stad/blade-engine-wrapper/issues",
                 "source": "https://github.com/helsingborg-stad/blade-engine-wrapper/tree/master"
             },
-            "time": "2023-03-14T10:35:58+00:00"
+            "time": "2023-10-06T09:27:28+00:00"
         },
         {
             "name": "helsingborg-stad/component-library",
@@ -1341,12 +1468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "1b4e504c0fe86e2a5a0d7e36ceabfa5e557e8591"
+                "reference": "932ce6f4301572bdbdf344893bc4358599047506"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/1b4e504c0fe86e2a5a0d7e36ceabfa5e557e8591",
-                "reference": "1b4e504c0fe86e2a5a0d7e36ceabfa5e557e8591",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/932ce6f4301572bdbdf344893bc4358599047506",
+                "reference": "932ce6f4301572bdbdf344893bc4358599047506",
                 "shasum": ""
             },
             "require": {
@@ -1376,9 +1503,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/3.4.1"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/3.4.2"
             },
-            "time": "2023-10-03T06:33:49+00:00"
+            "time": "2023-10-06T09:02:50+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1982,12 +2109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "e0bc40ad69c10a08b6b410b4b0a24c606f009b3c"
+                "reference": "9af5bb014bf25492fb0202bb4af20b0ca376687c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/e0bc40ad69c10a08b6b410b4b0a24c606f009b3c",
-                "reference": "e0bc40ad69c10a08b6b410b4b0a24c606f009b3c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/9af5bb014bf25492fb0202bb4af20b0ca376687c",
+                "reference": "9af5bb014bf25492fb0202bb4af20b0ca376687c",
                 "shasum": ""
             },
             "require": {
@@ -2003,7 +2130,7 @@
                 "johannheyne/advanced-custom-fields-table-field": "dev-master",
                 "ooksanen/acf-focuspoint": "dev-master",
                 "symfony/polyfill-php80": "^1.27",
-                "wpackagist-plugin/acf-extended": "0.8.8.7"
+                "wpackagist-plugin/acf-extended": "0.8.9.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "9.6.x-dev",
@@ -2048,9 +2175,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/3.3.1"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/3.6.0"
             },
-            "time": "2023-10-03T06:34:25+00:00"
+            "time": "2023-10-06T12:52:49+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2578,12 +2705,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "faf9115df8f386479d518983b2360dac3f709c10"
+                "reference": "b7950d3eeed8ab9388514f260525396759d53770"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/faf9115df8f386479d518983b2360dac3f709c10",
-                "reference": "faf9115df8f386479d518983b2360dac3f709c10",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b7950d3eeed8ab9388514f260525396759d53770",
+                "reference": "b7950d3eeed8ab9388514f260525396759d53770",
                 "shasum": ""
             },
             "require": {
@@ -2634,9 +2761,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.7.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.8.0"
             },
-            "time": "2023-10-03T08:50:49+00:00"
+            "time": "2023-10-03T12:23:35+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -6083,15 +6210,15 @@
         },
         {
             "name": "wpackagist-plugin/acf-extended",
-            "version": "0.8.8.7",
+            "version": "0.8.9.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/acf-extended/",
-                "reference": "tags/0.8.8.7"
+                "reference": "tags/0.8.9.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.8.8.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.8.9.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6317,15 +6444,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-sentry-integration",
-            "version": "6.25.0",
+            "version": "6.26.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-                "reference": "tags/6.25.0"
+                "reference": "tags/6.26.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.25.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.26.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
