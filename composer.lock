@@ -698,16 +698,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.13.22",
+            "version": "8.13.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "fc69cbcaff14c1af1f935b79033bdc5c0fa4a846"
+                "reference": "b2dff83693cb46eb4478b193e9d94e2ff6258480"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/fc69cbcaff14c1af1f935b79033bdc5c0fa4a846",
-                "reference": "fc69cbcaff14c1af1f935b79033bdc5c0fa4a846",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/b2dff83693cb46eb4478b193e9d94e2ff6258480",
+                "reference": "b2dff83693cb46eb4478b193e9d94e2ff6258480",
                 "shasum": ""
             },
             "require": {
@@ -766,7 +766,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2023-09-29T14:53:55+00:00"
+            "time": "2023-10-11T07:12:56+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -861,16 +861,16 @@
         },
         {
             "name": "helsingborg-stad/acf-select-image-field",
-            "version": "1.1.4",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-image-select-field.git",
-                "reference": "ff699b6ae595f4c3afadcf1c6af2528a4b7c3e04"
+                "reference": "1860c73bd82443656c004a41f53dc009ae16c7b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/ff699b6ae595f4c3afadcf1c6af2528a4b7c3e04",
-                "reference": "ff699b6ae595f4c3afadcf1c6af2528a4b7c3e04",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/1860c73bd82443656c004a41f53dc009ae16c7b6",
+                "reference": "1860c73bd82443656c004a41f53dc009ae16c7b6",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -886,9 +886,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/acf-image-select-field/issues",
-                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.1.4"
+                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.2.0"
             },
-            "time": "2023-10-06T12:47:32+00:00"
+            "time": "2023-10-11T07:59:07+00:00"
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
@@ -1527,12 +1527,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "932ce6f4301572bdbdf344893bc4358599047506"
+                "reference": "7b8416d2ef686911a8824da1218ba5babaedb0cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/932ce6f4301572bdbdf344893bc4358599047506",
-                "reference": "932ce6f4301572bdbdf344893bc4358599047506",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/7b8416d2ef686911a8824da1218ba5babaedb0cc",
+                "reference": "7b8416d2ef686911a8824da1218ba5babaedb0cc",
                 "shasum": ""
             },
             "require": {
@@ -1562,9 +1562,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/3.4.2"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/3.4.7"
             },
-            "time": "2023-10-06T09:02:50+00:00"
+            "time": "2023-10-11T08:01:04+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2168,12 +2168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "9af5bb014bf25492fb0202bb4af20b0ca376687c"
+                "reference": "f21adb3f4929c91141a94c31eeea7012f6e6b5e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/9af5bb014bf25492fb0202bb4af20b0ca376687c",
-                "reference": "9af5bb014bf25492fb0202bb4af20b0ca376687c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/f21adb3f4929c91141a94c31eeea7012f6e6b5e2",
+                "reference": "f21adb3f4929c91141a94c31eeea7012f6e6b5e2",
                 "shasum": ""
             },
             "require": {
@@ -2234,9 +2234,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/3.6.0"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/4.0.1"
             },
-            "time": "2023-10-06T12:52:49+00:00"
+            "time": "2023-10-11T08:22:40+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
