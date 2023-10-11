@@ -861,16 +861,16 @@
         },
         {
             "name": "helsingborg-stad/acf-select-image-field",
-            "version": "1.2.0",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-image-select-field.git",
-                "reference": "1860c73bd82443656c004a41f53dc009ae16c7b6"
+                "reference": "259edcc8bccf10ea0894bb038b686ff5667a3749"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/1860c73bd82443656c004a41f53dc009ae16c7b6",
-                "reference": "1860c73bd82443656c004a41f53dc009ae16c7b6",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/259edcc8bccf10ea0894bb038b686ff5667a3749",
+                "reference": "259edcc8bccf10ea0894bb038b686ff5667a3749",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -886,9 +886,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/acf-image-select-field/issues",
-                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.2.0"
+                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.2.2"
             },
-            "time": "2023-10-11T07:59:07+00:00"
+            "time": "2023-10-11T11:41:40+00:00"
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
@@ -2168,12 +2168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "f21adb3f4929c91141a94c31eeea7012f6e6b5e2"
+                "reference": "089e224ef2309ab2abda99ce11a015576ab966fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/f21adb3f4929c91141a94c31eeea7012f6e6b5e2",
-                "reference": "f21adb3f4929c91141a94c31eeea7012f6e6b5e2",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/089e224ef2309ab2abda99ce11a015576ab966fc",
+                "reference": "089e224ef2309ab2abda99ce11a015576ab966fc",
                 "shasum": ""
             },
             "require": {
@@ -2234,9 +2234,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/4.0.1"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/main"
             },
-            "time": "2023-10-11T08:22:40+00:00"
+            "time": "2023-10-11T15:54:22+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
