@@ -56,7 +56,7 @@
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "6.3.0",
         "helsingborg-stad/modularity": "dev-main",
-        "helsingborg-stad/municipio": "dev-main",
+        "helsingborg-stad/municipio": "dev-feature/schools",
         "helsingborg-stad/api-event-manager-integration": "dev-main",
         "helsingborg-stad/force-ssl": "dev-main",
         "helsingborg-stad/search-notices": "dev-main",
@@ -117,7 +117,8 @@
         "helsingborg-stad/wpmu-acf-google-maps-key": "dev-main",
         "wpackagist-plugin/blackbar":"4.0.1",
         "wpackagist-plugin/query-monitor":"3.12.1",
-        "helsingborg-stad/wpmu-mu-plugins-url-everywhere": "dev-main"
+        "helsingborg-stad/wpmu-mu-plugins-url-everywhere": "dev-main",
+        "helsingborg-stad/api-schools-integration": "dev-integrate"
     },
 
     "extra": {
