@@ -1216,12 +1216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-schools-integration.git",
-                "reference": "bd2d40326e3fc18bf81314979a789e40291ef99c"
+                "reference": "c8e118e91f8d8855be57f04fc2abda2a24a0d80d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-integration/zipball/bd2d40326e3fc18bf81314979a789e40291ef99c",
-                "reference": "bd2d40326e3fc18bf81314979a789e40291ef99c",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-integration/zipball/c8e118e91f8d8855be57f04fc2abda2a24a0d80d",
+                "reference": "c8e118e91f8d8855be57f04fc2abda2a24a0d80d",
                 "shasum": ""
             },
             "require": {
@@ -1267,7 +1267,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-schools-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-schools-integration/tree/integrate"
             },
-            "time": "2023-10-11T08:34:17+00:00"
+            "time": "2023-10-13T07:59:05+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager-integration",
@@ -2764,12 +2764,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "4a8aac86624c0c3aadc32e3b2cf3e94a6403ce03"
+                "reference": "941efb26b8bb4294404f153c193484995138a000"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/4a8aac86624c0c3aadc32e3b2cf3e94a6403ce03",
-                "reference": "4a8aac86624c0c3aadc32e3b2cf3e94a6403ce03",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/941efb26b8bb4294404f153c193484995138a000",
+                "reference": "941efb26b8bb4294404f153c193484995138a000",
                 "shasum": ""
             },
             "require": {
@@ -2821,7 +2821,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/feature/schools"
             },
-            "time": "2023-10-11T08:19:39+00:00"
+            "time": "2023-10-13T07:47:28+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
