@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6abbaa121e72a4cf0f658e0bc748411",
+    "content-hash": "f507574c7a776bd7920991200c6f98cf",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2760,16 +2760,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-feature/schools",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "941efb26b8bb4294404f153c193484995138a000"
+                "reference": "9e2dca647664620e071c5fbadcbf35d6eb8626e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/941efb26b8bb4294404f153c193484995138a000",
-                "reference": "941efb26b8bb4294404f153c193484995138a000",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/9e2dca647664620e071c5fbadcbf35d6eb8626e1",
+                "reference": "9e2dca647664620e071c5fbadcbf35d6eb8626e1",
                 "shasum": ""
             },
             "require": {
@@ -2789,6 +2789,7 @@
                 "spatie/phpunit-watcher": "*",
                 "yoast/phpunit-polyfills": "^1.0.4"
             },
+            "default-branch": true,
             "type": "wordpress-theme",
             "extra": {
                 "installer-paths": {
@@ -2819,9 +2820,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/feature/schools"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.9.0"
             },
-            "time": "2023-10-13T07:47:28+00:00"
+            "time": "2023-10-13T12:07:59+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",

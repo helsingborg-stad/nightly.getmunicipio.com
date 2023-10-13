@@ -56,7 +56,7 @@
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "6.3.0",
         "helsingborg-stad/modularity": "dev-main",
-        "helsingborg-stad/municipio": "dev-feature/schools",
+        "helsingborg-stad/municipio": "dev-main",
         "helsingborg-stad/api-event-manager-integration": "dev-main",
         "helsingborg-stad/force-ssl": "dev-main",
         "helsingborg-stad/search-notices": "dev-main",
