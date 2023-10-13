@@ -861,16 +861,16 @@
         },
         {
             "name": "helsingborg-stad/acf-select-image-field",
-            "version": "1.2.2",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-image-select-field.git",
-                "reference": "259edcc8bccf10ea0894bb038b686ff5667a3749"
+                "reference": "5daa634731c0397888002678dfd5bf91c8687bba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/259edcc8bccf10ea0894bb038b686ff5667a3749",
-                "reference": "259edcc8bccf10ea0894bb038b686ff5667a3749",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/5daa634731c0397888002678dfd5bf91c8687bba",
+                "reference": "5daa634731c0397888002678dfd5bf91c8687bba",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -886,9 +886,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/acf-image-select-field/issues",
-                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.2.2"
+                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.2.5"
             },
-            "time": "2023-10-11T11:41:40+00:00"
+            "time": "2023-10-11T15:54:54+00:00"
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
@@ -1527,12 +1527,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "7b8416d2ef686911a8824da1218ba5babaedb0cc"
+                "reference": "585c9acd85702e84b3b2ee69fd282105e8d1f574"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/7b8416d2ef686911a8824da1218ba5babaedb0cc",
-                "reference": "7b8416d2ef686911a8824da1218ba5babaedb0cc",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/585c9acd85702e84b3b2ee69fd282105e8d1f574",
+                "reference": "585c9acd85702e84b3b2ee69fd282105e8d1f574",
                 "shasum": ""
             },
             "require": {
@@ -1562,9 +1562,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/3.4.7"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/3.5.0"
             },
-            "time": "2023-10-11T08:01:04+00:00"
+            "time": "2023-10-13T12:06:13+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2168,12 +2168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "089e224ef2309ab2abda99ce11a015576ab966fc"
+                "reference": "c510028dfd4a3a808d440a4c8542e8a553b684cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/089e224ef2309ab2abda99ce11a015576ab966fc",
-                "reference": "089e224ef2309ab2abda99ce11a015576ab966fc",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c510028dfd4a3a808d440a4c8542e8a553b684cd",
+                "reference": "c510028dfd4a3a808d440a4c8542e8a553b684cd",
                 "shasum": ""
             },
             "require": {
@@ -2234,9 +2234,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/main"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.1.0"
             },
-            "time": "2023-10-11T15:54:22+00:00"
+            "time": "2023-10-13T12:07:29+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3983,12 +3983,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-focuspoint.git",
-                "reference": "64c0450d7f20d2d59561367ecda787462df16bce"
+                "reference": "a0a326a5b23d68ecd18b592928513f6f34c45139"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-focuspoint/zipball/64c0450d7f20d2d59561367ecda787462df16bce",
-                "reference": "64c0450d7f20d2d59561367ecda787462df16bce",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-focuspoint/zipball/a0a326a5b23d68ecd18b592928513f6f34c45139",
+                "reference": "a0a326a5b23d68ecd18b592928513f6f34c45139",
                 "shasum": ""
             },
             "default-branch": true,
@@ -4005,7 +4005,7 @@
             ],
             "description": "Adds a image focus field",
             "support": {
-                "source": "https://github.com/helsingborg-stad/acf-focuspoint/tree/master"
+                "source": "https://github.com/helsingborg-stad/acf-focuspoint/tree/1.2.1"
             },
             "funding": [
                 {
@@ -4013,7 +4013,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2023-09-22T12:59:30+00:00"
+            "time": "2023-10-12T05:52:37+00:00"
         },
         {
             "name": "ouun/kirki-module-fonts_upload",
@@ -6123,16 +6123,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.16.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "93429098ed8f661cb7455873518e9303264b4f10"
+                "reference": "1ec24256362b86d7f857efc285fbe0cacea2f67e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/93429098ed8f661cb7455873518e9303264b4f10",
-                "reference": "93429098ed8f661cb7455873518e9303264b4f10",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/1ec24256362b86d7f857efc285fbe0cacea2f67e",
+                "reference": "1ec24256362b86d7f857efc285fbe0cacea2f67e",
                 "shasum": ""
             },
             "require": {
@@ -6142,7 +6142,7 @@
                 "webonyx/graphql-php": "14.11.10"
             },
             "require-dev": {
-                "automattic/vipwpcs": "^2.2",
+                "automattic/vipwpcs": "^3.0",
                 "codeception/module-asserts": "^1.0",
                 "codeception/module-cli": "^1.0",
                 "codeception/module-db": "^1.0",
@@ -6164,11 +6164,7 @@
             },
             "type": "wordpress-plugin",
             "autoload": {
-                "files": [
-                    "access-functions.php",
-                    "activation.php",
-                    "deactivation.php"
-                ],
+                "files": [],
                 "psr-4": {
                     "WPGraphQL\\": "src/"
                 }
@@ -6198,9 +6194,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.16.0"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.17.0"
             },
-            "time": "2023-08-31T21:46:33+00:00"
+            "time": "2023-10-12T19:35:44+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
