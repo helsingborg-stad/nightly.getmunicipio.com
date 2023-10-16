@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f507574c7a776bd7920991200c6f98cf",
+    "content-hash": "d6abbaa121e72a4cf0f658e0bc748411",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1216,12 +1216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-schools-integration.git",
-                "reference": "c8e118e91f8d8855be57f04fc2abda2a24a0d80d"
+                "reference": "51105b6a3341f23d093780af834657cc46af781c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-integration/zipball/c8e118e91f8d8855be57f04fc2abda2a24a0d80d",
-                "reference": "c8e118e91f8d8855be57f04fc2abda2a24a0d80d",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-integration/zipball/51105b6a3341f23d093780af834657cc46af781c",
+                "reference": "51105b6a3341f23d093780af834657cc46af781c",
                 "shasum": ""
             },
             "require": {
@@ -1267,7 +1267,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-schools-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-schools-integration/tree/integrate"
             },
-            "time": "2023-10-13T07:59:05+00:00"
+            "time": "2023-10-13T12:17:12+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager-integration",
@@ -2760,16 +2760,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-main",
+            "version": "dev-feature/schools",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "9e2dca647664620e071c5fbadcbf35d6eb8626e1"
+                "reference": "876d9450d4593aaf400b78af6a6deb9f5ad8ef35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/9e2dca647664620e071c5fbadcbf35d6eb8626e1",
-                "reference": "9e2dca647664620e071c5fbadcbf35d6eb8626e1",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/876d9450d4593aaf400b78af6a6deb9f5ad8ef35",
+                "reference": "876d9450d4593aaf400b78af6a6deb9f5ad8ef35",
                 "shasum": ""
             },
             "require": {
@@ -2789,7 +2789,6 @@
                 "spatie/phpunit-watcher": "*",
                 "yoast/phpunit-polyfills": "^1.0.4"
             },
-            "default-branch": true,
             "type": "wordpress-theme",
             "extra": {
                 "installer-paths": {
@@ -2820,9 +2819,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.9.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/feature/schools"
             },
-            "time": "2023-10-13T12:07:59+00:00"
+            "time": "2023-10-16T07:42:30+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
