@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6abbaa121e72a4cf0f658e0bc748411",
+    "content-hash": "f507574c7a776bd7920991200c6f98cf",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1275,12 +1275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager-integration.git",
-                "reference": "3a6491118b2cd9080ca3ebb280123fd5c0b12dc1"
+                "reference": "5773776be4234fea0330d25f1f205fa7ec36aaff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/3a6491118b2cd9080ca3ebb280123fd5c0b12dc1",
-                "reference": "3a6491118b2cd9080ca3ebb280123fd5c0b12dc1",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager-integration/zipball/5773776be4234fea0330d25f1f205fa7ec36aaff",
+                "reference": "5773776be4234fea0330d25f1f205fa7ec36aaff",
                 "shasum": ""
             },
             "require": {
@@ -1331,9 +1331,9 @@
             "description": "Frontend integration for api-volunteer-manager.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/tree/2.2.9"
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager-integration/tree/2.2.10"
             },
-            "time": "2023-10-06T11:46:27+00:00"
+            "time": "2023-10-18T09:04:18+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -2168,12 +2168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "c510028dfd4a3a808d440a4c8542e8a553b684cd"
+                "reference": "74db73e9f343d15f584786b839fe0f2189ebdb84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c510028dfd4a3a808d440a4c8542e8a553b684cd",
-                "reference": "c510028dfd4a3a808d440a4c8542e8a553b684cd",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/74db73e9f343d15f584786b839fe0f2189ebdb84",
+                "reference": "74db73e9f343d15f584786b839fe0f2189ebdb84",
                 "shasum": ""
             },
             "require": {
@@ -2234,9 +2234,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.1.0"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.5.0"
             },
-            "time": "2023-10-13T12:07:29+00:00"
+            "time": "2023-10-18T10:28:40+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2282,12 +2282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "50a6340d033f8929b908983cc39f72cbc9650653"
+                "reference": "92706a2d17ea758c6f4b9a8dbc26c59b7a90737a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/50a6340d033f8929b908983cc39f72cbc9650653",
-                "reference": "50a6340d033f8929b908983cc39f72cbc9650653",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/92706a2d17ea758c6f4b9a8dbc26c59b7a90737a",
+                "reference": "92706a2d17ea758c6f4b9a8dbc26c59b7a90737a",
                 "shasum": ""
             },
             "require": {
@@ -2320,9 +2320,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0.3"
+                "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0.4"
             },
-            "time": "2023-09-29T10:34:41+00:00"
+            "time": "2023-10-16T09:30:30+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -2760,16 +2760,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-feature/schools",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "876d9450d4593aaf400b78af6a6deb9f5ad8ef35"
+                "reference": "cf763fa7b4ca50209eceb9f0419ec88660dc04dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/876d9450d4593aaf400b78af6a6deb9f5ad8ef35",
-                "reference": "876d9450d4593aaf400b78af6a6deb9f5ad8ef35",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/cf763fa7b4ca50209eceb9f0419ec88660dc04dc",
+                "reference": "cf763fa7b4ca50209eceb9f0419ec88660dc04dc",
                 "shasum": ""
             },
             "require": {
@@ -2789,6 +2789,7 @@
                 "spatie/phpunit-watcher": "*",
                 "yoast/phpunit-polyfills": "^1.0.4"
             },
+            "default-branch": true,
             "type": "wordpress-theme",
             "extra": {
                 "installer-paths": {
@@ -2819,9 +2820,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/feature/schools"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.10.0"
             },
-            "time": "2023-10-16T07:42:30+00:00"
+            "time": "2023-10-13T13:41:56+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -6498,15 +6499,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-sentry-integration",
-            "version": "6.26.0",
+            "version": "6.27.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-                "reference": "tags/6.26.0"
+                "reference": "tags/6.27.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.26.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.6.27.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
