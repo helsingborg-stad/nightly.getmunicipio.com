@@ -1527,12 +1527,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "585c9acd85702e84b3b2ee69fd282105e8d1f574"
+                "reference": "48d6ddbecaffbcf5f6bc88082ea6b439097350fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/585c9acd85702e84b3b2ee69fd282105e8d1f574",
-                "reference": "585c9acd85702e84b3b2ee69fd282105e8d1f574",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/48d6ddbecaffbcf5f6bc88082ea6b439097350fd",
+                "reference": "48d6ddbecaffbcf5f6bc88082ea6b439097350fd",
                 "shasum": ""
             },
             "require": {
@@ -1562,9 +1562,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/3.5.0"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/main"
             },
-            "time": "2023-10-13T12:06:13+00:00"
+            "time": "2023-10-19T10:27:33+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1613,12 +1613,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Customer-feedback.git",
-                "reference": "08f5cfb1bcfdde8aad071b36608b779cf3139a53"
+                "reference": "daa7c1b940775368c7f6eae9614a175c57c7be1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/08f5cfb1bcfdde8aad071b36608b779cf3139a53",
-                "reference": "08f5cfb1bcfdde8aad071b36608b779cf3139a53",
+                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/daa7c1b940775368c7f6eae9614a175c57c7be1c",
+                "reference": "daa7c1b940775368c7f6eae9614a175c57c7be1c",
                 "shasum": ""
             },
             "require": {
@@ -1644,9 +1644,9 @@
             "description": "This WordPress plugin adds a feedback form to the end of every page (or any other activated post type).",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Customer-feedback/issues",
-                "source": "https://github.com/helsingborg-stad/Customer-feedback/tree/4.0.2"
+                "source": "https://github.com/helsingborg-stad/Customer-feedback/tree/4.0.3"
             },
-            "time": "2023-09-28T08:32:05+00:00"
+            "time": "2023-10-18T14:53:41+00:00"
         },
         {
             "name": "helsingborg-stad/easy-to-read-alternative",
@@ -1914,12 +1914,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/job-listings.git",
-                "reference": "f25480e607682740eeb94c7e13a61a357c48bcf5"
+                "reference": "d63d1d27528f5587df68e5d723ce2e072b6d88f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/f25480e607682740eeb94c7e13a61a357c48bcf5",
-                "reference": "f25480e607682740eeb94c7e13a61a357c48bcf5",
+                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/d63d1d27528f5587df68e5d723ce2e072b6d88f3",
+                "reference": "d63d1d27528f5587df68e5d723ce2e072b6d88f3",
                 "shasum": ""
             },
             "require": {
@@ -1958,9 +1958,9 @@
             "description": "Improt available jobs",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/job-listings/issues",
-                "source": "https://github.com/helsingborg-stad/job-listings/tree/4.0.2"
+                "source": "https://github.com/helsingborg-stad/job-listings/tree/4.0.3"
             },
-            "time": "2023-09-28T08:48:48+00:00"
+            "time": "2023-10-19T08:25:59+00:00"
         },
         {
             "name": "helsingborg-stad/larrum-custom-api",
@@ -2168,12 +2168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "74db73e9f343d15f584786b839fe0f2189ebdb84"
+                "reference": "c8ce793be0af475daace359eabec090639b2eff9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/74db73e9f343d15f584786b839fe0f2189ebdb84",
-                "reference": "74db73e9f343d15f584786b839fe0f2189ebdb84",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c8ce793be0af475daace359eabec090639b2eff9",
+                "reference": "c8ce793be0af475daace359eabec090639b2eff9",
                 "shasum": ""
             },
             "require": {
@@ -2234,9 +2234,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.5.0"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.6.2"
             },
-            "time": "2023-10-18T10:28:40+00:00"
+            "time": "2023-10-19T08:48:26+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2726,12 +2726,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/multisite-role-propagation.git",
-                "reference": "5fb8548cfc7355153611342dad0a3e68b4def348"
+                "reference": "fdd95fd83d8508c36985c4c649ca73e797588c9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/multisite-role-propagation/zipball/5fb8548cfc7355153611342dad0a3e68b4def348",
-                "reference": "5fb8548cfc7355153611342dad0a3e68b4def348",
+                "url": "https://api.github.com/repos/helsingborg-stad/multisite-role-propagation/zipball/fdd95fd83d8508c36985c4c649ca73e797588c9c",
+                "reference": "fdd95fd83d8508c36985c4c649ca73e797588c9c",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2754,9 +2754,9 @@
             "description": "Plugin to quickly set a role for a multisite user on multiple blogs in a network",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/multisite-role-propagation/issues",
-                "source": "https://github.com/helsingborg-stad/multisite-role-propagation/tree/3.0.3"
+                "source": "https://github.com/helsingborg-stad/multisite-role-propagation/tree/3.0.4"
             },
-            "time": "2023-09-29T07:23:35+00:00"
+            "time": "2023-10-18T14:42:05+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
@@ -2764,12 +2764,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "cf763fa7b4ca50209eceb9f0419ec88660dc04dc"
+                "reference": "f43ee6a908f026fdac39b4d3f09d94b3cc0b390a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/cf763fa7b4ca50209eceb9f0419ec88660dc04dc",
-                "reference": "cf763fa7b4ca50209eceb9f0419ec88660dc04dc",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f43ee6a908f026fdac39b4d3f09d94b3cc0b390a",
+                "reference": "f43ee6a908f026fdac39b4d3f09d94b3cc0b390a",
                 "shasum": ""
             },
             "require": {
@@ -2820,9 +2820,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.10.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.10.1"
             },
-            "time": "2023-10-13T13:41:56+00:00"
+            "time": "2023-10-19T09:12:20+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -3564,12 +3564,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-dynamic-table-field.git",
-                "reference": "b1d35c53e5ae6adf67c5f6c465f118c897db773a"
+                "reference": "6630a9fe84a8c0761f11ce9d1e0099141af036f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-dynamic-table-field/zipball/b1d35c53e5ae6adf67c5f6c465f118c897db773a",
-                "reference": "b1d35c53e5ae6adf67c5f6c465f118c897db773a",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-dynamic-table-field/zipball/6630a9fe84a8c0761f11ce9d1e0099141af036f5",
+                "reference": "6630a9fe84a8c0761f11ce9d1e0099141af036f5",
                 "shasum": ""
             },
             "default-branch": true,
@@ -3588,7 +3588,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/acf-dynamic-table-field/tree/master"
             },
-            "time": "2023-09-22T12:59:42+00:00"
+            "time": "2023-10-18T14:38:56+00:00"
         },
         {
             "name": "jeradin/acf-website-field",
@@ -3628,12 +3628,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/advanced-custom-fields-table-field.git",
-                "reference": "2b8e8f53e221d5d9ec1d3255893ff46175e4b49e"
+                "reference": "1807a23c4baca0c147529b23f8a4223633369be2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/advanced-custom-fields-table-field/zipball/2b8e8f53e221d5d9ec1d3255893ff46175e4b49e",
-                "reference": "2b8e8f53e221d5d9ec1d3255893ff46175e4b49e",
+                "url": "https://api.github.com/repos/helsingborg-stad/advanced-custom-fields-table-field/zipball/1807a23c4baca0c147529b23f8a4223633369be2",
+                "reference": "1807a23c4baca0c147529b23f8a4223633369be2",
                 "shasum": ""
             },
             "default-branch": true,
@@ -3652,7 +3652,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/advanced-custom-fields-table-field/tree/master"
             },
-            "time": "2023-10-02T08:10:55+00:00"
+            "time": "2023-10-18T14:34:10+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
