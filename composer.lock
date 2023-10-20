@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0457d673dd0659d49af849f8bc1d5f82",
+    "content-hash": "ae072ad3e946924fcec2461a767446dc",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -363,6 +363,38 @@
                 "source": "https://github.com/aws/aws-sdk-php/tree/3.283.8"
             },
             "time": "2023-10-19T19:26:52+00:00"
+        },
+        {
+            "name": "clark-nikdel-powell/post-type-select-for-acf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/Post-Type-Select-for-ACF.git",
+                "reference": "f6910f1c1c793774c54fab2659d8c53d6cc2fdca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/Post-Type-Select-for-ACF/zipball/f6910f1c1c793774c54fab2659d8c53d6cc2fdca",
+                "reference": "f6910f1c1c793774c54fab2659d8c53d6cc2fdca",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Glenn Welser",
+                    "email": "info@cnpagency.com"
+                }
+            ],
+            "description": "Post type select field for ACF",
+            "support": {
+                "source": "https://github.com/helsingborg-stad/Post-Type-Select-for-ACF/tree/master"
+            },
+            "time": "2023-09-22T12:58:47+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -752,6 +784,52 @@
                 }
             ],
             "time": "2021-04-16T17:34:40+00:00"
+        },
+        {
+            "name": "enshrined/svg-sanitize",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
+                "reference": "e42eadd31fce0f8821620921801d35bc37e461c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/e42eadd31fce0f8821620921801d35bc37e461c9",
+                "reference": "e42eadd31fce0f8821620921801d35bc37e461c9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": "^5.6 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^8.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "enshrined\\svgSanitize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk"
+                }
+            ],
+            "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/master"
+            },
+            "time": "2023-07-18T14:50:30+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -1309,7 +1387,7 @@
         },
         {
             "name": "helsingborg-stad/acf-select-image-field",
-            "version": "dev-main",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-image-select-field.git",
@@ -1321,7 +1399,6 @@
                 "reference": "5daa634731c0397888002678dfd5bf91c8687bba",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1788,16 +1865,16 @@
         },
         {
             "name": "helsingborg-stad/better-post-ui",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/better-post-UI.git",
-                "reference": "7b2bb9d050ab33bb976df31df5d63cb2999a87d6"
+                "reference": "f10e07f3a1cf3b3e892b6b38d8a08637085d45eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/7b2bb9d050ab33bb976df31df5d63cb2999a87d6",
-                "reference": "7b2bb9d050ab33bb976df31df5d63cb2999a87d6",
+                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/f10e07f3a1cf3b3e892b6b38d8a08637085d45eb",
+                "reference": "f10e07f3a1cf3b3e892b6b38d8a08637085d45eb",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1820,9 +1897,9 @@
             "description": "Improves the UI and UX of the WordPress admin post form.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/better-post-UI/issues",
-                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/2.0.0"
+                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/3.0.2"
             },
-            "time": "2023-09-19T11:27:47+00:00"
+            "time": "2023-09-28T08:30:25+00:00"
         },
         {
             "name": "helsingborg-stad/blade",
@@ -1874,6 +1951,44 @@
                 "source": "https://github.com/helsingborg-stad/Blade/tree/1.0.0"
             },
             "time": "2023-03-14T10:11:47+00:00"
+        },
+        {
+            "name": "helsingborg-stad/blade-component-library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/blade-component-library.git",
+                "reference": "6bf3ad9ab832ed85150432464c3bb47cf581108b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/blade-component-library/zipball/6bf3ad9ab832ed85150432464c3bb47cf581108b",
+                "reference": "6bf3ad9ab832ed85150432464c3bb47cf581108b",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BladeComponentLibrary\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "A component library based upon blade engine.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/blade-component-library/issues",
+                "source": "https://github.com/helsingborg-stad/blade-component-library/tree/master"
+            },
+            "time": "2021-02-11T08:46:25+00:00"
         },
         {
             "name": "helsingborg-stad/blade-engine-wrapper",
@@ -2343,7 +2458,7 @@
         },
         {
             "name": "helsingborg-stad/global-blade-engine",
-            "version": "dev-master",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/global-blade-engine.git",
@@ -2372,7 +2487,6 @@
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -2621,25 +2735,51 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "ac16b3ae9d60ab5daa38b2abbc3018211e7712d6"
+                "reference": "fc6793b387e1607492ab0b2bb15049a18b345bcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/ac16b3ae9d60ab5daa38b2abbc3018211e7712d6",
-                "reference": "ac16b3ae9d60ab5daa38b2abbc3018211e7712d6",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/fc6793b387e1607492ab0b2bb15049a18b345bcf",
+                "reference": "fc6793b387e1607492ab0b2bb15049a18b345bcf",
                 "shasum": ""
             },
             "require": {
+                "clark-nikdel-powell/post-type-select-for-acf": "dev-master",
                 "composer/installers": "~1.0",
+                "enshrined/svg-sanitize": "dev-master",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
-                "philo/laravel-blade": "^3.1"
+                "helsingborg-stad/acf-select-image-field": "^1.0.0",
+                "helsingborg-stad/blade-component-library": "dev-master",
+                "helsingborg-stad/global-blade-engine": "^2.0.0",
+                "jeradin/acf-dynamic-table-field": "dev-master",
+                "jeradin/acf-website-field": "dev-master",
+                "johannheyne/advanced-custom-fields-table-field": "dev-master",
+                "ooksanen/acf-focuspoint": "dev-master",
+                "symfony/polyfill-php80": "^1.27",
+                "wpackagist-plugin/acf-extended": "0.8.9.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "9.6.x-dev",
+                "yoast/phpunit-polyfills": "2.x-dev"
             },
             "default-branch": true,
             "type": "wordpress-plugin",
+            "extra": {
+                "installer-paths": {
+                    "vendor/{$vendor}/{$name}/": [
+                        "vendor:wpackagist-plugin"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modularity\\": "source/php/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -2665,9 +2805,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/2.13.3"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.6.5"
             },
-            "time": "2020-11-23T09:26:03+00:00"
+            "time": "2023-10-19T14:47:51+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2690,7 +2830,6 @@
                     "ModularityContactBanner\\": "source/php/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2702,8 +2841,8 @@
             ],
             "description": "Contact Banner",
             "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0.2"
+                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0.2",
+                "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues"
             },
             "time": "2023-09-28T08:52:08+00:00"
         },
@@ -2728,7 +2867,6 @@
                     "ModularityEntryscape\\": "source/php/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2740,8 +2878,8 @@
             ],
             "description": "Modularity Entryscape",
             "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/3.0.3"
+                "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/3.0.3",
+                "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues"
             },
             "time": "2023-09-29T07:26:15+00:00"
         },
@@ -2934,7 +3072,6 @@
                     "ModularityLocalEvents\\": "source/php/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2946,8 +3083,8 @@
             ],
             "description": "Local events",
             "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/3.0.2"
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/3.0.2",
+                "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues"
             },
             "time": "2023-09-28T09:09:41+00:00"
         },
@@ -3015,7 +3152,6 @@
                     "ModularityProducts\\": "source/php/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3027,8 +3163,8 @@
             ],
             "description": "An addon for displaying products.",
             "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-products/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-products/tree/2.0.2"
+                "source": "https://github.com/helsingborg-stad/modularity-products/tree/2.0.2",
+                "issues": "https://github.com/helsingborg-stad/modularity-products/issues"
             },
             "time": "2023-09-28T09:10:30+00:00"
         },
@@ -3053,7 +3189,6 @@
                     "ModularityRecommend\\": "source/php/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3065,8 +3200,8 @@
             ],
             "description": "Modularity RekAI",
             "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-recommend/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-recommend/tree/2.0.2"
+                "source": "https://github.com/helsingborg-stad/modularity-recommend/tree/2.0.2",
+                "issues": "https://github.com/helsingborg-stad/modularity-recommend/issues"
             },
             "time": "2023-09-28T09:10:53+00:00"
         },
@@ -3135,7 +3270,6 @@
                     "ModularityTestimonials\\": "source/php/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3146,8 +3280,8 @@
                 }
             ],
             "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0.2"
+                "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0.2",
+                "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues"
             },
             "time": "2023-09-28T09:11:29+00:00"
         },
@@ -3172,7 +3306,6 @@
                     "ModularityTimeline\\": "source/php/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3184,8 +3317,8 @@
             ],
             "description": "A module to display a timeline.",
             "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-timeline/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/3.0.2"
+                "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/3.0.2",
+                "issues": "https://github.com/helsingborg-stad/modularity-timeline/issues"
             },
             "time": "2023-09-28T09:11:54+00:00"
         },
@@ -3261,27 +3394,34 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "08a28dce73aac986db5aa96c9614a1f97bec8a8d"
+                "reference": "e48c0ed63bc4f6a0c8b5467a11ded6cf8c0a95de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/08a28dce73aac986db5aa96c9614a1f97bec8a8d",
-                "reference": "08a28dce73aac986db5aa96c9614a1f97bec8a8d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e48c0ed63bc4f6a0c8b5467a11ded6cf8c0a95de",
+                "reference": "e48c0ed63bc4f6a0c8b5467a11ded6cf8c0a95de",
                 "shasum": ""
             },
             "require": {
-                "aristath/kirki": "^3.0",
                 "composer/installers": "^1.0",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
-                "helsingborg-stad/recaptcha-integration": ">=1.0.8",
-                "philo/laravel-blade": "^3.1",
-                "shortpixel/shortpixel-php": "^1.4",
-                "symfony/debug": "^4.0",
-                "wpackagist-plugin/advanced-custom-fields": "^4.4.7"
+                "helsingborg-stad/blade-engine-wrapper": "dev-master",
+                "helsingborg-stad/global-blade-engine": "^2.0.0",
+                "ouun/kirki-module-fonts_upload": "dev-master",
+                "pragmarx/ia-arr": "^7.3",
+                "symfony/polyfill-mbstring": "1.17.0",
+                "symfony/polyfill-php80": "^1.27",
+                "wpackagist-plugin/kirki": "^5.0"
+            },
+            "require-dev": {
+                "php-stubs/acf-pro-stubs": "dev-master",
+                "phpunit/phpunit": "9.6.x-dev",
+                "spatie/phpunit-watcher": "*",
+                "yoast/phpunit-polyfills": "^1.0.4"
             },
             "default-branch": true,
             "type": "wordpress-theme",
@@ -3290,6 +3430,11 @@
                     "vendor/{$name}/": [
                         "type:wordpress-plugin"
                     ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Municipio\\": "library/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3309,9 +3454,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/master"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.13.0"
             },
-            "time": "2021-03-10T09:04:31+00:00"
+            "time": "2023-10-19T14:35:01+00:00"
         },
         {
             "name": "helsingborg-stad/recaptcha-integration",
@@ -3372,7 +3517,6 @@
                     "RedirectionExtended\\": "source/php/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3384,8 +3528,8 @@
             ],
             "description": "Extends the Wordpress Redirection plugin",
             "support": {
-                "issues": "https://github.com/helsingborg-stad/redirection-extended/issues",
-                "source": "https://github.com/helsingborg-stad/redirection-extended/tree/3.0.3"
+                "source": "https://github.com/helsingborg-stad/redirection-extended/tree/3.0.3",
+                "issues": "https://github.com/helsingborg-stad/redirection-extended/issues"
             },
             "time": "2023-09-29T07:24:21+00:00"
         },
@@ -3739,23 +3883,22 @@
         },
         {
             "name": "helsingborg-stad/wpmu-network-admin-url",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wpmu-network-admin-url.git",
-                "reference": "f81d66001f910b523c8e1019e58ed1921de6f6f6"
+                "reference": "6fc9e72c1a4f7b185df448a44332a94036db9010"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-network-admin-url/zipball/f81d66001f910b523c8e1019e58ed1921de6f6f6",
-                "reference": "f81d66001f910b523c8e1019e58ed1921de6f6f6",
+                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-network-admin-url/zipball/6fc9e72c1a4f7b185df448a44332a94036db9010",
+                "reference": "6fc9e72c1a4f7b185df448a44332a94036db9010",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
                 "php": ">=7.4"
             },
-            "default-branch": true,
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3771,9 +3914,9 @@
             "homepage": "https://github.com/helsingborg-stad/wpmu-network-admin-url",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/wpmu-network-admin-url/issues",
-                "source": "https://github.com/helsingborg-stad/wpmu-network-admin-url/tree/1.0.0"
+                "source": "https://github.com/helsingborg-stad/wpmu-network-admin-url/tree/main"
             },
-            "time": "2022-04-29T12:06:00+00:00"
+            "time": "2023-09-26T12:49:26+00:00"
         },
         {
             "name": "http-interop/http-factory-diactoros",
@@ -4315,6 +4458,102 @@
             "time": "2020-09-14T08:43:34+00:00"
         },
         {
+            "name": "jeradin/acf-dynamic-table-field",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/acf-dynamic-table-field.git",
+                "reference": "6630a9fe84a8c0761f11ce9d1e0099141af036f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-dynamic-table-field/zipball/6630a9fe84a8c0761f11ce9d1e0099141af036f5",
+                "reference": "6630a9fe84a8c0761f11ce9d1e0099141af036f5",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "A Dynamic Fable field for Advanced Custom Fields",
+            "homepage": "https://github.com/Jeradin/acf-dynamic-table-field",
+            "keywords": [
+                "acf",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/helsingborg-stad/acf-dynamic-table-field/tree/master"
+            },
+            "time": "2023-10-18T14:38:56+00:00"
+        },
+        {
+            "name": "jeradin/acf-website-field",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/acf-website-field.git",
+                "reference": "17914161e4acfa8273e6804c7a9dd44c65a41581"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-website-field/zipball/17914161e4acfa8273e6804c7a9dd44c65a41581",
+                "reference": "17914161e4acfa8273e6804c7a9dd44c65a41581",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Geet Jacobs",
+                    "email": "geet@meowwolf.com"
+                }
+            ],
+            "description": "Website field for ACF",
+            "support": {
+                "source": "https://github.com/helsingborg-stad/acf-website-field/tree/master"
+            },
+            "time": "2023-09-22T12:59:17+00:00"
+        },
+        {
+            "name": "johannheyne/advanced-custom-fields-table-field",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/advanced-custom-fields-table-field.git",
+                "reference": "1807a23c4baca0c147529b23f8a4223633369be2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/advanced-custom-fields-table-field/zipball/1807a23c4baca0c147529b23f8a4223633369be2",
+                "reference": "1807a23c4baca0c147529b23f8a4223633369be2",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johann Heyne",
+                    "email": "mail@johannheyne.de"
+                }
+            ],
+            "description": "Table field for ACF",
+            "support": {
+                "source": "https://github.com/helsingborg-stad/advanced-custom-fields-table-field/tree/master"
+            },
+            "time": "2023-10-18T14:34:10+00:00"
+        },
+        {
             "name": "johnpbloch/wordpress",
             "version": "6.3.2",
             "source": {
@@ -4736,6 +4975,92 @@
                 }
             ],
             "time": "2023-09-25T11:31:05+00:00"
+        },
+        {
+            "name": "ooksanen/acf-focuspoint",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/acf-focuspoint.git",
+                "reference": "a0a326a5b23d68ecd18b592928513f6f34c45139"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-focuspoint/zipball/a0a326a5b23d68ecd18b592928513f6f34c45139",
+                "reference": "a0a326a5b23d68ecd18b592928513f6f34c45139",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oskari Oksanen",
+                    "email": "hello@oskarioksanen.fi"
+                }
+            ],
+            "description": "Adds a image focus field",
+            "support": {
+                "source": "https://github.com/helsingborg-stad/acf-focuspoint/tree/1.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/paypalme/ooksanen",
+                    "type": "other"
+                }
+            ],
+            "time": "2023-10-12T05:52:37+00:00"
+        },
+        {
+            "name": "ouun/kirki-module-fonts_upload",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ouun/kirki-module-fonts_upload.git",
+                "reference": "29be30eb3f8f550d412b22707aff789e725c05f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ouun/kirki-module-fonts_upload/zipball/29be30eb3f8f550d412b22707aff789e725c05f7",
+                "reference": "29be30eb3f8f550d412b22707aff789e725c05f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kirki\\Module\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Wellmer",
+                    "email": "philipp@wellmer.com",
+                    "homepage": "https://ouun.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy custom fonts upload and CSS injection with Kirki WordPress plugin.",
+            "keywords": [
+                "customizer",
+                "framework",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/ouun/kirki-module-fonts_upload/issues",
+                "source": "https://github.com/ouun/kirki-module-fonts_upload/tree/v1.0.1"
+            },
+            "time": "2020-04-07T16:08:04+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -7362,6 +7687,24 @@
             "time": "2023-04-15T18:48:11+00:00"
         },
         {
+            "name": "wpackagist-plugin/acf-extended",
+            "version": "0.8.9.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-extended/",
+                "reference": "tags/0.8.9.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.8.9.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-extended/"
+        },
+        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "4.4.12",
             "source": {
@@ -7760,6 +8103,60 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "helsingborg-stad/acf-ux-collapse": 20,
+        "helsingborg-stad/active-directory-api-wp-integration": 20,
+        "helsingborg-stad/algolia-index": 20,
+        "helsingborg-stad/algolia-index-js-searchpage-addon": 20,
+        "helsingborg-stad/algolia-index-modularity-addon": 20,
+        "helsingborg-stad/api-alarm-integration": 20,
+        "helsingborg-stad/api-event-manager-integration": 20,
+        "helsingborg-stad/api-project-manager-integration": 20,
+        "helsingborg-stad/api-volunteer-manager-integration": 20,
+        "helsingborg-stad/attachment-revisions": 20,
+        "helsingborg-stad/better-post-ui": 20,
+        "helsingborg-stad/broken-link-detector": 20,
+        "helsingborg-stad/component-library": 20,
+        "helsingborg-stad/content-scheduler": 20,
+        "helsingborg-stad/custom-short-links": 20,
+        "helsingborg-stad/customer-feedback": 20,
+        "helsingborg-stad/easy-to-read-alternative": 20,
+        "helsingborg-stad/force-ssl": 20,
+        "helsingborg-stad/gdi-modularity-cases": 20,
+        "helsingborg-stad/gdi-modularity-invoices": 20,
+        "helsingborg-stad/gdi-modularity-my-pages-about-me": 20,
+        "helsingborg-stad/job-listings": 20,
+        "helsingborg-stad/like-posts": 20,
+        "helsingborg-stad/lix-calculator": 20,
+        "helsingborg-stad/media-usage": 20,
+        "helsingborg-stad/mod-my-pages": 20,
+        "helsingborg-stad/modularity": 20,
+        "helsingborg-stad/modularity-contact-banner": 20,
+        "helsingborg-stad/modularity-entryscape": 20,
+        "helsingborg-stad/modularity-form-builder": 20,
+        "helsingborg-stad/modularity-guides": 20,
+        "helsingborg-stad/modularity-interactive-img-map": 20,
+        "helsingborg-stad/modularity-json-render": 20,
+        "helsingborg-stad/modularity-local-events": 20,
+        "helsingborg-stad/modularity-open-street-map": 20,
+        "helsingborg-stad/modularity-products": 20,
+        "helsingborg-stad/modularity-recommend": 20,
+        "helsingborg-stad/modularity-sections": 20,
+        "helsingborg-stad/modularity-testimonials": 20,
+        "helsingborg-stad/modularity-timeline": 20,
+        "helsingborg-stad/multi-network-urls": 20,
+        "helsingborg-stad/multisite-role-propagation": 20,
+        "helsingborg-stad/municipio": 20,
+        "helsingborg-stad/redirection-extended": 20,
+        "helsingborg-stad/s3-uploads-custom-endpoint": 20,
+        "helsingborg-stad/search-notices": 20,
+        "helsingborg-stad/visit-custom-posttypes-taxonomies": 20,
+        "helsingborg-stad/wp-page-for-post-type": 20,
+        "helsingborg-stad/wp-page-for-term": 20,
+        "helsingborg-stad/wp-search-statistics": 20,
+        "helsingborg-stad/wpmu-acf-google-maps-key": 20,
+        "helsingborg-stad/wpmu-litespeed-common-settings": 20,
+        "helsingborg-stad/wpmu-mu-plugins-url-everywhere": 20,
+        "helsingborg-stad/wpmu-network-admin-url": 20,
         "wikimedia/composer-merge-plugin": 20,
         "helsingborg-stad/blade-engine-wrapper": 20
     },
