@@ -1,7 +1,7 @@
 {
-    "name": "helsingborg-stad/modul-test.helsingborg.io",
+    "name": "helsingborg-stad/nightly.getmunicipio.com",
     "license": "MIT",
-    "description": "Site for helsingborg.io",
+    "description": "Site for bleeding edge testing of Municipio.",
     "authors": [
         {
             "name": "Sebastian Thulin",
@@ -24,127 +24,164 @@
             "email": "johan.silvergrund@hiq.se"
         }
     ],
-    "prefer-stable": true,
+    "config": {
+      "sort-packages": true,
+      "allow-plugins": {
+        "composer/installers": true,
+        "johnpbloch/wordpress-core-installer": true,
+        "wikimedia/composer-merge-plugin": true,
+        "php-http/discovery": true
+      }
+    },
     "minimum-stability" : "dev",
     "repositories": [
-        {
-            "type":"composer",
-            "url":"https://packagist.org"
-        },
-        {
-            "type":"composer",
-            "url":"https://wpackagist.org"
-        },
-        {
-            "type": "package",
-            "packagist.org": false,
-            "package": {
-                    "type": "wordpress-plugin",
-                    "name": "wpforms/file-upload-types",
-                    "version": "master",
-                    "license": "Apache-2.0",
-                    "dist": {
-                            "url": "https://downloads.wordpress.org/plugin/file-upload-types.1.2.2.zip",
-                            "type": "zip",
-                            "reference": "master"
-                    }
-            }
-        }
+      {
+          "type":"composer",
+          "url":"https://packagist.org"
+      },
+      {
+          "type":"composer",
+          "url":"https://wpackagist.org"
+      }
     ],
-
     "require": {
-        "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "6.3.0",
-        "helsingborg-stad/modularity": "dev-main",
-        "helsingborg-stad/municipio": "dev-main",
-        "helsingborg-stad/api-event-manager-integration": "dev-main",
-        "helsingborg-stad/force-ssl": "dev-main",
-        "helsingborg-stad/search-notices": "dev-main",
-        "helsingborg-stad/lix-calculator": "dev-main",
-        "helsingborg-stad/active-directory-api-wp-integration": "dev-main",
-        "helsingborg-stad/easy-to-read-alternative": "dev-main",
-        "helsingborg-stad/modularity-form-builder": "dev-main",
-        "helsingborg-stad/wp-page-for-post-type": "dev-main",
-        "helsingborg-stad/api-alarm-integration": "dev-main",
-        "helsingborg-stad/modularity-guides": "dev-main",
-        "helsingborg-stad/modularity-sections": "dev-main",
-        "helsingborg-stad/modularity-timeline": "dev-3.0/master",
-        "helsingborg-stad/modularity-json-render": "dev-main",
-        "helsingborg-stad/modularity-products": "dev-master",
-        "wpackagist-plugin/varnish-http-purge": "^4.1.1",
-        "wpackagist-plugin/autodescription" : ">=2.9.0",
-        "wpackagist-plugin/redis-cache": "2.0.15",
-        "wpackagist-plugin/wp-nested-pages": "3.1.4",
-        "helsingborg-stad/customer-feedback": "dev-main",
-        "helsingborg-stad/media-usage": "dev-main",
-        "wpackagist-plugin/redirection": "^4.3.1",
-        "helsingborg-stad/job-listings": "dev-main",
-        "helsingborg-stad/redirection-extended": "dev-main",
-        "helsingborg-stad/modularity-contact-banner": "dev-main",
-        "bueltge/must-use-loader": "^1.3",
-        "helsingborg-stad/component-library": "dev-main",
-        "wpackagist-plugin/fakerpress":"0.5.2",
-        "helsingborg-stad/modularity-testimonials": "dev-main",
-        "helsingborg-stad/modularity-local-events": "dev-main",
-        "helsingborg-stad/algolia-index": "dev-main",
-        "helsingborg-stad/algolia-index-modularity-addon": "dev-main",
-        "helsingborg-stad/algolia-index-js-searchpage-addon": "dev-main",
-        "helsingborg-stad/multisite-role-propagation": "dev-main",
-        "helsingborg-stad/modularity-recommend": "dev-main",
-        "wp-graphql/wp-graphql-acf": "^0.5.3",
-        "wp-graphql/wp-graphql": "^1.6",
-        "helsingborg-stad/wp-graphql-municipio": "dev-main",
-        "wpackagist-plugin/wp-add-mime-types": "^3.0",
-        "helsingborg-stad/api-kiosk-model-viewer": "^1.0",
-        "helsingborg-stad/api-ar-dialogue-room": "dev-master",
-        "helsingborg-stad/attachment-revisions": "dev-main",
-        "helsingborg-stad/content-scheduler": "dev-main",
-        "wpackagist-plugin/duplicate-page": "^4.4",
-        "wpforms/file-upload-types": "*@dev",
-        "wpackagist-plugin/classic-editor": "^1.6.2",
-        "helsingborg-stad/larrum-custom-api": "^1.0.0",
-        "helsingborg-stad/mod-my-pages": "dev-main",
-        "helsingborg-stad/modularity-interactive-img-map": "dev-main",
-        "helsingborg-stad/gdi-modularity-my-pages-about-me": "dev-main",
-        "helsingborg-stad/gdi-modularity-cases": "dev-main",
-        "helsingborg-stad/visit-custom-posttypes-taxonomies": "dev-main",
-        "helsingborg-stad/wp-page-for-term": "dev-main",
-        "helsingborg-stad/gdi-modularity-invoices": "dev-main",
-        "helsingborg-stad/like-posts": "dev-main",
-        "wpackagist-plugin/wp-sentry-integration": "^6.12.0",
-        "helsingborg-stad/modularity-open-street-map": "dev-main",
-        "helsingborg-stad/api-volunteer-manager-integration": "dev-main",
-        "helsingborg-stad/wpmu-acf-google-maps-key": "dev-main",
-        "wpackagist-plugin/blackbar":"4.0.1",
-        "wpackagist-plugin/query-monitor":"3.12.1",
-        "helsingborg-stad/wpmu-mu-plugins-url-everywhere": "dev-main",
-        "helsingborg-stad/api-schools-integration": "dev-integrate"
+      "php": ">=7.4",
+      "apix/log": "^1.2.2",
+      "aws/aws-sdk-php": "^3.282.1",
+      "composer/installers": "~1.0",
+      "firebase/php-jwt": "^6.8.1",
+      "helsingborg-stad/acf-select-image-field": "*",
+      "helsingborg-stad/acf-ux-collapse": "*",
+      "helsingborg-stad/active-directory-api-wp-integration": "*",
+      "helsingborg-stad/algolia-index": "*",
+      "helsingborg-stad/algolia-index-js-searchpage-addon": "*",
+      "helsingborg-stad/algolia-index-modularity-addon": "*",
+      "helsingborg-stad/api-alarm-integration": "*",
+      "helsingborg-stad/api-event-manager-integration": "*",
+      "helsingborg-stad/api-project-manager-integration": "*",
+      "helsingborg-stad/api-volunteer-manager-integration": "*",
+      "helsingborg-stad/attachment-revisions": "*",
+      "helsingborg-stad/better-post-ui": "*",
+      "helsingborg-stad/broken-link-detector": "*",
+      "helsingborg-stad/component-library": "*",
+      "helsingborg-stad/content-scheduler": "*",
+      "helsingborg-stad/custom-short-links": "*",
+      "helsingborg-stad/customer-feedback": "*",
+      "helsingborg-stad/easy-to-read-alternative": "*",
+      "helsingborg-stad/force-ssl": "*",
+      "helsingborg-stad/gdi-modularity-cases": "*",
+      "helsingborg-stad/gdi-modularity-invoices": "*",
+      "helsingborg-stad/gdi-modularity-my-pages-about-me": "*",
+      "helsingborg-stad/global-blade-engine": "*",
+      "helsingborg-stad/job-listings": "*",
+      "helsingborg-stad/like-posts": "*",
+      "helsingborg-stad/lix-calculator": "*",
+      "helsingborg-stad/media-usage": "*",
+      "helsingborg-stad/mod-my-pages": "*",
+      "helsingborg-stad/modularity": "*",
+      "helsingborg-stad/modularity-contact-banner": "*",
+      "helsingborg-stad/modularity-entryscape": "*",
+      "helsingborg-stad/modularity-form-builder": "*",
+      "helsingborg-stad/modularity-guides": "*",
+      "helsingborg-stad/modularity-interactive-img-map": "*",
+      "helsingborg-stad/modularity-json-render": "*",
+      "helsingborg-stad/modularity-local-events": "*",
+      "helsingborg-stad/modularity-open-street-map": "*",
+      "helsingborg-stad/modularity-products": "*",
+      "helsingborg-stad/modularity-recommend": "*",
+      "helsingborg-stad/modularity-sections": "*",
+      "helsingborg-stad/modularity-testimonials": "*",
+      "helsingborg-stad/modularity-timeline": "*",
+      "helsingborg-stad/multi-network-urls": "*",
+      "helsingborg-stad/multisite-role-propagation": "*",
+      "helsingborg-stad/municipio": "*",
+      "helsingborg-stad/redirection-extended": "*",
+      "helsingborg-stad/s3-uploads-custom-endpoint": "*",
+      "helsingborg-stad/search-notices": "*",
+      "helsingborg-stad/visit-custom-posttypes-taxonomies": "*",
+      "helsingborg-stad/wp-page-for-post-type": "*",
+      "helsingborg-stad/wp-page-for-term": "*",
+      "helsingborg-stad/wp-search-statistics": "*",
+      "helsingborg-stad/wpmu-acf-google-maps-key": "*",
+      "helsingborg-stad/wpmu-litespeed-common-settings": "*",
+      "helsingborg-stad/wpmu-mu-plugins-url-everywhere": "*",
+      "helsingborg-stad/wpmu-network-admin-url": "*",
+      "http-interop/http-factory-guzzle": "^1.2",
+      "humanmade/s3-uploads": "~3.0.7",
+      "jean85/pretty-package-versions": "^1",
+      "johnpbloch/wordpress": "6.3.2",
+      "justinrainbow/json-schema": "^5",
+      "municipio-se/modularity-noticeboard": "~1",
+      "php-http/curl-client": "^2",
+      "php-http/discovery": "^1.15.3",
+      "php-http/message": "^1",
+      "php-http/mock-client": "^1.5.2",
+      "pragmarx/ia-arr": "^7.3.2",
+      "psr/log": "^1.1.4",
+      "sentry/sentry": "^3.21",
+      "symfony/polyfill-php80": "^1",
+      "true/punycode": "^2.1.1",
+      "wikimedia/composer-merge-plugin": "dev-master",
+      "wpackagist-plugin/autodescription": "~4.2.8",
+      "wpackagist-plugin/cookies-and-content-security-policy": "~2.17",
+      "wpackagist-plugin/fakerpress": "~0.6.2",
+      "wpackagist-plugin/kirki": "~5.0",
+      "wpackagist-plugin/litespeed-cache": "~5.6",
+      "wpackagist-plugin/network-plugin-auditor": "~1.10.1",
+      "wpackagist-plugin/nginx-helper": "^2.2.3",
+      "wpackagist-plugin/performant-translations": "~1.0.5",
+      "wpackagist-plugin/redirection": "~5.3.10",
+      "wpackagist-plugin/redis-cache": "2.4.4",
+      "wpackagist-plugin/simple-smtp": "~1.3.2.2",
+      "wpackagist-plugin/user-switching": "~1.5.8",
+      "wpackagist-plugin/username-changer": "~3.2.2",
+      "wpackagist-plugin/varnish-http-purge": "~5.1.3",
+      "wpackagist-plugin/wp-multi-network": "~2.5.2",
+      "wpackagist-plugin/wp-nested-pages": "~3.2.4",
+      "wpackagist-plugin/wp-sentry-integration": "^6.26"
     },
-
     "extra": {
         "path": "/",
         "wordpress-install-dir": "wp",
         "installer-paths": {
-            "wp-content/plugins/{$name}": ["type:wordpress-plugin"],
-            "wp-content/mu-plugins/{$name}": ["type:wordpress-muplugin"],
-            "wp-content/themes/{$name}": ["type:wordpress-theme"]
-        }
+          "wp-content/mu-plugins/{$name}": [
+            "type:wordpress-muplugin",
+            "type:acf-plugin",
+            "kirki-framework/kirki",
+            "wpackagist-plugin/kirki",
+            "wpackagist-plugin/performant-translations"
+          ],
+          "wp-content/plugins/{$name}": [
+            "type:wordpress-plugin"
+          ],
+          "wp-content/themes/{$name}": [
+            "type:wordpress-theme"
+          ]
+        },
+        "merge-plugin": {
+          "include": [
+              "composer.local.json",
+              "wp-content/plugins/*/composer.json",
+              "wp-content/mu-plugins/*/composer.json",
+              "wp-content/themes/*/composer.json"
+          ],
+          "recurse": false,
+          "replace": false,
+          "ignore-duplicates": true,
+          "merge-dev": false,
+          "merge-extra": false,
+          "merge-extra-deep": false,
+          "merge-scripts": false
+      }
     },
-
     "scripts": {
-        "post-install-cmd": [
-            "mkdir -p wp-content/uploads/cache/blade-cache",
-            "@php post-install.php"
-        ],
-        "post-update-cmd": [
-            "@php post-install.php"
-        ]
-    },
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true,
-            "johnpbloch/wordpress-core-installer": true,
-            "php-http/discovery": true
-        }
+      "post-install-cmd": [
+        "mkdir -p wp-content/uploads/cache/blade-cache",
+        "composer dump-autoload -o"
+      ],
+      "post-update-cmd": [
+        "composer dump-autoload -o --working-dir ./wp-content/plugins/s3-uploads/",
+        "composer dump-autoload -o"
+      ]
     }
-}
+  }
