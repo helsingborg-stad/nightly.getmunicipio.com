@@ -1,4 +1,5 @@
 <?php
+define( 'WP_CACHE', true );
 /**
  * The base configuration for WordPress
  *
@@ -18,6 +19,7 @@
  * @package WordPress
  */
 
+require_once __DIR__ . '/config/memory.php';
 require_once __DIR__ . '/config/salts.php';
 require_once __DIR__ . '/config/content.php';
 require_once __DIR__ . '/config/database.php';
@@ -27,9 +29,9 @@ require_once __DIR__ . '/config/upload.php';
 require_once __DIR__ . '/config/cron.php';
 
 /**
- * Active directory
- *
  * Active directory configuration
+ *
+ * Configuration for the active directory login functionality
  */
 if (file_exists(__DIR__ . '/config/ad.php')) {
     require_once __DIR__ . '/config/ad.php';
@@ -38,10 +40,19 @@ if (file_exists(__DIR__ . '/config/ad.php')) {
 /**
  * Search concfiguration
  *
- * Algolia search configuration.
+ * Configuration for the search functionality
  */
 if (file_exists(__DIR__ . '/config/search.php')) {
     require_once __DIR__ . '/config/search.php';
+}
+
+/**
+ * Sentry error tracking.
+ *
+ * Configuration for the error tracking functionality
+ */
+if (file_exists(__DIR__ . '/config/sentry.php')) {
+    require_once __DIR__ . '/config/sentry.php';
 }
 
 /**
@@ -96,8 +107,12 @@ if (file_exists(__DIR__ . '/config/developer.php')) {
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
-if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+if (!defined('ABSPATH')) {
+    define('ABSPATH', dirname(__FILE__) . '/');
+}
+
+/** Force the use of sunrise.php */
+define('SUNRISE', true);
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
