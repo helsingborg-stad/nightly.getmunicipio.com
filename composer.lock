@@ -206,16 +206,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.283.8",
+            "version": "3.283.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0f73ec85852312a6e971cfe2eebfd7c8091cca34"
+                "reference": "0233b9f3f2155dac35c829ce4fc1b7cdb6ff8c0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0f73ec85852312a6e971cfe2eebfd7c8091cca34",
-                "reference": "0f73ec85852312a6e971cfe2eebfd7c8091cca34",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0233b9f3f2155dac35c829ce4fc1b7cdb6ff8c0a",
+                "reference": "0233b9f3f2155dac35c829ce4fc1b7cdb6ff8c0a",
                 "shasum": ""
             },
             "require": {
@@ -295,9 +295,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.283.8"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.283.9"
             },
-            "time": "2023-10-19T19:26:52+00:00"
+            "time": "2023-10-20T20:03:26+00:00"
         },
         {
             "name": "clark-nikdel-powell/post-type-select-for-acf",
@@ -1322,16 +1322,16 @@
         },
         {
             "name": "helsingborg-stad/acf-select-image-field",
-            "version": "1.2.5",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-image-select-field.git",
-                "reference": "5daa634731c0397888002678dfd5bf91c8687bba"
+                "reference": "34f5f757caeadbbae7e85d61b38c5108c08d82f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/5daa634731c0397888002678dfd5bf91c8687bba",
-                "reference": "5daa634731c0397888002678dfd5bf91c8687bba",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-image-select-field/zipball/34f5f757caeadbbae7e85d61b38c5108c08d82f5",
+                "reference": "34f5f757caeadbbae7e85d61b38c5108c08d82f5",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -1347,9 +1347,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/acf-image-select-field/issues",
-                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.2.5"
+                "source": "https://github.com/helsingborg-stad/acf-image-select-field/tree/1.3.0"
             },
-            "time": "2023-10-11T15:54:54+00:00"
+            "time": "2023-10-20T13:43:25+00:00"
         },
         {
             "name": "helsingborg-stad/acf-ux-collapse",
@@ -2733,12 +2733,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "c3b8044503c6c2be5fa81ccd071f54742254e0ab"
+                "reference": "b8d6bafe10c1e3a7e162f3c0937d3d8279db703c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c3b8044503c6c2be5fa81ccd071f54742254e0ab",
-                "reference": "c3b8044503c6c2be5fa81ccd071f54742254e0ab",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/b8d6bafe10c1e3a7e162f3c0937d3d8279db703c",
+                "reference": "b8d6bafe10c1e3a7e162f3c0937d3d8279db703c",
                 "shasum": ""
             },
             "require": {
@@ -2799,9 +2799,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.7.0"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.7.2"
             },
-            "time": "2023-10-20T12:10:18+00:00"
+            "time": "2023-10-23T07:21:02+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2824,6 +2824,7 @@
                     "ModularityContactBanner\\": "source/php/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2835,8 +2836,8 @@
             ],
             "description": "Contact Banner",
             "support": {
-                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0.2",
-                "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues"
+                "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0.2"
             },
             "time": "2023-09-28T08:52:08+00:00"
         },
@@ -2861,6 +2862,7 @@
                     "ModularityEntryscape\\": "source/php/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2872,8 +2874,8 @@
             ],
             "description": "Modularity Entryscape",
             "support": {
-                "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/3.0.3",
-                "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues"
+                "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/3.0.3"
             },
             "time": "2023-09-29T07:26:15+00:00"
         },
@@ -3066,6 +3068,7 @@
                     "ModularityLocalEvents\\": "source/php/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3077,8 +3080,8 @@
             ],
             "description": "Local events",
             "support": {
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/3.0.2",
-                "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues"
+                "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/3.0.2"
             },
             "time": "2023-09-28T09:09:41+00:00"
         },
@@ -3146,6 +3149,7 @@
                     "ModularityProducts\\": "source/php/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3157,8 +3161,8 @@
             ],
             "description": "An addon for displaying products.",
             "support": {
-                "source": "https://github.com/helsingborg-stad/modularity-products/tree/2.0.2",
-                "issues": "https://github.com/helsingborg-stad/modularity-products/issues"
+                "issues": "https://github.com/helsingborg-stad/modularity-products/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-products/tree/2.0.2"
             },
             "time": "2023-09-28T09:10:30+00:00"
         },
@@ -3183,6 +3187,7 @@
                     "ModularityRecommend\\": "source/php/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3194,8 +3199,8 @@
             ],
             "description": "Modularity RekAI",
             "support": {
-                "source": "https://github.com/helsingborg-stad/modularity-recommend/tree/2.0.2",
-                "issues": "https://github.com/helsingborg-stad/modularity-recommend/issues"
+                "issues": "https://github.com/helsingborg-stad/modularity-recommend/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-recommend/tree/2.0.2"
             },
             "time": "2023-09-28T09:10:53+00:00"
         },
@@ -3264,6 +3269,7 @@
                     "ModularityTestimonials\\": "source/php/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3274,8 +3280,8 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0.2",
-                "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues"
+                "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0.2"
             },
             "time": "2023-09-28T09:11:29+00:00"
         },
@@ -3300,6 +3306,7 @@
                     "ModularityTimeline\\": "source/php/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3311,8 +3318,8 @@
             ],
             "description": "A module to display a timeline.",
             "support": {
-                "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/3.0.2",
-                "issues": "https://github.com/helsingborg-stad/modularity-timeline/issues"
+                "issues": "https://github.com/helsingborg-stad/modularity-timeline/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/3.0.2"
             },
             "time": "2023-09-28T09:11:54+00:00"
         },
@@ -3392,12 +3399,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e48c0ed63bc4f6a0c8b5467a11ded6cf8c0a95de"
+                "reference": "b945c7784b842265d95527c112cf9a224a31a2dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e48c0ed63bc4f6a0c8b5467a11ded6cf8c0a95de",
-                "reference": "e48c0ed63bc4f6a0c8b5467a11ded6cf8c0a95de",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b945c7784b842265d95527c112cf9a224a31a2dd",
+                "reference": "b945c7784b842265d95527c112cf9a224a31a2dd",
                 "shasum": ""
             },
             "require": {
@@ -3448,9 +3455,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.13.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.14.1"
             },
-            "time": "2023-10-19T14:35:01+00:00"
+            "time": "2023-10-23T06:25:46+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -3473,6 +3480,7 @@
                     "RedirectionExtended\\": "source/php/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3484,8 +3492,8 @@
             ],
             "description": "Extends the Wordpress Redirection plugin",
             "support": {
-                "source": "https://github.com/helsingborg-stad/redirection-extended/tree/3.0.3",
-                "issues": "https://github.com/helsingborg-stad/redirection-extended/issues"
+                "issues": "https://github.com/helsingborg-stad/redirection-extended/issues",
+                "source": "https://github.com/helsingborg-stad/redirection-extended/tree/3.0.3"
             },
             "time": "2023-09-29T07:24:21+00:00"
         },
@@ -3843,18 +3851,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wpmu-network-admin-url.git",
-                "reference": "6fc9e72c1a4f7b185df448a44332a94036db9010"
+                "reference": "5d0b2aa8a04306d90ff2934d87a67f5925cef625"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-network-admin-url/zipball/6fc9e72c1a4f7b185df448a44332a94036db9010",
-                "reference": "6fc9e72c1a4f7b185df448a44332a94036db9010",
+                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-network-admin-url/zipball/5d0b2aa8a04306d90ff2934d87a67f5925cef625",
+                "reference": "5d0b2aa8a04306d90ff2934d87a67f5925cef625",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
                 "php": ">=7.4"
             },
+            "default-branch": true,
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3870,9 +3879,9 @@
             "homepage": "https://github.com/helsingborg-stad/wpmu-network-admin-url",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/wpmu-network-admin-url/issues",
-                "source": "https://github.com/helsingborg-stad/wpmu-network-admin-url/tree/main"
+                "source": "https://github.com/helsingborg-stad/wpmu-network-admin-url/tree/2.0.3"
             },
-            "time": "2023-09-26T12:49:26+00:00"
+            "time": "2023-10-20T13:31:09+00:00"
         },
         {
             "name": "http-interop/http-factory-diactoros",
@@ -8051,5 +8060,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
