@@ -3399,12 +3399,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "b945c7784b842265d95527c112cf9a224a31a2dd"
+                "reference": "a7b579fc8ad949964f7f4da6e3cca5d42c1012ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b945c7784b842265d95527c112cf9a224a31a2dd",
-                "reference": "b945c7784b842265d95527c112cf9a224a31a2dd",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a7b579fc8ad949964f7f4da6e3cca5d42c1012ad",
+                "reference": "a7b579fc8ad949964f7f4da6e3cca5d42c1012ad",
                 "shasum": ""
             },
             "require": {
@@ -3455,9 +3455,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.14.1"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.15.0"
             },
-            "time": "2023-10-23T06:25:46+00:00"
+            "time": "2023-10-23T07:55:43+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5345,12 +5345,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/message.git",
-                "reference": "47a14338bf4ebd67d317bf1144253d7db4ab55fd"
+                "reference": "fb1298fb3891b897f25500cf50afe16b66e90079"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/message/zipball/47a14338bf4ebd67d317bf1144253d7db4ab55fd",
-                "reference": "47a14338bf4ebd67d317bf1144253d7db4ab55fd",
+                "url": "https://api.github.com/repos/php-http/message/zipball/fb1298fb3891b897f25500cf50afe16b66e90079",
+                "reference": "fb1298fb3891b897f25500cf50afe16b66e90079",
                 "shasum": ""
             },
             "require": {
@@ -5405,9 +5405,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/message/issues",
-                "source": "https://github.com/php-http/message/tree/1.16.0"
+                "source": "https://github.com/php-http/message/tree/1.x"
             },
-            "time": "2023-05-17T06:43:38+00:00"
+            "time": "2023-10-23T07:27:50+00:00"
         },
         {
             "name": "php-http/message-factory",
