@@ -152,16 +152,16 @@
         },
         {
             "name": "aws/aws-crt-php",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awslabs/aws-crt-php.git",
-                "reference": "2f1dc7b7eda080498be96a4a6d683a41583030e9"
+                "reference": "5545a4fa310aec39f54279fdacebcce33b3ff382"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/2f1dc7b7eda080498be96a4a6d683a41583030e9",
-                "reference": "2f1dc7b7eda080498be96a4a6d683a41583030e9",
+                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/5545a4fa310aec39f54279fdacebcce33b3ff382",
+                "reference": "5545a4fa310aec39f54279fdacebcce33b3ff382",
                 "shasum": ""
             },
             "require": {
@@ -200,22 +200,22 @@
             ],
             "support": {
                 "issues": "https://github.com/awslabs/aws-crt-php/issues",
-                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.2"
+                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.3"
             },
-            "time": "2023-07-20T16:49:55+00:00"
+            "time": "2023-10-16T20:10:06+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.283.9",
+            "version": "3.283.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0233b9f3f2155dac35c829ce4fc1b7cdb6ff8c0a"
+                "reference": "ae611a2d1d32bb2d14c1653e3d2c309cfed42883"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0233b9f3f2155dac35c829ce4fc1b7cdb6ff8c0a",
-                "reference": "0233b9f3f2155dac35c829ce4fc1b7cdb6ff8c0a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ae611a2d1d32bb2d14c1653e3d2c309cfed42883",
+                "reference": "ae611a2d1d32bb2d14c1653e3d2c309cfed42883",
                 "shasum": ""
             },
             "require": {
@@ -295,9 +295,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.283.9"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.283.10"
             },
-            "time": "2023-10-20T20:03:26+00:00"
+            "time": "2023-10-23T18:08:46+00:00"
         },
         {
             "name": "clark-nikdel-powell/post-type-select-for-acf",
@@ -2733,12 +2733,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "b8d6bafe10c1e3a7e162f3c0937d3d8279db703c"
+                "reference": "fcb6d02becaefa327981b2df5561d3a9ac5de078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/b8d6bafe10c1e3a7e162f3c0937d3d8279db703c",
-                "reference": "b8d6bafe10c1e3a7e162f3c0937d3d8279db703c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/fcb6d02becaefa327981b2df5561d3a9ac5de078",
+                "reference": "fcb6d02becaefa327981b2df5561d3a9ac5de078",
                 "shasum": ""
             },
             "require": {
@@ -2799,9 +2799,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.7.2"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.8.0"
             },
-            "time": "2023-10-23T07:21:02+00:00"
+            "time": "2023-10-24T06:30:03+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3399,12 +3399,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "ce43e6191767dec0f8e71ca5d16545016989f49b"
+                "reference": "dd213b003a23cf5bec5ae3891945275e406a6da5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ce43e6191767dec0f8e71ca5d16545016989f49b",
-                "reference": "ce43e6191767dec0f8e71ca5d16545016989f49b",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/dd213b003a23cf5bec5ae3891945275e406a6da5",
+                "reference": "dd213b003a23cf5bec5ae3891945275e406a6da5",
                 "shasum": ""
             },
             "require": {
@@ -3455,9 +3455,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/main"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.16.1"
             },
-            "time": "2023-10-23T11:23:36+00:00"
+            "time": "2023-10-24T06:40:53+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -7878,15 +7878,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-nested-pages",
-            "version": "3.2.4",
+            "version": "3.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-nested-pages/",
-                "reference": "tags/3.2.4"
+                "reference": "tags/3.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.2.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
