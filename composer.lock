@@ -2733,12 +2733,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "fcb6d02becaefa327981b2df5561d3a9ac5de078"
+                "reference": "0333a42d8fd447e6ec6861b01eff6b8e50a48e87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/fcb6d02becaefa327981b2df5561d3a9ac5de078",
-                "reference": "fcb6d02becaefa327981b2df5561d3a9ac5de078",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/0333a42d8fd447e6ec6861b01eff6b8e50a48e87",
+                "reference": "0333a42d8fd447e6ec6861b01eff6b8e50a48e87",
                 "shasum": ""
             },
             "require": {
@@ -2799,9 +2799,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.8.0"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.9.0"
             },
-            "time": "2023-10-24T06:30:03+00:00"
+            "time": "2023-10-24T06:59:42+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3399,12 +3399,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "dd213b003a23cf5bec5ae3891945275e406a6da5"
+                "reference": "e91a75b6c0b991d776f52f1bfa2909a93a879d28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/dd213b003a23cf5bec5ae3891945275e406a6da5",
-                "reference": "dd213b003a23cf5bec5ae3891945275e406a6da5",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e91a75b6c0b991d776f52f1bfa2909a93a879d28",
+                "reference": "e91a75b6c0b991d776f52f1bfa2909a93a879d28",
                 "shasum": ""
             },
             "require": {
@@ -3455,9 +3455,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.16.1"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.16.3"
             },
-            "time": "2023-10-24T06:40:53+00:00"
+            "time": "2023-10-24T08:23:11+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5533,12 +5533,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/promise.git",
-                "reference": "cac94eb65326fa1abbb17bab711884ef8753d0a3"
+                "reference": "c25665f677bce91037f51345a6b0d822220f7e6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/promise/zipball/cac94eb65326fa1abbb17bab711884ef8753d0a3",
-                "reference": "cac94eb65326fa1abbb17bab711884ef8753d0a3",
+                "url": "https://api.github.com/repos/php-http/promise/zipball/c25665f677bce91037f51345a6b0d822220f7e6c",
+                "reference": "c25665f677bce91037f51345a6b0d822220f7e6c",
                 "shasum": ""
             },
             "require": {
@@ -5583,7 +5583,7 @@
                 "issues": "https://github.com/php-http/promise/issues",
                 "source": "https://github.com/php-http/promise/tree/master"
             },
-            "time": "2023-09-02T07:56:06+00:00"
+            "time": "2023-10-24T08:31:06+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
@@ -6104,16 +6104,16 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.21.0",
+            "version": "3.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "624aafc22b84b089ffa43b71fb01e0096505ec4f"
+                "reference": "c0e3df5a5c1d133cd9461e7672568ff07042c19d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/624aafc22b84b089ffa43b71fb01e0096505ec4f",
-                "reference": "624aafc22b84b089ffa43b71fb01e0096505ec4f",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/c0e3df5a5c1d133cd9461e7672568ff07042c19d",
+                "reference": "c0e3df5a5c1d133cd9461e7672568ff07042c19d",
                 "shasum": ""
             },
             "require": {
@@ -6131,7 +6131,7 @@
                 "psr/http-factory": "^1.0",
                 "psr/http-factory-implementation": "^1.0",
                 "psr/log": "^1.0|^2.0|^3.0",
-                "symfony/options-resolver": "^3.4.43|^4.4.30|^5.0.11|^6.0",
+                "symfony/options-resolver": "^3.4.43|^4.4.30|^5.0.11|^6.0|^7.0",
                 "symfony/polyfill-php80": "^1.17"
             },
             "conflict": {
@@ -6188,7 +6188,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.21.0"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.22.0"
             },
             "funding": [
                 {
@@ -6200,7 +6200,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-07-31T15:31:24+00:00"
+            "time": "2023-10-23T20:34:53+00:00"
         },
         {
             "name": "symfony/debug",
