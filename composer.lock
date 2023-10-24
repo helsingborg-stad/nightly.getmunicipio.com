@@ -3399,12 +3399,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e91a75b6c0b991d776f52f1bfa2909a93a879d28"
+                "reference": "d6655efa7cbb3ae5a80ad1159c733477b4d104e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e91a75b6c0b991d776f52f1bfa2909a93a879d28",
-                "reference": "e91a75b6c0b991d776f52f1bfa2909a93a879d28",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/d6655efa7cbb3ae5a80ad1159c733477b4d104e5",
+                "reference": "d6655efa7cbb3ae5a80ad1159c733477b4d104e5",
                 "shasum": ""
             },
             "require": {
@@ -3455,9 +3455,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.16.3"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.16.4"
             },
-            "time": "2023-10-24T08:23:11+00:00"
+            "time": "2023-10-24T09:12:16+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5529,32 +5529,27 @@
         },
         {
             "name": "php-http/promise",
-            "version": "dev-master",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/promise.git",
-                "reference": "c25665f677bce91037f51345a6b0d822220f7e6c"
+                "reference": "ef4905bfb492ff389eb7f12e26925a0f20073050"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/promise/zipball/c25665f677bce91037f51345a6b0d822220f7e6c",
-                "reference": "c25665f677bce91037f51345a6b0d822220f7e6c",
+                "url": "https://api.github.com/repos/php-http/promise/zipball/ef4905bfb492ff389eb7f12e26925a0f20073050",
+                "reference": "ef4905bfb492ff389eb7f12e26925a0f20073050",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
-                "phpspec/phpspec": "^5.1.2 || ^6.2"
+                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2 || ^6.3",
+                "phpspec/phpspec": "^5.1.2 || ^6.2 || ^7.4"
             },
             "default-branch": true,
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Http\\Promise\\": "src/"
@@ -5581,9 +5576,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/promise/issues",
-                "source": "https://github.com/php-http/promise/tree/master"
+                "source": "https://github.com/php-http/promise/tree/1.2.0"
             },
-            "time": "2023-10-24T08:31:06+00:00"
+            "time": "2023-10-24T09:20:26+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
