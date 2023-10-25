@@ -206,20 +206,20 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.283.10",
+            "version": "3.283.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ae611a2d1d32bb2d14c1653e3d2c309cfed42883"
+                "reference": "348b68edcc83062c329cf7540c4c92d061d27d9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ae611a2d1d32bb2d14c1653e3d2c309cfed42883",
-                "reference": "ae611a2d1d32bb2d14c1653e3d2c309cfed42883",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/348b68edcc83062c329cf7540c4c92d061d27d9c",
+                "reference": "348b68edcc83062c329cf7540c4c92d061d27d9c",
                 "shasum": ""
             },
             "require": {
-                "aws/aws-crt-php": "^1.0.4",
+                "aws/aws-crt-php": "^1.2.3",
                 "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
@@ -295,9 +295,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.283.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.283.11"
             },
-            "time": "2023-10-23T18:08:46+00:00"
+            "time": "2023-10-24T18:10:38+00:00"
         },
         {
             "name": "clark-nikdel-powell/post-type-select-for-acf",
@@ -2085,12 +2085,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "9c2700071089e3d6762a20ebc63353221d03473d"
+                "reference": "17fcb294f677d70889da79e79ac0c95ba0bb47e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/9c2700071089e3d6762a20ebc63353221d03473d",
-                "reference": "9c2700071089e3d6762a20ebc63353221d03473d",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/17fcb294f677d70889da79e79ac0c95ba0bb47e9",
+                "reference": "17fcb294f677d70889da79e79ac0c95ba0bb47e9",
                 "shasum": ""
             },
             "require": {
@@ -2120,9 +2120,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/3.8.1"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/3.8.2"
             },
-            "time": "2023-10-19T13:12:51+00:00"
+            "time": "2023-10-24T13:35:17+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2733,12 +2733,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "0333a42d8fd447e6ec6861b01eff6b8e50a48e87"
+                "reference": "80be58d0f280991165ceb8023f46689fbda47705"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/0333a42d8fd447e6ec6861b01eff6b8e50a48e87",
-                "reference": "0333a42d8fd447e6ec6861b01eff6b8e50a48e87",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/80be58d0f280991165ceb8023f46689fbda47705",
+                "reference": "80be58d0f280991165ceb8023f46689fbda47705",
                 "shasum": ""
             },
             "require": {
@@ -2799,9 +2799,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.9.0"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.9.1"
             },
-            "time": "2023-10-24T06:59:42+00:00"
+            "time": "2023-10-25T08:26:47+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3399,12 +3399,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "d6655efa7cbb3ae5a80ad1159c733477b4d104e5"
+                "reference": "59fc0e9eae0e63ac6433143eb103bf7a787e170b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/d6655efa7cbb3ae5a80ad1159c733477b4d104e5",
-                "reference": "d6655efa7cbb3ae5a80ad1159c733477b4d104e5",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/59fc0e9eae0e63ac6433143eb103bf7a787e170b",
+                "reference": "59fc0e9eae0e63ac6433143eb103bf7a787e170b",
                 "shasum": ""
             },
             "require": {
@@ -3455,9 +3455,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.16.4"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.16.5"
             },
-            "time": "2023-10-24T09:12:16+00:00"
+            "time": "2023-10-25T05:48:39+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
