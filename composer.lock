@@ -300,6 +300,75 @@
             "time": "2023-10-24T18:10:38+00:00"
         },
         {
+            "name": "carbonphp/carbon-doctrine-types",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
+                "reference": "67a77972b9f398ae7068dabacc39c08aeee170d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon-doctrine-types/zipball/67a77972b9f398ae7068dabacc39c08aeee170d5",
+                "reference": "67a77972b9f398ae7068dabacc39c08aeee170d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "conflict": {
+                "doctrine/dbal": "<3.7.0 || >=4.0.0"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^3.7.0",
+                "nesbot/carbon": "^2.71.0 || ^3.0.0",
+                "phpunit/phpunit": "^10.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Carbon\\Doctrine\\": "src/Carbon/Doctrine/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KyleKatarn",
+                    "email": "kylekatarnls@gmail.com"
+                }
+            ],
+            "description": "Types to use Carbon in Doctrine",
+            "keywords": [
+                "carbon",
+                "date",
+                "datetime",
+                "doctrine",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/CarbonPHP/carbon-doctrine-types/issues",
+                "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/2.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/kylekatarnls",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/Carbon",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-10-01T14:29:01+00:00"
+        },
+        {
             "name": "clark-nikdel-powell/post-type-select-for-acf",
             "version": "dev-master",
             "source": {
@@ -2085,12 +2154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "17fcb294f677d70889da79e79ac0c95ba0bb47e9"
+                "reference": "24d258fe0cf592a2b1e6745986206f9c025ce32e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/17fcb294f677d70889da79e79ac0c95ba0bb47e9",
-                "reference": "17fcb294f677d70889da79e79ac0c95ba0bb47e9",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/24d258fe0cf592a2b1e6745986206f9c025ce32e",
+                "reference": "24d258fe0cf592a2b1e6745986206f9c025ce32e",
                 "shasum": ""
             },
             "require": {
@@ -2120,9 +2189,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/3.8.2"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/3.8.3"
             },
-            "time": "2023-10-24T13:35:17+00:00"
+            "time": "2023-10-25T14:27:15+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2733,12 +2802,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "80be58d0f280991165ceb8023f46689fbda47705"
+                "reference": "b2e9ceb3c5c13c2ee1175bc55d62ee7bf243e065"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/80be58d0f280991165ceb8023f46689fbda47705",
-                "reference": "80be58d0f280991165ceb8023f46689fbda47705",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/b2e9ceb3c5c13c2ee1175bc55d62ee7bf243e065",
+                "reference": "b2e9ceb3c5c13c2ee1175bc55d62ee7bf243e065",
                 "shasum": ""
             },
             "require": {
@@ -2799,9 +2868,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.9.1"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.9.2"
             },
-            "time": "2023-10-25T08:26:47+00:00"
+            "time": "2023-10-25T12:10:50+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3399,12 +3468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "0c1a2defce357760e08d154260408f381d9944df"
+                "reference": "a3dafc9bd4315f277e7d3a8621c72d4ed640d265"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0c1a2defce357760e08d154260408f381d9944df",
-                "reference": "0c1a2defce357760e08d154260408f381d9944df",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a3dafc9bd4315f277e7d3a8621c72d4ed640d265",
+                "reference": "a3dafc9bd4315f277e7d3a8621c72d4ed640d265",
                 "shasum": ""
             },
             "require": {
@@ -3455,9 +3524,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.16.6"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.16.7"
             },
-            "time": "2023-10-25T09:03:14+00:00"
+            "time": "2023-10-25T09:08:31+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -4840,15 +4909,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "98276233188583f2ff845a0f992a235472d9466a"
+                "reference": "b02302e73807ef75d3f9c5debdf4b85a4c072d73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/98276233188583f2ff845a0f992a235472d9466a",
-                "reference": "98276233188583f2ff845a0f992a235472d9466a",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/b02302e73807ef75d3f9c5debdf4b85a4c072d73",
+                "reference": "b02302e73807ef75d3f9c5debdf4b85a4c072d73",
                 "shasum": ""
             },
             "require": {
+                "carbonphp/carbon-doctrine-types": "*",
                 "ext-json": "*",
                 "php": "^7.1.8 || ^8.0",
                 "psr/clock": "^1.0",
@@ -4860,8 +4930,8 @@
                 "psr/clock-implementation": "1.0"
             },
             "require-dev": {
-                "doctrine/dbal": "^2.0 || ^3.1.4",
-                "doctrine/orm": "^2.7",
+                "doctrine/dbal": "^2.0 || ^3.1.4 || ^4.0",
+                "doctrine/orm": "^2.7 || ^3.0",
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
                 "ondrejmirtes/better-reflection": "*",
@@ -4939,7 +5009,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-09-25T11:31:05+00:00"
+            "time": "2023-10-20T12:22:16+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
