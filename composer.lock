@@ -3468,12 +3468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "f05155ff3662bc8367fd903b592619850d0e44b4"
+                "reference": "1525347835352b7163be617d87d9dbd793fcb335"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f05155ff3662bc8367fd903b592619850d0e44b4",
-                "reference": "f05155ff3662bc8367fd903b592619850d0e44b4",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/1525347835352b7163be617d87d9dbd793fcb335",
+                "reference": "1525347835352b7163be617d87d9dbd793fcb335",
                 "shasum": ""
             },
             "require": {
@@ -3524,9 +3524,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.25.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.26.0"
             },
-            "time": "2023-11-08T12:38:18+00:00"
+            "time": "2023-11-08T12:46:36+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -5604,12 +5604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/promise.git",
-                "reference": "ef4905bfb492ff389eb7f12e26925a0f20073050"
+                "reference": "7fa2284a91241e7fa06976369e998933d510da1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/promise/zipball/ef4905bfb492ff389eb7f12e26925a0f20073050",
-                "reference": "ef4905bfb492ff389eb7f12e26925a0f20073050",
+                "url": "https://api.github.com/repos/php-http/promise/zipball/7fa2284a91241e7fa06976369e998933d510da1b",
+                "reference": "7fa2284a91241e7fa06976369e998933d510da1b",
                 "shasum": ""
             },
             "require": {
@@ -5647,9 +5647,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/promise/issues",
-                "source": "https://github.com/php-http/promise/tree/1.2.0"
+                "source": "https://github.com/php-http/promise/tree/1.x"
             },
-            "time": "2023-10-24T09:20:26+00:00"
+            "time": "2023-11-08T12:55:49+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
