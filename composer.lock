@@ -3468,12 +3468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "1353fe4b847e150e59e126f8b6107e7f0e550ad1"
+                "reference": "bbdf46f3e48b41d90a8af7b6994d73b117b0e0ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/1353fe4b847e150e59e126f8b6107e7f0e550ad1",
-                "reference": "1353fe4b847e150e59e126f8b6107e7f0e550ad1",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/bbdf46f3e48b41d90a8af7b6994d73b117b0e0ad",
+                "reference": "bbdf46f3e48b41d90a8af7b6994d73b117b0e0ad",
                 "shasum": ""
             },
             "require": {
@@ -3524,9 +3524,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.30.2"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.31.0"
             },
-            "time": "2023-11-09T10:00:51+00:00"
+            "time": "2023-11-09T12:10:36+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
