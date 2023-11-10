@@ -206,16 +206,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.285.2",
+            "version": "3.285.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "93165f8e241678b17f15212523dfe96f50307af1"
+                "reference": "afa1e722f1b2c95644f375dc1a19072e4daf67be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/93165f8e241678b17f15212523dfe96f50307af1",
-                "reference": "93165f8e241678b17f15212523dfe96f50307af1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/afa1e722f1b2c95644f375dc1a19072e4daf67be",
+                "reference": "afa1e722f1b2c95644f375dc1a19072e4daf67be",
                 "shasum": ""
             },
             "require": {
@@ -295,9 +295,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.285.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.285.3"
             },
-            "time": "2023-11-09T01:20:37+00:00"
+            "time": "2023-11-09T19:07:19+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -2154,12 +2154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "bc3609b5a8dc8bf069c805d76de7deaaf69f20ca"
+                "reference": "3b1a0263fdb4403bfa155df06c04f7da200c8adb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/bc3609b5a8dc8bf069c805d76de7deaaf69f20ca",
-                "reference": "bc3609b5a8dc8bf069c805d76de7deaaf69f20ca",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/3b1a0263fdb4403bfa155df06c04f7da200c8adb",
+                "reference": "3b1a0263fdb4403bfa155df06c04f7da200c8adb",
                 "shasum": ""
             },
             "require": {
@@ -2189,9 +2189,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/3.10.2"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/3.11.1"
             },
-            "time": "2023-11-07T13:17:18+00:00"
+            "time": "2023-11-10T08:53:13+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2802,12 +2802,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "864fd2641afece930fc58b1896b5734b5a4c47af"
+                "reference": "d91f3f284a5933f28c130e7c8b9e5fea6f620e30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/864fd2641afece930fc58b1896b5734b5a4c47af",
-                "reference": "864fd2641afece930fc58b1896b5734b5a4c47af",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/d91f3f284a5933f28c130e7c8b9e5fea6f620e30",
+                "reference": "d91f3f284a5933f28c130e7c8b9e5fea6f620e30",
                 "shasum": ""
             },
             "require": {
@@ -2868,9 +2868,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.12.4"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.13.1"
             },
-            "time": "2023-11-07T11:34:54+00:00"
+            "time": "2023-11-10T09:04:09+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3468,12 +3468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "bbdf46f3e48b41d90a8af7b6994d73b117b0e0ad"
+                "reference": "6f52f4e72dcfd57b43bcadbac83157260e29717f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/bbdf46f3e48b41d90a8af7b6994d73b117b0e0ad",
-                "reference": "bbdf46f3e48b41d90a8af7b6994d73b117b0e0ad",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/6f52f4e72dcfd57b43bcadbac83157260e29717f",
+                "reference": "6f52f4e72dcfd57b43bcadbac83157260e29717f",
                 "shasum": ""
             },
             "require": {
@@ -3524,9 +3524,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.31.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.34.0"
             },
-            "time": "2023-11-09T12:10:36+00:00"
+            "time": "2023-11-10T08:56:17+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -7800,15 +7800,15 @@
         },
         {
             "name": "wpackagist-plugin/performant-translations",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/performant-translations/",
-                "reference": "tags/1.0.6"
+                "reference": "tags/1.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/performant-translations.1.0.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/performant-translations.1.0.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
