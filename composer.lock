@@ -206,16 +206,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.285.3",
+            "version": "3.285.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "afa1e722f1b2c95644f375dc1a19072e4daf67be"
+                "reference": "c462af819d81cba49939949032b20799f5ef0fff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/afa1e722f1b2c95644f375dc1a19072e4daf67be",
-                "reference": "afa1e722f1b2c95644f375dc1a19072e4daf67be",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c462af819d81cba49939949032b20799f5ef0fff",
+                "reference": "c462af819d81cba49939949032b20799f5ef0fff",
                 "shasum": ""
             },
             "require": {
@@ -295,9 +295,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.285.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.285.4"
             },
-            "time": "2023-11-09T19:07:19+00:00"
+            "time": "2023-11-10T19:25:49+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -3468,12 +3468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "6f52f4e72dcfd57b43bcadbac83157260e29717f"
+                "reference": "a2f29a34e778a0133e8dcdd2fd127457daff5ab7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/6f52f4e72dcfd57b43bcadbac83157260e29717f",
-                "reference": "6f52f4e72dcfd57b43bcadbac83157260e29717f",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a2f29a34e778a0133e8dcdd2fd127457daff5ab7",
+                "reference": "a2f29a34e778a0133e8dcdd2fd127457daff5ab7",
                 "shasum": ""
             },
             "require": {
@@ -3524,9 +3524,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.34.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.37.0"
             },
-            "time": "2023-11-10T08:56:17+00:00"
+            "time": "2023-11-13T07:01:03+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -6174,12 +6174,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "97b215e64f07c679067bd26d5df18537c33a9457"
+                "reference": "3acf3a58517948c469ec098cb087375f68bacbce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/97b215e64f07c679067bd26d5df18537c33a9457",
-                "reference": "97b215e64f07c679067bd26d5df18537c33a9457",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/3acf3a58517948c469ec098cb087375f68bacbce",
+                "reference": "3acf3a58517948c469ec098cb087375f68bacbce",
                 "shasum": ""
             },
             "require": {
@@ -6254,7 +6254,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/master"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.x"
             },
             "funding": [
                 {
@@ -6266,7 +6266,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-10-24T07:43:49+00:00"
+            "time": "2023-11-10T09:14:38+00:00"
         },
         {
             "name": "symfony/debug",
