@@ -904,12 +904,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "746ca6a565b9d4167c94c80824f43fa6fb463fd1"
+                "reference": "fe9c0b201941977b91b6b086c9551aff07a733ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/746ca6a565b9d4167c94c80824f43fa6fb463fd1",
-                "reference": "746ca6a565b9d4167c94c80824f43fa6fb463fd1",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/fe9c0b201941977b91b6b086c9551aff07a733ae",
+                "reference": "fe9c0b201941977b91b6b086c9551aff07a733ae",
                 "shasum": ""
             },
             "require": {
@@ -969,7 +969,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2023-10-31T08:12:54+00:00"
+            "time": "2023-11-13T09:34:15+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -3468,12 +3468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "a2f29a34e778a0133e8dcdd2fd127457daff5ab7"
+                "reference": "3544b221cd1ece022bf47ea13de3b92bff1a8447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a2f29a34e778a0133e8dcdd2fd127457daff5ab7",
-                "reference": "a2f29a34e778a0133e8dcdd2fd127457daff5ab7",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/3544b221cd1ece022bf47ea13de3b92bff1a8447",
+                "reference": "3544b221cd1ece022bf47ea13de3b92bff1a8447",
                 "shasum": ""
             },
             "require": {
@@ -3524,9 +3524,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.37.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/main"
             },
-            "time": "2023-11-13T07:01:03+00:00"
+            "time": "2023-11-13T11:59:05+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -6174,12 +6174,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "3acf3a58517948c469ec098cb087375f68bacbce"
+                "reference": "481a67163dc428a7d78431c55b0a73609d716774"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/3acf3a58517948c469ec098cb087375f68bacbce",
-                "reference": "3acf3a58517948c469ec098cb087375f68bacbce",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/481a67163dc428a7d78431c55b0a73609d716774",
+                "reference": "481a67163dc428a7d78431c55b0a73609d716774",
                 "shasum": ""
             },
             "require": {
@@ -6266,7 +6266,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-11-10T09:14:38+00:00"
+            "time": "2023-11-13T11:26:02+00:00"
         },
         {
             "name": "symfony/debug",
