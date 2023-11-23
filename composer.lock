@@ -2743,12 +2743,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "30592f2719366fdca696daf26a88d40d6dd6d338"
+                "reference": "4eeaa28476c78f559163c79a247989e8e3a602ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/30592f2719366fdca696daf26a88d40d6dd6d338",
-                "reference": "30592f2719366fdca696daf26a88d40d6dd6d338",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/4eeaa28476c78f559163c79a247989e8e3a602ee",
+                "reference": "4eeaa28476c78f559163c79a247989e8e3a602ee",
                 "shasum": ""
             },
             "require": {
@@ -2809,9 +2809,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.14.1"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.15.1"
             },
-            "time": "2023-11-23T09:55:12+00:00"
+            "time": "2023-11-23T15:11:28+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3063,12 +3063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
-                "reference": "4582e79eee9fc559282e20cfc2e931587bf691ff"
+                "reference": "6b423ffa8db40fa98cea0b91ba3b3bd589fc19bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/4582e79eee9fc559282e20cfc2e931587bf691ff",
-                "reference": "4582e79eee9fc559282e20cfc2e931587bf691ff",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/6b423ffa8db40fa98cea0b91ba3b3bd589fc19bf",
+                "reference": "6b423ffa8db40fa98cea0b91ba3b3bd589fc19bf",
                 "shasum": ""
             },
             "default-branch": true,
@@ -3091,9 +3091,9 @@
             "description": "Local events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/3.0.2"
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/3.1.0"
             },
-            "time": "2023-09-28T09:09:41+00:00"
+            "time": "2023-11-23T14:39:52+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-open-street-map",
@@ -3101,12 +3101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-openstreetmap.git",
-                "reference": "a90f1fad8ad30e8448b91a6319ea469b7a8ae6bd"
+                "reference": "94b73e1480b5c6597a7258e62798e43a885b02f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/a90f1fad8ad30e8448b91a6319ea469b7a8ae6bd",
-                "reference": "a90f1fad8ad30e8448b91a6319ea469b7a8ae6bd",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-openstreetmap/zipball/94b73e1480b5c6597a7258e62798e43a885b02f8",
+                "reference": "94b73e1480b5c6597a7258e62798e43a885b02f8",
                 "shasum": ""
             },
             "require-dev": {
@@ -3134,9 +3134,9 @@
             "description": "Open Street Map integration",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-openstreetmap/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-openstreetmap/tree/1.0.1"
+                "source": "https://github.com/helsingborg-stad/modularity-openstreetmap/tree/1.1.0"
             },
-            "time": "2023-09-28T09:10:00+00:00"
+            "time": "2023-11-23T14:39:40+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-products",
@@ -3409,12 +3409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "8f818696c9d37357796219ac86ee8a82987e1a21"
+                "reference": "fe846c19a1d5a409b94b5295303dc7273a301218"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8f818696c9d37357796219ac86ee8a82987e1a21",
-                "reference": "8f818696c9d37357796219ac86ee8a82987e1a21",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/fe846c19a1d5a409b94b5295303dc7273a301218",
+                "reference": "fe846c19a1d5a409b94b5295303dc7273a301218",
                 "shasum": ""
             },
             "require": {
@@ -3465,9 +3465,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.44.2"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.47.0"
             },
-            "time": "2023-11-23T11:09:47+00:00"
+            "time": "2023-11-23T14:57:22+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -8066,5 +8066,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
