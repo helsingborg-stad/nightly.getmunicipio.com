@@ -152,16 +152,16 @@
         },
         {
             "name": "aws/aws-crt-php",
-            "version": "v1.2.3",
+            "version": "v1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awslabs/aws-crt-php.git",
-                "reference": "5545a4fa310aec39f54279fdacebcce33b3ff382"
+                "reference": "eb0c6e4e142224a10b08f49ebf87f32611d162b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/5545a4fa310aec39f54279fdacebcce33b3ff382",
-                "reference": "5545a4fa310aec39f54279fdacebcce33b3ff382",
+                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/eb0c6e4e142224a10b08f49ebf87f32611d162b2",
+                "reference": "eb0c6e4e142224a10b08f49ebf87f32611d162b2",
                 "shasum": ""
             },
             "require": {
@@ -200,9 +200,9 @@
             ],
             "support": {
                 "issues": "https://github.com/awslabs/aws-crt-php/issues",
-                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.3"
+                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.4"
             },
-            "time": "2023-10-16T20:10:06+00:00"
+            "time": "2023-11-08T00:42:13+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
@@ -2743,12 +2743,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "4eeaa28476c78f559163c79a247989e8e3a602ee"
+                "reference": "b9e8ae4ac256bba0da4c1ee10c6cef8ab6049bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/4eeaa28476c78f559163c79a247989e8e3a602ee",
-                "reference": "4eeaa28476c78f559163c79a247989e8e3a602ee",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/b9e8ae4ac256bba0da4c1ee10c6cef8ab6049bd6",
+                "reference": "b9e8ae4ac256bba0da4c1ee10c6cef8ab6049bd6",
                 "shasum": ""
             },
             "require": {
@@ -2809,9 +2809,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.15.1"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/5.16.0"
             },
-            "time": "2023-11-23T15:11:28+00:00"
+            "time": "2023-11-24T12:13:33+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3409,12 +3409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "fe846c19a1d5a409b94b5295303dc7273a301218"
+                "reference": "38002885e48d28e54fb6363934aaedba14f8741a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/fe846c19a1d5a409b94b5295303dc7273a301218",
-                "reference": "fe846c19a1d5a409b94b5295303dc7273a301218",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/38002885e48d28e54fb6363934aaedba14f8741a",
+                "reference": "38002885e48d28e54fb6363934aaedba14f8741a",
                 "shasum": ""
             },
             "require": {
@@ -3465,9 +3465,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.47.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.47.1"
             },
-            "time": "2023-11-23T14:57:22+00:00"
+            "time": "2023-11-24T06:32:56+00:00"
         },
         {
             "name": "helsingborg-stad/redirection-extended",
@@ -8066,5 +8066,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
