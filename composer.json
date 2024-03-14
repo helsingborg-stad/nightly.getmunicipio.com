@@ -45,7 +45,7 @@
       }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": "^8.0",
         "apix/log": "^1.2.2",
         "aws/aws-sdk-php": "^3.282.1",
         "composer/installers": "~1.0",
