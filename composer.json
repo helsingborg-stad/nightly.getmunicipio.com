@@ -92,7 +92,7 @@
         "helsingborg-stad/modularity-timeline": "dev-main",
         "helsingborg-stad/multi-network-urls": "dev-main",
         "helsingborg-stad/multisite-role-propagation": "dev-main",
-        "helsingborg-stad/municipio": "dev-main",
+        "helsingborg-stad/municipio": "dev-feature/Innehllstyper-Refaktorering-CU-86949kk1c",
         "helsingborg-stad/redirection-extended": "dev-main",
         "helsingborg-stad/s3-uploads-custom-endpoint": "dev-main",
         "helsingborg-stad/search-notices": "dev-main",
