@@ -84,7 +84,7 @@
         "helsingborg-stad/modularity-interactive-img-map": "dev-main",
         "helsingborg-stad/modularity-json-render": "dev-main",
         "helsingborg-stad/modularity-local-events": "dev-main",
-        "helsingborg-stad/modularity-open-street-map": "dev-main",
+        "helsingborg-stad/modularity-open-street-map": "dev-schema-type",
         "helsingborg-stad/modularity-products": "dev-main",
         "helsingborg-stad/modularity-recommend": "dev-main",
         "helsingborg-stad/modularity-sections": "dev-main",
