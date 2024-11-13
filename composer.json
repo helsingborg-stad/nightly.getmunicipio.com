@@ -60,7 +60,7 @@
         "helsingborg-stad/api-volunteer-manager-integration": "dev-main",
         "helsingborg-stad/attachment-revisions": "dev-main",
         "helsingborg-stad/better-post-ui": "dev-main",
-        "helsingborg-stad/broken-link-detector": "dev-main",
+        "helsingborg-stad/broken-link-detector": "dev-feat/link-not-avabile",
         "helsingborg-stad/component-library": "dev-main",
         "helsingborg-stad/content-scheduler": "dev-main",
         "helsingborg-stad/custom-short-links": "dev-main",
