@@ -111,7 +111,7 @@
         "http-interop/http-factory-guzzle": "^1.2",
         "humanmade/s3-uploads": "~3.0.7",
         "jean85/pretty-package-versions": "^1",
-        "johnpbloch/wordpress": "6.6.2",
+        "johnpbloch/wordpress": "6.7.1",
         "justinrainbow/json-schema": "^5",
         "municipio-se/modularity-noticeboard": "dev-master",
         "php-http/curl-client": "^2",
