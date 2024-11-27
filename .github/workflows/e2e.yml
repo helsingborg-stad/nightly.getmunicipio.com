@@ -18,3 +18,5 @@ jobs:
         uses: helsingborg-stad/municipio-e2e-action@v1
         with:
           sitemap-urls: ${{ vars.E2E_SITEMAP_URLS }}
+          shard: ${{ matrix.shard }}
+          total-shards: ${{ matrix.total-shards }}
