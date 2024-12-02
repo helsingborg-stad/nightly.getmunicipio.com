@@ -1,4 +1,4 @@
-name: E2E tests
+name: Smoke Tests
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ jobs:
         shard: [1, 2, 3, 4, 5]
         total-shards: [5]
     steps:
-      - name: Run Municipio E2E Tests
+      - name: Run Municipio Smoke Tests
         uses: helsingborg-stad/municipio-smoke-tests@v1
         with:
           sitemap-urls: ${{ vars.E2E_SITEMAP_URLS }}
