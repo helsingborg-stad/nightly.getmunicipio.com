@@ -139,7 +139,8 @@
         "wpackagist-plugin/varnish-http-purge": "~5.2.1",
         "wpackagist-plugin/wp-multi-network": "~2.5.2",
         "wpackagist-plugin/wp-nested-pages": "~3.2.7",
-        "wpackagist-plugin/wp-sentry-integration": "^8.2"
+        "wpackagist-plugin/wp-sentry-integration": "^8.2",
+        "league/config": "^1.1.1"
     },
     "extra": {
         "path": "/",
