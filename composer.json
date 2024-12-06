@@ -67,8 +67,6 @@
         "helsingborg-stad/customer-feedback": "dev-main",
         "helsingborg-stad/easy-to-read-alternative": "dev-main",
         "helsingborg-stad/force-ssl": "dev-main",
-        "helsingborg-stad/gdi-modularity-cases": "dev-main",
-        "helsingborg-stad/gdi-modularity-invoices": "dev-main",
         "helsingborg-stad/gdi-modularity-my-pages-about-me": "dev-main",
         "helsingborg-stad/job-listings": "dev-main",
         "helsingborg-stad/kirki": "dev-master",
