@@ -4,6 +4,12 @@
  * This script is meant to be run from github actions and not locally.
  * It searches any sub folder from the folders in $contentDirectories for a build.php and runs it to prepare a compleate built package of the site.
  * It cleans up files like .git and dev tools that should not be on a public facing server.
+ * 
+ * This script takes two arguments:
+ *  - no-composer-in-child-packages: Does not run composer in sub-repositories. 
+ *  - cleanup: Remove files and folders in removeables list. 
+ *  - install-npm: Installs JS and CSS dists from NPM instead of building them. 
+ * 
  */
 
 // Only allow run from cli.
@@ -25,26 +31,34 @@ $buildFile = 'build.php';
 $removables = [
     '.git',
     '.gitignore',
+    'GitVersion.yml',
     'config',
     'wp-content/uploads',
-    'wp-content/themes/municipio/node_modules',
     '.github',
     'build.php',
     'composer.json',
-    'composer.lock',
+    'composer.local.json',
     'post-install.php',
     'composer.lock',
-    'images'
+    'images',
+    'README.md',
+    'guide',
+    'db',
+    '.devcontainer',
+    '.vscode'
 ];
 
 
 $dirName = basename(dirname(__FILE__));
 
 // Iterate through directories and try to find and run build scripts.
-$root = getcwd();
-$output = '';
-$exitCode = 0;
-$cleanup = (isset($argv[1]) && ($argv[1] === '--cleanup')) ? $argv[1] : '';
+$root       = getcwd();
+$output     = '';
+$exitCode   = 0;
+$cleanup    = is_array($argv) && in_array('--cleanup', $argv) ? '--cleanup' : '';
+$noComposer = is_array($argv) && in_array('--no-composer-in-child-packages', $argv) ? '--no-composer' : '';
+$installNPM = is_array($argv) && in_array('--install-npm', $argv) ? '--install-npm' : '';
+
 $builds = [];
 foreach ($contentDirectories as $contentDirectory) {
     $directories = glob("$contentDirectory/*", GLOB_ONLYDIR);
@@ -54,7 +68,7 @@ foreach ($contentDirectories as $contentDirectory) {
             $timeStart = microtime(true);
             chdir($directory);
 
-            $exitCode = executeCommand("php $buildFile $cleanup");
+            $exitCode = executeCommand("php $buildFile $cleanup $noComposer $installNPM");
             // Break script if any exit code other than 0 is returned.
             if ($exitCode > 0) {
                 exit($exitCode);
