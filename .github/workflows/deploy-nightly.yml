@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: helsingborg-stad/municipio-deploy/3.0@master
+    - uses: helsingborg-stad/municipio-deploy/4.0@master
       with:
         deploy-host: ${{ secrets.NIGHTLY_DEPLOY_HOST}}
         deploy-host-path: ${{ secrets.NIGHTLY_DEPLOY_PATH }}
@@ -25,7 +25,7 @@ jobs:
         deploy-port:  ${{ secrets.NIGHTLY_DEPLOY_PORT }}
         github-token: ${{ secrets.GITHUB_TOKEN }}
         acf-url: ${{ secrets.ACF_URL }}
-        php-version: 8.2
+        php-version: ${{ secrets.PHP_VERSION }}
 
   zipped-plugins:
     needs: build
