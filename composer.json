@@ -138,7 +138,8 @@
         "wpackagist-plugin/wp-multi-network": "~2.5.2",
         "wpackagist-plugin/wp-nested-pages": "~3.2.7",
         "wpackagist-plugin/wp-sentry-integration": "^8.2",
-        "wpackagist-plugin/ns-cloner-site-copier": "^4.4"
+        "wpackagist-plugin/ns-cloner-site-copier": "^4.4",
+        "alingsas-kommun/modularity-shape-divider": "0.1.2"
     },
     "extra": {
         "path": "/",
