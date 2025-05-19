@@ -52,7 +52,7 @@
         "firebase/php-jwt": "^6.8.1",
         "helsingborg-stad/acf-ux-collapse": "~2.0.0",
         "helsingborg-stad/active-directory-api-wp-integration": "dev-main",
-        "helsingborg-stad/algolia-index": "dev-main",
+        "helsingborg-stad/algolia-index": "dev-feature/custom-provider",
         "helsingborg-stad/algolia-index-js-searchpage-addon": "dev-main",
         "helsingborg-stad/algolia-index-modularity-addon": "dev-main",
         "helsingborg-stad/api-alarm-integration": "dev-main",
@@ -137,7 +137,9 @@
         "wpackagist-plugin/wp-nested-pages": "~3.2.7",
         "wpackagist-plugin/wp-sentry-integration": "^8.2",
         "wpackagist-plugin/ns-cloner-site-copier": "^4.4",
-        "alingsas-kommun/modularity-shape-divider": "0.1.2"
+        "alingsas-kommun/modularity-shape-divider": "0.1.2",
+        "helsingborg-stad/algolia-index-llm-addon": "dev-main",
+        "helsingborg-stad/algolia-index-typesense-provider": "dev-main"
     },
     "extra": {
         "path": "/",
