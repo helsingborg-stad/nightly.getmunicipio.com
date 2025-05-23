@@ -56,6 +56,7 @@
         "helsingborg-stad/algolia-index-js-searchpage-addon": "dev-main",
         "helsingborg-stad/algolia-index-modularity-addon": "dev-main",
         "helsingborg-stad/api-alarm-integration": "dev-main",
+        "helsingborg-stad/api-alarm-manager": "dev-main",
         "helsingborg-stad/api-event-manager-integration": "dev-main",
         "helsingborg-stad/api-volunteer-manager-integration": "dev-main",
         "helsingborg-stad/attachment-revisions": "dev-main",
