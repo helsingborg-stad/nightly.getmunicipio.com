@@ -33,7 +33,7 @@ jobs:
         id: generate_shards
         run: |
           SITEMAP_URLS="${{ vars.SITEMAP_URLS }}" composer generate:shards
-          shards=$(composer composer generate-actions-matrix )
+          shards=$(composer generate-actions-matrix )
           echo "Generated shards: $shards"
           echo "shards=$shards" >> "$GITHUB_OUTPUT"
 
