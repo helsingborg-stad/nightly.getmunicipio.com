@@ -32,7 +32,8 @@ jobs:
       - name: Generate E2E shards
         id: generate_shards
         run: |
-          shards=$(SITEMAP_URLS="${{ vars.SITEMAP_URLS }}" composer generate:shards)
+          SITEMAP_URLS="${{ vars.SITEMAP_URLS }}" composer generate:shards
+          shards=$(composer composer generate-actions-matrix )
           echo "Generated shards: $shards"
           echo "shards=$shards" >> "$GITHUB_OUTPUT"
 
