@@ -9,7 +9,7 @@ jobs:
     steps:
 
       - name: Clone municipio-e2e-tests repository
-        run: git clone https://github.com/helsingborg-stad/municipio-e2e-tests.git
+        run: git clone https://github.com/helsingborg-stad/municipio-e2e-tests.git && cd municipio-e2e-tests
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
@@ -40,7 +40,7 @@ jobs:
         shard: ${{ fromJson(needs.setup.outputs.shards) }}
     steps:
       - name: Clone municipio-e2e-tests repository
-        run: git clone https://github.com/helsingborg-stad/municipio-e2e-tests.git
+        run: git clone https://github.com/helsingborg-stad/municipio-e2e-tests.git && cd municipio-e2e-tests
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
