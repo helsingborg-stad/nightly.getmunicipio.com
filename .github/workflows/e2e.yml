@@ -15,6 +15,9 @@ jobs:
         with:
           php-version: '8.2'
 
+      - name: Configure GitHub authentication for Composer
+        run: composer config --global github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
+
       - name: Install Composer dependencies
         run: composer install --no-interaction --prefer-dist --no-progress --dev
       
@@ -35,11 +38,12 @@ jobs:
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.2'
+        
+      - name: Configure GitHub authentication for Composer
+        run: composer config --global github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install Composer dependencies
-        run: composer install --no-interaction --prefer-dist --no-progress
+        run: composer install --no-interaction --prefer-dist --no-progress --dev
 
       - name: Run E2E tests
         run: SHARD_FILE="${{ matrix.shard }}" vendor/bin/municipio-e2e-run
