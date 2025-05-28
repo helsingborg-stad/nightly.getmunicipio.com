@@ -73,6 +73,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: output
+          path: output
 
       - name: Run E2E tests
         run: SHARD_FILE="${{ matrix.shard }}" vendor/bin/municipio-e2e-run
