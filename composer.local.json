@@ -1,8 +1,0 @@
-{
-  "name": "municipio-se/municipio-deployment-custom",
-  "license": "MIT",
-  "description": "Additions for you own install of municipo.",
-  "require": {
-    "helsingborg-stad/municipio-e2e-tests": "dev-main"
-  }
-}
