@@ -31,7 +31,7 @@ jobs:
       
       - name: Generate E2E shards
         id: generate_shards
-        run: echo "shards=$(composer generate:shards)" >> $GITHUB_OUTPUT
+        run: echo "shards=$(composer generate:shards)" >> "$GITHUB_OUTPUT"
 
   run:
     runs-on: ubuntu-latest
