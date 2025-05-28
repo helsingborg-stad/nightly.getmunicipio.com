@@ -16,7 +16,7 @@ jobs:
           php-version: '8.2'
 
       - name: Install Composer dependencies
-        run: composer install --no-interaction --prefer-dist --no-progress
+        run: composer install --no-interaction --prefer-dist --no-progress --dev
       
       - name: Generate E2E shards
         id: generate_shards
