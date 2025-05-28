@@ -6,6 +6,8 @@ on:
 jobs:
   setup:
     runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.generate_shards.outputs.shards }}
     steps:
 
       - name: Clone municipio-e2e-tests repository
@@ -29,8 +31,8 @@ jobs:
       
       - name: Generate E2E shards
         id: generate_shards
-        run: |
-          echo "shards=$(composer generate:shards)" >> $GITHUB_OUTPUT
+        run: echo "shards=$(composer generate:shards)" >> $GITHUB_OUTPUT
+
   run:
     runs-on: ubuntu-latest
     needs: setup
