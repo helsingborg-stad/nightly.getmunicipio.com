@@ -36,6 +36,12 @@ jobs:
           shards=$(composer generate-actions-matrix )
           echo "Generated shards: $shards"
           echo "shards=$shards" >> "$GITHUB_OUTPUT"
+      
+      - name: Upload shard files
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-files
+          path: output
 
   run:
     runs-on: ubuntu-latest
@@ -62,6 +68,11 @@ jobs:
 
       - name: Install Composer dependencies
         run: composer install
+
+      - name: Download shard files
+        uses: actions/download-artifact@v4
+        with:
+          name: shard-files
 
       - name: Run E2E tests
         run: SHARD_FILE="${{ matrix.shard }}" vendor/bin/municipio-e2e-run
