@@ -40,7 +40,7 @@ jobs:
       - name: Upload shard files
         uses: actions/upload-artifact@v4
         with:
-          name: shard-files
+          name: output
           path: output
 
   run:
@@ -72,7 +72,7 @@ jobs:
       - name: Download shard files
         uses: actions/download-artifact@v4
         with:
-          name: shard-files
+          name: output
 
       - name: Run E2E tests
         run: SHARD_FILE="${{ matrix.shard }}" vendor/bin/municipio-e2e-run
