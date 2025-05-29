@@ -50,6 +50,7 @@ jobs:
       matrix:
         shard: ${{ fromJson(needs.setup.outputs.shards) }}
     steps:
+
       - name: Clone municipio-e2e-tests repository
         run: git clone https://github.com/helsingborg-stad/municipio-e2e-tests.git .
 
@@ -57,7 +58,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.3'
-      
+
       - name: Cache Composer dependencies
         uses: actions/cache@v4
         with:
