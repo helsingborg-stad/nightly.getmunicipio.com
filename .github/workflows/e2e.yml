@@ -76,4 +76,4 @@ jobs:
           name: output
 
       - name: Run E2E tests
-        run: SHARD_FILE="${{ matrix.shard }}" vendor/bin/municipio-e2e-run
+        run: SHARD_FILE="${{ matrix.shard }}" composer run run:smoketest
