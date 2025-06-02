@@ -75,5 +75,8 @@ jobs:
         with:
           name: output
 
+      - name: List downloaded files
+        run: ls -al output
+
       - name: Run E2E tests
         run: SHARD_FILE="${{ matrix.shard }}" composer run run:smoketest
