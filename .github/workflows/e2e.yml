@@ -74,9 +74,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: output
+          path: output
 
       - name: List downloaded files
         run: ls -al output
+
+      - name: List files in root
+        run: ls -al
 
       - name: Run E2E tests
         run: SHARD_FILE="${{ matrix.shard }}" composer run run:smoketest
