@@ -4,13 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  setup:
-    runs-on: ubuntu-latest
-    outputs:
-      shards: ${{ steps.generate_shards.outputs.shards }}
-    steps:
-
-      - name: Run E2E tests
-        uses: helsingborg-stad/municipio-e2e-tests/.github/workflows/e2e.yml@main
-        with:
-          sitemaps: ${{ vars.SITEMAP_URLS }}
+  e2e:
+    uses: helsingborg-stad/municipio-e2e-tests/.github/workflows/e2e.yml@main
+    with:
+      sitemaps: ${{ vars.SITEMAP_URLS }}
