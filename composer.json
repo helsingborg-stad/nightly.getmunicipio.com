@@ -140,7 +140,8 @@
         "wpackagist-plugin/ns-cloner-site-copier": "^4.4",
         "alingsas-kommun/modularity-shape-divider": "0.1.2",
         "helsingborg-stad/algolia-index-llm-addon": "dev-main",
-        "helsingborg-stad/algolia-index-typesense-provider": "dev-main"
+        "helsingborg-stad/algolia-index-typesense-provider": "dev-main",
+        "helsingborg-stad/wpmu-security": "dev-main"
     },
     "extra": {
         "path": "/",
