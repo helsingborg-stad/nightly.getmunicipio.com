@@ -79,7 +79,7 @@
         "helsingborg-stad/modularity-contact-banner": "dev-main",
         "helsingborg-stad/modularity-entryscape": "dev-main",
         "helsingborg-stad/modularity-form-builder": "dev-main",
-        "helsingborg-stad/modularity-guides": "dev-feature/fixes-for-innovation",
+        "helsingborg-stad/modularity-guides": "dev-feature/refactoring",
         "helsingborg-stad/modularity-interactive-img-map": "dev-main",
         "helsingborg-stad/modularity-json-render": "dev-main",
         "helsingborg-stad/modularity-local-events": "dev-main",
