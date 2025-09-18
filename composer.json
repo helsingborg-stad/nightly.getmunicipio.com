@@ -52,7 +52,7 @@
         "firebase/php-jwt": "^6.8.1",
         "helsingborg-stad/acf-ux-collapse": "~2.0.0",
         "helsingborg-stad/active-directory-api-wp-integration": "dev-main",
-        "helsingborg-stad/algolia-index": "dev-feature/custom-provider",
+        "helsingborg-stad/algolia-index": "dev-main",
         "helsingborg-stad/algolia-index-js-searchpage-addon": "dev-main",
         "helsingborg-stad/algolia-index-modularity-addon": "dev-main",
         "helsingborg-stad/api-alarm-integration": "dev-main",
